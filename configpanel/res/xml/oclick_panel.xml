@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:key="oclick_connect" />
+
+    <PreferenceCategory
+        android:key="oclick_action_category"
+        android:enabled="false"
+        android:title="@string/action_category_title">
+
+	    <CheckBoxPreference
+                android:defaultValue="true"
+		android:key="oclick_take_snapshot"
+		android:title="@string/oclick_take_snapshot_title"
+		android:summary="@string/oclick_take_snapshot_summary" />
+
+	    <CheckBoxPreference
+                android:defaultValue="true"
+		android:key="oclick_find_my_phone"
+		android:title="@string/oclick_find_my_phone_title"
+		android:summary="@string/oclick_find_my_phone_summary" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="oclick_alert_category"
+        android:enabled="false"
+        android:title="@string/alert_category_title">
+
+	    <CheckBoxPreference
+                android:defaultValue="true"
+		android:key="oclick_fence"
+		android:title="@string/oclick_fence_title"
+		android:summary="@string/oclick_fence_summary"  />
+
+	    <CheckBoxPreference
+                android:defaultValue="true"
+		android:key="oclick_disconnect_alert"
+		android:title="@string/oclick_disconnect_alert_title"
+		android:summary="@string/oclick_disconnect_alert_summary" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

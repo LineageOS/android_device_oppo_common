@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:key="touchpad_enable_state"
+        android:title="@string/touchpad_enable_title"
+        android:summary="@string/touchpad_enable_summary" />
+
+    <CheckBoxPreference
+        android:dependency="touchpad_enable_state"
+        android:key="touchpad_enable_doubletap"
+        android:title="@string/touchpad_double_tap_title"
+        android:summary="@string/touchpad_double_tap_summary" />
+
+    <CheckBoxPreference
+        android:dependency="touchpad_enable_state"
+        android:key="touchpad_enable_longpress"
+        android:title="@string/touchpad_long_press_title"
+        android:summary="@string/touchpad_long_press_summary" />
+
+</PreferenceScreen>

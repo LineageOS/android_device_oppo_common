@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:key="touchscreen_gesture_camera"
+        android:title="@string/touchscreen_camera_gesture_title"
+        android:summary="@string/touchscreen_camera_gesture_summary" />
+
+    <CheckBoxPreference
+        android:key="touchscreen_gesture_music"
+        android:title="@string/touchscreen_music_gesture_title"
+        android:summary="@string/touchscreen_music_gesture_summary" />
+
+    <CheckBoxPreference
+        android:key="touchscreen_gesture_flashlight"
+        android:title="@string/touchscreen_flashlight_gesture_title"
+        android:summary="@string/touchscreen_flashlight_gesture_summary" />
+
+</PreferenceScreen>

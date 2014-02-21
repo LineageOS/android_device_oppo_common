@@ -18,6 +18,8 @@ import android.view.InputEvent;
 import android.view.KeyCharacterMap;
 import android.view.KeyEvent;
 
+import java.io.File;
+
 import com.cyanogenmod.settings.device.utils.Constants;
 import com.cyanogenmod.settings.device.utils.FileUtils;
 
@@ -25,12 +27,22 @@ public class Startup extends BroadcastReceiver {
     @Override
     public void onReceive(final Context context, final Intent intent) {
         if (intent.getAction().equals(Intent.ACTION_BOOT_COMPLETED)) {
-            // Restore nodes to saved preference values
-            for (String pref : Constants.sNodePreferenceMap.keySet()) {
-                boolean defaultValue = Constants.sNodeDefaultMap.get(pref).booleanValue();
-                boolean value = Constants.isPreferenceEnabled(context, pref, defaultValue);
-                String node = Constants.sNodePreferenceMap.get(pref);
-                FileUtils.writeLine(node, value ? "1" : "0");
+            // Disable touchscreen gesture settings if needed
+            if (!hasTouchscreenGestures()) {
+                ComponentName name = new ComponentName(context,
+                        "com.cyanogenmod.settings.device.TouchscreenGestureSettings");
+                PackageManager pm = context.getPackageManager();
+                pm.setComponentEnabledSetting(name,
+                        PackageManager.COMPONENT_ENABLED_STATE_DISABLED,
+                        PackageManager.DONT_KILL_APP);
+            } else {
+                // Restore nodes to saved preference values
+                for (String pref : Constants.sNodePreferenceMap.keySet()) {
+                    boolean defaultValue = Constants.sNodeDefaultMap.get(pref).booleanValue();
+                    boolean value = Constants.isPreferenceEnabled(context, pref, defaultValue);
+                    String node = Constants.sNodePreferenceMap.get(pref);
+                    FileUtils.writeLine(node, value ? "1" : "0");
+                }
             }
 
             // Disable backtouch settings if needed
@@ -98,5 +110,11 @@ public class Startup extends BroadcastReceiver {
         InputManager inputManager = InputManager.getInstance();
         inputManager.injectInputEvent(event,
                 InputManager.INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH);
+    }
+
+    private boolean hasTouchscreenGestures() {
+        return new File(Constants.TOUCHSCREEN_CAMERA_NODE).exists() &&
+            new File(Constants.TOUCHSCREEN_MUSIC_NODE).exists() &&
+            new File(Constants.TOUCHSCREEN_FLASHLIGHT_NODE).exists();
     }
 }

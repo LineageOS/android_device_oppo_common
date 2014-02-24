@@ -48,7 +48,7 @@
 
     <string name="oclick_connect_string">Connect</string>
     <string name="oclick_disconnect_string">Disconnect</string>
-    <string name="oclick_dialog_title">O-Click</string>
+    <string name="oclick_dialog_title" translatable="false">O-Click</string>
     <string name="oclick_dialog_connecting_message">Attempting to pair</string>
 
     <string name="oclick_take_snapshot_title">Remote camera shutter</string>

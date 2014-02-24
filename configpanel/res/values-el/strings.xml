@@ -30,7 +30,6 @@
 
     <string name="oclick_connect_string">Σύνδεση</string>
     <string name="oclick_disconnect_string">Αποσύνδεση</string>
-    <string name="oclick_dialog_title">O-Click</string>
     <string name="oclick_dialog_connecting_message">Προσπάθεια σύζευξης</string>
 
     <string name="oclick_take_snapshot_title">Απομακρυσμένο κλείστρο</string>

@@ -40,7 +40,6 @@
     <string name="oclick_panel_summary">Možnosti nastavenia zariadenia O-Click</string>
     <string name="oclick_connect_string">Pripojiť</string>
     <string name="oclick_disconnect_string">Odpojiť</string>
-    <string name="oclick_dialog_title">O-Click</string>
     <string name="oclick_dialog_connecting_message">Pokus o spárovanie</string>
     <string name="oclick_take_snapshot_title">Diaľková uzávierka fotoaparátu</string>
     <string name="oclick_take_snapshot_summary">Kliknutím zosnímate fotografiu</string>

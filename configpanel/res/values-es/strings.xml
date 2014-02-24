@@ -40,7 +40,6 @@
     <string name="oclick_panel_summary">Configurar dispositivo O-Click</string>
     <string name="oclick_connect_string">Conectar</string>
     <string name="oclick_disconnect_string">Desconectar</string>
-    <string name="oclick_dialog_title">O-Click</string>
     <string name="oclick_dialog_connecting_message">Intentando vincular</string>
     <string name="oclick_take_snapshot_title">Foto remota</string>
     <string name="oclick_take_snapshot_summary">Realiza una simple pulsación para tomar una foto</string>

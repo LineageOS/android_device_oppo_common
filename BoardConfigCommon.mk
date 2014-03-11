@@ -18,3 +18,6 @@ BOARD_VENDOR := oppo
 
 # CM Hardware
 BOARD_HARDWARE_CLASS += device/oppo/common/cmhw
+
+# MSM Init
+TARGET_INIT_VENDOR_LIB := libinit_msm_oppo

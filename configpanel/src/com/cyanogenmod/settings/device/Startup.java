@@ -29,12 +29,7 @@ public class Startup extends BroadcastReceiver {
         if (intent.getAction().equals(Intent.ACTION_BOOT_COMPLETED)) {
             // Disable touchscreen gesture settings if needed
             if (!hasTouchscreenGestures()) {
-                ComponentName name = new ComponentName(context,
-                        "com.cyanogenmod.settings.device.TouchscreenGestureSettings");
-                PackageManager pm = context.getPackageManager();
-                pm.setComponentEnabledSetting(name,
-                        PackageManager.COMPONENT_ENABLED_STATE_DISABLED,
-                        PackageManager.DONT_KILL_APP);
+                disableComponent(context, TouchscreenGestureSettings.class.getName());
             } else {
                 // Restore nodes to saved preference values
                 for (String pref : Constants.sNodePreferenceMap.keySet()) {
@@ -48,12 +43,7 @@ public class Startup extends BroadcastReceiver {
             // Disable backtouch settings if needed
             if (!context.getResources().getBoolean(
                         com.android.internal.R.bool.config_enableGestureService)) {
-                ComponentName name = new ComponentName(context,
-                        "com.cyanogenmod.settings.device.GesturePadSettings");
-                PackageManager pm = context.getPackageManager();
-                pm.setComponentEnabledSetting(name,
-                        PackageManager.COMPONENT_ENABLED_STATE_DISABLED,
-                        PackageManager.DONT_KILL_APP);
+                disableComponent(context, GesturePadSettings.class.getName());
             } else {
                 IBinder b = ServiceManager.getService("gesture");
                 IGestureService sInstance = IGestureService.Stub.asInterface(b);
@@ -65,6 +55,14 @@ public class Startup extends BroadcastReceiver {
                 // Set doubleTap event
                 toggleLongPress(context, sInstance, Constants.isPreferenceEnabled(
                         context, Constants.TOUCHPAD_DOUBLETAP_KEY, false));
+            }
+
+            // Disable O-Click settings if needed
+            String brand = System.getProperty("ro.product.brand");
+            if (!"OPPO".equals(brand)) {
+                disableComponent(context, BluetoothInputSettings.class.getName());
+                disableComponent(context, OclickService.class.getName());
+                disableComponent(context, BluetoothReceiver.class.getName());
             }
         } else if (intent.getAction().equals("cyanogenmod.intent.action.GESTURE_CAMERA")) {
             long now = SystemClock.uptimeMillis();
@@ -116,5 +114,13 @@ public class Startup extends BroadcastReceiver {
         return new File(Constants.TOUCHSCREEN_CAMERA_NODE).exists() &&
             new File(Constants.TOUCHSCREEN_MUSIC_NODE).exists() &&
             new File(Constants.TOUCHSCREEN_FLASHLIGHT_NODE).exists();
+    }
+
+    private void disableComponent(Context context, String component) {
+        ComponentName name = new ComponentName(context, component);
+        PackageManager pm = context.getPackageManager();
+        pm.setComponentEnabledSetting(name,
+                PackageManager.COMPONENT_ENABLED_STATE_DISABLED,
+                PackageManager.DONT_KILL_APP);
     }
 }

@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "bae84128_f95574c6",
+        "filename": "configpanel/src/com/cyanogenmod/settings/device/Startup.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2014-03-26T12:01:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bae84128_39e99c1b",
+      "revId": "1506c869efa748423c6557e585e16ea8a9c9edcd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "bae84128_f9be14fe",
         "filename": "configpanel/src/com/cyanogenmod/settings/device/Startup.java",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2014-03-26T11:52:28Z",
       "side": 1,
       "message": "Using the class name directly might be better ?\n\nFor eg BluetoothReceiver.class.getName()\n\nOr we could even just pass the class reference and disableComponent could do the getName() bit.\n\nJust a thought :)",
+      "revId": "1506c869efa748423c6557e585e16ea8a9c9edcd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bae84128_d95230dd",
+        "filename": "configpanel/src/com/cyanogenmod/settings/device/Startup.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2014-03-26T12:01:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bae84128_f9be14fe",
       "revId": "1506c869efa748423c6557e585e16ea8a9c9edcd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false

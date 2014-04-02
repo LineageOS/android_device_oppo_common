@@ -24,3 +24,6 @@ TARGET_INIT_VENDOR_LIB := libinit_msm_oppo
 
 # QCOM Power
 TARGET_POWERHAL_VARIANT := qcom
+
+# Releasetools
+TARGET_RELEASETOOLS_EXTENSIONS := device/oppo/common

@@ -7,6 +7,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.hardware.input.InputManager;
+import android.os.Build;
 import android.os.IBinder;
 import android.os.RemoteException;
 import android.os.ServiceManager;
@@ -58,8 +59,7 @@ public class Startup extends BroadcastReceiver {
             }
 
             // Disable O-Click settings if needed
-            String brand = System.getProperty("ro.product.brand");
-            if (!"OPPO".equals(brand)) {
+            if (!"OPPO".equals(Build.BRAND)) {
                 disableComponent(context, BluetoothInputSettings.class.getName());
                 disableComponent(context, OclickService.class.getName());
                 disableComponent(context, BluetoothReceiver.class.getName());

@@ -31,7 +31,7 @@
   <string name="touchscreen_camera_gesture_title">Kamera</string>
   <string name="touchscreen_camera_gesture_summary">Kamerayı etkinleştirmek için yuvarlak çizin</string>
   <string name="touchscreen_music_gesture_title">Müzik</string>
-  <string name="touchscreen_flashlight_gesture_title">Flaş Işığı</string>
+  <string name="touchscreen_flashlight_gesture_title">El feneri</string>
   <string name="touchscreen_flashlight_gesture_summary">Flaş ışığı durumunu değiştirmek için \'V\' çizin</string>
   <string name="touchscreen_music_gesture_summary">Müziği kontrol etmek için hareketlerinizi kullanın\n• Dikey şekilde iki parmak durdurur/oynatır\n• Sol ok çizimi önceki şarkıya gider\n• Sağ ok çizimi sonraki şarkıya gider</string>
   <string name="oclick_panel_title">O-Click ayarları</string>
@@ -48,5 +48,5 @@
   <string name="oclick_disconnect_alert_title">Aşım uyarısı</string>
   <string name="oclick_disconnect_alert_summary">Ulaşılamazken uyar</string>
   <string name="alert_category_title">Uyarılar</string>
-  <string name="action_category_title">İşlevler</string>
+  <string name="action_category_title">Eylemler</string>
 </resources>

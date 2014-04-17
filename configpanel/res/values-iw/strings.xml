@@ -42,6 +42,7 @@
   <string name="oclick_connect_string">התחבר</string>
   <string name="oclick_disconnect_string">התנתק</string>
   <string name="oclick_dialog_connecting_message">מנסה להתחבר</string>
+  <string name="oclick_take_snapshot_title">צילום מצלמה מרחוק</string>
   <string name="oclick_take_snapshot_summary">לחיצה אחת כדי לצלם</string>
   <string name="oclick_find_my_phone_title">מאתר טלפון</string>
   <string name="oclick_find_my_phone_summary">לחיצה כפולה כדי לאתר טלפון</string>

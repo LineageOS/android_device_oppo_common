@@ -28,10 +28,7 @@
   <string name="screen_gestures_panel_summary">Habilitar xestos mientres la pantalla tea apagada</string>
   <string name="touchscreen_double_tap_gesture_title">Esconsoñar preséu</string>
   <string name="touchscreen_double_tap_gesture_summary">Fai doble toque pa esconsoñar el preséu</string>
-  <string name="touchscreen_camera_gesture_title">Cámara</string>
   <string name="touchscreen_camera_gesture_summary">Dibuxar un círculu p\'activar la cámara</string>
-  <string name="touchscreen_music_gesture_title">Música</string>
-  <string name="touchscreen_flashlight_gesture_title">Llinterna</string>
   <string name="touchscreen_flashlight_gesture_summary">Dibuxa una V pa conmutar lla luz de la llinterna</string>
   <string name="touchscreen_music_gesture_summary">Usa xestos pa remanar la reproducción de música:\n
     • Esliza 2 deos verticalmente pa reproducir/posar\n
@@ -51,5 +48,4 @@
   <string name="oclick_disconnect_alert_title">Fuera d\'algame</string>
   <string name="oclick_disconnect_alert_summary">Avisar cuando\'l teléfonu tea fuera d\'algame</string>
   <string name="alert_category_title">Alertes</string>
-  <string name="action_category_title">Aiciones</string>
 </resources>

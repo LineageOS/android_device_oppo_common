@@ -26,7 +26,7 @@
   <string name="touchpad_double_tap_summary">En l\'aplicació de la càmera, pica doblement per capturar una imatge</string>
   <string name="screen_gestures_panel_title">Dreceres gestuals</string>
   <string name="screen_gestures_panel_summary">Utilitza gestos mentre la pantalla està apagada</string>
-  <string name="touchscreen_double_tap_gesture_title">Desperta el dispositiu</string>
+  <string name="touchscreen_double_tap_gesture_title">Encén el dispositiu</string>
   <string name="touchscreen_double_tap_gesture_summary">Pica dues vegades per encendre el dispositiu</string>
   <string name="touchscreen_camera_gesture_title">Càmera</string>
   <string name="touchscreen_camera_gesture_summary">Dibuixa un cercle per activar la càmera</string>

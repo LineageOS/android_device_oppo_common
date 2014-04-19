@@ -28,7 +28,10 @@
   <string name="screen_gestures_panel_summary">Kézmozdulatok használata kikapcsolt kijelzőnél</string>
   <string name="touchscreen_double_tap_gesture_title">Eszköz felébresztése</string>
   <string name="touchscreen_double_tap_gesture_summary">Dupla érintés felébreszti az eszközt</string>
+  <string name="touchscreen_camera_gesture_title">Kamera</string>
   <string name="touchscreen_camera_gesture_summary">Rajzoljon egy kört a kamera aktiválásához</string>
+  <string name="touchscreen_music_gesture_title">Zene</string>
+  <string name="touchscreen_flashlight_gesture_title">Zseblámpa</string>
   <string name="touchscreen_flashlight_gesture_summary">Rajzoljon egy \"V\" betűt a zseblámpához</string>
   <string name="touchscreen_music_gesture_summary">Használja a kézmozdulatokat zene vezérléséhez\n
     • Két ujjal függőlegesen lejátszás/szünet\n
@@ -48,4 +51,5 @@
   <string name="oclick_disconnect_alert_title">Elhagyta a hatósugárt</string>
   <string name="oclick_disconnect_alert_summary">Riasztás, ha nem elérhető</string>
   <string name="alert_category_title">Riasztások</string>
+  <string name="action_category_title">Műveletek</string>
 </resources>

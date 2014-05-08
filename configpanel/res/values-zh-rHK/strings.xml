@@ -23,4 +23,5 @@
   <string name="touchscreen_double_tap_gesture_summary">輕按兩下來喚醒裝置</string>
   <string name="touchscreen_camera_gesture_title">相機</string>
   <string name="touchscreen_music_gesture_title">音樂</string>
+  <string name="oclick_disconnect_string">中斷連接</string>
 </resources>

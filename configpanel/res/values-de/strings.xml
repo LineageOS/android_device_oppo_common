@@ -24,7 +24,7 @@
   <string name="touchpad_long_press_summary">Langes Drücken des Touchpads startet die Kamera-App</string>
   <string name="touchpad_double_tap_title">Auslösen durch doppeltes Tippen</string>
   <string name="touchpad_double_tap_summary">In der Kamera-App Bilder durch doppeltes Tippen aufnehmen</string>
-  <string name="screen_gestures_panel_title">Gesten-Steuerung</string>
+  <string name="screen_gestures_panel_title">Gestensteuerung</string>
   <string name="screen_gestures_panel_summary">Steuerung durch Gesten bei ausgeschaltetem Display</string>
   <string name="touchscreen_double_tap_gesture_title">Gerät aufwecken</string>
   <string name="touchscreen_double_tap_gesture_summary">Gerät durch doppeltes Tippen aufwecken</string>

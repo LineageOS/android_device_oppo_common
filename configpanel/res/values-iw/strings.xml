@@ -15,7 +15,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="backpad_panel_title">הגדרות O-Touch</string>
   <string name="backpad_panel_summary">הגדר O-Touch</string>
   <string name="touchpad_enable_title">אפשר O-Touch</string>

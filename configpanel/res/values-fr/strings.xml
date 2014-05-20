@@ -15,7 +15,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="backpad_panel_title">Paramètres O-Touch</string>
   <string name="backpad_panel_summary">Configuration O-Touch</string>
   <string name="touchpad_enable_title">Activer O-Touch</string>
@@ -26,8 +26,8 @@
   <string name="touchpad_double_tap_summary">Dans l\'appareil photo, un appui double capture l\'image</string>
   <string name="screen_gestures_panel_title">Raccourcies gestuelles</string>
   <string name="screen_gestures_panel_summary">Utiliser des gestes quand l\'écran est éteint</string>
-  <string name="touchscreen_double_tap_gesture_title">Allumer l\'appareil</string>
-  <string name="touchscreen_double_tap_gesture_summary">Double appuis pour allumer l\'appareil</string>
+  <string name="touchscreen_double_tap_gesture_title">Réveiller l\'appareil</string>
+  <string name="touchscreen_double_tap_gesture_summary">Double appuis pour réveiller l\'appareil</string>
   <string name="touchscreen_camera_gesture_title">Appareil photo</string>
   <string name="touchscreen_camera_gesture_summary">Dessinez un cercle pour activer l\'appareil photo</string>
   <string name="touchscreen_music_gesture_title">Musique</string>

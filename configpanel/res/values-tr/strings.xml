@@ -15,10 +15,10 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="backpad_panel_title">O-Touch ayarları</string>
-  <string name="backpad_panel_summary">O-Touch\'ı Ayarla</string>
-  <string name="touchpad_enable_title">O-Touch Etkin</string>
+  <string name="backpad_panel_summary">O-Touch\'ı ayarla</string>
+  <string name="touchpad_enable_title">O-Touch etkinleştir</string>
   <string name="touchpad_enable_summary">Telefonda gezinmek için arka dokunmatik yüzey</string>
   <string name="touchpad_long_press_title">Kamerayı başlatmak için uzun basın</string>
   <string name="touchpad_long_press_summary">Dokunmatik yüzeye uzun dokunuş kamera uygulamasını açacak</string>
@@ -33,17 +33,20 @@
   <string name="touchscreen_music_gesture_title">Müzik</string>
   <string name="touchscreen_flashlight_gesture_title">El feneri</string>
   <string name="touchscreen_flashlight_gesture_summary">Flaş ışığını açıp kapatmak için \'V\' çizin</string>
-  <string name="touchscreen_music_gesture_summary">Müziği kontrol etmek için hareketlerinizi kullanın\n• Dikey şekilde iki parmak durdurur/oynatır\n• Sol ok çizimi önceki şarkıya gider\n• Sağ ok çizimi sonraki şarkıya gider</string>
+  <string name="touchscreen_music_gesture_summary">Müziği kontrol etmek için hareketlerinizi kullanın\n
+• Dikey şekilde iki parmak şarkıyı durdurur/oynatır\n
+• Sola ok çizimi önceki şarkıya gider\n
+• Sağa ok çizimi sonraki şarkıya gider</string>
   <string name="oclick_panel_title">O-Click ayarları</string>
   <string name="oclick_panel_summary">O-Click aygıtını ayarla</string>
   <string name="oclick_connect_string">Bağlan</string>
   <string name="oclick_disconnect_string">Bağlantıyı Kes</string>
   <string name="oclick_dialog_connecting_message">Eşleşme deneniyor</string>
-  <string name="oclick_take_snapshot_title">Kamera pozlama kontrolü</string>
+  <string name="oclick_take_snapshot_title">Uzaktan çekim</string>
   <string name="oclick_take_snapshot_summary">Resim çekmek için tek tıklayın</string>
   <string name="oclick_find_my_phone_title">Telefon bulucu</string>
   <string name="oclick_find_my_phone_summary">Telefonu bulmak için çift tıklayın</string>
-  <string name="oclick_fence_title">Proximity uyarısı</string>
+  <string name="oclick_fence_title">Yakınlık uyarısı</string>
   <string name="oclick_fence_summary">Telefonun yakınında değilken uyar</string>
   <string name="oclick_disconnect_alert_title">Aşım uyarısı</string>
   <string name="oclick_disconnect_alert_summary">Ulaşılamazken uyar</string>

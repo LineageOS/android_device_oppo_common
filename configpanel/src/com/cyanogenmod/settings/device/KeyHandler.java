@@ -32,6 +32,7 @@ public class KeyHandler implements DeviceKeyHandler {
     private static final int GESTURE_V_SCANCODE = 252;
     private static final int GESTURE_LTR_SCANCODE = 253;
     private static final int GESTURE_GTR_SCANCODE = 254;
+    private static final int KEY_DOUBLE_TAP = 255;
 
     private Intent mPendingIntent;
     private LockPatternUtils mLockPatternUtils;
@@ -103,6 +104,12 @@ public class KeyHandler implements DeviceKeyHandler {
             break;
         case GESTURE_GTR_SCANCODE:
             dispatchMediaKeyWithWakeLockToAudioService(KeyEvent.KEYCODE_MEDIA_NEXT);
+            consumed = true;
+            break;
+        case KEY_DOUBLE_TAP:
+            if (!mPowerManager.isScreenOn()) {
+                mPowerManager.wakeUp(SystemClock.uptimeMillis());
+            }
             consumed = true;
             break;
         }

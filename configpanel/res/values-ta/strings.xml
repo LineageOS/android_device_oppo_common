@@ -15,6 +15,6 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="backpad_panel_title">O-தொடுதிரை அமைவுகள்</string>
 </resources>

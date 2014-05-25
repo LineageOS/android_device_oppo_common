@@ -34,7 +34,7 @@
   <string name="touchscreen_flashlight_gesture_title">手電筒</string>
   <string name="touchscreen_flashlight_gesture_summary">畫一個「V」以開關手電筒</string>
   <string name="touchscreen_music_gesture_summary">使用手勢去控制音樂播放 \n
-• 兩隻手指垂直來播放／暫停\n
+• 兩隻手指垂直來播放 / 暫停\n
 • 畫左箭咀到上一首\n
 • 畫右箭咀到下一首</string>
   <string name="oclick_panel_title">O-Click 設定</string>

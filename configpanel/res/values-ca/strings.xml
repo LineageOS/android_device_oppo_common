@@ -16,7 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="backpad_panel_title">Ajustaments O-Touch</string>
+  <string name="backpad_panel_title">Configuració O-Touch</string>
   <string name="backpad_panel_summary">Configura O-Touch</string>
   <string name="touchpad_enable_title">Activa O-Touch</string>
   <string name="touchpad_enable_summary">Panell tàctil posterior per navegar el telèfon</string>
@@ -37,7 +37,7 @@
     • Dos dits verticalment per reproduir/pausar\n
     • Dibuixa una fletxa a l\'esquerra per anar a la pista anterior\n
     • Dibuixa una fletxa a la dreta per anar a la pista següent</string>
-  <string name="oclick_panel_title">Ajustaments O-Click</string>
+  <string name="oclick_panel_title">Configuració O-Click</string>
   <string name="oclick_panel_summary">Configura el dispositiu O-Click</string>
   <string name="oclick_connect_string">Connecta</string>
   <string name="oclick_disconnect_string">Desconnecta</string>

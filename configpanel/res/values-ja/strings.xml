@@ -18,7 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="backpad_panel_title">O-Touchの設定</string>
   <string name="backpad_panel_summary">O-Touchを設定する</string>
-  <string name="touchpad_enable_title">O-Touchを有効にする</string>
+  <string name="touchpad_enable_title">O-Touchを有効化</string>
   <string name="touchpad_enable_summary">背面タッチパッドを携帯電話の操作に使用する</string>
   <string name="touchpad_long_press_title">長押しでカメラを起動</string>
   <string name="touchpad_long_press_summary">タッチパッドの長押しでカメラアプリを起動する</string>

@@ -48,7 +48,7 @@
   <string name="oclick_find_my_phone_summary">Telefonu bulmak için çift tıklayın</string>
   <string name="oclick_fence_title">Yakınlık uyarısı</string>
   <string name="oclick_fence_summary">Telefonun yakınında değilken uyar</string>
-  <string name="oclick_disconnect_alert_title">Aşım uyarısı</string>
+  <string name="oclick_disconnect_alert_title">Kapsam dışı uyarısı</string>
   <string name="oclick_disconnect_alert_summary">Ulaşılamazken uyar</string>
   <string name="alert_category_title">Uyarılar</string>
   <string name="action_category_title">Eylemler</string>

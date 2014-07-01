@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba0121b8_a8f3a709",
+        "filename": "configpanel/src/com/cyanogenmod/settings/device/KeyHandler.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 146,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2014-07-01T06:45:18Z",
+      "side": 1,
+      "message": "NPE if they don\u0027t have a proximity sensor.",
+      "revId": "5a0b71f153e2f1a0099856174fa114b2f2196010",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

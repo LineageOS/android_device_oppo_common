@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba0121b8_a36e28c7",
+        "filename": "configpanel/src/com/cyanogenmod/settings/device/KeyHandler.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2014-07-01T08:19:24Z",
+      "side": 1,
+      "message": "Doesn\u0027t compile, wakeUpFromKeyEvent is not available.",
+      "revId": "cac2a84b41cca39bd1676e398b060162beb8a1c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

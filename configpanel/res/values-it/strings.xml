@@ -24,7 +24,7 @@
   <string name="touchpad_long_press_summary">Premere a lungo il touchpad avvierà l\'applicazione della fotocamera</string>
   <string name="touchpad_double_tap_title">Doppio tocco per scattare</string>
   <string name="touchpad_double_tap_summary">Quando la fotocamera è avviata, tocca due volte per scattare foto</string>
-  <string name="screen_gestures_panel_title">Gesture scorciatoie</string>
+  <string name="screen_gestures_panel_title">Scorciatoie gesture</string>
   <string name="screen_gestures_panel_summary">Usa le gesture mentre lo schermo è spento</string>
   <string name="touchscreen_double_tap_gesture_title">Risveglia dispositivo</string>
   <string name="touchscreen_double_tap_gesture_summary">Doppio tocco per attivare il dispositivo</string>
@@ -32,7 +32,7 @@
   <string name="touchscreen_camera_gesture_summary">Disegnare un cerchio per attivare la fotocamera</string>
   <string name="touchscreen_music_gesture_title">Musica</string>
   <string name="touchscreen_flashlight_gesture_title">Torcia</string>
-  <string name="touchscreen_flashlight_gesture_summary">Disegna una \'V\' per attivare la torcia</string>
+  <string name="touchscreen_flashlight_gesture_summary">Disegna una \'V\' per attivare/disattivare la torcia</string>
   <string name="touchscreen_music_gesture_summary">Usa le gesture per controllare la riproduzione musicale\n
     \u2022 Due dita in verticale per riprodurre/mettere in pausa\n
     \u2022 Disegna una freccia rivolta a sinistra per la traccia precedente\n

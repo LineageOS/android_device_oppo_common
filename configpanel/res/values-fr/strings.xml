@@ -24,7 +24,7 @@
   <string name="touchpad_long_press_summary">Appuyez longuement sur le touchpad lancera l\'application appareil photo</string>
   <string name="touchpad_double_tap_title">Appui double pour capturer</string>
   <string name="touchpad_double_tap_summary">Dans l\'appareil photo, un appui double capture l\'image</string>
-  <string name="screen_gestures_panel_title">Raccourcies gestuelles</string>
+  <string name="screen_gestures_panel_title">Raccourcis gestuels</string>
   <string name="screen_gestures_panel_summary">Utiliser des gestes quand l\'écran est éteint</string>
   <string name="touchscreen_double_tap_gesture_title">Réveiller l\'appareil</string>
   <string name="touchscreen_double_tap_gesture_summary">Double appuis pour réveiller l\'appareil</string>

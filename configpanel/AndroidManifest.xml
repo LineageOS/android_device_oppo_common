@@ -14,7 +14,8 @@
             android:minSdkVersion="18"
             android:targetSdkVersion="18" />
 
-    <application>
+    <application
+        android:theme="@style/Theme.Main">
 
         <!-- stub to ensure its loaded - DO NOT REMOVE -->
         <activity android:name=".KeyHandler"/>

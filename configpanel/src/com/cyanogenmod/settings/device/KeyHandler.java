@@ -97,6 +97,7 @@ public class KeyHandler implements DeviceKeyHandler {
             case GESTURE_V_SCANCODE:
                 if (NavigationRingHelpers.isTorchAvailable(mContext)) {
                     Intent torchIntent = new Intent(TorchConstants.ACTION_TOGGLE_STATE);
+                    torchIntent.addFlags(Intent.FLAG_RECEIVER_FOREGROUND);
                     mContext.sendBroadcast(torchIntent);
                 }
                 break;

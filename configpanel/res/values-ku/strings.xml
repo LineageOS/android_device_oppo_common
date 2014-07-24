@@ -16,16 +16,16 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="backpad_panel_title">ڕێکخستنی ساوین</string>
-  <string name="backpad_panel_summary">سازدانی o.ساوین</string>
-  <string name="touchpad_enable_title">چالاکردنی o-ساوین</string>
+  <string name="backpad_panel_title">ڕێکخستنی بیسووە</string>
+  <string name="backpad_panel_summary">سازدانی o.بیسووە</string>
+  <string name="touchpad_enable_title">چالاکردنی o-بیسووە</string>
   <string name="touchpad_enable_summary">ساوینی پاشه‌وه‌ی پاد بۆ ته‌له‌فۆنی نه‌رێ</string>
   <string name="touchpad_long_press_title">بۆ ماوه‌یه‌کی درێژ ده‌ست دانێ بۆ دابه‌زینی کامێرا</string>
   <string name="touchpad_long_press_summary">بۆ ماوه‌یه‌کی درێژ ده‌ست دانێ بۆ دابه‌زینی  کرداری کامێرا </string>
   <string name="touchpad_double_tap_title">دووجار ده‌ست لێده‌ بۆ گرتنی وێنه‌</string>
   <string name="touchpad_double_tap_summary">کاتێک کامێرا، دووجار ده‌ست لێده‌ بۆ گرتنی وێنه‌</string>
   <string name="screen_gestures_panel_title">چاوجوڵاندن قەدبڕ</string>
-  <string name="screen_gestures_panel_summary">به‌کارهێنانی جوڵاندن له‌ کاتێکدا شاشه‌که‌ کوژاوه‌ته‌وه‌</string>
+  <string name="screen_gestures_panel_summary">به‌کارهێنانی جوڵاندن له‌ کاتێکدا ڕوونماکه‌ کوژاوه‌ته‌وه‌</string>
   <string name="touchscreen_double_tap_gesture_title">ئامێره‌که‌ هەڵدەستێنێت</string>
   <string name="touchscreen_double_tap_gesture_summary">دوجار ده‌ست بده‌ لێی بۆ هەڵسانی ئامێره‌که‌</string>
   <string name="touchscreen_camera_gesture_title">کامێرا</string>

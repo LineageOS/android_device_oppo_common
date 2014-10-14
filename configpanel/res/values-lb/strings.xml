@@ -20,6 +20,7 @@
   <string name="backpad_panel_summary">O-Touch astellen</string>
   <string name="touchpad_enable_title">O-Touch aktivéieren</string>
   <string name="touchpad_enable_summary">Touchpad op der Récksäit benotze fir den Apparat ze steieren</string>
+  <string name="touchpad_long_press_title">Laang drécke fir de Fotoapparat ze starten</string>
   <string name="touchpad_long_press_summary">Laang op den Touchpad drécke fir d\'Kamera-App ze starten</string>
   <string name="touchpad_double_tap_title">Zweemol drécke fir eng Foto ze maachen</string>
   <string name="touchpad_double_tap_summary">An der Kamera-App zweemol drécke fir Fotoen ze knipsen</string>
@@ -31,7 +32,12 @@
   <string name="touchscreen_music_gesture_title">Musek</string>
   <string name="touchscreen_flashlight_gesture_title">Täscheluucht</string>
   <string name="touchscreen_flashlight_gesture_summary">\'V\' zeechnen, fir d\'Täscheluucht un-/auszemaachen</string>
+  <string name="touchscreen_music_gesture_summary">Benotz Gestë fir d\'Musek ze steieren\n
+    • Zwee Fangere vertikal fir Ofspillen/Paus\n
+    • Feil no lénks zeechne fir dat Stéck virdrun\n
+    • Feil no riets zeechne fir dat nächst Stéck</string>
   <string name="oclick_panel_title">O-Click-Astellungen</string>
+  <string name="oclick_panel_summary">O-Click konfiguréieren</string>
   <string name="oclick_connect_string">Connectéieren</string>
   <string name="oclick_disconnect_string">Déconnectéieren</string>
   <string name="oclick_dialog_connecting_message">Versichen ze koppelen</string>

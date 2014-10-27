@@ -27,6 +27,7 @@
   <string name="screen_gestures_panel_title">Steierung mat Gesten</string>
   <string name="screen_gestures_panel_summary">Steierung duerch Gesten wann de Schierm ausgeschalt ass</string>
   <string name="touchscreen_double_tap_gesture_title">Apparat waakreg maachen</string>
+  <string name="touchscreen_double_tap_gesture_summary">Apparat duerch zweemol Drécke waakreg maachen</string>
   <string name="touchscreen_camera_gesture_title">Fotoapparat</string>
   <string name="touchscreen_camera_gesture_summary">Zeechen e Kreess fir de Fotoapparat z\'aktivéieren</string>
   <string name="touchscreen_music_gesture_title">Musek</string>

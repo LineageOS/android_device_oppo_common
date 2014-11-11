@@ -31,8 +31,8 @@
              8 - Assistant (search)
             16 - App switch
          For example, a device with Home, Back and Menu keys would set this
-         config to 7. -->
-    <integer name="config_deviceHardwareKeys">7</integer>
+         config to 7.
+    <integer name="config_deviceHardwareKeys">7</integer> -->
 
     <!-- Control the behavior when the user long presses the home button.
             0 - Nothing
@@ -46,7 +46,7 @@
     -->
     <integer name="config_longPressOnHomeBehavior">3</integer>
 
-    <integer name="config_longPressOnMenuBehavior">2</integer>
+    <!--<integer name="config_longPressOnMenuBehavior">2</integer>-->
 
     <!-- Control the behavior when the user double-taps the home button.
             0 - Nothing
@@ -61,11 +61,11 @@
     <integer name="config_doubleTapOnHomeBehavior">0</integer>
 
     <!-- The list absolute paths of jar/apk files containing the device specific handlers,
-         delimited by File.pathSeparator, which defaults to ":" on Android -->
-    <string name="config_deviceKeyHandlerLib" translatable="false">/system/app/ConfigPanel.apk</string>
+         delimited by File.pathSeparator, which defaults to ":" on Android
+    <string name="config_deviceKeyHandlerLib" translatable="false">/system/app/ConfigPanel.apk</string> -->
 
     <!-- Full qualified name of the class that implements
-         com.android.internal.os.DeviceKeyHandler interface. -->
-    <string name="config_deviceKeyHandlerClass" translatable="false">com.cyanogenmod.settings.device.KeyHandler</string>
+         com.android.internal.os.DeviceKeyHandler interface.
+    <string name="config_deviceKeyHandlerClass" translatable="false">com.cyanogenmod.settings.device.KeyHandler</string> -->
 
 </resources>

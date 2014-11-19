@@ -24,8 +24,8 @@ import android.view.KeyEvent;
 
 import com.android.internal.os.DeviceKeyHandler;
 import com.android.internal.util.ArrayUtils;
-import com.android.internal.util.cm.NavigationRingHelpers;
-import com.android.internal.util.cm.TorchConstants;
+//import com.android.internal.util.cm.NavigationRingHelpers;
+//import com.android.internal.util.cm.TorchConstants;
 
 public class KeyHandler implements DeviceKeyHandler {
 
@@ -104,6 +104,7 @@ public class KeyHandler implements DeviceKeyHandler {
             case GESTURE_SWIPE_DOWN_SCANCODE:
                 dispatchMediaKeyWithWakeLockToAudioService(KeyEvent.KEYCODE_MEDIA_PLAY_PAUSE);
                 break;
+                /*
             case GESTURE_V_SCANCODE:
                 if (NavigationRingHelpers.isTorchAvailable(mContext)) {
                     mGestureWakeLock.acquire(GESTURE_WAKELOCK_DURATION);
@@ -112,6 +113,7 @@ public class KeyHandler implements DeviceKeyHandler {
                     mContext.sendBroadcast(torchIntent);
                 }
                 break;
+                */
             case GESTURE_LTR_SCANCODE:
                 dispatchMediaKeyWithWakeLockToAudioService(KeyEvent.KEYCODE_MEDIA_PREVIOUS);
                 break;
@@ -128,10 +130,12 @@ public class KeyHandler implements DeviceKeyHandler {
         }
         boolean isKeySupported = ArrayUtils.contains(sSupportedGestures, event.getScanCode());
         if (isKeySupported && !mEventHandler.hasMessages(GESTURE_REQUEST)) {
+            /*
             if (event.getScanCode() == KEY_DOUBLE_TAP && !mPowerManager.isScreenOn()) {
                 mPowerManager.wakeUpWithProximityCheck(SystemClock.uptimeMillis());
                 return true;
             }
+            */
             Message msg = getMessageForKeyEvent(event);
             if (mProximitySensor != null) {
                 mEventHandler.sendMessageDelayed(msg, 200);
@@ -186,6 +190,7 @@ public class KeyHandler implements DeviceKeyHandler {
         if (ActivityManagerNative.isSystemReady()) {
             IAudioService audioService = getAudioService();
             if (audioService != null) {
+                /*
                 try {
                     KeyEvent event = new KeyEvent(SystemClock.uptimeMillis(),
                             SystemClock.uptimeMillis(), KeyEvent.ACTION_DOWN, keycode, 0);
@@ -195,11 +200,13 @@ public class KeyHandler implements DeviceKeyHandler {
                 } catch (RemoteException e) {
                     Log.e(TAG, "dispatchMediaKeyEvent threw exception " + e);
                 }
+                */
             }
         }
     }
 
     private void startActivitySafely(Intent intent) {
+        /*
         intent.addFlags(
                 Intent.FLAG_ACTIVITY_NEW_TASK
                 | Intent.FLAG_ACTIVITY_SINGLE_TOP
@@ -217,5 +224,6 @@ public class KeyHandler implements DeviceKeyHandler {
             mContext.startActivityAsUser(intent, null, user);
         } catch (ActivityNotFoundException e) {
         }
+        */
     }
 }

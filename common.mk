@@ -19,4 +19,5 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Keyhandler
 PRODUCT_PACKAGES += \
-    ConfigPanel
+    ConfigPanel \
+    com.cyanogenmod.keyhandler

@@ -130,12 +130,10 @@ public class KeyHandler implements DeviceKeyHandler {
         }
         boolean isKeySupported = ArrayUtils.contains(sSupportedGestures, event.getScanCode());
         if (isKeySupported && !mEventHandler.hasMessages(GESTURE_REQUEST)) {
-            /*
             if (event.getScanCode() == KEY_DOUBLE_TAP && !mPowerManager.isScreenOn()) {
                 mPowerManager.wakeUpWithProximityCheck(SystemClock.uptimeMillis());
                 return true;
             }
-            */
             Message msg = getMessageForKeyEvent(event);
             if (mProximitySensor != null) {
                 mEventHandler.sendMessageDelayed(msg, 200);

@@ -17,6 +17,10 @@
 # overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
+# Assertions
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/test_tz_version.sh:/system/etc/test_tz_version.sh
+
 # Keyhandler
 PRODUCT_PACKAGES += \
     ConfigPanel \

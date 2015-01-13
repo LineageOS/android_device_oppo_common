@@ -21,3 +21,7 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 PRODUCT_PACKAGES += \
     ConfigPanel \
     com.cyanogenmod.keyhandler
+
+# Recovery
+PRODUCT_PACKAGES += \
+    librecovery_updater_oppo

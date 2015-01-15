@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a9d85d2_07b0eadc",
+        "filename": "releasetools.py",
+        "patchSetId": 5
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-01-15T21:40:40Z",
+      "side": 1,
+      "message": "probably don\u0027t need to checksum the file again in read_file no?",
+      "revId": "6460d655c3742e725f71a466cce40eebe195247d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

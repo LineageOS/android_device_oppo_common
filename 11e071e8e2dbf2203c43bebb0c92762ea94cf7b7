@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a9d85d2_c7d26234",
+        "filename": "releasetools.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 10
+      },
+      "writtenOn": "2015-01-15T19:02:02Z",
+      "side": 1,
+      "message": "Instead of this, try ditching the dd call entirely and replace the read_file(\"test.img\") with read_file(\"EMMC:%s:%d\") (in which %s is the partition path and %d is the size)",
+      "revId": "11e071e8e2dbf2203c43bebb0c92762ea94cf7b7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

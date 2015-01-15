@@ -30,9 +30,9 @@ def LoadFilesMap(zip):
     line = line.strip()
     if not line or line.startswith("#"): continue
     pieces = line.split()
-    if not (len(pieces) == 3):
+    if not (len(pieces) == 4):
       raise ValueError("malformed filesmap line: \"%s\"" % (line,))
-    d[pieces[0]] = (pieces[1], pieces[2])
+    d[pieces[0]] = (pieces[1], pieces[2], pieces[3])
   return d
 
 def GetRadioFiles(z):
@@ -59,8 +59,9 @@ def InstallRawImage(image_data, api_version, input_zip, fn, info, filesmap):
         return
     partition = filesmap[filename][0]
     checksum = filesmap[filename][1]
-    info.script.AppendExtra('run_program("/sbin/dd", "if=%s", "of=/tmp/test.img");'
-            % (partition))
+    file_size = filesmap[filename][2]
+    info.script.AppendExtra('run_program("/sbin/dd", "bs=1", "count=%s", "if=%s", "of=/tmp/test.img");'
+            % (file_size, partition))
     info.script.AppendExtra('ifelse((sha1_check(read_file("/tmp/test.img")) == "%s"),'
             '(ui_print("%s already up to date")),'
             '(package_extract_file("%s", "%s")));'

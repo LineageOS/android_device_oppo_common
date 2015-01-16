@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a9d85d2_795232df",
+        "filename": "releasetools.py",
+        "patchSetId": 4
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-01-16T22:21:44Z",
+      "side": 1,
+      "message": "My edify is still a little janky, feels like there is a more efficient way to write this.",
+      "revId": "13e483cfb4f060079eb8a2ed96906b99998acf15",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

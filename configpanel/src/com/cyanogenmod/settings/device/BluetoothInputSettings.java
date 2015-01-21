@@ -28,7 +28,8 @@ import android.widget.Toast;
 import com.cyanogenmod.settings.device.utils.Constants;
 
 @SuppressWarnings("deprecation")
-public class BluetoothInputSettings extends PreferenceActivity implements OnPreferenceChangeListener {
+public class BluetoothInputSettings extends PreferenceActivity
+        implements OnPreferenceChangeListener {
 
     static final String PROCESS_COMMAND_ACTION = "process_command";
     static final String COMMAND_KEY = "command";
@@ -92,7 +93,8 @@ public class BluetoothInputSettings extends PreferenceActivity implements OnPref
     }
 
     private boolean isBluetoothOn() {
-        BluetoothManager bluetoothManager = (BluetoothManager) getSystemService(Context.BLUETOOTH_SERVICE);
+        BluetoothManager bluetoothManager =
+                (BluetoothManager) getSystemService(Context.BLUETOOTH_SERVICE);
         BluetoothAdapter bluetoothAdapter = bluetoothManager.getAdapter();
         return (bluetoothAdapter != null && bluetoothAdapter.isEnabled());
     }

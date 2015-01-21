@@ -1,6 +1,5 @@
 package com.cyanogenmod.settings.device.utils;
 
-
 import android.os.Bundle;
 import android.preference.CheckBoxPreference;
 import android.preference.Preference;
@@ -9,8 +8,8 @@ import android.preference.PreferenceActivity;
 import android.text.TextUtils;
 import android.view.MenuItem;
 
-
-public class NodePreferenceActivity extends PreferenceActivity implements OnPreferenceChangeListener {
+public class NodePreferenceActivity extends PreferenceActivity
+        implements OnPreferenceChangeListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

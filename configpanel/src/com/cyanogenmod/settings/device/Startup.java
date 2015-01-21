@@ -74,7 +74,8 @@ public class Startup extends BroadcastReceiver {
         }
     }
 
-    public static void toggleDoubleTap(Context context, IGestureService gestureService, boolean enable) {
+    public static void toggleDoubleTap(Context context, IGestureService gestureService,
+            boolean enable) {
         PendingIntent pendingIntent = null;
         if (enable) {
             Intent doubleTapIntent = new Intent("cyanogenmod.intent.action.GESTURE_CAMERA", null);
@@ -89,7 +90,8 @@ public class Startup extends BroadcastReceiver {
         }
     }
 
-    public static void toggleLongPress(Context context, IGestureService gestureService, boolean enable) {
+    public static void toggleLongPress(Context context, IGestureService gestureService,
+            boolean enable) {
         PendingIntent pendingIntent = null;
         if (enable) {
             Intent longPressIntent = new Intent(Intent.ACTION_CAMERA_BUTTON, null);

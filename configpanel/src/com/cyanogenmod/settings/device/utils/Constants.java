@@ -22,7 +22,8 @@ public class Constants {
     public static final String OCLICK_DISCONNECT_ALERT_KEY = "oclick_disconnect_alert";
     public static final String TOUCHSCREEN_CAMERA_GESTURE_KEY = "touchscreen_gesture_camera";
     public static final String TOUCHSCREEN_MUSIC_GESTURE_KEY = "touchscreen_gesture_music";
-    public static final String TOUCHSCREEN_FLASHLIGHT_GESTURE_KEY = "touchscreen_gesture_flashlight";
+    public static final String TOUCHSCREEN_FLASHLIGHT_GESTURE_KEY =
+            "touchscreen_gesture_flashlight";
 
     // Proc nodes
     public static final String TOUCH_PAD_NODE = "/proc/touchpad/enable";

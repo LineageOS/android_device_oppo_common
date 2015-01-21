@@ -26,8 +26,7 @@
     <uses-feature android:name="android.hardware.bluetooth_le" android:required="true"/>
 
     <uses-sdk
-        android:minSdkVersion="18"
-        android:targetSdkVersion="18" />
+        android:minSdkVersion="21" />
 
     <application
         android:theme="@style/Theme.Main">

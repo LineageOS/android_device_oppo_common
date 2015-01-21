@@ -25,6 +25,8 @@ import android.preference.PreferenceScreen;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.android.internal.util.cm.ScreenType;
+
 import com.cyanogenmod.settings.device.utils.Constants;
 
 @SuppressWarnings("deprecation")
@@ -159,6 +161,11 @@ public class BluetoothInputSettings extends PreferenceActivity
         IntentFilter filter = new IntentFilter();
         filter.addAction(PROCESS_COMMAND_ACTION);
         registerReceiver(mReceiver, filter);
+
+        // If running on a phone, remove padding around the listview
+        if (!ScreenType.isTablet(this)) {
+            getListView().setPadding(0, 0, 0, 0);
+        }
     }
 
     @Override

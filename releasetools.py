@@ -48,11 +48,11 @@ def GetRadioFiles(z):
   return out
 
 def FullOTA_Assertions(info):
-  AddTrustZoneAssertion(info, info.input_zip)
+  AddTrustZoneAssertion(info)
   return
 
 def IncrementalOTA_Assertions(info):
-  AddTrustZoneAssertion(info, info.target_zip)
+  AddTrustZoneAssertion(info)
   return
 
 def InstallRawImage(image_data, api_version, input_zip, fn, info, filesmap):
@@ -100,12 +100,15 @@ def IncrementalOTA_InstallEnd(info):
   print "warning radio-update: no real implementation of IncrementalOTA_InstallEnd."
   return
 
-def AddTrustZoneAssertion(info, input_zip):
-  android_info = info.input_zip.read("OTA/android-info.txt")
-  m = re.search(r'require\s+version-trustzone\s*=\s*(\S+)', android_info)
-  if m:
-    versions = m.group(1).split('|')
-    if len(versions) and '*' not in versions:
-      cmd = 'assert(oppo.verify_trustzone(' + ','.join(['"%s"' % tz for tz in versions]) + ') == "1");'
-      info.script.AppendExtra(cmd)
+def AddTrustZoneAssertion(info):
+  # Only assert on TZ if no firmware is present
+  filesmap = LoadFilesMap(info.input_zip)
+  if filesmap == {}:
+    android_info = info.input_zip.read("OTA/android-info.txt")
+    m = re.search(r'require\s+version-trustzone\s*=\s*(\S+)', android_info)
+    if m:
+      versions = m.group(1).split('|')
+      if len(versions) and '*' not in versions:
+        cmd = 'assert(oppo.verify_trustzone(' + ','.join(['"%s"' % tz for tz in versions]) + ') == "1");'
+        info.script.AppendExtra(cmd)
   return

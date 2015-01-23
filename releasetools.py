@@ -101,6 +101,10 @@ def IncrementalOTA_InstallEnd(info):
   return
 
 def AddTrustZoneAssertion(info):
+  # Presence of filesmap indicates packaged firmware
+  filesmap = LoadFilesMap(info.input_zip)
+  if filesmap != {}:
+    return
   android_info = info.input_zip.read("OTA/android-info.txt")
   m = re.search(r'require\s+version-trustzone\s*=\s*(\S+)', android_info)
   if m:

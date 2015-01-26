@@ -9,7 +9,7 @@ import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
-import android.media.IAudioService;
+import android.media.session.MediaSessionLegacyHelper;
 import android.os.Handler;
 import android.os.Message;
 import android.os.PowerManager;
@@ -102,7 +102,7 @@ public class KeyHandler implements DeviceKeyHandler {
                 startActivitySafely(intent);
                 break;
             case GESTURE_SWIPE_DOWN_SCANCODE:
-                dispatchMediaKeyWithWakeLockToAudioService(KeyEvent.KEYCODE_MEDIA_PLAY_PAUSE);
+                dispatchMediaKeyWithWakeLockToMediaSession(KeyEvent.KEYCODE_MEDIA_PLAY_PAUSE);
                 break;
                 /*
             case GESTURE_V_SCANCODE:
@@ -115,10 +115,10 @@ public class KeyHandler implements DeviceKeyHandler {
                 break;
                 */
             case GESTURE_LTR_SCANCODE:
-                dispatchMediaKeyWithWakeLockToAudioService(KeyEvent.KEYCODE_MEDIA_PREVIOUS);
+                dispatchMediaKeyWithWakeLockToMediaSession(KeyEvent.KEYCODE_MEDIA_PREVIOUS);
                 break;
             case GESTURE_GTR_SCANCODE:
-                dispatchMediaKeyWithWakeLockToAudioService(KeyEvent.KEYCODE_MEDIA_NEXT);
+                dispatchMediaKeyWithWakeLockToMediaSession(KeyEvent.KEYCODE_MEDIA_NEXT);
                 break;
             }
         }
@@ -175,31 +175,16 @@ public class KeyHandler implements DeviceKeyHandler {
         }, mProximitySensor, SensorManager.SENSOR_DELAY_FASTEST);
     }
 
-    private IAudioService getAudioService() {
-        IAudioService audioService = IAudioService.Stub.asInterface(
-                ServiceManager.checkService(Context.AUDIO_SERVICE));
-        if (audioService == null) {
-            Log.w(TAG, "Unable to find IAudioService interface.");
-        }
-        return audioService;
-    }
-
-    private void dispatchMediaKeyWithWakeLockToAudioService(int keycode) {
-        if (ActivityManagerNative.isSystemReady()) {
-            IAudioService audioService = getAudioService();
-            if (audioService != null) {
-                /*
-                try {
-                    KeyEvent event = new KeyEvent(SystemClock.uptimeMillis(),
-                            SystemClock.uptimeMillis(), KeyEvent.ACTION_DOWN, keycode, 0);
-                    audioService.dispatchMediaKeyEventUnderWakelock(event);
-                    event = KeyEvent.changeAction(event, KeyEvent.ACTION_UP);
-                    audioService.dispatchMediaKeyEventUnderWakelock(event);
-                } catch (RemoteException e) {
-                    Log.e(TAG, "dispatchMediaKeyEvent threw exception " + e);
-                }
-                */
-            }
+    private void dispatchMediaKeyWithWakeLockToMediaSession(int keycode) {
+        MediaSessionLegacyHelper helper = MediaSessionLegacyHelper.getHelper(mContext);
+        if (helper != null) {
+            KeyEvent event = new KeyEvent(SystemClock.uptimeMillis(),
+                    SystemClock.uptimeMillis(), KeyEvent.ACTION_DOWN, keycode, 0);
+            helper.sendMediaButtonEvent(event, true);
+            event = KeyEvent.changeAction(event, KeyEvent.ACTION_UP);
+            helper.sendMediaButtonEvent(event, true);
+        } else {
+            Log.w(TAG, "Unable to send media key event");
         }
     }
 

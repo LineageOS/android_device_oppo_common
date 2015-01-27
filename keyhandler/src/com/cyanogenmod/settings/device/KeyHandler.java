@@ -37,6 +37,7 @@ import android.os.UserHandle;
 import android.provider.MediaStore;
 import android.util.Log;
 import android.view.KeyEvent;
+import android.view.WindowManagerGlobal;
 
 import com.android.internal.os.DeviceKeyHandler;
 import com.android.internal.util.ArrayUtils;
@@ -109,12 +110,18 @@ public class KeyHandler implements DeviceKeyHandler {
             case GESTURE_CIRCLE_SCANCODE:
                 ensureKeyguardManager();
                 String action = null;
+                mGestureWakeLock.acquire(GESTURE_WAKELOCK_DURATION);
                 if (mKeyguardManager.isKeyguardSecure() && mKeyguardManager.isKeyguardLocked()) {
                     action = MediaStore.INTENT_ACTION_STILL_IMAGE_CAMERA_SECURE;
                 } else {
+                    try {
+                        WindowManagerGlobal.getWindowManagerService().dismissKeyguard();
+                    } catch (RemoteException e) {
+                        // Ignore
+                    }
                     action = MediaStore.INTENT_ACTION_STILL_IMAGE_CAMERA;
                 }
-                mGestureWakeLock.acquire(GESTURE_WAKELOCK_DURATION);
+                mPowerManager.wakeUp(SystemClock.uptimeMillis());
                 Intent intent = new Intent(action, null);
                 startActivitySafely(intent);
                 break;
@@ -207,24 +214,15 @@ public class KeyHandler implements DeviceKeyHandler {
     }
 
     private void startActivitySafely(Intent intent) {
-        /*
         intent.addFlags(
                 Intent.FLAG_ACTIVITY_NEW_TASK
                 | Intent.FLAG_ACTIVITY_SINGLE_TOP
                 | Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        mPowerManager.wakeUp(SystemClock.uptimeMillis());
-        if (!mKeyguardManager.isKeyguardSecure() || !mKeyguardManager.isKeyguardLocked()) {
-            try {
-                ActivityManagerNative.getDefault().dismissKeyguardOnNextActivity();
-            } catch (RemoteException e) {
-                Log.w(TAG, "can't dismiss keyguard on launch");
-            }
-        }
         try {
             UserHandle user = new UserHandle(UserHandle.USER_CURRENT);
             mContext.startActivityAsUser(intent, null, user);
         } catch (ActivityNotFoundException e) {
+            // Ignore
         }
-        */
     }
 }

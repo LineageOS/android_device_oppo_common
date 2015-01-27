@@ -43,7 +43,7 @@ public class KeyHandler implements DeviceKeyHandler {
 
     private static final int GESTURE_WAKELOCK_DURATION = 3000;
 
-    private static final int[] sSupportedGestures = new int[]{
+    private static final int[] sSupportedGestures = new int[] {
         FLIP_CAMERA_SCANCODE,
         GESTURE_CIRCLE_SCANCODE,
         GESTURE_SWIPE_DOWN_SCANCODE,
@@ -76,7 +76,8 @@ public class KeyHandler implements DeviceKeyHandler {
 
     private void ensureKeyguardManager() {
         if (mKeyguardManager == null) {
-            mKeyguardManager = (KeyguardManager) mContext.getSystemService(Context.KEYGUARD_SERVICE);
+            mKeyguardManager =
+                    (KeyguardManager) mContext.getSystemService(Context.KEYGUARD_SERVICE);
         }
     }
 
@@ -84,7 +85,7 @@ public class KeyHandler implements DeviceKeyHandler {
         @Override
         public void handleMessage(Message msg) {
             KeyEvent event = (KeyEvent) msg.obj;
-            switch(event.getScanCode()) {
+            switch (event.getScanCode()) {
             case FLIP_CAMERA_SCANCODE:
                 if (event.getAction() == KeyEvent.ACTION_UP) {
                     break;
@@ -125,7 +126,8 @@ public class KeyHandler implements DeviceKeyHandler {
     }
 
     public boolean handleKeyEvent(KeyEvent event) {
-        if (event.getAction() != KeyEvent.ACTION_UP && event.getScanCode() != FLIP_CAMERA_SCANCODE) {
+        if (event.getAction() != KeyEvent.ACTION_UP
+                && event.getScanCode() != FLIP_CAMERA_SCANCODE) {
             return false;
         }
         boolean isKeySupported = ArrayUtils.contains(sSupportedGestures, event.getScanCode());

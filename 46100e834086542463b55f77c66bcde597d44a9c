@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fad55976_3be8a57c",
+        "filename": "keyhandler/src/com/cyanogenmod/settings/device/KeyHandler.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2015-01-27T17:17:46Z",
+      "side": 1,
+      "message": "Shouldn\u0027t this stay where it was? (after acquiring a wakelock and waking the device)",
+      "revId": "46100e834086542463b55f77c66bcde597d44a9c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

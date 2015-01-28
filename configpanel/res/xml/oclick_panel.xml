@@ -24,13 +24,13 @@
         android:enabled="false"
         android:title="@string/action_category_title">
 
-        <CheckBoxPreference
+        <SwitchPreference
             android:defaultValue="true"
             android:key="oclick_take_snapshot"
             android:title="@string/oclick_take_snapshot_title"
             android:summary="@string/oclick_take_snapshot_summary" />
 
-        <CheckBoxPreference
+        <SwitchPreference
             android:defaultValue="true"
             android:key="oclick_find_my_phone"
             android:title="@string/oclick_find_my_phone_title"
@@ -43,13 +43,13 @@
         android:enabled="false"
         android:title="@string/alert_category_title">
 
-        <CheckBoxPreference
+        <SwitchPreference
             android:defaultValue="true"
             android:key="oclick_fence"
             android:title="@string/oclick_fence_title"
             android:summary="@string/oclick_fence_summary"  />
 
-        <CheckBoxPreference
+        <SwitchPreference
             android:defaultValue="true"
             android:key="oclick_disconnect_alert"
             android:title="@string/oclick_disconnect_alert_title"

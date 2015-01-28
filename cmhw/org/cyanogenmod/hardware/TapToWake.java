@@ -27,7 +27,11 @@ public class TapToWake {
     }
 
     public static boolean isEnabled()  {
-        return Integer.parseInt(FileUtils.readOneLine(CONTROL_PATH)) == 1;
+        try {
+            return "1".equals(FileUtils.readOneLine(CONTROL_PATH));
+        } catch (FileNotFoundException e) {
+            return false;
+        }
     }
 
     public static boolean setEnabled(boolean state)  {

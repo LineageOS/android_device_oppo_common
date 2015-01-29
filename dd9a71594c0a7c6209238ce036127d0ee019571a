@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fad55976_27ab628b",
+        "filename": "cmhw/org/cyanogenmod/hardware/TapToWake.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2015-01-29T13:31:34Z",
+      "side": 1,
+      "message": "You don\u0027t need to catch the exception, the readOneLine function returns null if it throws an IOException",
+      "revId": "dd9a71594c0a7c6209238ce036127d0ee019571a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

@@ -26,8 +26,8 @@
   <string name="touchpad_double_tap_summary">Naudojantis fotoaparatu paliesti du kartus norint užfiksuoti vaizdą</string>
   <string name="screen_gestures_panel_title">Gestų nuorodos</string>
   <string name="screen_gestures_panel_summary">Naudoti gestus kai ekranas yra išjugtas</string>
-  <string name="touchscreen_double_tap_gesture_title">Pažadinti prietaisą</string>
-  <string name="touchscreen_double_tap_gesture_summary">Paspauskite du kartus, norėdami pažadinti prietaisą</string>
+  <string name="touchscreen_double_tap_gesture_title">Pažadinti įrenginį</string>
+  <string name="touchscreen_double_tap_gesture_summary">Bakstelėkite du kartus, norėdami pažadinti įrenginį</string>
   <string name="touchscreen_camera_gesture_title">Fotoaparatas</string>
   <string name="touchscreen_camera_gesture_summary">Nupieškite apskritimą norėdami įjungti fotoaparatą</string>
   <string name="touchscreen_music_gesture_title">Muzika</string>
@@ -35,7 +35,7 @@
   <string name="touchscreen_flashlight_gesture_summary">Nupieškite \"V\" norėdami įjungti žibintuvėlį</string>
   <string name="touchscreen_music_gesture_summary">Naudoti gestus norint kontroliuoti muzikos grojimą \n • Du pirštus vertikaliai - paleisti / sustabdyti\n • Nupiešti rodyklę kairėn - ankstesnis kūrinys\n • Nupiešti rodyklę dešinėn - kitas kūrinys</string>
   <string name="oclick_panel_title">„O-Click“ nustatymai</string>
-  <string name="oclick_panel_summary">Konfigūruoti „O-Click“ prietaisą</string>
+  <string name="oclick_panel_summary">Konfigūruoti „O-Click“ įrenginį</string>
   <string name="oclick_connect_string">Prisijungti</string>
   <string name="oclick_disconnect_string">Atsijungti</string>
   <string name="oclick_dialog_connecting_message">Bandoma suporuoti</string>

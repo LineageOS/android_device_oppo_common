@@ -25,6 +25,7 @@ import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
+import android.hardware.TorchManager;
 import android.media.session.MediaSessionLegacyHelper;
 import android.os.Handler;
 import android.os.Message;
@@ -41,8 +42,6 @@ import android.view.WindowManagerGlobal;
 
 import com.android.internal.os.DeviceKeyHandler;
 import com.android.internal.util.ArrayUtils;
-//import com.android.internal.util.cm.NavigationRingHelpers;
-//import com.android.internal.util.cm.TorchConstants;
 
 public class KeyHandler implements DeviceKeyHandler {
 
@@ -75,6 +74,7 @@ public class KeyHandler implements DeviceKeyHandler {
     private KeyguardManager mKeyguardManager;
     private EventHandler mEventHandler;
     private SensorManager mSensorManager;
+    private TorchManager mTorchManager;
     private Sensor mProximitySensor;
     WakeLock mProximityWakeLock;
     WakeLock mGestureWakeLock;
@@ -95,6 +95,12 @@ public class KeyHandler implements DeviceKeyHandler {
         if (mKeyguardManager == null) {
             mKeyguardManager =
                     (KeyguardManager) mContext.getSystemService(Context.KEYGUARD_SERVICE);
+        }
+    }
+
+    private void ensureTorchManager() {
+        if (mTorchManager == null) {
+            mTorchManager = (TorchManager) mContext.getSystemService(Context.TORCH_SERVICE);
         }
     }
 
@@ -128,16 +134,11 @@ public class KeyHandler implements DeviceKeyHandler {
             case GESTURE_SWIPE_DOWN_SCANCODE:
                 dispatchMediaKeyWithWakeLockToMediaSession(KeyEvent.KEYCODE_MEDIA_PLAY_PAUSE);
                 break;
-                /*
             case GESTURE_V_SCANCODE:
-                if (NavigationRingHelpers.isTorchAvailable(mContext)) {
-                    mGestureWakeLock.acquire(GESTURE_WAKELOCK_DURATION);
-                    Intent torchIntent = new Intent(TorchConstants.ACTION_TOGGLE_STATE);
-                    torchIntent.addFlags(Intent.FLAG_RECEIVER_FOREGROUND);
-                    mContext.sendBroadcast(torchIntent);
-                }
+                ensureTorchManager();
+                mGestureWakeLock.acquire(GESTURE_WAKELOCK_DURATION);
+                mTorchManager.toggleTorch();
                 break;
-                */
             case GESTURE_LTR_SCANCODE:
                 dispatchMediaKeyWithWakeLockToMediaSession(KeyEvent.KEYCODE_MEDIA_PREVIOUS);
                 break;

@@ -29,6 +29,8 @@
         android:minSdkVersion="21" />
 
     <application
+        android:icon="@mipmap/ic_launcher_settings"
+        android:label="@string/app_name"
         android:theme="@style/Theme.Main">
 
         <!-- stub to ensure its loaded - DO NOT REMOVE -->
@@ -38,7 +40,7 @@
         <activity
             android:name=".BluetoothInputSettings"
             android:launchMode="singleTop"
-            android:icon="@drawable/app_icon"
+
             android:label="@string/oclick_panel_title">
             <intent-filter>
                 <action android:name="com.cyanogenmod.action.LAUNCH_BLUETOOTH_INPUT_SETTINGS" />
@@ -53,7 +55,6 @@
 
         <activity
             android:name=".TouchscreenGestureSettings"
-            android:icon="@drawable/app_icon"
             android:label="@string/screen_gestures_panel_title">
             <intent-filter>
                 <action android:name="com.cyanogenmod.action.LAUNCH_TOUCHSCREEN_GESTURE_SETTINGS" />
@@ -68,7 +69,6 @@
 
         <activity
             android:name=".GesturePadSettings"
-            android:icon="@drawable/app_icon"
             android:label="@string/backpad_panel_title">
             <intent-filter>
                 <action android:name="com.cyanogenmod.action.LAUNCH_GESTURE_PAD_SETTINGS" />

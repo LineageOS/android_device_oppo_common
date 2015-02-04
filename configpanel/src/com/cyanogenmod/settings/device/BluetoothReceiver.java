@@ -37,7 +37,7 @@ public class BluetoothReceiver extends BroadcastReceiver {
                 return;
             }
             String deviceName = device.getName().toLowerCase();
-            if (deviceName.contains("oppo b") || deviceName.equals("o-click")) {
+            if (deviceName.contains("oppo b") || deviceName.startsWith("o-click")) {
                 Intent i = new Intent(context, OclickService.class);
                 i.putExtra(BluetoothDevice.EXTRA_DEVICE, device);
                 context.startService(i);

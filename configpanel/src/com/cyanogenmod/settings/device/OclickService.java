@@ -58,6 +58,11 @@ public class OclickService extends Service implements OnSharedPreferenceChangeLi
     private static final UUID sTriggerCharacteristicUUIDv2 =
             UUID.fromString("f000ffe1-0451-4000-b000-000000000000");
 
+    private static final UUID sOclick2ServiceUUID =
+            UUID.fromString("00002200-0000-1000-8000-00805f9b34fb");
+    private static final UUID sOclick2KeyCharacteristicUUID =
+            UUID.fromString("00002201-0000-1000-8000-00805f9b34fb");
+
     private static final UUID sImmediateAlertServiceUUID =
             UUID.fromString("00001802-0000-1000-8000-00805f9b34fb"); //0-2
     private static final UUID sImmediateAlertCharacteristicUUID =
@@ -111,26 +116,44 @@ public class OclickService extends Service implements OnSharedPreferenceChangeLi
         public void onServicesDiscovered(final BluetoothGatt gatt, int status) {
             Log.d(TAG, "onServicesDiscovered " + status);
 
-            // Register trigger notification (Used for camera/alarm)
-            BluetoothGattService service = gatt.getService(sTriggerServiceUUID);
-            BluetoothGattCharacteristic trigger =
-                    service.getCharacteristic(sTriggerCharacteristicUUIDv1);
-
-            if (trigger == null) {
-                trigger = service.getCharacteristic(sTriggerCharacteristicUUIDv2);
+            BluetoothGattService serviceV2 = gatt.getService(sOclick2ServiceUUID);
+            BluetoothGattCharacteristic keyCharacteristic = null;
+            if (serviceV2 != null) {
+                keyCharacteristic = serviceV2.getCharacteristic(sOclick2KeyCharacteristicUUID);
             }
-            gatt.setCharacteristicNotification(trigger, true);
 
-            toggleRssiListener();
+            if (keyCharacteristic != null) {
+                // O-Click 2.0 mode
+                gatt.setCharacteristicNotification(keyCharacteristic, true);
 
-            boolean alert = Constants.isPreferenceEnabled(getBaseContext(),
-                    Constants.OCLICK_DISCONNECT_ALERT_KEY, true);
-            service = mBluetoothGatt.getService(sLinkLossServiceUUID);
-            trigger = service.getCharacteristic(sLinkLossCharacteristicUUID);
-            byte[] value = new byte[1];
-            value[0] = (byte) (alert ? 2 : 0);
-            trigger.setValue(value);
-            mBluetoothGatt.writeCharacteristic(trigger);
+                // update connection parameters - TODO: use constants
+                byte[] params = new byte[] {
+                    7, 2, (byte) 0xc8, 0, (byte) 0x90, 1, 1, 0, (byte) 0xe8, 3
+                };
+                keyCharacteristic.setValue(params);
+                mBluetoothGatt.writeCharacteristic(keyCharacteristic);
+            } else {
+                // Register trigger notification (Used for camera/alarm)
+                BluetoothGattService service = gatt.getService(sTriggerServiceUUID);
+                BluetoothGattCharacteristic trigger =
+                        service.getCharacteristic(sTriggerCharacteristicUUIDv1);
+
+                if (trigger == null) {
+                    trigger = service.getCharacteristic(sTriggerCharacteristicUUIDv2);
+                }
+                gatt.setCharacteristicNotification(trigger, true);
+
+                toggleRssiListener();
+
+                boolean alert = Constants.isPreferenceEnabled(getBaseContext(),
+                        Constants.OCLICK_DISCONNECT_ALERT_KEY, true);
+                service = mBluetoothGatt.getService(sLinkLossServiceUUID);
+                trigger = service.getCharacteristic(sLinkLossCharacteristicUUID);
+                byte[] value = new byte[1];
+                value[0] = (byte) (alert ? 2 : 0);
+                trigger.setValue(value);
+                mBluetoothGatt.writeCharacteristic(trigger);
+            }
         }
 
         @Override
@@ -159,44 +182,38 @@ public class OclickService extends Service implements OnSharedPreferenceChangeLi
                 BluetoothGattCharacteristic characteristic) {
             Log.d(TAG, "Characteristic changed " + characteristic.getUuid());
 
-            if (mTapPending) {
-                NotificationManager notificationManager =
-                        (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+            if (characteristic.getUuid().equals(sOclick2KeyCharacteristicUUID)) {
+                byte[] value = characteristic.getValue();
+                if (value.length == 3 && value[0] == 5) {
+                    int key = (value[2] >> 4) & 0xf;
+                    int action = value[2] & 0xf;
+                    if (key == 1 && action == 2) {
+                        if (mRingtone.isPlaying()) {
+                            stopPhoneLocator();
+                        } else {
+                            startPhoneLocator();
+                        }
+                    } else if (key == 1 && action == 1) {
+                        injectKey(KeyEvent.KEYCODE_CAMERA);
+                    }
+                }
+            } else {
+                if (mTapPending) {
+                    if (mRingtone.isPlaying()) {
+                        stopPhoneLocator();
+                        return;
+                    }
 
-                if (mRingtone.isPlaying()) {
-                    Log.d(TAG, "Stopping ring alarm");
-                    mRingtone.stop();
-                    notificationManager.cancel(0);
+                    mHandler.removeCallbacks(mSingleTapRunnable);
+                    mTapPending = false;
+                    startPhoneLocator();
                     return;
                 }
-
-                Log.d(TAG, "Executing ring alarm");
-
-                mAudioManager.setStreamVolume(AudioManager.STREAM_ALARM,
-                        mAudioManager.getStreamMaxVolume(AudioManager.STREAM_ALARM), 0);
-                mRingtone.play();
-                mHandler.removeCallbacks(mSingleTapRunnable);
-
-                Notification.Builder builder = new Notification.Builder(OclickService.this);
-                builder.setSmallIcon(R.drawable.locator_icon);
-                builder.setContentTitle("O-Click phone locator");
-                builder.setContentText("Locator alert is playing. Tap to dismiss");
-                builder.setAutoCancel(true);
-                builder.setOngoing(true);
-
-                PendingIntent resultPendingIntent = PendingIntent.getBroadcast(
-                        getBaseContext(), 0, new Intent(CANCEL_ALERT_PHONE), 0);
-                builder.setContentIntent(resultPendingIntent);
-                notificationManager.notify(0, builder.build());
-
-                mTapPending = false;
-                return;
+                Log.d(TAG, "Setting single tap runnable");
+                mTapPending = true;
+                mHandler.postDelayed(mSingleTapRunnable, 1500);
             }
-            Log.d(TAG, "Setting single tap runnable");
-            mTapPending = true;
-            mHandler.postDelayed(mSingleTapRunnable, 1500);
         }
-
 
         @Override
         public void onReadRemoteRssi(BluetoothGatt gatt, int rssi, int status) {
@@ -224,16 +241,8 @@ public class OclickService extends Service implements OnSharedPreferenceChangeLi
     private Runnable mSingleTapRunnable = new Runnable() {
         @Override
         public void run() {
-            long now = SystemClock.uptimeMillis();
-            InputManager im = InputManager.getInstance();
-            im.injectInputEvent(new KeyEvent(now, now, KeyEvent.ACTION_DOWN,
-                    KeyEvent.KEYCODE_CAMERA, 0, 0, KeyCharacterMap.VIRTUAL_KEYBOARD, 0, 0,
-                    InputDevice.SOURCE_KEYBOARD), InputManager.INJECT_INPUT_EVENT_MODE_ASYNC);
-            im.injectInputEvent(new KeyEvent(now, now, KeyEvent.ACTION_UP,KeyEvent.KEYCODE_CAMERA,
-                    0, 0, KeyCharacterMap.VIRTUAL_KEYBOARD, 0, 0, InputDevice.SOURCE_KEYBOARD),
-                    InputManager.INJECT_INPUT_EVENT_MODE_ASYNC);
+            injectKey(KeyEvent.KEYCODE_CAMERA);
             mTapPending = false;
-
         }
     };
     private Ringtone mRingtone;
@@ -280,9 +289,7 @@ public class OclickService extends Service implements OnSharedPreferenceChangeLi
         @Override
         public void onReceive(Context context, Intent intent) {
             if (intent.getAction().equals(CANCEL_ALERT_PHONE)) {
-                if (mRingtone.isPlaying()) {
-                    mRingtone.stop();
-                }
+                stopPhoneLocator();
             }
         }
     };
@@ -329,5 +336,49 @@ public class OclickService extends Service implements OnSharedPreferenceChangeLi
         PreferenceManager.getDefaultSharedPreferences(this)
                 .unregisterOnSharedPreferenceChangeListener(this);
         unregisterReceiver(mReceiver);
+    }
+
+    private void startPhoneLocator() {
+        Log.d(TAG, "Executing ring alarm");
+
+        // FIXME: this needs to be reverted
+        mAudioManager.setStreamVolume(AudioManager.STREAM_ALARM,
+                mAudioManager.getStreamMaxVolume(AudioManager.STREAM_ALARM), 0);
+        mRingtone.play();
+
+        Notification.Builder builder = new Notification.Builder(OclickService.this);
+        builder.setSmallIcon(R.drawable.locator_icon);
+        builder.setContentTitle("O-Click phone locator");
+        builder.setContentText("Locator alert is playing. Tap to dismiss");
+        builder.setAutoCancel(true);
+        builder.setOngoing(true);
+
+        PendingIntent resultPendingIntent = PendingIntent.getBroadcast(
+                getBaseContext(), 0, new Intent(CANCEL_ALERT_PHONE), 0);
+        builder.setContentIntent(resultPendingIntent);
+
+        NotificationManager notificationManager =
+                (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+        notificationManager.notify(0, builder.build());
+    }
+
+    private void stopPhoneLocator() {
+        NotificationManager notificationManager =
+                (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+
+        Log.d(TAG, "Stopping ring alarm");
+        mRingtone.stop();
+        notificationManager.cancel(0);
+    }
+
+    private void injectKey(int keyCode) {
+        long now = SystemClock.uptimeMillis();
+        InputManager im = InputManager.getInstance();
+        im.injectInputEvent(new KeyEvent(now, now, KeyEvent.ACTION_DOWN, keyCode,
+                0, 0, KeyCharacterMap.VIRTUAL_KEYBOARD, 0, 0, InputDevice.SOURCE_KEYBOARD),
+                InputManager.INJECT_INPUT_EVENT_MODE_ASYNC);
+        im.injectInputEvent(new KeyEvent(now, now, KeyEvent.ACTION_UP, keyCode,
+                0, 0, KeyCharacterMap.VIRTUAL_KEYBOARD, 0, 0, InputDevice.SOURCE_KEYBOARD),
+                InputManager.INJECT_INPUT_EVENT_MODE_ASYNC);
     }
 }

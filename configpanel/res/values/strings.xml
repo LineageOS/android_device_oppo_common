@@ -64,4 +64,8 @@
 
     <string name="alert_category_title">Alerts</string>
     <string name="action_category_title">Actions</string>
+
+    <!-- O-Click notification -->
+    <string name="oclick_locator_notification_title">O-Click phone locator</string>
+    <string name="oclick_locator_notification_text">Locator alert is playing. Tap to dismiss</string>
 </resources>

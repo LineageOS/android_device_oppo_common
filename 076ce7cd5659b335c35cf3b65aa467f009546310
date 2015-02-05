@@ -16,6 +16,24 @@
       "revId": "076ce7cd5659b335c35cf3b65aa467f009546310",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bacf61ea_45201d4a",
+        "filename": "keyhandler/src/com/cyanogenmod/settings/device/KeyHandler.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2015-02-05T14:50:27Z",
+      "side": 1,
+      "message": "I tried that, same behaviour",
+      "parentUuid": "bacf61ea_c52b6d32",
+      "revId": "076ce7cd5659b335c35cf3b65aa467f009546310",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }

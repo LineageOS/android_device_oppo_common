@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "bacf61ea_a83bb09b",
+        "filename": "keyhandler/src/com/cyanogenmod/settings/device/KeyHandler.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 8328
+      },
+      "writtenOn": "2015-02-06T05:42:24Z",
+      "side": 1,
+      "message": "remove this IF clause",
+      "revId": "076ce7cd5659b335c35cf3b65aa467f009546310",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "bacf61ea_c52b6d32",
         "filename": "keyhandler/src/com/cyanogenmod/settings/device/KeyHandler.java",
         "patchSetId": 2

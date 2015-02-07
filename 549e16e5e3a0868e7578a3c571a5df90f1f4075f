@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bacf61ea_f99d785a",
+        "filename": "configpanel/src/com/cyanogenmod/settings/device/OclickService.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 365,
+      "author": {
+        "id": 5911
+      },
+      "writtenOn": "2015-02-07T11:34:19Z",
+      "side": 1,
+      "message": "+newline? :)",
+      "revId": "549e16e5e3a0868e7578a3c571a5df90f1f4075f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

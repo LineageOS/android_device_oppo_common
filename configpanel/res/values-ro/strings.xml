@@ -45,7 +45,7 @@
   <string name="oclick_take_snapshot_title">Declanșator cameră la distanță</string>
   <string name="oclick_take_snapshot_summary">Un singur click pentru a fotografia</string>
   <string name="oclick_find_my_phone_title">Localizare telefon</string>
-  <string name="oclick_find_my_phone_summary">Click dublu pentru a localiza telefonul</string>
+  <string name="oclick_find_my_phone_summary">Apăsare dublă pentru a localiza telefonul</string>
   <string name="oclick_fence_title">Alertă proximitate</string>
   <string name="oclick_fence_summary">Alertă când telefonul nu este aproape</string>
   <string name="oclick_disconnect_alert_title">Alertă în afara razei</string>

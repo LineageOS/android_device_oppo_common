@@ -16,6 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">高级设置</string>
   <string name="backpad_panel_title">O-Touch 设置</string>
   <string name="backpad_panel_summary">配置 O-Touch</string>
   <string name="touchpad_enable_title">启用 O-Touch</string>

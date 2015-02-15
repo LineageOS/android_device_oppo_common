@@ -30,6 +30,7 @@
   <string name="touchscreen_double_tap_gesture_summary">두 번 탭하여 장치를 깨웁니다</string>
   <string name="touchscreen_camera_gesture_title">카메라</string>
   <string name="touchscreen_camera_gesture_summary">원을 그려 카메라 활성화</string>
+  <string name="touchscreen_music_gesture_title">음악</string>
   <string name="touchscreen_flashlight_gesture_title">플래시라이트</string>
   <string name="touchscreen_flashlight_gesture_summary">\'V\'를 그려 플래시라이트 토글</string>
   <string name="touchscreen_music_gesture_summary">제스처로 음악 플레이어를 조작합니다 \n

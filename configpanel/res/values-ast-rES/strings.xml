@@ -16,6 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">Axustes avanzaos</string>
   <string name="backpad_panel_title">Axustes O-Touch</string>
   <string name="backpad_panel_summary">Configurar O-Touch</string>
   <string name="touchpad_enable_title">Habilitar O-Touch</string>

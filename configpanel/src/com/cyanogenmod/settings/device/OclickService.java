@@ -20,6 +20,7 @@ import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.app.Service;
+import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothGatt;
 import android.bluetooth.BluetoothGattCallback;
@@ -36,6 +37,7 @@ import android.media.Ringtone;
 import android.media.RingtoneManager;
 import android.os.Handler;
 import android.os.IBinder;
+import android.os.Message;
 import android.os.SystemClock;
 import android.preference.PreferenceManager;
 import android.util.Log;
@@ -51,26 +53,27 @@ public class OclickService extends Service implements
         SharedPreferences.OnSharedPreferenceChangeListener {
 
     private static final String TAG = OclickService.class.getSimpleName();
-    private static final UUID sTriggerServiceUUID =
+
+    /* package */ static final UUID TRIGGER_SERVICE_UUID =
             UUID.fromString("0000ffe0-0000-1000-8000-00805f9b34fb");
-    private static final UUID sTriggerCharacteristicUUIDv1 =
+    private static final UUID TRIGGER_CHARACTERISTIC_V1_UUID =
             UUID.fromString("0000ffe1-0000-1000-8000-00805f9b34fb");
-    private static final UUID sTriggerCharacteristicUUIDv2 =
+    private static final UUID TRIGGER_CHARACTERISTIC_V2_UUID =
             UUID.fromString("f000ffe1-0451-4000-b000-000000000000");
 
-    private static final UUID sOclick2ServiceUUID =
+    /* package */ static final UUID OCLICK2_SERVICE_UUID =
             UUID.fromString("00002200-0000-1000-8000-00805f9b34fb");
-    private static final UUID sOclick2KeyCharacteristicUUID =
+    private static final UUID OCLICK2_KEY_CHARACTERISTIC_UUID =
             UUID.fromString("00002201-0000-1000-8000-00805f9b34fb");
 
-    private static final UUID sImmediateAlertServiceUUID =
+    private static final UUID IMMEDIATE_ALERT_SERVICE_UUID =
             UUID.fromString("00001802-0000-1000-8000-00805f9b34fb"); //0-2
-    private static final UUID sImmediateAlertCharacteristicUUID =
+    private static final UUID IMMEDIATE_ALERT_CHARACTERISTIC_UUID =
             UUID.fromString("00002a06-0000-1000-8000-00805f9b34fb");
 
-    private static final UUID sLinkLossServiceUUID =
+    private static final UUID LINK_LOSS_SERVICE_UUID =
             UUID.fromString("00001803-0000-1000-8000-00805f9b34fb"); //0-3
-    private static final UUID sLinkLossCharacteristicUUID =
+    private static final UUID LINK_LOSS_CHARACTERISTIC_UUID =
             UUID.fromString("00002a06-0000-1000-8000-00805f9b34fb");
 
     public static final String CANCEL_ALERT_PHONE = "cancel_alert_phone";
@@ -129,28 +132,41 @@ public class OclickService extends Service implements
         private static final int KEYTYPE_MASK = 0xf;
     }
 
-    public static boolean sOclickConnected = false;
+    private enum ConnectionState {
+        INIT,
+        CONNECTED,
+        RECONNECTING
+    };
 
+    private BluetoothDevice mBluetoothDevice;
     private BluetoothGatt mBluetoothGatt;
-    private Handler mHandler = new Handler();
     private boolean mAlerting;
-    private BluetoothDevice mOClickDevice;
     private AudioManager mAudioManager;
     private boolean mTapPending = false;
+    private boolean mRssiAlertEnabled = false;
     private Ringtone mRingtone;
+    private SharedPreferences mPrefs;
+    private ConnectionState mConnectionState;
 
-    private Runnable mSingleTapRunnable = new Runnable() {
+    private static final int MSG_SINGLE_TAP_TIMEOUT = 1;
+    private static final int MSG_POLL_RSSI = 2;
+    private static final int MSG_TRY_RECONNECT = 3;
+
+    private Handler mHandler = new Handler() {
         @Override
-        public void run() {
-            injectKey(KeyEvent.KEYCODE_CAMERA);
-            mTapPending = false;
-        }
-    };
-    private Runnable mRssiPollRunnable =  new Runnable() {
-        @Override
-        public void run() {
-            mBluetoothGatt.readRemoteRssi();
-            mHandler.postDelayed(this, 2000);
+        public void handleMessage(Message msg) {
+            switch (msg.what) {
+                case MSG_SINGLE_TAP_TIMEOUT:
+                    injectKey(KeyEvent.KEYCODE_CAMERA);
+                    mTapPending = false;
+                    break;
+                case MSG_POLL_RSSI:
+                    mBluetoothGatt.readRemoteRssi();
+                    break;
+                case MSG_TRY_RECONNECT:
+                    connect();
+                    break;
+            }
         }
     };
 
@@ -168,24 +184,26 @@ public class OclickService extends Service implements
         public void onConnectionStateChange(BluetoothGatt gatt, int status, final int newState) {
             Log.d(TAG, "onConnectionStateChange " + status + " " + newState);
             if (newState == BluetoothGatt.STATE_CONNECTED) {
-                mBluetoothGatt = gatt;
-                sOclickConnected = true;
+                mConnectionState = ConnectionState.CONNECTED;
                 gatt.discoverServices();
             } else if (newState == BluetoothGatt.STATE_DISCONNECTED) {
-                sOclickConnected = false;
-                stopSelf();
+                mBluetoothGatt.close();
+                mBluetoothGatt = null;
+                mHandler.removeMessages(MSG_POLL_RSSI);
+                mHandler.sendEmptyMessage(MSG_TRY_RECONNECT);
+                mConnectionState = ConnectionState.RECONNECTING;
             }
-            sendCommand(newState);
+            updateNotification();
         }
 
         @Override
         public void onServicesDiscovered(final BluetoothGatt gatt, int status) {
             Log.d(TAG, "onServicesDiscovered " + status);
 
-            BluetoothGattService serviceV2 = gatt.getService(sOclick2ServiceUUID);
+            BluetoothGattService serviceV2 = gatt.getService(OCLICK2_SERVICE_UUID);
             BluetoothGattCharacteristic keyCharacteristic = null;
             if (serviceV2 != null) {
-                keyCharacteristic = serviceV2.getCharacteristic(sOclick2KeyCharacteristicUUID);
+                keyCharacteristic = serviceV2.getCharacteristic(OCLICK2_KEY_CHARACTERISTIC_UUID);
             }
 
             if (keyCharacteristic != null) {
@@ -202,44 +220,35 @@ public class OclickService extends Service implements
                     /* SUPERVISION_TIMEOUT = 1000 */ (byte) 0xe8, 3
                 };
                 keyCharacteristic.setValue(params);
-                mBluetoothGatt.writeCharacteristic(keyCharacteristic);
+                gatt.writeCharacteristic(keyCharacteristic);
             } else {
                 // Register trigger notification (Used for camera/alarm)
-                BluetoothGattService service = gatt.getService(sTriggerServiceUUID);
+                BluetoothGattService service = gatt.getService(TRIGGER_SERVICE_UUID);
                 BluetoothGattCharacteristic trigger =
-                        service.getCharacteristic(sTriggerCharacteristicUUIDv1);
+                        service.getCharacteristic(TRIGGER_CHARACTERISTIC_V1_UUID);
 
                 if (trigger == null) {
-                    trigger = service.getCharacteristic(sTriggerCharacteristicUUIDv2);
+                    trigger = service.getCharacteristic(TRIGGER_CHARACTERISTIC_V2_UUID);
                 }
                 gatt.setCharacteristicNotification(trigger, true);
-
-                toggleRssiListener();
-
-                boolean alert = Constants.isPreferenceEnabled(OclickService.this,
-                        Constants.OCLICK_DISCONNECT_ALERT_KEY, true);
-                service = mBluetoothGatt.getService(sLinkLossServiceUUID);
-                trigger = service.getCharacteristic(sLinkLossCharacteristicUUID);
-                byte[] value = new byte[1];
-                value[0] = (byte) (alert ? 2 : 0);
-                trigger.setValue(value);
-                mBluetoothGatt.writeCharacteristic(trigger);
+                updateLinkLossState();
             }
+
+            toggleRssiListener();
         }
 
         @Override
         public void onCharacteristicWrite(BluetoothGatt gatt,
                 BluetoothGattCharacteristic characteristic, int status) {
-            if (characteristic.getService().getUuid().equals(OclickService.sLinkLossServiceUUID)) {
-                Log.d(TAG, characteristic.getUuid() + " : " + characteristic.getValue()[0]);
-                BluetoothGattService service2 =
-                        mBluetoothGatt.getService(sImmediateAlertServiceUUID);
-                BluetoothGattCharacteristic trigger2 =
-                        service2.getCharacteristic(sImmediateAlertCharacteristicUUID);
-                byte[] values = new byte[1];
-                values[0] = (byte) 0;
-                trigger2.setValue(values);
-                mBluetoothGatt.writeCharacteristic(trigger2);
+            UUID uuid = characteristic.getService().getUuid();
+            Log.d(TAG, "onCharacteristicWrite: service UUID " + uuid + " status " + status);
+
+            if (OCLICK2_SERVICE_UUID.equals(uuid)) {
+                if (characteristic.getValue()[0] == Oclick2Constants.MSG_CLASS_CONNECTION) {
+                    updateLinkLossState();
+                }
+            } else if (LINK_LOSS_SERVICE_UUID.equals(uuid) && !mAlerting) {
+                updateAlertState(false);
             }
         }
 
@@ -253,7 +262,7 @@ public class OclickService extends Service implements
                 BluetoothGattCharacteristic characteristic) {
             Log.d(TAG, "Characteristic changed " + characteristic.getUuid());
 
-            if (characteristic.getUuid().equals(sOclick2KeyCharacteristicUUID)) {
+            if (characteristic.getUuid().equals(OCLICK2_KEY_CHARACTERISTIC_UUID)) {
                 byte[] value = characteristic.getValue();
                 if (value.length == 3 && value[0] == Oclick2Constants.MSG_CLASS_KEY) {
                     int key = value[2] & Oclick2Constants.KEYCODE_MASK;
@@ -277,33 +286,29 @@ public class OclickService extends Service implements
                         return;
                     }
 
-                    mHandler.removeCallbacks(mSingleTapRunnable);
+                    mHandler.removeMessages(MSG_SINGLE_TAP_TIMEOUT);
                     mTapPending = false;
                     startPhoneLocator();
                     return;
                 }
                 Log.d(TAG, "Setting single tap runnable");
                 mTapPending = true;
-                mHandler.postDelayed(mSingleTapRunnable, 1500);
+                mHandler.sendEmptyMessageDelayed(MSG_SINGLE_TAP_TIMEOUT, 1500);
             }
         }
 
         @Override
         public void onReadRemoteRssi(BluetoothGatt gatt, int rssi, int status) {
             Log.d(TAG, "Rssi value : " + rssi);
-            byte[] value = new byte[1];
-            BluetoothGattCharacteristic charS = gatt.getService(sImmediateAlertServiceUUID)
-                    .getCharacteristic(sImmediateAlertCharacteristicUUID);
             if (rssi < -90 && !mAlerting) {
-                value[0] = 2;
-                charS.setValue(value);
-                mBluetoothGatt.writeCharacteristic(charS);
+                updateAlertState(true);
                 mAlerting = true;
             } else if (rssi > -90 && mAlerting) {
-                value[0] = 0;
+                updateAlertState(false);
                 mAlerting = false;
-                charS.setValue(value);
-                mBluetoothGatt.writeCharacteristic(charS);
+            }
+            if (mRssiAlertEnabled) {
+                mHandler.sendEmptyMessageDelayed(MSG_POLL_RSSI, 2000);
             }
         }
     };
@@ -315,10 +320,8 @@ public class OclickService extends Service implements
 
     @Override
     public void onCreate() {
-        mHandler = new Handler();
-
-        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
-        prefs.registerOnSharedPreferenceChangeListener(this);
+        mPrefs = PreferenceManager.getDefaultSharedPreferences(this);
+        mPrefs.registerOnSharedPreferenceChangeListener(this);
 
         IntentFilter filter = new IntentFilter();
         filter.addAction(CANCEL_ALERT_PHONE);
@@ -340,45 +343,50 @@ public class OclickService extends Service implements
     public void onDestroy() {
         Log.d(TAG, "Service being killed");
         mHandler.removeCallbacksAndMessages(null);
-        mBluetoothGatt.disconnect();
-        mBluetoothGatt.close();
+        if (mBluetoothGatt != null) {
+            mBluetoothGatt.disconnect();
+            mBluetoothGatt.close();
+        }
 
-        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
-        prefs.unregisterOnSharedPreferenceChangeListener(this);
+        mPrefs.unregisterOnSharedPreferenceChangeListener(this);
         unregisterReceiver(mReceiver);
     }
 
     @Override
-    public void onSharedPreferenceChanged(SharedPreferences sharedPreferences,
-            String key) {
+    public void onSharedPreferenceChanged(SharedPreferences prefs, String key) {
+        if (mBluetoothGatt == null) {
+            return;
+        }
+
         if (key.equals(Constants.OCLICK_FENCE_KEY)) {
             toggleRssiListener();
         } else if (key.equals(Constants.OCLICK_DISCONNECT_ALERT_KEY)) {
-            boolean alert = Constants.isPreferenceEnabled(this,
-                    Constants.OCLICK_DISCONNECT_ALERT_KEY, true);
-            BluetoothGattService service =
-                    mBluetoothGatt.getService(sLinkLossServiceUUID);
-            BluetoothGattCharacteristic trigger =
-                    service.getCharacteristic(sLinkLossCharacteristicUUID);
-            byte[] value = new byte[1];
-            value[0] = (byte) (alert ? 2 : 0);
-            trigger.setValue(value);
-            mBluetoothGatt.writeCharacteristic(trigger);
+            updateLinkLossState();
         }
     }
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         Log.d(TAG, "onstartCommand");
-        if (intent != null && mBluetoothGatt == null) {
-            mOClickDevice = intent.getParcelableExtra(BluetoothDevice.EXTRA_DEVICE);
-            if (mOClickDevice == null) {
-                Log.e(TAG, "No bluetooth device provided");
-                stopSelf();
-            }
-            mOClickDevice.connectGatt(this, false, mGattCallback);
+        if (mBluetoothDevice == null && mPrefs.contains(Constants.OCLICK_DEVICE_ADDRESS_KEY)) {
+            BluetoothAdapter adapter = BluetoothAdapter.getDefaultAdapter();
+            String address = mPrefs.getString(Constants.OCLICK_DEVICE_ADDRESS_KEY, null);
+
+            mBluetoothDevice = adapter.getRemoteDevice(address);
+            mConnectionState = ConnectionState.INIT;
+            Log.d(TAG, "Oclick device " + mBluetoothDevice);
         }
-        return Service.START_REDELIVER_INTENT;
+
+        if (mBluetoothDevice == null) {
+            Log.e(TAG, "No bluetooth device provided");
+            stopSelf();
+            return START_NOT_STICKY;
+        }
+
+        updateNotification();
+        connect();
+
+        return START_REDELIVER_INTENT;
     }
 
     private void startPhoneLocator() {
@@ -426,18 +434,66 @@ public class OclickService extends Service implements
     }
 
     private void toggleRssiListener() {
-        boolean fence = Constants.isPreferenceEnabled(this, Constants.OCLICK_FENCE_KEY, true);
-        mHandler.removeCallbacks(mRssiPollRunnable);
-        if (fence) {
+        mRssiAlertEnabled = Constants.isPreferenceEnabled(this, Constants.OCLICK_FENCE_KEY, true);
+        mHandler.removeMessages(MSG_POLL_RSSI);
+        if (mRssiAlertEnabled) {
             Log.d(TAG, "Enabling rssi listener");
-            mHandler.postDelayed(mRssiPollRunnable, 100);
+            mHandler.sendEmptyMessageDelayed(MSG_POLL_RSSI, 100);
         }
     }
 
-    private void sendCommand(int command) {
-        Log.d(TAG, "sendCommand : " + command);
-        Intent i = new Intent(BluetoothInputSettings.PROCESS_COMMAND_ACTION);
-        i.putExtra(BluetoothInputSettings.COMMAND_KEY, command);
-        sendBroadcast(i);
+    private void updateAlertState(boolean doAlert) {
+        BluetoothGattService alertService =
+                mBluetoothGatt.getService(IMMEDIATE_ALERT_SERVICE_UUID);
+        BluetoothGattCharacteristic alertCharacteristic =
+                alertService.getCharacteristic(IMMEDIATE_ALERT_CHARACTERISTIC_UUID);
+
+        alertCharacteristic.setValue(new byte[] { (byte) (doAlert ? 2 : 0) });
+        mBluetoothGatt.writeCharacteristic(alertCharacteristic);
+    }
+
+    private void updateLinkLossState() {
+        boolean alert = Constants.isPreferenceEnabled(OclickService.this,
+                Constants.OCLICK_DISCONNECT_ALERT_KEY, true);
+        BluetoothGattService service = mBluetoothGatt.getService(LINK_LOSS_SERVICE_UUID);
+        BluetoothGattCharacteristic characteristic =
+                service.getCharacteristic(LINK_LOSS_CHARACTERISTIC_UUID);
+
+        characteristic.setValue(new byte[] { (byte) (alert ? 2 : 0) });
+        mBluetoothGatt.writeCharacteristic(characteristic);
+    }
+
+    private void connect() {
+        if (mBluetoothDevice != null && mBluetoothGatt == null) {
+            Log.d(TAG, "Connecting to device " + mBluetoothDevice);
+            mBluetoothGatt = mBluetoothDevice.connectGatt(this, false, mGattCallback);
+        }
+    }
+
+    private void updateNotification() {
+        final PendingIntent clickIntent = PendingIntent.getActivity(this, 0,
+                new Intent(this, BluetoothInputSettings.class), 0);
+
+        final Notification.Builder builder = new Notification.Builder(this)
+                .setSmallIcon(R.drawable.ic_oclick_notification)
+                .setContentIntent(clickIntent)
+                .setLocalOnly(true)
+                .setOngoing(true)
+                .setShowWhen(false)
+                .setCategory(Notification.CATEGORY_SERVICE)
+                .setVisibility(Notification.VISIBILITY_PUBLIC);
+
+        builder.setColor(getResources().getColor(
+                com.android.internal.R.color.system_notification_accent_color));
+        builder.setPriority(mConnectionState == ConnectionState.RECONNECTING
+                ? Notification.PRIORITY_DEFAULT : Notification.PRIORITY_MIN);
+        builder.setContentTitle(getString(mConnectionState == ConnectionState.CONNECTED
+                ? R.string.oclick_notification_title_connected
+                : R.string.oclick_notification_title_disconnected));
+        if (mConnectionState != ConnectionState.CONNECTED) {
+            builder.setContentText(getString(R.string.oclick_notification_content_disconnected));
+        }
+
+        startForeground(1000, builder.build());
     }
 }

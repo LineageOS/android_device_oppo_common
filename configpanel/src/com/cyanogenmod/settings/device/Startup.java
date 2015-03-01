@@ -21,6 +21,7 @@ import android.content.BroadcastReceiver;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.hardware.input.InputManager;
 import android.os.Build;
@@ -29,6 +30,7 @@ import android.os.RemoteException;
 import android.os.ServiceManager;
 import android.os.SystemClock;
 import android.os.UserHandle;
+import android.preference.PreferenceManager;
 import android.service.gesture.IGestureService;
 import android.view.InputDevice;
 import android.view.InputEvent;
@@ -78,7 +80,11 @@ public class Startup extends BroadcastReceiver {
             if (!Build.MODEL.equals("N1") && !Build.MODEL.equals("N3")) {
                 disableComponent(context, BluetoothInputSettings.class.getName());
                 disableComponent(context, OclickService.class.getName());
-                disableComponent(context, BluetoothReceiver.class.getName());
+            } else {
+                SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
+                if (prefs.contains(Constants.OCLICK_DEVICE_ADDRESS_KEY)) {
+                    context.startService(new Intent(context, OclickService.class));
+                }
             }
         } else if (intent.getAction().equals("cyanogenmod.intent.action.GESTURE_CAMERA")) {
             long now = SystemClock.uptimeMillis();

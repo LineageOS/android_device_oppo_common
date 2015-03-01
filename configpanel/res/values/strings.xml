@@ -50,9 +50,10 @@
 
     <string name="oclick_connect_string">Connect</string>
     <string name="oclick_disconnect_string">Disconnect</string>
+    <string name="oclick_summary_connected">Connected to O-Click</string>
+    <string name="oclick_summary_paired">O-Click paired, but disconnected</string>
     <string name="oclick_dialog_title" translatable="false">O-Click</string>
-    <string name="oclick_dialog_connecting_message">Attempting to pair</string>
-
+    <string name="oclick_dialog_connecting_message">Connecting to O-Click\u2026\nPress the O-Click button to speed up discovery.</string>
     <string name="oclick_take_snapshot_title">Remote camera shutter</string>
     <string name="oclick_take_snapshot_summary">Single click to take picture</string>
     <string name="oclick_find_my_phone_title">Phone locator</string>

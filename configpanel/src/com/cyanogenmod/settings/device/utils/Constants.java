@@ -32,6 +32,7 @@ public class Constants {
     public static final String TOUCHPAD_DOUBLETAP_KEY = "touchpad_enable_doubletap";
     public static final String TOUCHPAD_LONGPRESS_KEY = "touchpad_enable_longpress";
     public static final String OCLICK_CONNECT_KEY = "oclick_connect";
+    public static final String OCLICK_DEVICE_ADDRESS_KEY = "oclick_device_address";
     public static final String OCLICK_SNAPSHOT_KEY = "oclick_take_snapshot";
     public static final String OCLICK_FIND_PHONE_KEY = "oclick_find_my_phone";
     public static final String OCLICK_FENCE_KEY = "oclick_fence";

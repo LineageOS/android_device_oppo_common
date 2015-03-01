@@ -16,84 +16,103 @@
 
 package com.cyanogenmod.settings.device;
 
-import android.app.Activity;
-import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
-import android.bluetooth.BluetoothDevicePicker;
-import android.bluetooth.BluetoothGatt;
 import android.bluetooth.BluetoothManager;
+import android.bluetooth.BluetoothProfile;
+import android.bluetooth.le.BluetoothLeScanner;
+import android.bluetooth.le.ScanCallback;
+import android.bluetooth.le.ScanFilter;
+import android.bluetooth.le.ScanResult;
+import android.bluetooth.le.ScanSettings;
 import android.content.BroadcastReceiver;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.media.Ringtone;
-import android.media.RingtoneManager;
-import android.net.Uri;
+import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.ParcelUuid;
 import android.preference.Preference;
-import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceScreen;
+import android.text.TextUtils;
 import android.view.MenuItem;
-import android.widget.Toast;
 
 import com.android.internal.util.cm.ScreenType;
-
 import com.cyanogenmod.settings.device.utils.Constants;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @SuppressWarnings("deprecation")
-public class BluetoothInputSettings extends PreferenceActivity
-        implements OnPreferenceChangeListener {
-
-    static final String PROCESS_COMMAND_ACTION = "process_command";
-    static final String COMMAND_KEY = "command";
-
+public class BluetoothInputSettings extends PreferenceActivity {
     private static final int BLUETOOTH_REQUEST_CODE = 1;
-    private static final int BLUETOOTH_PICKER_CODE = 2;
     private static final String CATEGORY_ACTIONS = "oclick_action_category";
     private static final String CATEGORY_ALERT = "oclick_alert_category";
 
     private ProgressDialog mProgressDialog;
     private boolean mConnected;
     private Handler mHandler = new Handler();
+    private BluetoothAdapter mAdapter;
+    private SharedPreferences mPrefs;
 
     private BroadcastReceiver mReceiver = new BroadcastReceiver() {
         @Override
         public void onReceive(Context context, Intent intent) {
-            int commandKey = intent.getIntExtra(COMMAND_KEY, -1);
-            switch (commandKey) {
-            case BluetoothGatt.STATE_CONNECTED:
-                if (mProgressDialog != null) {
-                    setConnectedState(true);
-                    mProgressDialog.dismiss();
-                    Toast.makeText(context, "O-click connected", Toast.LENGTH_SHORT).show();
-                }
-                break;
-            case BluetoothGatt.STATE_DISCONNECTED:
-                setConnectedState(false);
-                break;
+            BluetoothDevice device = intent.getParcelableExtra(BluetoothDevice.EXTRA_DEVICE);
+            String address = mPrefs.getString(Constants.OCLICK_DEVICE_ADDRESS_KEY, null);
+            if (device != null && TextUtils.equals(address, device.getAddress())) {
+                updateConnectedState();
             }
         }
     };
 
-    private void setConnectedState(boolean enable) {
-        mConnected = enable;
-        findPreference(CATEGORY_ACTIONS).setEnabled(enable);
-        findPreference(CATEGORY_ALERT).setEnabled(enable);
-        findPreference(Constants.OCLICK_CONNECT_KEY).setTitle(enable ?
-                R.string.oclick_disconnect_string : R.string.oclick_connect_string);
-    }
+    private ScanCallback mScanCallback = new ScanCallback() {
+        @Override
+        public void onScanFailed(int errorCode) {
+            stopScanning();
+        }
+        @Override
+        public void onScanResult(int callbackType, ScanResult result) {
+            handleScanResult(result);
+        }
+    };
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.oclick_panel);
-        setConnectedState(OclickService.sOclickConnected);
         getActionBar().setDisplayHomeAsUpEnabled(true);
+
+        BluetoothManager bluetoothManager =
+                (BluetoothManager) getSystemService(BLUETOOTH_SERVICE);
+        mAdapter = bluetoothManager.getAdapter();
+        mPrefs = PreferenceManager.getDefaultSharedPreferences(this);
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        updateConnectedState();
+
+        IntentFilter filter = new IntentFilter(BluetoothDevice.ACTION_ACL_CONNECTED);
+        filter.addAction(BluetoothDevice.ACTION_ACL_DISCONNECTED);
+        registerReceiver(mReceiver, filter);
+
+        // If running on a phone, remove padding around the listview
+        if (!ScreenType.isTablet(this)) {
+            getListView().setPadding(0, 0, 0, 0);
+        }
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        unregisterReceiver(mReceiver);
     }
 
     @Override
@@ -107,83 +126,101 @@ public class BluetoothInputSettings extends PreferenceActivity
         return super.onOptionsItemSelected(item);
     }
 
-    private boolean isBluetoothOn() {
-        BluetoothManager bluetoothManager =
-                (BluetoothManager) getSystemService(Context.BLUETOOTH_SERVICE);
-        BluetoothAdapter bluetoothAdapter = bluetoothManager.getAdapter();
-        return bluetoothAdapter != null && bluetoothAdapter.isEnabled();
-    }
-
-    private void startBluetootDevicePicker() {
-        // Start bluetooth device picker
-        Intent i = new Intent(BluetoothDevicePicker.ACTION_LAUNCH);
-        i.putExtra(BluetoothDevicePicker.EXTRA_LAUNCH_PACKAGE, getPackageName());
-        i.putExtra(BluetoothDevicePicker.EXTRA_LAUNCH_CLASS, BluetoothReceiver.class.getName());
-        startActivityForResult(i, BLUETOOTH_PICKER_CODE);
-    }
-
     @Override
-    public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen,
-            Preference preference) {
-        if (!preference.getKey().equals(Constants.OCLICK_CONNECT_KEY)) {
-            return super.onPreferenceTreeClick(preferenceScreen, preference);
+    public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference pref) {
+        if (!pref.getKey().equals(Constants.OCLICK_CONNECT_KEY)) {
+            return super.onPreferenceTreeClick(preferenceScreen, pref);
         }
         if (mConnected) {
-            Intent i = new Intent(this, OclickService.class);
-            stopService(i);
-            setConnectedState(false);
+            mPrefs.edit().remove(Constants.OCLICK_DEVICE_ADDRESS_KEY).apply();
+            stopService(new Intent(this, OclickService.class));
+            updateConnectedState();
+        } else if (!mAdapter.isEnabled()) {
+            Intent enableBtIntent = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
+            startActivityForResult(enableBtIntent, BLUETOOTH_REQUEST_CODE);
         } else {
-            if (!isBluetoothOn()) {
-                Intent enableBtIntent = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
-                startActivityForResult(enableBtIntent, BLUETOOTH_REQUEST_CODE);
-            } else {
-                startBluetootDevicePicker();
-            }
+            startScanning();
         }
-        return true;
-    }
-
-    @Override
-    public boolean onPreferenceChange(Preference preference, Object newValue) {
         return true;
     }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if (requestCode == BLUETOOTH_REQUEST_CODE && resultCode == Activity.RESULT_OK) {
-            // Start bluetooth device picker
-            startBluetootDevicePicker();
-        } else if (requestCode == BLUETOOTH_PICKER_CODE && isBluetoothOn()) {
-            String dialogTitle = this.getString(R.string.oclick_dialog_title);
-            String dialogMessage = this.getString(R.string.oclick_dialog_connecting_message);
-            mProgressDialog = ProgressDialog.show(this, dialogTitle, dialogMessage, true);
-            mHandler.postDelayed(new Runnable() {
-                @Override
-                public void run() {
-                    if (mProgressDialog != null) {
-                        mProgressDialog.dismiss();
-                    }
-                }
-            }, 10000);
+        if (requestCode == BLUETOOTH_REQUEST_CODE && resultCode == RESULT_OK) {
+            startScanning();
         }
     }
 
-    @Override
-    protected void onResume() {
-        super.onResume();
-        IntentFilter filter = new IntentFilter();
-        filter.addAction(PROCESS_COMMAND_ACTION);
-        registerReceiver(mReceiver, filter);
+    private void startScanning() {
+        BluetoothLeScanner scanner = mAdapter.getBluetoothLeScanner();
+        ScanSettings settings = new ScanSettings.Builder()
+                .setScanMode(ScanSettings.SCAN_MODE_LOW_LATENCY)
+                .build();
 
-        // If running on a phone, remove padding around the listview
-        if (!ScreenType.isTablet(this)) {
-            getListView().setPadding(0, 0, 0, 0);
+        List<ScanFilter> filters = new ArrayList<ScanFilter>();
+        // O-Click 1
+        filters.add(new ScanFilter.Builder()
+                .setServiceUuid(new ParcelUuid(OclickService.TRIGGER_SERVICE_UUID))
+                .build());
+        // O-Click 2
+        filters.add(new ScanFilter.Builder()
+                .setServiceUuid(new ParcelUuid(OclickService.OCLICK2_SERVICE_UUID))
+                .build());
+
+        scanner.startScan(filters, settings, mScanCallback);
+
+        String dialogTitle = this.getString(R.string.oclick_dialog_title);
+        String dialogMessage = this.getString(R.string.oclick_dialog_connecting_message);
+        mProgressDialog = ProgressDialog.show(this, dialogTitle, dialogMessage, true);
+        mHandler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                stopScanning();
+            }
+        }, 10000);
+    }
+
+    private void stopScanning() {
+        BluetoothLeScanner scanner = mAdapter.getBluetoothLeScanner();
+        scanner.stopScan(mScanCallback);
+        if (mProgressDialog != null) {
+            mProgressDialog.dismiss();
+            mProgressDialog = null;
         }
     }
 
-    @Override
-    protected void onPause() {
-        super.onPause();
-        unregisterReceiver(mReceiver);
+    private void handleScanResult(ScanResult result) {
+        stopScanning();
+        String address = result.getDevice().getAddress();
+        mPrefs.edit().putString(Constants.OCLICK_DEVICE_ADDRESS_KEY, address).apply();
+        startService(new Intent(this, OclickService.class));
+        updateConnectedState();
+    }
+
+    private boolean isBluetoothDeviceConnected(String address) {
+        BluetoothDevice device = mAdapter.getRemoteDevice(address);
+        BluetoothManager bluetoothManager =
+                (BluetoothManager) getSystemService(BLUETOOTH_SERVICE);
+        int state = bluetoothManager.getConnectionState(device, BluetoothProfile.GATT);
+        return state == BluetoothProfile.STATE_CONNECTED;
+    }
+
+    private void updateConnectedState() {
+        String address = mPrefs.getString(Constants.OCLICK_DEVICE_ADDRESS_KEY, null);
+        mConnected = !TextUtils.isEmpty(address);
+
+        findPreference(CATEGORY_ACTIONS).setEnabled(mConnected);
+        findPreference(CATEGORY_ALERT).setEnabled(mConnected);
+
+        Preference connectPref = findPreference(Constants.OCLICK_CONNECT_KEY);
+        connectPref.setTitle(mConnected ?
+                R.string.oclick_disconnect_string : R.string.oclick_connect_string);
+        if (mConnected && isBluetoothDeviceConnected(address)) {
+            connectPref.setSummary(R.string.oclick_summary_connected);
+        } else if (mConnected) {
+            connectPref.setSummary(R.string.oclick_summary_paired);
+        } else {
+            connectPref.setSummary(null);
+        }
     }
 }

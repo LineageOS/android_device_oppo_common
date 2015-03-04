@@ -78,6 +78,9 @@ public class OclickService extends Service implements
 
     public static final String CANCEL_ALERT_PHONE = "cancel_alert_phone";
 
+    private static final int RSSI_POLL_INTERVAL = 10000;
+    private static final int DOUBLE_TAP_TIMEOUT = 1500;
+
     private static final class Oclick2Constants {
         private static final int MSG_CLASS_CALL = 1;
         private static final int MSG_CLASS_MESSAGE = 2;
@@ -293,7 +296,7 @@ public class OclickService extends Service implements
                 }
                 Log.d(TAG, "Setting single tap runnable");
                 mTapPending = true;
-                mHandler.sendEmptyMessageDelayed(MSG_SINGLE_TAP_TIMEOUT, 1500);
+                mHandler.sendEmptyMessageDelayed(MSG_SINGLE_TAP_TIMEOUT, DOUBLE_TAP_TIMEOUT);
             }
         }
 
@@ -308,7 +311,7 @@ public class OclickService extends Service implements
                 mAlerting = false;
             }
             if (mRssiAlertEnabled) {
-                mHandler.sendEmptyMessageDelayed(MSG_POLL_RSSI, 2000);
+                mHandler.sendEmptyMessageDelayed(MSG_POLL_RSSI, RSSI_POLL_INTERVAL);
             }
         }
     };
@@ -438,7 +441,7 @@ public class OclickService extends Service implements
         mHandler.removeMessages(MSG_POLL_RSSI);
         if (mRssiAlertEnabled) {
             Log.d(TAG, "Enabling rssi listener");
-            mHandler.sendEmptyMessageDelayed(MSG_POLL_RSSI, 100);
+            mHandler.sendEmptyMessage(MSG_POLL_RSSI);
         }
     }
 

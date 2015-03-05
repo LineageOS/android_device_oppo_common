@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad45d7e_69909ced",
+        "filename": "configpanel/src/com/cyanogenmod/settings/device/OclickService.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 187,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2015-03-05T02:09:46Z",
+      "side": 1,
+      "message": "I wonder whether I should start the reconnect attempt immediately and throw a notification \u0027O-Click not connected. Press its button to connect\u0027 at the same time.\n\nThoughts?",
+      "revId": "fb8093f6736f0bb5ddf1a490f37279bf9f55abf3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

@@ -53,4 +53,6 @@
   <string name="oclick_disconnect_alert_summary">Упозори када је изван домашаја</string>
   <string name="alert_category_title">Упозорења</string>
   <string name="action_category_title">Акције</string>
+  <string name="oclick_locator_notification_title">O-Click проналазач телефона</string>
+  <string name="oclick_locator_notification_text">Аларм проналазача је активиран. Додирни да одбациш</string>
 </resources>

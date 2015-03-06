@@ -53,4 +53,6 @@
   <string name="oclick_disconnect_alert_summary">範囲外に出たときにアラートで知らせる</string>
   <string name="alert_category_title">アラート</string>
   <string name="action_category_title">動作</string>
+  <string name="oclick_locator_notification_title">O-Click携帯電話の場所</string>
+  <string name="oclick_locator_notification_text">場所アラートを再生しています。タップして終了します。</string>
 </resources>

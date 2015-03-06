@@ -53,4 +53,6 @@
   <string name="oclick_disconnect_alert_summary">Hälytä kun ollaan laitteen kantavuusalueen ulkopuolella</string>
   <string name="alert_category_title">Hälytykset</string>
   <string name="action_category_title">Toiminnot</string>
+  <string name="oclick_locator_notification_title">O-Click puhelimen paikannus</string>
+  <string name="oclick_locator_notification_text">Paikannushälytys soi. Kosketa sulkeaksesi hälytyksen</string>
 </resources>

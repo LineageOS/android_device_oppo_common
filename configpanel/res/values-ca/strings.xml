@@ -53,4 +53,6 @@
   <string name="oclick_disconnect_alert_summary">Alerta quan sigui fora de l\'abast</string>
   <string name="alert_category_title">Alertes</string>
   <string name="action_category_title">Accions</string>
+  <string name="oclick_locator_notification_title">Localitzador de telèfon O-Click</string>
+  <string name="oclick_locator_notification_text">Alerta de localitzador en curs. Pica per descartar</string>
 </resources>

@@ -53,4 +53,6 @@
   <string name="oclick_disconnect_alert_summary">Ulaşılamazken uyar</string>
   <string name="alert_category_title">Uyarılar</string>
   <string name="action_category_title">Eylemler</string>
+  <string name="oclick_locator_notification_title">O-Click telefon bulucu</string>
+  <string name="oclick_locator_notification_text">Bulucu uyarısı çalıyor. Durdurmak için dokunun</string>
 </resources>

@@ -53,4 +53,6 @@
   <string name="oclick_disconnect_alert_summary">手機不在範圍時發出警報</string>
   <string name="alert_category_title">警報</string>
   <string name="action_category_title">動作</string>
+  <string name="oclick_locator_notification_title">O-Click 手機定位器</string>
+  <string name="oclick_locator_notification_text">定位器正在響起警報。輕觸即可取消</string>
 </resources>

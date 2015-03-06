@@ -50,4 +50,6 @@
   <string name="oclick_disconnect_alert_summary">当到达外面时发出警报</string>
   <string name="alert_category_title">警报</string>
   <string name="action_category_title">操作</string>
+  <string name="oclick_locator_notification_title">O-Click 电话定位器</string>
+  <string name="oclick_locator_notification_text">正在播放定位器警报。点击以停止</string>
 </resources>

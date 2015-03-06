@@ -53,4 +53,6 @@
   <string name="oclick_disconnect_alert_summary">Varsler når utenfor rekkevidde</string>
   <string name="alert_category_title">Varsler</string>
   <string name="action_category_title">Handlinger</string>
+  <string name="oclick_locator_notification_title">O-Klikk telefon finner</string>
+  <string name="oclick_locator_notification_text">Lokasjonsvarsel spiller. Trykk for å fjerne</string>
 </resources>

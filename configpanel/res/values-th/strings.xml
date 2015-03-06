@@ -16,6 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">การตั้งค่าขั้นสูง</string>
   <string name="backpad_panel_title">ตั้งค่า O-Touch</string>
   <string name="backpad_panel_summary">ตั้งค่า O-Touch</string>
   <string name="touchpad_enable_title">เปิดใช้งาน O-Touch</string>
@@ -52,4 +53,6 @@
   <string name="oclick_disconnect_alert_summary">เตือนเมื่ออกนอกเขตการส่งสัญญาณ</string>
   <string name="alert_category_title">เตือน</string>
   <string name="action_category_title">การกระทำ</string>
+  <string name="oclick_locator_notification_title">ค้นหาตำแหน่ง O-Click</string>
+  <string name="oclick_locator_notification_text">กำลังเล่นเสียงหาตำแหน่ง แต่เพื่อยกเลิก</string>
 </resources>

@@ -53,4 +53,6 @@
   <string name="oclick_disconnect_alert_summary">Avvisa quando si è fuori dalla portata</string>
   <string name="alert_category_title">Allarmi</string>
   <string name="action_category_title">Azioni</string>
+  <string name="oclick_locator_notification_title">Localizzatore telefono O-Click</string>
+  <string name="oclick_locator_notification_text">Avviso del localizzatore in esecuzione. Tocca per fermare</string>
 </resources>

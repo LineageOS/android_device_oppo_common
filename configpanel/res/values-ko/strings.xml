@@ -53,4 +53,6 @@
   <string name="oclick_disconnect_alert_summary">범위를 벗어났을 때 알림</string>
   <string name="alert_category_title">경고</string>
   <string name="action_category_title">동작</string>
+  <string name="oclick_locator_notification_title">O-Click 전화 로케이터</string>
+  <string name="oclick_locator_notification_text">위치 경보가 작동 중입니다. 탭하여 해제</string>
 </resources>

@@ -53,4 +53,6 @@
   <string name="oclick_disconnect_alert_summary">Riasztás, ha nem elérhető</string>
   <string name="alert_category_title">Riasztások</string>
   <string name="action_category_title">Műveletek</string>
+  <string name="oclick_locator_notification_title">O-Click telefon kereső</string>
+  <string name="oclick_locator_notification_text">Lokátor figyelmeztetés lejátszása folyamatban. Érintse meg a megszakításhoz</string>
 </resources>

@@ -53,4 +53,6 @@
   <string name="oclick_disconnect_alert_summary">Melden wanneer buiten bereik</string>
   <string name="alert_category_title">Waarschuwingen</string>
   <string name="action_category_title">Acties</string>
+  <string name="oclick_locator_notification_title">O-Click-telefoonlokalisatie</string>
+  <string name="oclick_locator_notification_text">Geluid voor lokalisatie wordt afgespeeld. Tik om te stoppen</string>
 </resources>

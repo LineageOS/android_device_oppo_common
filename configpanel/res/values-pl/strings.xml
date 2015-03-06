@@ -50,4 +50,6 @@
   <string name="oclick_disconnect_alert_summary">Alarm gdy poza zasięgiem</string>
   <string name="alert_category_title">Alarmy</string>
   <string name="action_category_title">Polecenia</string>
+  <string name="oclick_locator_notification_title">Lokalizator telefonu O-Click</string>
+  <string name="oclick_locator_notification_text">Alert lokalizatora jest wyświetlany. Dotknij, aby odrzucić</string>
 </resources>

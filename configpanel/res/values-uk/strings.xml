@@ -16,6 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">Додаткові налаштування</string>
   <string name="backpad_panel_title">Налаштування O-Touch</string>
   <string name="backpad_panel_summary">Налаштувати O-Touch</string>
   <string name="touchpad_enable_title">Увімкнути O-Touch</string>
@@ -49,4 +50,6 @@
   <string name="oclick_disconnect_alert_summary">Сигналізувати, коли з’єднання з пристроєм втрачено</string>
   <string name="alert_category_title">Сповіщення</string>
   <string name="action_category_title">Дії</string>
+  <string name="oclick_locator_notification_title">Пошук телефону O-Click</string>
+  <string name="oclick_locator_notification_text">Звук локатору відтворюється. Торкніться, щоб вимкнути</string>
 </resources>

@@ -53,4 +53,6 @@
   <string name="oclick_disconnect_alert_summary">Сигнализировать, когда соединение с устройством потеряно</string>
   <string name="alert_category_title">Предупреждения</string>
   <string name="action_category_title">Действия</string>
+  <string name="oclick_locator_notification_title">Поиск телефона O-Click</string>
+  <string name="oclick_locator_notification_text">Воспроизводится звук локатора. Нажмите, чтобы отключить</string>
 </resources>

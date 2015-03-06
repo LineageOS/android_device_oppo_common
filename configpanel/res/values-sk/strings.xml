@@ -53,4 +53,6 @@
   <string name="oclick_disconnect_alert_summary">Upozorniť, ak je mimo dosahu</string>
   <string name="alert_category_title">Výstrahy</string>
   <string name="action_category_title">Akcie</string>
+  <string name="oclick_locator_notification_title">Vyhľadávanie telefónu O-Click</string>
+  <string name="oclick_locator_notification_text">Upozornenie vyhľadávania je spustené. Kliknutím zrušte</string>
 </resources>

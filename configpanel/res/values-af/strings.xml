@@ -42,7 +42,6 @@
   <string name="oclick_panel_summary">Konfigureer O-Click toestel</string>
   <string name="oclick_connect_string">koppel</string>
   <string name="oclick_disconnect_string">ontkoppel</string>
-  <string name="oclick_dialog_connecting_message">Probeer om te koppel</string>
   <string name="oclick_take_snapshot_title">Afstandbeheer kamera sluiter</string>
   <string name="oclick_take_snapshot_summary">Enkel kliek om foto te neem</string>
   <string name="oclick_find_my_phone_title">Telefoon opspoorder</string>

@@ -42,7 +42,6 @@
   <string name="oclick_panel_summary">O-Click konfiguréieren</string>
   <string name="oclick_connect_string">Connectéieren</string>
   <string name="oclick_disconnect_string">Déconnectéieren</string>
-  <string name="oclick_dialog_connecting_message">Versichen ze koppelen</string>
   <string name="oclick_take_snapshot_title">Fernausléiser fir de Fotoapparat</string>
   <string name="oclick_take_snapshot_summary">Eemol klicke fir ze knipsen</string>
   <string name="oclick_find_my_phone_title">Telefonslokaliséierer</string>

@@ -41,7 +41,6 @@
   <string name="oclick_panel_summary">O-Click gailua konfiguratu</string>
   <string name="oclick_connect_string">Konektatu</string>
   <string name="oclick_disconnect_string">Deskonektatu</string>
-  <string name="oclick_dialog_connecting_message">Binkulatzen saiatzen</string>
   <string name="oclick_take_snapshot_title">Urruneko kliskagailua</string>
   <string name="oclick_take_snapshot_summary">Behin sakatu argazkia egiteko</string>
   <string name="oclick_find_my_phone_title">Telefonoa kokatu</string>

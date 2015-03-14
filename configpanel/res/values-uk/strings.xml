@@ -39,7 +39,6 @@
   <string name="oclick_panel_summary">Налаштування пристрою O-Click</string>
   <string name="oclick_connect_string">Підключитись</string>
   <string name="oclick_disconnect_string">Відключитись</string>
-  <string name="oclick_dialog_connecting_message">Спроба створення пари</string>
   <string name="oclick_take_snapshot_title">Віддалений спуск затвора</string>
   <string name="oclick_take_snapshot_summary">Натисніть один раз, щоб зробити знімок</string>
   <string name="oclick_find_my_phone_title">Пошук телефону</string>

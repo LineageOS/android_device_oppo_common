@@ -42,7 +42,6 @@
   <string name="oclick_panel_summary">Configurar preséu O-Click</string>
   <string name="oclick_connect_string">Coneutar</string>
   <string name="oclick_disconnect_string">Desconeutar</string>
-  <string name="oclick_dialog_connecting_message">Intentando emparexar</string>
   <string name="oclick_take_snapshot_title">Disparador remotu</string>
   <string name="oclick_take_snapshot_summary">Facer una pulsación simple pa sacar una semeya</string>
   <string name="oclick_find_my_phone_title">Llocalizador de teléfonu</string>

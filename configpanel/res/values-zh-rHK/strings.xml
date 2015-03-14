@@ -41,7 +41,6 @@
   <string name="oclick_panel_summary">設定 O-Click 裝置</string>
   <string name="oclick_connect_string">連接</string>
   <string name="oclick_disconnect_string">中斷連綫</string>
-  <string name="oclick_dialog_connecting_message">嘗試配對中</string>
   <string name="oclick_take_snapshot_title">遙控相機快門</string>
   <string name="oclick_take_snapshot_summary">按一下即可拍照</string>
   <string name="oclick_find_my_phone_title">手機定位器</string>

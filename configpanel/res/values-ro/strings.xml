@@ -42,7 +42,6 @@
   <string name="oclick_panel_summary">Configurează dispozitiv O-Click</string>
   <string name="oclick_connect_string">Conectează</string>
   <string name="oclick_disconnect_string">Deconectează</string>
-  <string name="oclick_dialog_connecting_message">Se încearcă asocierea</string>
   <string name="oclick_take_snapshot_title">Declanșator cameră la distanță</string>
   <string name="oclick_take_snapshot_summary">Un singur click pentru a fotografia</string>
   <string name="oclick_find_my_phone_title">Localizare telefon</string>

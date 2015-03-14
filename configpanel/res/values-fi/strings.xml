@@ -42,7 +42,9 @@
   <string name="oclick_panel_summary">Määritä O-Click-laite</string>
   <string name="oclick_connect_string">Yhdistä</string>
   <string name="oclick_disconnect_string">Katkaise yhteys</string>
-  <string name="oclick_dialog_connecting_message">Yritetään yhdistää</string>
+  <string name="oclick_summary_connected">Yhdistetty O-Clickiin</string>
+  <string name="oclick_summary_paired">O-Click paritettu, muttei yhdistetty</string>
+  <string name="oclick_dialog_connecting_message">Yhdistetään O-Clickiin\u2026\nPaina O-Clickin painiketta nopeuttaaksesi yhdistämistä.</string>
   <string name="oclick_take_snapshot_title">Kameran etäsuljin</string>
   <string name="oclick_take_snapshot_summary">Paina kerran ottaaksesi kuvan</string>
   <string name="oclick_find_my_phone_title">Puhelimen paikannin</string>
@@ -55,4 +57,7 @@
   <string name="action_category_title">Toiminnot</string>
   <string name="oclick_locator_notification_title">O-Click puhelimen paikannus</string>
   <string name="oclick_locator_notification_text">Paikannushälytys soi. Kosketa sulkeaksesi hälytyksen</string>
+  <string name="oclick_notification_title_connected">O-Click yhdistetty</string>
+  <string name="oclick_notification_title_disconnected">Yhteys O-Clickiin katkaistu</string>
+  <string name="oclick_notification_content_disconnected">Paina O-Clickin painiketta yhdistääksesi uudelleen</string>
 </resources>

@@ -42,7 +42,9 @@
   <string name="oclick_panel_summary">Nastaviť zariadenie O-Click</string>
   <string name="oclick_connect_string">Pripojiť</string>
   <string name="oclick_disconnect_string">Odpojiť</string>
-  <string name="oclick_dialog_connecting_message">Pokus o spárovanie</string>
+  <string name="oclick_summary_connected">Pripojený k O-Click</string>
+  <string name="oclick_summary_paired">O-Click spárovaný, ale  nepripojený</string>
+  <string name="oclick_dialog_connecting_message">Pripája sa k O-Click\u2026\nStlačte tlačidlo O-Click na urýchlenie prehľadávania.</string>
   <string name="oclick_take_snapshot_title">Diaľková uzávierka fotoaparátu</string>
   <string name="oclick_take_snapshot_summary">Kliknutím zosnímate fotografiu</string>
   <string name="oclick_find_my_phone_title">Vyhľadávač telefónu</string>
@@ -55,4 +57,7 @@
   <string name="action_category_title">Akcie</string>
   <string name="oclick_locator_notification_title">Vyhľadávanie telefónu O-Click</string>
   <string name="oclick_locator_notification_text">Upozornenie vyhľadávania je spustené. Kliknutím zrušte</string>
+  <string name="oclick_notification_title_connected">O-Click pripojený</string>
+  <string name="oclick_notification_title_disconnected">O-Click odpojený</string>
+  <string name="oclick_notification_content_disconnected">Stlačte tlačidlo O-Click pre opätovné pripojenie</string>
 </resources>

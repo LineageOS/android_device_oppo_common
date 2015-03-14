@@ -42,7 +42,6 @@
   <string name="oclick_panel_summary">Configura dispositivo O-Click</string>
   <string name="oclick_connect_string">Connetti</string>
   <string name="oclick_disconnect_string">Disconnetti</string>
-  <string name="oclick_dialog_connecting_message">Tentativo di accoppiamento</string>
   <string name="oclick_take_snapshot_title">Scatto fotocamera a distanza</string>
   <string name="oclick_take_snapshot_summary">Singolo click per scattare la foto</string>
   <string name="oclick_find_my_phone_title">Localizzatore telefono</string>

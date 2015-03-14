@@ -42,7 +42,6 @@
   <string name="oclick_panel_summary">Konfigurer O-Klikk enhet</string>
   <string name="oclick_connect_string">Koble til</string>
   <string name="oclick_disconnect_string">Koble fra</string>
-  <string name="oclick_dialog_connecting_message">Prøver å parre</string>
   <string name="oclick_take_snapshot_title">Ekstern kamerautløser</string>
   <string name="oclick_take_snapshot_summary">Trykk en gang for å ta bilde</string>
   <string name="oclick_find_my_phone_title">Telefon lokator</string>

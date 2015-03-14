@@ -41,7 +41,6 @@
   <string name="oclick_panel_summary">O-ක්ලික් උපාංගය වින්‍යාසනය</string>
   <string name="oclick_connect_string">සබඳින්න</string>
   <string name="oclick_disconnect_string">විසන්ධි කරන්න</string>
-  <string name="oclick_dialog_connecting_message">යුගලනයට උත්සාහ කරමින්</string>
   <string name="oclick_take_snapshot_title">දුරස්ථ කැමරා ශටරය</string>
   <string name="oclick_take_snapshot_summary">පින්තුරය ගැනීමට එක් වරක් ඔබන්න</string>
   <string name="oclick_find_my_phone_title">දුරකථන නිවේශකය</string>

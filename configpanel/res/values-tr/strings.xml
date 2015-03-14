@@ -42,7 +42,9 @@
   <string name="oclick_panel_summary">O-Click aygıtını ayarla</string>
   <string name="oclick_connect_string">Bağlan</string>
   <string name="oclick_disconnect_string">Bağlantıyı Kes</string>
-  <string name="oclick_dialog_connecting_message">Eşleşme deneniyor</string>
+  <string name="oclick_summary_connected">O-Click\'e bağlanıldı</string>
+  <string name="oclick_summary_paired">O-Click eşleşti ama bağlantı kesildi</string>
+  <string name="oclick_dialog_connecting_message">O-Click\'e bağlanılıyor\u2026\nO-Click tuşuna basarak aygıtı hızlıca bulun.</string>
   <string name="oclick_take_snapshot_title">Uzaktan çekim</string>
   <string name="oclick_take_snapshot_summary">Resim çekmek için tek tıklayın</string>
   <string name="oclick_find_my_phone_title">Telefon bulucu</string>
@@ -55,4 +57,7 @@
   <string name="action_category_title">Eylemler</string>
   <string name="oclick_locator_notification_title">O-Click telefon bulucu</string>
   <string name="oclick_locator_notification_text">Bulucu uyarısı çalıyor. Durdurmak için dokunun</string>
+  <string name="oclick_notification_title_connected">O-Click bağlandı</string>
+  <string name="oclick_notification_title_disconnected">O-Click bağlantısı kesildi</string>
+  <string name="oclick_notification_content_disconnected">Tekrar bağlanmak için O-Click tuşuna basın</string>
 </resources>

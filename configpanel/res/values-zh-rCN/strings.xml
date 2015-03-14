@@ -39,7 +39,9 @@
   <string name="oclick_panel_summary">配置 O-Click 设备</string>
   <string name="oclick_connect_string">连接</string>
   <string name="oclick_disconnect_string">断开连接</string>
-  <string name="oclick_dialog_connecting_message">尝试配对</string>
+  <string name="oclick_summary_connected">已连接到 O-Click</string>
+  <string name="oclick_summary_paired">O-Click 已配对，但是已断开连接</string>
+  <string name="oclick_dialog_connecting_message">正在连接到 O-Click\u2026\n按下 O-Click 按钮加快发现速度。</string>
   <string name="oclick_take_snapshot_title">远程相机快门</string>
   <string name="oclick_take_snapshot_summary">按一下拍照</string>
   <string name="oclick_find_my_phone_title">手机定位器</string>
@@ -52,4 +54,7 @@
   <string name="action_category_title">操作</string>
   <string name="oclick_locator_notification_title">O-Click 电话定位器</string>
   <string name="oclick_locator_notification_text">正在播放定位器警报。点击以停止</string>
+  <string name="oclick_notification_title_connected">O-Click 已连接</string>
+  <string name="oclick_notification_title_disconnected">O-Click 已断开连接</string>
+  <string name="oclick_notification_content_disconnected">按下 O-Click 按钮重新连接</string>
 </resources>

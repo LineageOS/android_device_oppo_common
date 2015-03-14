@@ -39,7 +39,6 @@
   <string name="oclick_panel_summary">Iestatīt O-Click iekārtu</string>
   <string name="oclick_connect_string">Izveidot savienojumu</string>
   <string name="oclick_disconnect_string">Atvienots</string>
-  <string name="oclick_dialog_connecting_message">Mēģinājums savienot pārī</string>
   <string name="oclick_take_snapshot_title">Attālinātais kameras slēdzis</string>
   <string name="oclick_take_snapshot_summary">Klikšķiniet, lai uzņemtu attēlu</string>
   <string name="oclick_find_my_phone_title">Telefona atrašana</string>

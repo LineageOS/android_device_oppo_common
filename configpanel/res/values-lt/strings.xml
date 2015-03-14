@@ -39,7 +39,9 @@
   <string name="oclick_panel_summary">Konfigūruoti „O-Click“ įrenginį</string>
   <string name="oclick_connect_string">Prisijungti</string>
   <string name="oclick_disconnect_string">Atsijungti</string>
-  <string name="oclick_dialog_connecting_message">Bandoma susieti</string>
+  <string name="oclick_summary_connected">Prisijungta prie „O-Click“</string>
+  <string name="oclick_summary_paired">„O-Click“ susietas, bet atjungtas</string>
+  <string name="oclick_dialog_connecting_message">Prisijungiamia prie „O-Click“\u2026\nPaspauskite „O-Click“ mygtuką, kad pagreitintumėte atradimą.</string>
   <string name="oclick_take_snapshot_title">Nuotolinis fotoaparato fotografavimas</string>
   <string name="oclick_take_snapshot_summary">Fotografuoti vienu mygtuko paspaudimu</string>
   <string name="oclick_find_my_phone_title">Telefono ieškiklis</string>
@@ -52,4 +54,7 @@
   <string name="action_category_title">Veiksmai</string>
   <string name="oclick_locator_notification_title">„O-Click“ telefono lokatorius</string>
   <string name="oclick_locator_notification_text">Leidžiamas lokatoriaus signalas. Bakstelėkite, kad atmestumėte</string>
+  <string name="oclick_notification_title_connected">„O-Click“ prijungtas</string>
+  <string name="oclick_notification_title_disconnected">„O-Click“ atjungtas</string>
+  <string name="oclick_notification_content_disconnected">Paspauskite „O-Click“ mygtuką, kad prisijungtumėte iš naujo</string>
 </resources>

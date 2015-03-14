@@ -42,7 +42,9 @@
   <string name="oclick_panel_summary">Configura el dispositiu O-Click</string>
   <string name="oclick_connect_string">Connecta</string>
   <string name="oclick_disconnect_string">Desconnecta</string>
-  <string name="oclick_dialog_connecting_message">Intentant emparellar</string>
+  <string name="oclick_summary_connected">Connectat a O-Click</string>
+  <string name="oclick_summary_paired">O-Click aparellat, però desconnectat</string>
+  <string name="oclick_dialog_connecting_message">S\'està connectant a O-Click\u2026\nPrem el botó O-click per accelerar el descobriment.</string>
   <string name="oclick_take_snapshot_title">Obturador de càmera remot</string>
   <string name="oclick_take_snapshot_summary">Clic per fer una fotografia</string>
   <string name="oclick_find_my_phone_title">Localitzador de telèfon</string>
@@ -55,4 +57,7 @@
   <string name="action_category_title">Accions</string>
   <string name="oclick_locator_notification_title">Localitzador de telèfon O-Click</string>
   <string name="oclick_locator_notification_text">Alerta de localitzador en curs. Pica per descartar</string>
+  <string name="oclick_notification_title_connected">O-Click connectat</string>
+  <string name="oclick_notification_title_disconnected">O-Click desconnectat</string>
+  <string name="oclick_notification_content_disconnected">Prem el botó O-click per tornar a connectar</string>
 </resources>

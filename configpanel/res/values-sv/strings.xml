@@ -41,7 +41,6 @@
   <string name="oclick_panel_summary">Konfigurera O-Click-enhet</string>
   <string name="oclick_connect_string">Anslut</string>
   <string name="oclick_disconnect_string">Koppla från</string>
-  <string name="oclick_dialog_connecting_message">Försöker parkoppla</string>
   <string name="oclick_take_snapshot_title">Fjärrstyrd kameraavtryckare</string>
   <string name="oclick_take_snapshot_summary">Tryck en gång för att ta en bild</string>
   <string name="oclick_find_my_phone_title">Telefonlokalisering</string>

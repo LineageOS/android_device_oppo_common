@@ -41,7 +41,6 @@
   <string name="oclick_panel_summary">ও-ক্লিক ডিভাইস বিন্যাস</string>
   <string name="oclick_connect_string">সংযোগ</string>
   <string name="oclick_disconnect_string">সংযোগ ছিন্ন</string>
-  <string name="oclick_dialog_connecting_message">যুগল করার প্রচেষ্টার</string>
   <string name="oclick_take_snapshot_title">দূরবর্তী ক্যামেরার কপাট</string>
   <string name="oclick_take_snapshot_summary">ছবি গ্রহণের জন্যে একবার টোকা দেওয়া</string>
   <string name="oclick_find_my_phone_title">ফোন সনাক্তকরণ</string>

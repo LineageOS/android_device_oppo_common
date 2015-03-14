@@ -42,7 +42,9 @@
   <string name="oclick_panel_summary">O-Clickデバイスを設定する</string>
   <string name="oclick_connect_string">接続</string>
   <string name="oclick_disconnect_string">切断</string>
-  <string name="oclick_dialog_connecting_message">ペアリングを試行中</string>
+  <string name="oclick_summary_connected">O-Clickに接続しました</string>
+  <string name="oclick_summary_paired">O-Clickはペアリングされていますが、接続していません</string>
+  <string name="oclick_dialog_connecting_message">O-Clickに接続しています\u2026\nO-Clickボタンをクリックすると早く接続できます。</string>
   <string name="oclick_take_snapshot_title">リモートカメラシャッター</string>
   <string name="oclick_take_snapshot_summary">シングルクリックで写真を撮る</string>
   <string name="oclick_find_my_phone_title">携帯電話の場所</string>
@@ -55,4 +57,7 @@
   <string name="action_category_title">動作</string>
   <string name="oclick_locator_notification_title">O-Click携帯電話の場所</string>
   <string name="oclick_locator_notification_text">場所アラートを再生しています。タップして終了します。</string>
+  <string name="oclick_notification_title_connected">O-Clickが接続しました</string>
+  <string name="oclick_notification_title_disconnected">O-Clickが切断しました</string>
+  <string name="oclick_notification_content_disconnected">O-Clickボタンをクリックして再接続します</string>
 </resources>

@@ -42,7 +42,6 @@
   <string name="oclick_panel_summary">O-Click konfigurieren</string>
   <string name="oclick_connect_string">Verbinden</string>
   <string name="oclick_disconnect_string">Trennen</string>
-  <string name="oclick_dialog_connecting_message">Kopplung wird durchgeführt\u2026</string>
   <string name="oclick_take_snapshot_title">Kamera-Fernauslöser</string>
   <string name="oclick_take_snapshot_summary">Einfach-Klick zum Auslösen</string>
   <string name="oclick_find_my_phone_title">Telefon-Finder</string>

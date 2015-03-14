@@ -42,7 +42,6 @@
   <string name="oclick_panel_summary">O-Click eszköz konfigurálása</string>
   <string name="oclick_connect_string">Csatlakozás</string>
   <string name="oclick_disconnect_string">Lecsatlakozás</string>
-  <string name="oclick_dialog_connecting_message">Párosítási kisérlet</string>
   <string name="oclick_take_snapshot_title">Távoli kamera exponáló</string>
   <string name="oclick_take_snapshot_summary">Kép készítése egyszeri kattintással</string>
   <string name="oclick_find_my_phone_title">Telefon kereső</string>

@@ -41,7 +41,6 @@
   <string name="oclick_panel_summary">تكوين O-نقر الجهاز</string>
   <string name="oclick_connect_string">الاتصال</string>
   <string name="oclick_disconnect_string">قطع الإتصال</string>
-  <string name="oclick_dialog_connecting_message">محاولة لي الإقتران</string>
   <string name="oclick_take_snapshot_title">قفل الكميرا عن بعد</string>
   <string name="oclick_take_snapshot_summary">نقرة واحدة لي ألتقاط الصورة</string>
   <string name="oclick_find_my_phone_title">محدد الهاتف</string>

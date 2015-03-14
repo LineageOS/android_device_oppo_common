@@ -42,7 +42,6 @@
   <string name="oclick_panel_summary">Konfigurasi perangkat O-Click</string>
   <string name="oclick_connect_string">Sambungkan</string>
   <string name="oclick_disconnect_string">Putuskan</string>
-  <string name="oclick_dialog_connecting_message">Mencoba untuk memasangkan</string>
   <string name="oclick_take_snapshot_title">Remote bidik camera</string>
   <string name="oclick_take_snapshot_summary">Klik sekali untuk mengambil gambar</string>
   <string name="oclick_find_my_phone_title">Pelacak telepon</string>

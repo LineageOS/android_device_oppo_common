@@ -42,6 +42,9 @@
   <string name="oclick_panel_summary">Configura dispositivo O-Click</string>
   <string name="oclick_connect_string">Connetti</string>
   <string name="oclick_disconnect_string">Disconnetti</string>
+  <string name="oclick_summary_connected">Connesso a O-Click</string>
+  <string name="oclick_summary_paired">Accoppiato a O-Click, ma disconnesso</string>
+  <string name="oclick_dialog_connecting_message">Connessione a O-Click\u2026\nPremi il tasto O-Click per accelerare la ricerca.</string>
   <string name="oclick_take_snapshot_title">Scatto fotocamera a distanza</string>
   <string name="oclick_take_snapshot_summary">Singolo click per scattare la foto</string>
   <string name="oclick_find_my_phone_title">Localizzatore telefono</string>
@@ -54,4 +57,7 @@
   <string name="action_category_title">Azioni</string>
   <string name="oclick_locator_notification_title">Localizzatore telefono O-Click</string>
   <string name="oclick_locator_notification_text">Avviso del localizzatore in esecuzione. Tocca per fermare</string>
+  <string name="oclick_notification_title_connected">O-Click connesso</string>
+  <string name="oclick_notification_title_disconnected">O-Click disconnesso</string>
+  <string name="oclick_notification_content_disconnected">Premi il tasto O-Click per riconnettere</string>
 </resources>

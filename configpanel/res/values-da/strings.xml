@@ -42,6 +42,9 @@
   <string name="oclick_panel_summary">Konfigurér O-Click-enheden</string>
   <string name="oclick_connect_string">Forbind</string>
   <string name="oclick_disconnect_string">Afbryd</string>
+  <string name="oclick_summary_connected">Tilsluttet til O-Click</string>
+  <string name="oclick_summary_paired">O-Click parret, men afbrudt</string>
+  <string name="oclick_dialog_connecting_message">Tilslutter til O-Click\u2026\nTryk på O-Click knappen for at fremskynde processen.</string>
   <string name="oclick_take_snapshot_title">Fjernudløser til kamera</string>
   <string name="oclick_take_snapshot_summary">Enkeltklik for at tage billede</string>
   <string name="oclick_find_my_phone_title">Find telefonen</string>
@@ -54,4 +57,7 @@
   <string name="action_category_title">Handlinger</string>
   <string name="oclick_locator_notification_title">O-Click-alarm</string>
   <string name="oclick_locator_notification_text">O-Click ringer til dig. Tryk for at afbryde</string>
+  <string name="oclick_notification_title_connected">O-Click forbundet</string>
+  <string name="oclick_notification_title_disconnected">O-Click afbrudt</string>
+  <string name="oclick_notification_content_disconnected">Tryk på O-Click for at genoprette forbindelsen</string>
 </resources>

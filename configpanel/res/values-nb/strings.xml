@@ -42,6 +42,9 @@
   <string name="oclick_panel_summary">Konfigurer O-Klikk enhet</string>
   <string name="oclick_connect_string">Koble til</string>
   <string name="oclick_disconnect_string">Koble fra</string>
+  <string name="oclick_summary_connected">Koblet til O-Klikk</string>
+  <string name="oclick_summary_paired">O-Klikk sammenkoblet, men frakoblet</string>
+  <string name="oclick_dialog_connecting_message">Kobler til O-Klick\u2026\nTrykk O-Klikk knappen for å fremskynde oppdagelsen.</string>
   <string name="oclick_take_snapshot_title">Ekstern kamerautløser</string>
   <string name="oclick_take_snapshot_summary">Trykk en gang for å ta bilde</string>
   <string name="oclick_find_my_phone_title">Telefon lokator</string>
@@ -54,4 +57,7 @@
   <string name="action_category_title">Handlinger</string>
   <string name="oclick_locator_notification_title">O-Klikk telefon finner</string>
   <string name="oclick_locator_notification_text">Lokasjonsvarsel spiller. Trykk for å fjerne</string>
+  <string name="oclick_notification_title_connected">O-Klikk tilkoblet</string>
+  <string name="oclick_notification_title_disconnected">O-Klikk frakoblet</string>
+  <string name="oclick_notification_content_disconnected">Trykk på O-Klikk for å koble til</string>
 </resources>

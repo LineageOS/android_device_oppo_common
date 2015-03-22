@@ -42,6 +42,9 @@
   <string name="oclick_panel_summary">ตั้งค่าอุปกรณ์ O-Click</string>
   <string name="oclick_connect_string">เชื่อมต่อ</string>
   <string name="oclick_disconnect_string">ตัดการเชื่อมต่อ</string>
+  <string name="oclick_summary_connected">เชื่อมต่อกับ O-Click</string>
+  <string name="oclick_summary_paired">เคยจับคู่กับ O-click แต่ไม่ได้เชื่อมต่อ</string>
+  <string name="oclick_dialog_connecting_message">กำลังเชื่อมต่อกับ O-Click\u2026\nแตะปุ่ม O-click ไว้จะทำให้หาพบไวขึ้น</string>
   <string name="oclick_take_snapshot_title">ควบคุมกล้องถ่ายรูป</string>
   <string name="oclick_take_snapshot_summary">คลิกเพื่อถ่ายภาพ</string>
   <string name="oclick_find_my_phone_title">ค้นหาโทรศัพท์</string>
@@ -54,4 +57,7 @@
   <string name="action_category_title">การกระทำ</string>
   <string name="oclick_locator_notification_title">ค้นหาตำแหน่ง O-Click</string>
   <string name="oclick_locator_notification_text">กำลังเล่นเสียงหาตำแหน่ง แต่เพื่อยกเลิก</string>
+  <string name="oclick_notification_title_connected">เชื่อมต่อ O-Click แล้ว</string>
+  <string name="oclick_notification_title_disconnected">หยุดเชื่อมต่อ O-Click แล้ว</string>
+  <string name="oclick_notification_content_disconnected">กดปุ่ม O-click เพื่อเชื่อมต่ออีกครั้ง</string>
 </resources>

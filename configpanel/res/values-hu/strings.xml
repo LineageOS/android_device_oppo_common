@@ -42,6 +42,9 @@
   <string name="oclick_panel_summary">O-Click eszköz konfigurálása</string>
   <string name="oclick_connect_string">Csatlakozás</string>
   <string name="oclick_disconnect_string">Lecsatlakozás</string>
+  <string name="oclick_summary_connected">Csatlakoztatva az O-Clickhez</string>
+  <string name="oclick_summary_paired">O-Click párosítva, de leválasztva</string>
+  <string name="oclick_dialog_connecting_message">Csatlakozás az O-Clickhez\u2026\nÉrintse meg az O-Click gombot a felderítés gyorsításához.</string>
   <string name="oclick_take_snapshot_title">Távoli kamera exponáló</string>
   <string name="oclick_take_snapshot_summary">Kép készítése egyszeri kattintással</string>
   <string name="oclick_find_my_phone_title">Telefon kereső</string>
@@ -54,4 +57,7 @@
   <string name="action_category_title">Műveletek</string>
   <string name="oclick_locator_notification_title">O-Click telefon kereső</string>
   <string name="oclick_locator_notification_text">Lokátor figyelmeztetés lejátszása folyamatban. Érintse meg a megszakításhoz</string>
+  <string name="oclick_notification_title_connected">O-Click csatlakoztatva</string>
+  <string name="oclick_notification_title_disconnected">O-Click leválasztva</string>
+  <string name="oclick_notification_content_disconnected">Érintse meg az O-Click gombot az újracsatlakozáshoz</string>
 </resources>

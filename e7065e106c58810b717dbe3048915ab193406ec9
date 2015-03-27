@@ -16,6 +16,24 @@
       "revId": "e7065e106c58810b717dbe3048915ab193406ec9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac665da_ad344fde",
+        "filename": "releasetools.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 116
+      },
+      "writtenOn": "2015-03-27T13:11:25Z",
+      "side": 1,
+      "message": "I wasn\u0027t sure if there was something that might call into InstallEndMMC. If there\u0027s not, I can remove it.",
+      "parentUuid": "5ac665da_6d3a57cf",
+      "revId": "e7065e106c58810b717dbe3048915ab193406ec9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }

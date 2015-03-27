@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ac665da_6d3a57cf",
+        "filename": "releasetools.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-03-27T13:10:02Z",
+      "side": 1,
+      "message": "Maybe it would be better to just change this line to be InstallRadioFiles and get rid of the FULLOTA_InstallEnd_MMC function as well.",
+      "revId": "e7065e106c58810b717dbe3048915ab193406ec9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

@@ -42,6 +42,9 @@
   <string name="oclick_panel_summary">Konfigurasi perangkat O-Click</string>
   <string name="oclick_connect_string">Sambungkan</string>
   <string name="oclick_disconnect_string">Putuskan</string>
+  <string name="oclick_summary_connected">Terhubung ke O-Click</string>
+  <string name="oclick_summary_paired">O-Click dipasangkan, tetapi terputus</string>
+  <string name="oclick_dialog_connecting_message">Menghubungkan O-Click\u2026\nTekan tombol O-Click untuk mempercepat penemuan.</string>
   <string name="oclick_take_snapshot_title">Remote bidik camera</string>
   <string name="oclick_take_snapshot_summary">Klik sekali untuk mengambil gambar</string>
   <string name="oclick_find_my_phone_title">Pelacak telepon</string>
@@ -52,4 +55,9 @@
   <string name="oclick_disconnect_alert_summary">Peringatan ketika di luar jangkauan</string>
   <string name="alert_category_title">Peringatan</string>
   <string name="action_category_title">Tindakan</string>
+  <string name="oclick_locator_notification_title">Pelacak telepon O-Click</string>
+  <string name="oclick_locator_notification_text">Peringatan pelacak diputar. Tekan untuk mengabaikan</string>
+  <string name="oclick_notification_title_connected">O-Click terhubung</string>
+  <string name="oclick_notification_title_disconnected">O-Click terputus</string>
+  <string name="oclick_notification_content_disconnected">Tekan tombol O-Click untuk menyambungkan kembali</string>
 </resources>

@@ -26,7 +26,7 @@
   <string name="touchpad_double_tap_title">Zweemol drécke fir eng Foto ze maachen</string>
   <string name="touchpad_double_tap_summary">An der Kamera-App zweemol drécke fir Fotoen ze knipsen</string>
   <string name="screen_gestures_panel_title">Steierung mat Gesten</string>
-  <string name="screen_gestures_panel_summary">Steierung duerch Gesten wann de Schierm ausgeschalt ass</string>
+  <string name="screen_gestures_panel_summary">Steierung duerch Geste wann de Schierm ausgeschalt ass</string>
   <string name="touchscreen_double_tap_gesture_title">Apparat waakreg maachen</string>
   <string name="touchscreen_double_tap_gesture_summary">Apparat duerch zweemol Drécke waakreg maachen</string>
   <string name="touchscreen_camera_gesture_title">Fotoapparat</string>

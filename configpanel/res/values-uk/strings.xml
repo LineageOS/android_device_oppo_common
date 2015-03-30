@@ -39,6 +39,9 @@
   <string name="oclick_panel_summary">Налаштування пристрою O-Click</string>
   <string name="oclick_connect_string">Підключитись</string>
   <string name="oclick_disconnect_string">Відключитись</string>
+  <string name="oclick_summary_connected">Приєднано до O-Click</string>
+  <string name="oclick_summary_paired">O-Click синхронізовано, але роз\'єднано</string>
+  <string name="oclick_dialog_connecting_message">З\'єднання з O-Click\u2026\nНатисніть кнопку \"O-Click\", щоб прискорити пошук.</string>
   <string name="oclick_take_snapshot_title">Віддалений спуск затвора</string>
   <string name="oclick_take_snapshot_summary">Натисніть один раз, щоб зробити знімок</string>
   <string name="oclick_find_my_phone_title">Пошук телефону</string>
@@ -51,4 +54,7 @@
   <string name="action_category_title">Дії</string>
   <string name="oclick_locator_notification_title">Пошук телефону O-Click</string>
   <string name="oclick_locator_notification_text">Звук локатору відтворюється. Торкніться, щоб вимкнути</string>
+  <string name="oclick_notification_title_connected">З\'єднано з O-Click</string>
+  <string name="oclick_notification_title_disconnected">Роз\'єднано з O-Click</string>
+  <string name="oclick_notification_content_disconnected">Натисніть кнопку \"O-Click\", щоб перепід\'єднатися</string>
 </resources>

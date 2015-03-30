@@ -42,6 +42,9 @@
   <string name="oclick_panel_summary">Configure O-Click device</string>
   <string name="oclick_connect_string">Connect</string>
   <string name="oclick_disconnect_string">Disconnect</string>
+  <string name="oclick_summary_connected">Connected to O-Click</string>
+  <string name="oclick_summary_paired">O-Click paired, but disconnected</string>
+  <string name="oclick_dialog_connecting_message">Connecting to O-Click\u2026\nPress the O-Click button to speed up discovery.</string>
   <string name="oclick_take_snapshot_title">Remote camera shutter</string>
   <string name="oclick_take_snapshot_summary">Single click to take picture</string>
   <string name="oclick_find_my_phone_title">Phone locator</string>
@@ -54,4 +57,7 @@
   <string name="action_category_title">Actions</string>
   <string name="oclick_locator_notification_title">O-Click phone locator</string>
   <string name="oclick_locator_notification_text">Locator alert is playing. Tap to dismiss</string>
+  <string name="oclick_notification_title_connected">O-Click connected</string>
+  <string name="oclick_notification_title_disconnected">O-Click disconnected</string>
+  <string name="oclick_notification_content_disconnected">Press the O-Click button to reconnect</string>
 </resources>

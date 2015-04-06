@@ -33,7 +33,7 @@
   <string name="touchscreen_camera_gesture_summary">צייר מעגל כדי להפעיל מצלמה</string>
   <string name="touchscreen_music_gesture_title">מוזיקה</string>
   <string name="touchscreen_flashlight_gesture_title">פנס</string>
-  <string name="touchscreen_flashlight_gesture_summary">צייר V כדי להפעיל פנס</string>
+  <string name="touchscreen_flashlight_gesture_summary">צייר \"V\" כדי להפעיל את הפנס</string>
   <string name="touchscreen_music_gesture_summary">השתמש במחוות כדי לשלוט בנגן מוזיקה\n
     • שתי אצבעות אנכית כדי להמשיך/להשהות\n
     • צייר חץ שמאלי כדי לחזור אחורה\n
@@ -46,16 +46,16 @@
   <string name="oclick_summary_paired">O-Click צורף, אבל מנותק</string>
   <string name="oclick_dialog_connecting_message">מתחבר ל-O-Click\u2026\n לחץ על כפתור ה-O-Click כדי לזרז את הגילוי.</string>
   <string name="oclick_take_snapshot_title">צילום מצלמה מרחוק</string>
-  <string name="oclick_take_snapshot_summary">לחיצה אחת כדי לצלם</string>
-  <string name="oclick_find_my_phone_title">מאתר טלפון</string>
-  <string name="oclick_find_my_phone_summary">לחיצה כפולה כדי לאתר טלפון</string>
+  <string name="oclick_take_snapshot_summary">לחיצה בודדת כדי לקחת תמונה</string>
+  <string name="oclick_find_my_phone_title">מאתר המכשיר</string>
+  <string name="oclick_find_my_phone_summary">לחיצה כפולה כדי לאתר את המכשיר</string>
   <string name="oclick_fence_title">התראת קרבה</string>
-  <string name="oclick_fence_summary">התראה כאשר לא ליד הטלפון</string>
-  <string name="oclick_disconnect_alert_title">התראה של מחוץ לטווח</string>
-  <string name="oclick_disconnect_alert_summary">התראה כאשר מחוץ להישג</string>
+  <string name="oclick_fence_summary">התראה כאשר לא ליד המכשיר</string>
+  <string name="oclick_disconnect_alert_title">התראה כאשר מחוץ לטווח</string>
+  <string name="oclick_disconnect_alert_summary">התראה כאשר מחוץ להישג יד</string>
   <string name="alert_category_title">התראות</string>
   <string name="action_category_title">פעולות</string>
-  <string name="oclick_locator_notification_title">מאתר טלפון O-Click</string>
+  <string name="oclick_locator_notification_title">מאתר מכשיר O-Click</string>
   <string name="oclick_locator_notification_text">אזעקת מאתר מופעלת. גע לביטול</string>
   <string name="oclick_notification_title_connected">O-Click מחובר</string>
   <string name="oclick_notification_title_disconnected">O-Click מנותק</string>

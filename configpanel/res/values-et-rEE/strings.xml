@@ -42,6 +42,9 @@
   <string name="oclick_panel_summary">Seadista O-Click seadet</string>
   <string name="oclick_connect_string">Ühenda</string>
   <string name="oclick_disconnect_string">Katkesta ühendus</string>
+  <string name="oclick_summary_connected">Ühendatud O-Clickiga</string>
+  <string name="oclick_summary_paired">O-Click paaris, aga lahti ühendatud</string>
+  <string name="oclick_dialog_connecting_message">Ühendun O-Clickiga\u2026\nVajuta O-Click nupule et kiirendada otsingut.</string>
   <string name="oclick_take_snapshot_title">Kauge kaamera katik</string>
   <string name="oclick_take_snapshot_summary">Üks klõps et teha pilt</string>
   <string name="oclick_find_my_phone_title">Telefonilokaator</string>
@@ -54,4 +57,7 @@
   <string name="action_category_title">Tegevused</string>
   <string name="oclick_locator_notification_title">O-Click telefon otsing</string>
   <string name="oclick_locator_notification_text">Otsingu teatis mängib. Puuduta katkestamiseks</string>
+  <string name="oclick_notification_title_connected">O-Click ühendatud</string>
+  <string name="oclick_notification_title_disconnected">O-Click ühendatamata</string>
+  <string name="oclick_notification_content_disconnected">Vajuta O-Click nupul et taasühenduda</string>
 </resources>

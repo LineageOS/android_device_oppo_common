@@ -48,7 +48,7 @@
   <string name="oclick_find_my_phone_summary">Doppel-Klick um das Telefon zu lokalisieren</string>
   <string name="oclick_fence_title">Annäherungsalarm</string>
   <string name="oclick_fence_summary">Alarmieren, wenn Telefon nicht in der Nähe ist</string>
-  <string name="oclick_disconnect_alert_title">Reichweitenalarm</string>
+  <string name="oclick_disconnect_alert_title">Alarm bei überschrittenem Abstand</string>
   <string name="oclick_disconnect_alert_summary">Alarmieren, wenn Reichweite verlassen wird</string>
   <string name="alert_category_title">Alarme</string>
   <string name="action_category_title">Aktionen</string>

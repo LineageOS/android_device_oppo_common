@@ -23,12 +23,12 @@
   <string name="touchpad_enable_summary">משטח מגע אחורי כדי לנווט במכשיר</string>
   <string name="touchpad_long_press_title">לחיצה ארוכה כדי להפעיל מצלמה</string>
   <string name="touchpad_long_press_summary">לחיצה ארוכה על משטח מגע יפעיל את יישום המצלמה</string>
-  <string name="touchpad_double_tap_title">לחיצה כפולה כדי לתפוס</string>
+  <string name="touchpad_double_tap_title">הקשה כפולה כדי לתפוס</string>
   <string name="touchpad_double_tap_summary">בזמן מצב מצלמה, לחץ לחיצה כפולה כדי לצלם</string>
   <string name="screen_gestures_panel_title">קיצורי מחוות</string>
   <string name="screen_gestures_panel_summary">השתמש במחוות כאשר המסך כבוי</string>
   <string name="touchscreen_double_tap_gesture_title">הער מכשיר</string>
-  <string name="touchscreen_double_tap_gesture_summary">לחיצה כפולה כדי להעיר את המכשיר</string>
+  <string name="touchscreen_double_tap_gesture_summary">הקשה כפולה כדי להעיר את המכשיר</string>
   <string name="touchscreen_camera_gesture_title">מצלמה</string>
   <string name="touchscreen_camera_gesture_summary">צייר מעגל כדי להפעיל מצלמה</string>
   <string name="touchscreen_music_gesture_title">מוזיקה</string>

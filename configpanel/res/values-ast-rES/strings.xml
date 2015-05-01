@@ -42,6 +42,9 @@
   <string name="oclick_panel_summary">Configurar preséu O-Click</string>
   <string name="oclick_connect_string">Coneutar</string>
   <string name="oclick_disconnect_string">Desconeutar</string>
+  <string name="oclick_summary_connected">Coneutáu a O-Click</string>
+  <string name="oclick_summary_paired">O-Click empareyáu, pero desconeutáu</string>
+  <string name="oclick_dialog_connecting_message">Coneutando a O-Click\u2026\nPrimi\'l botón O-Click p\'acelerar la gueta.</string>
   <string name="oclick_take_snapshot_title">Disparador remotu</string>
   <string name="oclick_take_snapshot_summary">Facer una pulsación simple pa sacar una semeya</string>
   <string name="oclick_find_my_phone_title">Llocalizador de teléfonu</string>
@@ -52,4 +55,9 @@
   <string name="oclick_disconnect_alert_summary">Avisar cuando\'l teléfonu tea fuera d\'algame</string>
   <string name="alert_category_title">Alertes</string>
   <string name="action_category_title">Aiciones</string>
+  <string name="oclick_locator_notification_title">Llocalizador del teléfonu O-Click</string>
+  <string name="oclick_locator_notification_text">L\'alerta del llocalizador ta sonando. Toca pa silenciar</string>
+  <string name="oclick_notification_title_connected">O-Click coneutáu</string>
+  <string name="oclick_notification_title_disconnected">O-Click desconeutáu</string>
+  <string name="oclick_notification_content_disconnected">Primi\'l botón O-Click pa volver a coneutar</string>
 </resources>

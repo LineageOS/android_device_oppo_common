@@ -18,35 +18,35 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">Ezarpen aurreratuak</string>
   <string name="backpad_panel_title">O-Touch ezarpenak</string>
-  <string name="backpad_panel_summary">O-Touch konfiguratu</string>
-  <string name="touchpad_enable_title">O-Touch gaitu</string>
+  <string name="backpad_panel_summary">Konfiguratu O-Touch</string>
+  <string name="touchpad_enable_title">Gaitu O-Touch</string>
   <string name="touchpad_enable_summary">Atzeko ukipen panela erabili telefonoan nabigatzeko</string>
-  <string name="touchpad_long_press_title">Denbora luzez sakatu kamara abiatzeko</string>
+  <string name="touchpad_long_press_title">Sakatu luze kamera abiatzeko</string>
   <string name="touchpad_long_press_summary">Ukipen panelean denbora luzez sakatzeak Kamera aplikazioa abiatuko du</string>
   <string name="touchpad_double_tap_title">Birritan sakatu argazkia ateratzeko</string>
   <string name="touchpad_double_tap_summary">Kamera aplikazioan egonda, birritan sakatzeak argazkia aterako du</string>
   <string name="screen_gestures_panel_title">Keinuzko lasterbideak</string>
-  <string name="screen_gestures_panel_summary">Keinuak pantaila itzalita dagoen bitartean gaitu</string>
-  <string name="touchscreen_double_tap_gesture_title">Gailua esnatu</string>
+  <string name="screen_gestures_panel_summary">Erabili keinuak pantaila itzalita dagoenean</string>
+  <string name="touchscreen_double_tap_gesture_title">Esnatu gailua</string>
   <string name="touchscreen_double_tap_gesture_summary">Birritan sakatu gailua esnatzeko</string>
   <string name="touchscreen_camera_gesture_title">Kamera</string>
   <string name="touchscreen_camera_gesture_summary">Zirkulu bat marraztu kamera abiatzeko</string>
   <string name="touchscreen_music_gesture_title">Musika</string>
   <string name="touchscreen_flashlight_gesture_title">Linterna</string>
-  <string name="touchscreen_flashlight_gesture_summary">V bat marraztu linterna piztu/itzaltzeko</string>
+  <string name="touchscreen_flashlight_gesture_summary">Marraztu \"V\" bat linterna txandakatzeko</string>
   <string name="touchscreen_music_gesture_summary">Musika erreprodukzioa maneiatzeko keinuak erabili:\n
     \u2022 Bi atzamar bertikalki irristatu erreproduzitzeko/pausan jartzeko\n
     \u2022 Gezi bat ezkerrerantz marraztu atzera joateko\n
     \u2022 Gezi bat eskumarantz marraztu aurrera joateko</string>
   <string name="oclick_panel_title">O-Click ezarpenak</string>
-  <string name="oclick_panel_summary">O-Click gailua konfiguratu</string>
+  <string name="oclick_panel_summary">Konfiguratu O-Click gailua</string>
   <string name="oclick_connect_string">Konektatu</string>
   <string name="oclick_disconnect_string">Deskonektatu</string>
   <string name="oclick_summary_connected">O-Click-era konektatuta</string>
   <string name="oclick_summary_paired">O-Click elkartuta, baina deskonektatuta</string>
   <string name="oclick_dialog_connecting_message">O-Click-era konektatzen\u2026\nSakatu O-Click botoia bilaketa bizkortzeko.</string>
   <string name="oclick_take_snapshot_title">Urruneko kliskagailua</string>
-  <string name="oclick_take_snapshot_summary">Behin sakatu argazkia egiteko</string>
+  <string name="oclick_take_snapshot_summary">Behin sakatu argazkia ateratzeko</string>
   <string name="oclick_find_my_phone_title">Telefonoa kokatu</string>
   <string name="oclick_find_my_phone_summary">Birritan sakatu telefonoa kokatzeko</string>
   <string name="oclick_fence_title">Hurbiltasun alerta</string>

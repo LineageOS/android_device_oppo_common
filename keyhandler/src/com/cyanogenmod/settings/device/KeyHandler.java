@@ -25,7 +25,7 @@ import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
-import android.hardware.TorchManager;
+import cyanogenmod.app.TorchManager;
 import android.media.session.MediaSessionLegacyHelper;
 import android.os.Handler;
 import android.os.Message;
@@ -103,7 +103,7 @@ public class KeyHandler implements DeviceKeyHandler {
 
     private void ensureTorchManager() {
         if (mTorchManager == null) {
-            mTorchManager = (TorchManager) mContext.getSystemService(Context.TORCH_SERVICE);
+            mTorchManager = TorchManager.getInstance(mContext);
         }
     }
 

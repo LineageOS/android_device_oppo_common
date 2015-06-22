@@ -39,12 +39,12 @@
     • Desegnu maldekstran sagon por antaŭa kanto\n
     • Desegnu dekstran sagon por venonta kanto</string>
   <string name="oclick_panel_title">O-Click agordoj</string>
-  <string name="oclick_panel_summary">Agori O-Click aparaton</string>
+  <string name="oclick_panel_summary">Agordi O-Click aparaton</string>
   <string name="oclick_connect_string">Konektiĝi</string>
   <string name="oclick_disconnect_string">Malkonektiĝi</string>
   <string name="oclick_summary_connected">Konektita al O-Click</string>
   <string name="oclick_summary_paired">O-Click ligita, sed malkonektita</string>
-  <string name="oclick_dialog_connecting_message">Konektanta al O-Click\u2026\nPremu la O-Click butonon por rapidigi la malkovradon.</string>
+  <string name="oclick_dialog_connecting_message">Konektado al O-Click\u2026\nPremu la O-Click butonon por rapidigi la malkovradon.</string>
   <string name="oclick_take_snapshot_title">Defore ekagigi fotilon</string>
   <string name="oclick_take_snapshot_summary">Simpla klako por foti</string>
   <string name="oclick_find_my_phone_title">Telefon-lokigilo</string>

@@ -30,7 +30,7 @@
   <string name="touchscreen_double_tap_gesture_title">הער מכשיר</string>
   <string name="touchscreen_double_tap_gesture_summary">הקש פעמיים להפעלת המכשיר</string>
   <string name="touchscreen_camera_gesture_title">מצלמה</string>
-  <string name="touchscreen_camera_gesture_summary">צייר מעגל כדי להפעיל מצלמה</string>
+  <string name="touchscreen_camera_gesture_summary">צייר מעגל להפעלת המצלמה</string>
   <string name="touchscreen_music_gesture_title">מוזיקה</string>
   <string name="touchscreen_flashlight_gesture_title">פנס</string>
   <string name="touchscreen_flashlight_gesture_summary">צייר V להפעלת/כיבוי הפנס</string>
@@ -39,7 +39,7 @@
     • צייר חץ שמאלה כדי לחזור לרצועה הקודמת\n
     • צייר חץ ימינה כדי לעבור לרצועה הבאה</string>
   <string name="oclick_panel_title">הגדרות O-Click</string>
-  <string name="oclick_panel_summary">הגדר O-Click למכשיר</string>
+  <string name="oclick_panel_summary">הגדר התקן O-Click</string>
   <string name="oclick_connect_string">התחבר</string>
   <string name="oclick_disconnect_string">התנתק</string>
   <string name="oclick_summary_connected">מחובר ל-O-Click</string>

@@ -18,7 +18,7 @@ package org.cyanogenmod.hardware;
 
 import org.cyanogenmod.hardware.util.FileUtils;
 
-import android.os.SystemProperties;
+import android.util.Log;
 
 import java.io.File;
 
@@ -28,7 +28,9 @@ import java.io.File;
  */
 public class AdaptiveBacklight {
 
-    private static String FILE_CABC = "/sys/class/graphics/fb0/cabc";
+    private static final String TAG = "AdaptiveBacklight";
+
+    private static final String FILE_CABC = "/sys/class/graphics/fb0/cabc";
 
     /**
      * Whether device supports an adaptive backlight technology.
@@ -36,7 +38,7 @@ public class AdaptiveBacklight {
      * @return boolean Supported devices must return always true
      */
     public static boolean isSupported() {
-        File f = new File(FILE_CABC);
+        final File f = new File(FILE_CABC);
 
         if(f.exists()) {
             return true;
@@ -52,11 +54,12 @@ public class AdaptiveBacklight {
      * the operation failed while reading the status; true in any other case.
      */
     public static boolean isEnabled() {
-        if (Integer.parseInt(FileUtils.readOneLine(FILE_CABC)) == 1) {
-            return true;
-        } else {
-            return false;
+        try {
+            return Integer.parseInt(FileUtils.readOneLine(FILE_CABC)) > 0;
+        } catch (Exception e) {
+            Log.e(TAG, e.getMessage(), e);
         }
+        return false;
     }
 
     /**
@@ -67,10 +70,6 @@ public class AdaptiveBacklight {
      * failed; true in any other case.
      */
     public static boolean setEnabled(boolean status) {
-        if (status == true) {
-            return FileUtils.writeLine(FILE_CABC, "1");
-        } else {
-            return FileUtils.writeLine(FILE_CABC, "0");
-        }
+        return FileUtils.writeLine(FILE_CABC, status ? "1" : "0");
     }
 }

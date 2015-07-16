@@ -139,6 +139,24 @@
       "revId": "78e01a3e7589d7de4f758c64dd98d68c0f645c5c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff0f0b1f_153de3ba",
+        "filename": "keyhandler/src/com/cyanogenmod/settings/device/KeyHandler.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 175,
+      "author": {
+        "id": 7148
+      },
+      "writtenOn": "2015-07-16T19:40:27Z",
+      "side": 1,
+      "message": "i guess its a personal preference but for me it makes sense to apply feedback to all gestures",
+      "parentUuid": "ff0f0b1f_9551f311",
+      "revId": "78e01a3e7589d7de4f758c64dd98d68c0f645c5c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }

@@ -71,6 +71,24 @@
     },
     {
       "key": {
+        "uuid": "ff0f0b1f_75565f09",
+        "filename": "configpanel/src/com/cyanogenmod/settings/device/utils/NodePreferenceActivity.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2015-07-16T19:32:58Z",
+      "side": 1,
+      "message": "So nuke the change?",
+      "parentUuid": "ff0f0b1f_d531abee",
+      "revId": "78e01a3e7589d7de4f758c64dd98d68c0f645c5c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ff0f0b1f_3a71f6e1",
         "filename": "keyhandler/src/com/cyanogenmod/settings/device/KeyHandler.java",
         "patchSetId": 2
@@ -100,6 +118,24 @@
       "side": 1,
       "message": "no its usefull",
       "parentUuid": "ff0f0b1f_3a71f6e1",
+      "revId": "78e01a3e7589d7de4f758c64dd98d68c0f645c5c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff0f0b1f_9551f311",
+        "filename": "keyhandler/src/com/cyanogenmod/settings/device/KeyHandler.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 175,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2015-07-16T19:32:58Z",
+      "side": 1,
+      "message": "Can you elaborate a bit on that? ;-)\n\nI mean, there\u0027s obvious immediate visual feedback due to the enabled display anyway...",
+      "parentUuid": "ff0f0b1f_f534afe0",
       "revId": "78e01a3e7589d7de4f758c64dd98d68c0f645c5c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false

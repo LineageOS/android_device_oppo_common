@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff0f0b1f_d5464b50",
+        "filename": "configpanel/src/com/cyanogenmod/settings/device/TouchscreenGestureSettings.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 8328
+      },
+      "writtenOn": "2015-07-16T19:55:49Z",
+      "side": 1,
+      "message": "wrong indentation",
+      "revId": "415ba0b25c88d4783184db45093951d6b34c6000",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

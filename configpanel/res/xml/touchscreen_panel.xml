@@ -31,4 +31,13 @@
         android:title="@string/touchscreen_flashlight_gesture_title"
         android:summary="@string/touchscreen_flashlight_gesture_summary" />
 
+    <PreferenceCategory android:title="@string/touchscreen_extras">
+
+        <SwitchPreference
+            android:key="touchscreen_haptic_feedback"
+            android:title="@string/haptic_feedback"
+            android:summary="@string/haptic_feedback_summary" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>

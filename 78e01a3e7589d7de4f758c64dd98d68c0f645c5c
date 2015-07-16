@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff0f0b1f_9a624216",
+        "filename": "configpanel/src/com/cyanogenmod/settings/device/TouchscreenGestureSettings.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2015-07-16T17:11:53Z",
+      "side": 1,
+      "message": "Newline after @Override please.",
+      "revId": "78e01a3e7589d7de4f758c64dd98d68c0f645c5c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff0f0b1f_7a676e27",
+        "filename": "configpanel/src/com/cyanogenmod/settings/device/TouchscreenGestureSettings.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2015-07-16T17:11:53Z",
+      "side": 1,
+      "message": "The prop seems unneeded. The app can access the shared prefs written by the preferences framework directly.",
+      "revId": "78e01a3e7589d7de4f758c64dd98d68c0f645c5c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff0f0b1f_5a6caa07",
+        "filename": "configpanel/src/com/cyanogenmod/settings/device/utils/NodePreferenceActivity.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2015-07-16T17:11:53Z",
+      "side": 1,
+      "message": "Under what circumstances can this be null?",
+      "revId": "78e01a3e7589d7de4f758c64dd98d68c0f645c5c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff0f0b1f_3a71f6e1",
+        "filename": "keyhandler/src/com/cyanogenmod/settings/device/KeyHandler.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 175,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2015-07-16T17:11:53Z",
+      "side": 1,
+      "message": "Wouldn\u0027t vibration after double-tap-to-wake come off a little unexpected?",
+      "revId": "78e01a3e7589d7de4f758c64dd98d68c0f645c5c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

@@ -89,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "ff0f0b1f_f5626fd8",
+        "filename": "configpanel/src/com/cyanogenmod/settings/device/utils/NodePreferenceActivity.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 8328
+      },
+      "writtenOn": "2015-07-16T19:55:30Z",
+      "side": 1,
+      "message": "Back that time Android Studio was going mad because it can potentially be null when using styles without action bar but it does not apply here anyways.",
+      "parentUuid": "ff0f0b1f_5a6caa07",
+      "revId": "78e01a3e7589d7de4f758c64dd98d68c0f645c5c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ff0f0b1f_3a71f6e1",
         "filename": "keyhandler/src/com/cyanogenmod/settings/device/KeyHandler.java",
         "patchSetId": 2
@@ -153,6 +171,24 @@
       "writtenOn": "2015-07-16T19:40:27Z",
       "side": 1,
       "message": "i guess its a personal preference but for me it makes sense to apply feedback to all gestures",
+      "parentUuid": "ff0f0b1f_9551f311",
+      "revId": "78e01a3e7589d7de4f758c64dd98d68c0f645c5c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff0f0b1f_b575179b",
+        "filename": "keyhandler/src/com/cyanogenmod/settings/device/KeyHandler.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 175,
+      "author": {
+        "id": 8328
+      },
+      "writtenOn": "2015-07-16T19:55:30Z",
+      "side": 1,
+      "message": "the Find7s\u0027 panel takes longer to turn on (unlike Find5, N1, N3, ... which are turning on really fast).\n\nUsers were getting used to the vibration and wondered, why it does not vibrate when doing double tap to wake and tapped like crazy.\nThat\u0027s why i added vibration here as well.",
       "parentUuid": "ff0f0b1f_9551f311",
       "revId": "78e01a3e7589d7de4f758c64dd98d68c0f645c5c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",

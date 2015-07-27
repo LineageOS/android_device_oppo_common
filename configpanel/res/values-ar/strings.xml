@@ -16,6 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">الإعدادات المتقدمة</string>
   <string name="backpad_panel_title">O-اعدادات اللمس</string>
   <string name="backpad_panel_summary">تكوين O-اللمس</string>
   <string name="touchpad_enable_title">تمكين O-اللمس</string>
@@ -41,6 +42,9 @@
   <string name="oclick_panel_summary">تكوين O-نقر الجهاز</string>
   <string name="oclick_connect_string">الاتصال</string>
   <string name="oclick_disconnect_string">قطع الإتصال</string>
+  <string name="oclick_summary_connected">متصل ب O-Click</string>
+  <string name="oclick_summary_paired">O-Click مقترن , لكنه غير متصل</string>
+  <string name="oclick_dialog_connecting_message">الاتصال Click\u2026\nPress س س-انقر الزر لتسريع اكتشاف.</string>
   <string name="oclick_take_snapshot_title">قفل الكميرا عن بعد</string>
   <string name="oclick_take_snapshot_summary">نقرة واحدة لي ألتقاط الصورة</string>
   <string name="oclick_find_my_phone_title">محدد الهاتف</string>
@@ -51,4 +55,9 @@
   <string name="oclick_disconnect_alert_summary">التنبيه عند خارج المجال</string>
   <string name="alert_category_title">تنبيهات</string>
   <string name="action_category_title">الاجراءات</string>
+  <string name="oclick_locator_notification_title">محدد الهاتف O-Click</string>
+  <string name="oclick_locator_notification_text">أنذار المحدد يشتغل الان , المس للايقاف</string>
+  <string name="oclick_notification_title_connected">O-Click متصل</string>
+  <string name="oclick_notification_title_disconnected">O-Click غير متصل</string>
+  <string name="oclick_notification_content_disconnected">اضغط على زر O-Click لإعادة الاتصال</string>
 </resources>

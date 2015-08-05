@@ -51,7 +51,7 @@
   <string name="oclick_find_my_phone_summary">Dvakrat kliknite, da najdete telefon</string>
   <string name="oclick_fence_title">Opozorilo bližine</string>
   <string name="oclick_fence_summary">Opozori, ko naprava ni v bližini</string>
-  <string name="oclick_disconnect_alert_title">Opozorilo, ko je naprava izven območja</string>
+  <string name="oclick_disconnect_alert_title">Opozorilo, naprava je izven dosega</string>
   <string name="oclick_disconnect_alert_summary">Opozori, ko je naprava izven dosega</string>
   <string name="alert_category_title">Opozorila</string>
   <string name="action_category_title">Dejanja</string>

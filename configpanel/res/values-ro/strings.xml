@@ -56,8 +56,8 @@
   <string name="alert_category_title">Alerte</string>
   <string name="action_category_title">Acțiuni</string>
   <string name="oclick_locator_notification_title">Localizarea O-Click a telefonului</string>
-  <string name="oclick_locator_notification_text">Soneria de localizare este activată. Atingeţi pentru a o anula</string>
+  <string name="oclick_locator_notification_text">Soneria de localizare este activată. Atingeți pentru a o anula</string>
   <string name="oclick_notification_title_connected">O-Click conectat</string>
   <string name="oclick_notification_title_disconnected">O-Click deconectat</string>
-  <string name="oclick_notification_content_disconnected">Apăsaţi butonul O-Click pentru a reconecta</string>
+  <string name="oclick_notification_content_disconnected">Apăsați butonul O-Click pentru a reconecta</string>
 </resources>

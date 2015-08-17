@@ -44,7 +44,7 @@
   <string name="oclick_disconnect_string">Prekini</string>
   <string name="oclick_summary_connected">Povezan z O-Clickom</string>
   <string name="oclick_summary_paired">O-Click seznanjen, vendar je povezava prekinjena</string>
-  <string name="oclick_dialog_connecting_message">Povezovanje O-click \u2026\nPritisnite gumb O-Click, da pospešite iskanje.</string>
+  <string name="oclick_dialog_connecting_message">Povezovanje na O-Click \u2026\nPritisnite na gumb O-Click, da pospešite iskanje.</string>
   <string name="oclick_take_snapshot_title">Oddaljeni sprožilec fotoaparata</string>
   <string name="oclick_take_snapshot_summary">Kliknite enkrat za slikanje</string>
   <string name="oclick_find_my_phone_title">Iskalnik telefona</string>

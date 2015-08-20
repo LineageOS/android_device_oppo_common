@@ -25,18 +25,18 @@
   <string name="touchpad_long_press_summary">터치패드를 길게 눌러 카메라 어플리케이션을 실행합니다</string>
   <string name="touchpad_double_tap_title">두 번 탭하여 사진 촬영</string>
   <string name="touchpad_double_tap_summary">카메라 앱에서 두 번 탭하여 사진을 촬영합니다</string>
-  <string name="screen_gestures_panel_title">바로가기 제스쳐</string>
-  <string name="screen_gestures_panel_summary">화면이 꺼져 있는 동안 제스쳐 사용</string>
+  <string name="screen_gestures_panel_title">바로가기 제스처</string>
+  <string name="screen_gestures_panel_summary">화면이 꺼져 있는 동안 제스처 사용</string>
   <string name="touchscreen_double_tap_gesture_title">장치 깨우기</string>
   <string name="touchscreen_double_tap_gesture_summary">두 번 탭하여 장치를 깨웁니다</string>
   <string name="touchscreen_camera_gesture_title">카메라</string>
   <string name="touchscreen_camera_gesture_summary">원을 그려 카메라 열기</string>
   <string name="touchscreen_music_gesture_title">음악</string>
-  <string name="touchscreen_flashlight_gesture_title">플래시라이트</string>
-  <string name="touchscreen_flashlight_gesture_summary">\'V\'를 그려 플래시라이트 토글</string>
-  <string name="touchscreen_music_gesture_summary">제스쳐를 사용하여 음악을 제어합니다 \n
+  <string name="touchscreen_flashlight_gesture_title">손전등</string>
+  <string name="touchscreen_flashlight_gesture_summary">\'V\'를 그려 손전등 토글</string>
+  <string name="touchscreen_music_gesture_summary">제스처를 사용하여 음악을 제어합니다 \n
     • 두 손가락을 세로로 움직여 재생/일시정지\n
-    • 왼쪽 회살표를 그려 이전 트랙으로\n
+    • 왼쪽 화살표를 그려 이전 트랙으로\n
     • 오른쪽 화살표를 그려 다음 트랙으로</string>
   <string name="oclick_panel_title">O-Click 설정</string>
   <string name="oclick_panel_summary">O-Click 장치 구성</string>

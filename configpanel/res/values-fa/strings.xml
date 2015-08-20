@@ -17,8 +17,47 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">تنظیمات پیشرفته</string>
+  <string name="backpad_panel_title">تنظیمات O-Touch</string>
+  <string name="backpad_panel_summary">پیکربندی O-Touch</string>
+  <string name="touchpad_enable_title">فعال کردن O-Touch</string>
+  <string name="touchpad_enable_summary">استفاده از قسمت لمسی پشت برای حرکت در گوشی</string>
+  <string name="touchpad_long_press_title">برای راه اندازی دوربین لمس کنید و نگه دارید</string>
+  <string name="touchpad_long_press_summary">لمس طولانی پد لمسی باعث راه‌اندازی دوربین می‌شود</string>
+  <string name="touchpad_double_tap_title">برای عکسبرداری دوبار ضربه بزنید</string>
+  <string name="touchpad_double_tap_summary">هنگام استفاده از دوربین، دوبار ضربه بزنید تا عکس بگیرد</string>
+  <string name="screen_gestures_panel_title">میانبرهای حرکتی</string>
+  <string name="screen_gestures_panel_summary">استفاده از حرکات دست هنگام خاموش بودن صفحه نمایش</string>
+  <string name="touchscreen_double_tap_gesture_title">بیدار کردن دستگاه</string>
+  <string name="touchscreen_double_tap_gesture_summary">دوبار لمس کنید تا دستگاه بیدار شود</string>
+  <string name="touchscreen_camera_gesture_title">دوربین</string>
+  <string name="touchscreen_camera_gesture_summary">برای فعال شدن دوربین یک دایره بکشید</string>
+  <string name="touchscreen_music_gesture_title">موسیقی</string>
+  <string name="touchscreen_flashlight_gesture_title">چراغ قوه</string>
   <string name="touchscreen_flashlight_gesture_summary">حرف \'V\' را رسم کنید تا چراغ‌قوه فعال شود</string>
+  <string name="touchscreen_music_gesture_summary">برای کنترل موسیقی از حرکات دست استفاده کنید \n
+    • دو انگشت عمودی برای پخش/توقف \n
+    • حرکت به سمت چپ برای ترک قبلی\n
+    • حرکت به سمت راست برای ترک بعدی</string>
+  <string name="oclick_panel_title">تنظیمات O-Click</string>
+  <string name="oclick_panel_summary">پیکربندی دستگاه O-Click</string>
+  <string name="oclick_connect_string">اتصال</string>
+  <string name="oclick_disconnect_string">قطع اتصال</string>
+  <string name="oclick_summary_connected">متصل به O-Click</string>
+  <string name="oclick_summary_paired">O-Click جفت شد، ولی اتصال برقرار نیست</string>
+  <string name="oclick_dialog_connecting_message">اتصال به O-Click\u2026\n دکمه O-Click را فشار دهید تا عملکرد یافتن سرعت پذیرد.</string>
+  <string name="oclick_take_snapshot_title">شاتر از راه دور دوربین</string>
+  <string name="oclick_take_snapshot_summary">یکبار کلیک برای عکسبرداری</string>
+  <string name="oclick_find_my_phone_title">تلفن‌یاب</string>
+  <string name="oclick_find_my_phone_summary">دوبار کلیک برای یافتن تلفن</string>
+  <string name="oclick_fence_title">هشدار مجاورت</string>
+  <string name="oclick_fence_summary">هشدار هنگام نزدیک گوشی نبودن</string>
+  <string name="oclick_disconnect_alert_title">هشدار خارج از محدوده</string>
+  <string name="oclick_disconnect_alert_summary">هشدار هنگام در دسترس نبودن</string>
   <string name="alert_category_title">هشدارها</string>
   <string name="action_category_title">اقدامات</string>
+  <string name="oclick_locator_notification_title">مکان‌یاب تلفن O-Click</string>
   <string name="oclick_locator_notification_text">هشدار مکان‌یاب در حال پخش است. برای رد کردن ضربه بزنید</string>
+  <string name="oclick_notification_title_connected">O-Click متصل شد</string>
+  <string name="oclick_notification_title_disconnected">اتصال O-Click قطع شد</string>
+  <string name="oclick_notification_content_disconnected">دکO-Click را برای اتصال مجدد فشار دهید</string>
 </resources>

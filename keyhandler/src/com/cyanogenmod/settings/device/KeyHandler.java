@@ -177,8 +177,11 @@ public class KeyHandler implements DeviceKeyHandler {
         boolean isKeySupported = ArrayUtils.contains(sSupportedGestures, event.getScanCode());
         if (isKeySupported && !mEventHandler.hasMessages(GESTURE_REQUEST)) {
             Message msg = getMessageForKeyEvent(event);
+            ContentResolver resolver = mContext.getContentResolver();
+            boolean defaultProximity = mContext.getResources().getBoolean(
+                com.android.internal.R.bool.config_proximityCheckOnWakeEnabledByDefault);
             boolean proximityWakeCheckEnabled = Settings.System.getInt(mContext.getContentResolver(),
-                    Settings.System.PROXIMITY_ON_WAKE, 0) == 1;
+                    Settings.System.PROXIMITY_ON_WAKE, defaultProximity ? 1 : 0) == 1;
             if (mProximityWakeSupported && proximityWakeCheckEnabled && mProximitySensor != null) {
                 mEventHandler.sendMessageDelayed(msg, mProximityTimeOut);
                 processEvent(event);

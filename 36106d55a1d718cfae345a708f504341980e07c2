@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3f1d235d_eee2a301",
+        "filename": "keyhandler/src/com/cyanogenmod/settings/device/KeyHandler.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 180,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-08-24T23:03:49Z",
+      "side": 1,
+      "message": "resolver doesn\u0027t seem to be used",
+      "revId": "36106d55a1d718cfae345a708f504341980e07c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

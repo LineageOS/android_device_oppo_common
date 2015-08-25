@@ -160,11 +160,6 @@ public class KeyHandler implements DeviceKeyHandler {
             case GESTURE_GTR_SCANCODE:
                 dispatchMediaKeyWithWakeLockToMediaSession(KeyEvent.KEYCODE_MEDIA_NEXT);
                 break;
-            case KEY_DOUBLE_TAP:
-                if (!mPowerManager.isScreenOn()) {
-                    mPowerManager.wakeUp(SystemClock.uptimeMillis());
-                }
-                break;
             }
         }
     }
@@ -176,6 +171,10 @@ public class KeyHandler implements DeviceKeyHandler {
         }
         boolean isKeySupported = ArrayUtils.contains(sSupportedGestures, event.getScanCode());
         if (isKeySupported && !mEventHandler.hasMessages(GESTURE_REQUEST)) {
+            if (event.getScanCode() == KEY_DOUBLE_TAP && !mPowerManager.isScreenOn()) {
+                mPowerManager.wakeUpWithProximityCheck(SystemClock.uptimeMillis());
+                return true;
+            }
             Message msg = getMessageForKeyEvent(event);
             ContentResolver resolver = mContext.getContentResolver();
             boolean defaultProximity = mContext.getResources().getBoolean(

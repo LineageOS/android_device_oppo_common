@@ -41,14 +41,14 @@
   <string name="oclick_panel_summary">設定 O-Click 裝置</string>
   <string name="oclick_connect_string">連接</string>
   <string name="oclick_disconnect_string">中斷連綫</string>
-  <string name="oclick_take_snapshot_title">遙控相機快門</string>
-  <string name="oclick_take_snapshot_summary">按一下即可拍照</string>
-  <string name="oclick_find_my_phone_title">手機定位器</string>
-  <string name="oclick_find_my_phone_summary">按兩下去尋找手機</string>
-  <string name="oclick_fence_title">接近警報</string>
-  <string name="oclick_fence_summary">當不在手機附近時發出警報</string>
-  <string name="oclick_disconnect_alert_title">超出範圍警報</string>
-  <string name="oclick_disconnect_alert_summary">當手機在範圍之外時發出警報</string>
+  <string name="oclick_summary_connected">已連接到 O-Click</string>
+  <string name="oclick_summary_paired">O-Click 已配對，但連接中斷</string>
+  <string name="oclick_dialog_connecting_message">正在連接到 O-Click\u2026\n按下 O-Click 按鈕加快探索速度。</string>
+  <string name="oclick_find_my_phone_summary">按兩下尋找手機</string>
   <string name="alert_category_title">警報</string>
   <string name="action_category_title">操作</string>
+  <string name="oclick_locator_notification_title">O-Click 手機定位器</string>
+  <string name="oclick_notification_title_connected">O-Click 已連接</string>
+  <string name="oclick_notification_title_disconnected">O-Click 連接已中斷</string>
+  <string name="oclick_notification_content_disconnected">按下 O-Click 按鈕以重新連接</string>
 </resources>

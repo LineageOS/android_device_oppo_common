@@ -16,6 +16,24 @@
       "revId": "283dc2bd3911a09aff66a119d28d5d36ba44d51d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f1d235d_1ed2915d",
+        "filename": "recovery/recovery_updater.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 3962
+      },
+      "writtenOn": "2015-09-08T23:53:01Z",
+      "side": 1,
+      "message": "OK, will do.",
+      "parentUuid": "3f1d235d_5ee6c946",
+      "revId": "283dc2bd3911a09aff66a119d28d5d36ba44d51d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }

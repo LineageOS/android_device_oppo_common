@@ -42,6 +42,9 @@
   <string name="oclick_panel_summary">配置 O-Click 裝置</string>
   <string name="oclick_connect_string">連線</string>
   <string name="oclick_disconnect_string">中斷連線</string>
+  <string name="oclick_summary_connected">已連接到 O-Click</string>
+  <string name="oclick_summary_paired">O-Click 已配對，但已失去連結</string>
+  <string name="oclick_dialog_connecting_message">正在連接到O-Click\u2026\n按下O-Click 按鈕加快發現速度。</string>
   <string name="oclick_take_snapshot_title">遙控相機快門</string>
   <string name="oclick_take_snapshot_summary">輕觸一下即可拍攝</string>
   <string name="oclick_find_my_phone_title">手機定位器</string>
@@ -54,4 +57,7 @@
   <string name="action_category_title">動作</string>
   <string name="oclick_locator_notification_title">O-Click 手機定位器</string>
   <string name="oclick_locator_notification_text">定位器正在響起警報。輕觸即可取消</string>
+  <string name="oclick_notification_title_connected">O-Click 已連線</string>
+  <string name="oclick_notification_title_disconnected">O-Click 失去連線</string>
+  <string name="oclick_notification_content_disconnected">按下 O-Click 按鈕以重新連線</string>
 </resources>

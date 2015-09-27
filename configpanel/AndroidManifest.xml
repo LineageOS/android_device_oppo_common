@@ -73,6 +73,18 @@
                 android:resource="@string/backpad_panel_title"/>
         </activity>
 
+        <activity
+            android:name=".SliderSettings"
+            android:label="@string/notification_slider_panel_title"
+            android:icon="@drawable/ic_settings_notification_slider">
+            <intent-filter>
+                <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
+            </intent-filter>
+            <meta-data
+                android:name="com.android.settings.category"
+                android:value="com.android.settings.category.device" />
+        </activity>
+
         <receiver android:name=".Startup" >
             <intent-filter>
                 <action android:name="android.bluetooth.adapter.action.STATE_CHANGED" />

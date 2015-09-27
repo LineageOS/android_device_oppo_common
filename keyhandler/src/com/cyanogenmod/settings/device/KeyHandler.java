@@ -17,6 +17,7 @@
 package com.cyanogenmod.settings.device;
 
 import android.Manifest;
+import android.app.NotificationManager;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
@@ -56,6 +57,10 @@ public class KeyHandler implements DeviceKeyHandler {
     private static final int GESTURE_V_SCANCODE = 252;
     private static final int GESTURE_LTR_SCANCODE = 253;
     private static final int GESTURE_GTR_SCANCODE = 254;
+    private static final int MODE_TOTAL_SILENCE = 600;
+    private static final int MODE_ALARMS_ONLY = 601;
+    private static final int MODE_PRIORITY_ONLY = 602;
+    private static final int MODE_NONE = 603;
 
     private static final int GESTURE_WAKELOCK_DURATION = 3000;
 
@@ -65,11 +70,16 @@ public class KeyHandler implements DeviceKeyHandler {
         GESTURE_SWIPE_DOWN_SCANCODE,
         GESTURE_V_SCANCODE,
         GESTURE_LTR_SCANCODE,
-        GESTURE_GTR_SCANCODE
+        GESTURE_GTR_SCANCODE,
+        MODE_TOTAL_SILENCE,
+        MODE_ALARMS_ONLY,
+        MODE_PRIORITY_ONLY,
+        MODE_NONE
     };
 
     private final Context mContext;
     private final PowerManager mPowerManager;
+    private NotificationManager mNotificationManager;
     private EventHandler mEventHandler;
     private SensorManager mSensorManager;
     private CameraManager mCameraManager;
@@ -84,6 +94,8 @@ public class KeyHandler implements DeviceKeyHandler {
 
     public KeyHandler(Context context) {
         mContext = context;
+        mNotificationManager
+                = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
         mPowerManager = (PowerManager) context.getSystemService(Context.POWER_SERVICE);
         mEventHandler = new EventHandler();
         mGestureWakeLock = mPowerManager.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK,
@@ -183,6 +195,18 @@ public class KeyHandler implements DeviceKeyHandler {
                 dispatchMediaKeyWithWakeLockToMediaSession(KeyEvent.KEYCODE_MEDIA_NEXT);
                 doHapticFeedback();
                 break;
+            case MODE_TOTAL_SILENCE:
+                setZenMode(Settings.Global.ZEN_MODE_NO_INTERRUPTIONS);
+                break;
+            case MODE_ALARMS_ONLY:
+                setZenMode(Settings.Global.ZEN_MODE_ALARMS);
+                break;
+            case MODE_PRIORITY_ONLY:
+                setZenMode(Settings.Global.ZEN_MODE_IMPORTANT_INTERRUPTIONS);
+                break;
+            case MODE_NONE:
+                setZenMode(Settings.Global.ZEN_MODE_OFF);
+                break;
             }
         }
     }
@@ -208,7 +232,8 @@ public class KeyHandler implements DeviceKeyHandler {
                 org.cyanogenmod.platform.internal.R.bool.config_proximityCheckOnWakeEnabledByDefault);
             boolean proximityWakeCheckEnabled = CMSettings.System.getInt(mContext.getContentResolver(),
                     CMSettings.System.PROXIMITY_ON_WAKE, defaultProximity ? 1 : 0) == 1;
-            if (mProximityWakeSupported && proximityWakeCheckEnabled && mProximitySensor != null) {
+            if (event.getScanCode() < MODE_TOTAL_SILENCE && mProximityWakeSupported
+                        && proximityWakeCheckEnabled && mProximitySensor != null) {
                 mEventHandler.sendMessageDelayed(msg, mProximityTimeOut);
                 processEvent(event.getScanCode());
             } else {
@@ -258,6 +283,13 @@ public class KeyHandler implements DeviceKeyHandler {
             helper.sendMediaButtonEvent(event, true);
         } else {
             Log.w(TAG, "Unable to send media key event");
+        }
+    }
+
+    private void setZenMode(int mode) {
+        mNotificationManager.setZenMode(mode, null, TAG);
+        if (mVibrator != null) {
+            mVibrator.vibrate(50);
         }
     }
 

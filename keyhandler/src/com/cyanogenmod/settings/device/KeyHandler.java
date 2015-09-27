@@ -41,6 +41,7 @@ import android.os.UserHandle;
 import android.os.Vibrator;
 import android.provider.MediaStore;
 import android.provider.Settings;
+import android.provider.Settings.Global;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.WindowManagerGlobal;
@@ -174,6 +175,18 @@ public class KeyHandler implements DeviceKeyHandler {
             case GESTURE_GTR_SCANCODE:
                 dispatchMediaKeyWithWakeLockToMediaSession(KeyEvent.KEYCODE_MEDIA_NEXT);
                 doHapticFeedback();
+                break;
+            case MODE_MUTE:
+                Global.putInt(mContext.getContentResolver(), Global.ZEN_MODE,
+                        Global.ZEN_MODE_NO_INTERRUPTIONS);
+                break;
+            case MODE_DO_NOT_DISTURB:
+                Global.putInt(mContext.getContentResolver(), Global.ZEN_MODE,
+                        Global.ZEN_MODE_IMPORTANT_INTERRUPTIONS);
+                break;
+            case MODE_NORMAL:
+                Global.putInt(mContext.getContentResolver(), Global.ZEN_MODE,
+                        Global.ZEN_MODE_OFF);
                 break;
             }
         }

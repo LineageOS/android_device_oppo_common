@@ -19,8 +19,6 @@ package com.cyanogenmod.settings.device;
 import com.cyanogenmod.settings.device.utils.Constants;
 import com.cyanogenmod.settings.device.utils.NodePreferenceActivity;
 
-import org.cyanogenmod.internal.util.ScreenType;
-
 import android.os.Bundle;
 import android.os.IBinder;
 import android.os.ServiceManager;
@@ -38,16 +36,6 @@ public class GesturePadSettings extends NodePreferenceActivity {
         p.setOnPreferenceChangeListener(this);
         p = findPreference(Constants.TOUCHPAD_LONGPRESS_KEY);
         p.setOnPreferenceChangeListener(this);
-    }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-
-        // If running on a phone, remove padding around the listview
-        if (!ScreenType.isTablet(this)) {
-            getListView().setPadding(0, 0, 0, 0);
-        }
     }
 
     @Override

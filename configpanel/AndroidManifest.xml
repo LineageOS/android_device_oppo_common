@@ -73,6 +73,17 @@
                 android:resource="@string/backpad_panel_title"/>
         </activity>
 
+        <activity
+            android:name=".SliderSettings"
+            android:label="@string/notification_slider_panel_title">
+            <intent-filter>
+                <action android:name="com.cyanogenmod.action.LAUNCH_NOTIFICATION_SLIDER_SETTINGS" />
+            </intent-filter>
+            <meta-data
+                android:name="com.android.settings.title"
+                android:resource="@string/notification_slider_panel_title"/>
+        </activity>
+
         <receiver android:name=".Startup" >
             <intent-filter>
                 <action android:name="android.bluetooth.adapter.action.STATE_CHANGED" />

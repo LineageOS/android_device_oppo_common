@@ -442,7 +442,7 @@ public class OclickService extends Service implements
     }
 
     private void toggleRssiListener() {
-        mRssiAlertEnabled = Constants.isPreferenceEnabled(this, Constants.OCLICK_FENCE_KEY, true);
+        mRssiAlertEnabled = Constants.isPreferenceEnabled(this, Constants.OCLICK_FENCE_KEY);
         mHandler.removeMessages(MSG_POLL_RSSI);
         if (mRssiAlertEnabled) {
             Log.d(TAG, "Enabling rssi listener");
@@ -462,7 +462,7 @@ public class OclickService extends Service implements
 
     private void updateLinkLossState() {
         boolean alert = Constants.isPreferenceEnabled(OclickService.this,
-                Constants.OCLICK_DISCONNECT_ALERT_KEY, true);
+                Constants.OCLICK_DISCONNECT_ALERT_KEY);
         BluetoothGattService service = mBluetoothGatt.getService(LINK_LOSS_SERVICE_UUID);
         BluetoothGattCharacteristic characteristic =
                 service.getCharacteristic(LINK_LOSS_CHARACTERISTIC_UUID);

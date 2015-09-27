@@ -79,6 +79,20 @@
                 android:resource="@string/backpad_panel_title" />
         </activity>
 
+        <activity
+            android:name=".ButtonSettings"
+            android:label="@string/button_panel_title">
+            <intent-filter>
+                <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
+            </intent-filter>
+            <meta-data
+                android:name="com.android.settings.icon"
+                android:resource="@drawable/ic_settings_additional_buttons" />
+            <meta-data
+                android:name="com.android.settings.category"
+                android:value="com.android.settings.category.device" />
+        </activity>
+
         <receiver android:name=".Startup" >
             <intent-filter>
                 <action android:name="android.bluetooth.adapter.action.STATE_CHANGED" />

@@ -74,4 +74,16 @@
     <string name="touchscreen_extras">Extras</string>
     <string name="haptic_feedback">Haptic feedback</string>
     <string name="haptic_feedback_summary">Vibrate when a gesture got detected</string>
+
+    <!-- Notification slider -->
+    <string name="notification_slider">Notification slider</string>
+    <string name="action">Action</string>
+
+    <string name="top_position">Top position</string>
+    <string name="middle_position">Middle position</string>
+    <string name="bottom_position">Bottom position</string>
+    <string name="total_silence">Total silence</string>
+    <string name="alarms_only">Alarms only</string>
+    <string name="priority_only">Priority only</string>
+    <string name="none">None</string>
 </resources>

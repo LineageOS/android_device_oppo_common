@@ -54,6 +54,11 @@ public class Constants {
     public static final boolean TOUCHSCREEN_MUSIC_DEFAULT = true;
     public static final boolean TOUCHSCREEN_FLASHLIGHT_DEFAULT = true;
 
+    // Notification slider
+    public static final String KEYCODE_SLIDER_TOP = "/proc/tri-state-key/keyCode_top";
+    public static final String KEYCODE_SLIDER_MIDDLE = "/proc/tri-state-key/keyCode_middle";
+    public static final String KEYCODE_SLIDER_BOTTOM = "/proc/tri-state-key/keyCode_bottom";
+
     // Holds <preference_key> -> <proc_node> mapping
     public static final Map<String, String> sNodePreferenceMap = new HashMap<String, String>();
 
@@ -75,5 +80,10 @@ public class Constants {
     public static boolean isPreferenceEnabled(Context context, String key, boolean defaultValue) {
         SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(context);
         return preferences.getBoolean(key, defaultValue);
+    }
+
+    public static String getPreferenceString(Context context, String key, String defaultValue) {
+        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(context);
+        return preferences.getString(key, defaultValue);
     }
 }

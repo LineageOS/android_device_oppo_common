@@ -17,6 +17,7 @@
 package com.cyanogenmod.settings.device;
 
 import android.app.KeyguardManager;
+import android.app.NotificationManager;
 import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
@@ -60,6 +61,10 @@ public class KeyHandler implements DeviceKeyHandler {
     private static final int GESTURE_V_SCANCODE = 252;
     private static final int GESTURE_LTR_SCANCODE = 253;
     private static final int GESTURE_GTR_SCANCODE = 254;
+    private static final int MODE_TOTAL_SILENCE = 600;
+    private static final int MODE_ALARMS_ONLY = 601;
+    private static final int MODE_PRIORITY_ONLY = 602;
+    private static final int MODE_NONE = 603;
 
     private static final int GESTURE_WAKELOCK_DURATION = 3000;
 
@@ -69,11 +74,16 @@ public class KeyHandler implements DeviceKeyHandler {
         GESTURE_SWIPE_DOWN_SCANCODE,
         GESTURE_V_SCANCODE,
         GESTURE_LTR_SCANCODE,
-        GESTURE_GTR_SCANCODE
+        GESTURE_GTR_SCANCODE,
+        MODE_TOTAL_SILENCE,
+        MODE_ALARMS_ONLY,
+        MODE_PRIORITY_ONLY,
+        MODE_NONE
     };
 
     private final Context mContext;
     private final PowerManager mPowerManager;
+    private NotificationManager mNotificationManager;
     private EventHandler mEventHandler;
     private SensorManager mSensorManager;
     private CameraManager mCameraManager;
@@ -88,6 +98,8 @@ public class KeyHandler implements DeviceKeyHandler {
 
     public KeyHandler(Context context) {
         mContext = context;
+        mNotificationManager
+                = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
         mPowerManager = (PowerManager) context.getSystemService(Context.POWER_SERVICE);
         mEventHandler = new EventHandler();
         mGestureWakeLock = mPowerManager.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK,
@@ -206,7 +218,30 @@ public class KeyHandler implements DeviceKeyHandler {
             return true;
         }
 
-        if (!mEventHandler.hasMessages(GESTURE_REQUEST)) {
+        if (event.getScanCode() >= MODE_TOTAL_SILENCE) {
+            switch(event.getScanCode()) {
+            case MODE_TOTAL_SILENCE:
+                mNotificationManager.setZenMode(
+                        Settings.Global.ZEN_MODE_NO_INTERRUPTIONS, null, TAG);
+                doHapticFeedback();
+                break;
+            case MODE_ALARMS_ONLY:
+                mNotificationManager.setZenMode(
+                        Settings.Global.ZEN_MODE_ALARMS, null, TAG);
+                doHapticFeedback();
+                break;
+            case MODE_PRIORITY_ONLY:
+                mNotificationManager.setZenMode(
+                        Settings.Global.ZEN_MODE_IMPORTANT_INTERRUPTIONS, null, TAG);
+                doHapticFeedback();
+                break;
+            case MODE_NONE:
+                mNotificationManager.setZenMode(
+                        Settings.Global.ZEN_MODE_OFF, null, TAG);
+                doHapticFeedback();
+                break;
+            }
+        } else if (!mEventHandler.hasMessages(GESTURE_REQUEST)) {
             Message msg = getMessageForKeyEvent(event.getScanCode(), callback);
             boolean defaultProximity = mContext.getResources().getBoolean(
                 org.cyanogenmod.platform.internal.R.bool.config_proximityCheckOnWakeEnabledByDefault);

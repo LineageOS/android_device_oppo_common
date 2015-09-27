@@ -79,6 +79,28 @@ public class Startup extends BroadcastReceiver {
                         context, Constants.TOUCHPAD_DOUBLETAP_KEY, false));
             }
 
+            // Disable slider settings if needed
+            if (!hasSlider()) {
+                disableComponent(context, SliderSettings.class.getName());
+            } else {
+                enableComponent(context, SliderSettings.class.getName());
+                // Restore nodes to saved preference values
+                for (String pref : Constants.sNodePreferenceMap.keySet()) {
+                    boolean defaultValue = Constants.sNodeDefaultMap.get(pref).booleanValue();
+                    boolean value = Constants.isPreferenceEnabled(context, pref, defaultValue);
+                    String node = Constants.sNodePreferenceMap.get(pref);
+                    FileUtils.writeLine(node, value ? "1" : "0");
+                }
+
+                int keyCode_slider_top = Constants.getPreferenceInteger(context, "keycode_slider_top", 0);
+                int keyCode_slider_middle = Constants.getPreferenceInteger(context, "keycode_slider_middle", 1);
+                int keyCode_slider_bottom = Constants.getPreferenceInteger(context, "keycode_slider_bottom", 2);
+
+                FileUtils.writeLine(Constants.KEYCODE_SLIDER_TOP, String.valueOf(keyCode_slider_top + 600));
+                FileUtils.writeLine(Constants.KEYCODE_SLIDER_MIDDLE, String.valueOf(keyCode_slider_middle + 600));
+                FileUtils.writeLine(Constants.KEYCODE_SLIDER_BOTTOM, String.valueOf(keyCode_slider_bottom + 600));
+            }
+
             // Disable O-Click settings if needed
             if (!hasOClick()) {
                 disableComponent(context, BluetoothInputSettings.class.getName());
@@ -142,6 +164,12 @@ public class Startup extends BroadcastReceiver {
         return new File(Constants.TOUCHSCREEN_CAMERA_NODE).exists() &&
             new File(Constants.TOUCHSCREEN_MUSIC_NODE).exists() &&
             new File(Constants.TOUCHSCREEN_FLASHLIGHT_NODE).exists();
+    }
+
+    private boolean hasSlider() {
+        return new File(Constants.KEYCODE_SLIDER_TOP).exists() &&
+            new File(Constants.KEYCODE_SLIDER_MIDDLE).exists() &&
+            new File(Constants.KEYCODE_SLIDER_BOTTOM).exists();
     }
 
     private void disableComponent(Context context, String component) {

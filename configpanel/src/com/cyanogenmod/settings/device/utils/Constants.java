@@ -54,6 +54,14 @@ public class Constants {
     public static final boolean TOUCHSCREEN_MUSIC_DEFAULT = true;
     public static final boolean TOUCHSCREEN_FLASHLIGHT_DEFAULT = true;
 
+    // Notification slider
+    public static final String KEYCODE_SLIDER_TOP =
+        "/sys/devices/soc.0/tri_state_key.82/keyCode_top";
+    public static final String KEYCODE_SLIDER_MIDDLE =
+        "/sys/devices/soc.0/tri_state_key.82/keyCode_middle";
+    public static final String KEYCODE_SLIDER_BOTTOM =
+        "/sys/devices/soc.0/tri_state_key.82/keyCode_bottom";
+
     // Holds <preference_key> -> <proc_node> mapping
     public static final Map<String, String> sNodePreferenceMap = new HashMap<String, String>();
 
@@ -75,5 +83,10 @@ public class Constants {
     public static boolean isPreferenceEnabled(Context context, String key, boolean defaultValue) {
         SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(context);
         return preferences.getBoolean(key, defaultValue);
+    }
+
+    public static String getPreferenceString(Context context, String key, String defaultValue) {
+        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(context);
+        return preferences.getString(key, defaultValue);
     }
 }

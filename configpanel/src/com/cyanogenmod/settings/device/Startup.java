@@ -88,6 +88,21 @@ public class Startup extends BroadcastReceiver {
                         context, Constants.TOUCHPAD_DOUBLETAP_KEY, false));
             }
 
+            // Disable slider settings if needed
+            if (!hasSlider()) {
+                disableComponent(context, SliderSettings.class.getName());
+            } else {
+                enableComponent(context, SliderSettings.class.getName());
+
+                String sliderTop = Constants.getPreferenceString(context, "keycode_top_position", "601");
+                String sliderMiddle = Constants.getPreferenceString(context, "keycode_middle_position", "602");
+                String sliderBottom = Constants.getPreferenceString(context, "keycode_bottom_position", "603");
+
+                FileUtils.writeLine(Constants.KEYCODE_SLIDER_TOP, sliderTop);
+                FileUtils.writeLine(Constants.KEYCODE_SLIDER_MIDDLE, sliderMiddle);
+                FileUtils.writeLine(Constants.KEYCODE_SLIDER_BOTTOM, sliderBottom);
+            }
+
             // Disable O-Click settings if needed
             if (!hasOClick()) {
                 disableComponent(context, BluetoothInputSettings.class.getName());
@@ -151,6 +166,12 @@ public class Startup extends BroadcastReceiver {
         return new File(Constants.TOUCHSCREEN_CAMERA_NODE).exists() &&
             new File(Constants.TOUCHSCREEN_MUSIC_NODE).exists() &&
             new File(Constants.TOUCHSCREEN_FLASHLIGHT_NODE).exists();
+    }
+
+    private boolean hasSlider() {
+        return new File(Constants.KEYCODE_SLIDER_TOP).exists() &&
+            new File(Constants.KEYCODE_SLIDER_MIDDLE).exists() &&
+            new File(Constants.KEYCODE_SLIDER_BOTTOM).exists();
     }
 
     private void disableComponent(Context context, String component) {

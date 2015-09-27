@@ -59,10 +59,9 @@ public class Startup extends BroadcastReceiver {
             } else {
                 enableComponent(context, TouchscreenGestureSettings.class.getName());
                 // Restore nodes to saved preference values
-                for (String pref : Constants.sNodePreferenceMap.keySet()) {
-                    boolean defaultValue = Constants.sNodeDefaultMap.get(pref);
-                    boolean value = Constants.isPreferenceEnabled(context, pref, defaultValue);
-                    String node = Constants.sNodePreferenceMap.get(pref);
+                for (String pref : Constants.sGesturePrefKeys) {
+                    boolean value = Constants.isPreferenceEnabled(context, pref);
+                    String node = Constants.sBooleanNodePreferenceMap.get(pref);
                     if (!FileUtils.writeLine(node, value ? "1" : "0")) {
                         Log.w(TAG, "Write to node " + node +
                             " failed while restoring saved preference values");
@@ -80,11 +79,36 @@ public class Startup extends BroadcastReceiver {
 
                 // Set longPress event
                 toggleLongPress(context, sInstance, Constants.isPreferenceEnabled(
-                        context, Constants.TOUCHPAD_LONGPRESS_KEY, false));
+                        context, Constants.TOUCHPAD_LONGPRESS_KEY));
 
                 // Set doubleTap event
                 toggleLongPress(context, sInstance, Constants.isPreferenceEnabled(
-                        context, Constants.TOUCHPAD_DOUBLETAP_KEY, false));
+                        context, Constants.TOUCHPAD_DOUBLETAP_KEY));
+            }
+
+            // Disable button settings if needed
+            if (!hasButtonProcs()) {
+                disableComponent(context, ButtonSettings.class.getName());
+            } else {
+                enableComponent(context, ButtonSettings.class.getName());
+
+                // Restore nodes to saved preference values
+                for (String pref : Constants.sButtonPrefKeys) {
+                    String value;
+                    String node;
+                    if (Constants.sStringNodePreferenceMap.containsKey(pref)) {
+                        value = Constants.getPreferenceString(context, pref);
+                        node = Constants.sStringNodePreferenceMap.get(pref);
+                    } else {
+                        value = Constants.isPreferenceEnabled(context, pref) ?
+                                "1" : "0";
+                        node = Constants.sBooleanNodePreferenceMap.get(pref);
+                    }
+                    if (!FileUtils.writeLine(node, value)) {
+                        Log.w(TAG, "Write to node " + node +
+                            " failed while restoring saved preference values");
+                    }
+                }
             }
 
             // Disable O-Click settings if needed
@@ -150,6 +174,13 @@ public class Startup extends BroadcastReceiver {
         return new File(Constants.TOUCHSCREEN_CAMERA_NODE).exists() &&
             new File(Constants.TOUCHSCREEN_MUSIC_NODE).exists() &&
             new File(Constants.TOUCHSCREEN_FLASHLIGHT_NODE).exists();
+    }
+
+    private boolean hasButtonProcs() {
+        return (new File(Constants.NOTIF_SLIDER_TOP_NODE).exists() &&
+            new File(Constants.NOTIF_SLIDER_MIDDLE_NODE).exists() &&
+            new File(Constants.NOTIF_SLIDER_BOTTOM_NODE).exists()) ||
+            new File(Constants.BUTTON_SWAP_NODE).exists();
     }
 
     private void disableComponent(Context context, String component) {

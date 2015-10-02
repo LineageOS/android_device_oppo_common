@@ -1,5 +1,4 @@
-#
-# Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2015 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,25 +11,13 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-#
 
-BOARD_VENDOR := oppo
+LOCAL_PATH := $(call my-dir)
 
-# CM Hardware
-BOARD_USES_CYANOGEN_HARDWARE := true
-BOARD_HARDWARE_CLASS += \
-    device/oppo/common/cmhw \
-    hardware/cyanogen/cmhw
+include $(CLEAR_VARS)
 
-# Healthd
-BOARD_HAL_STATIC_LIBRARIES += libhealthd.oppo
+LOCAL_SRC_FILES := healthd_board_oppo.cpp
+LOCAL_MODULE := libhealthd.oppo
+LOCAL_C_INCLUDES := system/core/healthd
 
-# MSM Init
-TARGET_INIT_VENDOR_LIB := libinit_msm_oppo
-
-# QCOM Power
-TARGET_POWERHAL_VARIANT := qcom
-
-# Releasetools
-TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_oppo
-TARGET_RELEASETOOLS_EXTENSIONS := device/oppo/common
+include $(BUILD_STATIC_LIBRARY)

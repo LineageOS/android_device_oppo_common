@@ -1,5 +1,6 @@
 LOCAL_PATH:= $(call my-dir)
 
+ifeq ($(TARGET_DEVICE),bacon)
 include $(CLEAR_VARS)
 
 LOCAL_MODULE := com.cyanogenmod.keyhandler
@@ -8,4 +9,4 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_DEX_PREOPT := false
 
 include $(BUILD_JAVA_LIBRARY)
-
+endif

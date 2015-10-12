@@ -42,9 +42,9 @@
   <string name="oclick_panel_summary">Konfiguratu O-Click gailua</string>
   <string name="oclick_connect_string">Konektatu</string>
   <string name="oclick_disconnect_string">Deskonektatu</string>
-  <string name="oclick_summary_connected">O-Click-era konektatuta</string>
+  <string name="oclick_summary_connected">O-Clickera konektatuta</string>
   <string name="oclick_summary_paired">O-Click elkartuta, baina deskonektatuta</string>
-  <string name="oclick_dialog_connecting_message">O-Click-era konektatzen\u2026\nSakatu O-Click botoia bilaketa bizkortzeko.</string>
+  <string name="oclick_dialog_connecting_message">O-Clickera konektatzen\u2026\nSakatu O-Click botoia bilaketa bizkortzeko.</string>
   <string name="oclick_take_snapshot_title">Urruneko kliskagailua</string>
   <string name="oclick_take_snapshot_summary">Behin sakatu argazkia ateratzeko</string>
   <string name="oclick_find_my_phone_title">Telefonoa kokatu</string>

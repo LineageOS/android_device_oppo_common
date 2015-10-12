@@ -56,7 +56,7 @@
   <string name="alert_category_title">Alarme</string>
   <string name="action_category_title">Aktionen</string>
   <string name="oclick_locator_notification_title">O-Click-Telefonfinder</string>
-  <string name="oclick_locator_notification_text">Telefonfinder-Alarm aktiv. Zum Beenden berühren</string>
+  <string name="oclick_locator_notification_text">Telefonfinder-Alarm aktiv. Zum Beenden tippen</string>
   <string name="oclick_notification_title_connected">O-Click verbunden</string>
   <string name="oclick_notification_title_disconnected">O-Click getrennt</string>
   <string name="oclick_notification_content_disconnected">Drücken Sie die O-Click-Taste, um die Verbindung wiederherzustellen</string>

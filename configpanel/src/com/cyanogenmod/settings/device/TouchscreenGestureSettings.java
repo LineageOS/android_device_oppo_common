@@ -21,25 +21,22 @@ import com.android.internal.util.cm.ScreenType;
 import com.cyanogenmod.settings.device.utils.NodePreferenceActivity;
 
 import android.os.Bundle;
-import android.os.SystemProperties;
+import android.provider.Settings;
 import android.preference.Preference;
 import android.preference.SwitchPreference;
 
 public class TouchscreenGestureSettings extends NodePreferenceActivity {
+    private static final String KEY_HAPTIC_FEEDBACK = "touchscreen_gesture_haptic_feedback";
 
-    private static final String KEY_HAPTIC_FEEDBACK = "touchscreen_haptic_feedback";
-
-    private static final String PROP_HAPTIC_FEEDBACK = "persist.gestures.haptic";
+    private SwitchPreference mHapticFeedback;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.touchscreen_panel);
 
-        final SwitchPreference hapticFeedback =
-                (SwitchPreference) findPreference(KEY_HAPTIC_FEEDBACK);
-        hapticFeedback.setChecked(SystemProperties.getBoolean(PROP_HAPTIC_FEEDBACK, true));
-        hapticFeedback.setOnPreferenceChangeListener(this);
+        mHapticFeedback = (SwitchPreference) findPreference(KEY_HAPTIC_FEEDBACK);
+        mHapticFeedback.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -47,6 +44,7 @@ public class TouchscreenGestureSettings extends NodePreferenceActivity {
         final String key = preference.getKey();
         if (KEY_HAPTIC_FEEDBACK.equals(key)) {
             final boolean value = (Boolean) newValue;
+            Settings.System.putInt(getContentResolver(), KEY_HAPTIC_FEEDBACK, value ? 1 : 0);
             return true;
         }
 
@@ -61,6 +59,8 @@ public class TouchscreenGestureSettings extends NodePreferenceActivity {
         if (!ScreenType.isTablet(this)) {
             getListView().setPadding(0, 0, 0, 0);
         }
-    }
 
+        mHapticFeedback.setChecked(
+                Settings.System.getInt(getContentResolver(), KEY_HAPTIC_FEEDBACK, 1) != 0);
+    }
 }

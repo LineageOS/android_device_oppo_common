@@ -60,4 +60,7 @@
   <string name="oclick_notification_title_connected">O-Click forbundet</string>
   <string name="oclick_notification_title_disconnected">O-Click afbrudt</string>
   <string name="oclick_notification_content_disconnected">Tryk på O-Click for at genoprette forbindelsen</string>
+  <string name="touchscreen_extras">Ekstrafunktioner</string>
+  <string name="haptic_feedback">Berøringsvibration</string>
+  <string name="haptic_feedback_summary">Vibrere, når en berøring bliver registreret</string>
 </resources>

@@ -60,4 +60,7 @@
   <string name="oclick_notification_title_connected">O-Click yhdistetty</string>
   <string name="oclick_notification_title_disconnected">Yhteys O-Clickiin katkaistu</string>
   <string name="oclick_notification_content_disconnected">Paina O-Clickin painiketta yhdistääksesi uudelleen</string>
+  <string name="touchscreen_extras">Ekstrat</string>
+  <string name="haptic_feedback">Haptinen palaute</string>
+  <string name="haptic_feedback_summary">Värise kun ele tunnistetaan</string>
 </resources>

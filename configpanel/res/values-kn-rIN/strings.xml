@@ -60,4 +60,7 @@
   <string name="oclick_notification_title_connected">ಒ-ಕ್ಲಿಕ್ ಸಂಪರ್ಕಗೊಂಡಿದೆ</string>
   <string name="oclick_notification_title_disconnected">ಒ-ಕ್ಲಿ ಸಂಪರ್ಕ ಕಡಿತಗೊಂಡಿದೆ</string>
   <string name="oclick_notification_content_disconnected">ಮರುಸಂಪರ್ಕಗೊಳಿಸಲು ಒ-ಕ್ಲಿಕ್ ಬಟನನ್ನು ಒತ್ತಿ</string>
+  <string name="touchscreen_extras">ಹೆಚ್ಚುವರಿ</string>
+  <string name="haptic_feedback">ಸ್ಪಾರ್ಶ ಪ್ರತಿಕ್ರಿಯೆ</string>
+  <string name="haptic_feedback_summary">ಸನ್ನೆ ಪತ್ತೆಯಾದಾಗ ಕಂಪಿಸು</string>
 </resources>

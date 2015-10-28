@@ -60,4 +60,7 @@
   <string name="oclick_notification_title_connected">O-Click מחובר</string>
   <string name="oclick_notification_title_disconnected">O-Click מנותק</string>
   <string name="oclick_notification_content_disconnected">לחץ על כפתור ה-O-Click כדי להתחבר מחדש</string>
+  <string name="touchscreen_extras">תוספות</string>
+  <string name="haptic_feedback">משוב רטט</string>
+  <string name="haptic_feedback_summary">רטוט כאשר מחווה מזוהה</string>
 </resources>

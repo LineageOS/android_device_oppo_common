@@ -60,4 +60,7 @@
   <string name="oclick_notification_title_connected">Устройство O-Click подключено</string>
   <string name="oclick_notification_title_disconnected">Устройство O-Click отключено</string>
   <string name="oclick_notification_content_disconnected">Нажмите кнопку O-Click для переподключения</string>
+  <string name="touchscreen_extras">Прочее</string>
+  <string name="haptic_feedback">Виброотклик</string>
+  <string name="haptic_feedback_summary">Вибрировать при успешном распознавании жеста</string>
 </resources>

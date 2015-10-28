@@ -60,4 +60,7 @@
   <string name="oclick_notification_title_connected">Το O-Click συνδέθηκε</string>
   <string name="oclick_notification_title_disconnected">Το O-Click αποσυνδέθηκε</string>
   <string name="oclick_notification_content_disconnected">Πιέστε το πλήκτρο O-Click για επανασύνδεση</string>
+  <string name="touchscreen_extras">Επιπλέον ρυθμίσεις</string>
+  <string name="haptic_feedback">Απτική ανάδραση</string>
+  <string name="haptic_feedback_summary">Δόνηση κατά τον εντοπισμό μιας χειρονομίας</string>
 </resources>

@@ -60,4 +60,7 @@
   <string name="oclick_notification_title_connected">O-Click connecté</string>
   <string name="oclick_notification_title_disconnected">O-Click déconnecté</string>
   <string name="oclick_notification_content_disconnected">Appuyez sur le bouton O-Click pour se reconnecter</string>
+  <string name="touchscreen_extras">Extras</string>
+  <string name="haptic_feedback">Retour haptique</string>
+  <string name="haptic_feedback_summary">Vibrer lorsqu\'un geste est détecté</string>
 </resources>

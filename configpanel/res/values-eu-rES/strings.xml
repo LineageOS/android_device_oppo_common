@@ -60,4 +60,7 @@
   <string name="oclick_notification_title_connected">O-Click konektatuta</string>
   <string name="oclick_notification_title_disconnected">O-Click deskonektatuta</string>
   <string name="oclick_notification_content_disconnected">Sakatu O-Click botoia berriro konektatzeko</string>
+  <string name="touchscreen_extras">Gehigarriak</string>
+  <string name="haptic_feedback">Erantzun haptikoa</string>
+  <string name="haptic_feedback_summary">Bibratu keinu bat antzematean</string>
 </resources>

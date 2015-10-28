@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f2577a7_7dd08c51",
+        "filename": "keyhandler/src/com/cyanogenmod/settings/device/KeyHandler.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 269,
+      "author": {
+        "id": 8461
+      },
+      "writtenOn": "2015-10-28T19:03:10Z",
+      "side": 1,
+      "message": "device/oppo/common/keyhandler/src/com/cyanogenmod/settings/device/KeyHandler.java:285: Settings cannot be resolved\n\nBuild fails ^",
+      "revId": "d399b3f8b112043470807b527e6cdc8c12933016",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

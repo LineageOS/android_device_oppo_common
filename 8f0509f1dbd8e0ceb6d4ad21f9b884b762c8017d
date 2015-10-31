@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f2577a7_f0a015a8",
+        "filename": "keyhandler/src/com/cyanogenmod/settings/device/KeyHandler.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 191,
+      "author": {
+        "id": 13956
+      },
+      "writtenOn": "2015-10-31T02:17:23Z",
+      "side": 1,
+      "message": "something like :\ncom.cyanogenmod.settings:GESTURE_DOUBLE_TAP instead of KeyHandlerWakeUp  would be more meaningful when we debug/analysis the wakeup reason.",
+      "range": {
+        "startLine": 191,
+        "startChar": 41,
+        "endLine": 191,
+        "endChar": 44
+      },
+      "revId": "8f0509f1dbd8e0ceb6d4ad21f9b884b762c8017d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

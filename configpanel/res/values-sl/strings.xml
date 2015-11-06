@@ -60,4 +60,7 @@
   <string name="oclick_notification_title_connected">O-Click povezan</string>
   <string name="oclick_notification_title_disconnected">O-Click prekinjen</string>
   <string name="oclick_notification_content_disconnected">Pritisnite gumb O-Click za ponovno povezavo</string>
+  <string name="touchscreen_extras">Dodatki</string>
+  <string name="haptic_feedback">Haptično zaznavanje</string>
+  <string name="haptic_feedback_summary">Vibriraj ob zaznavi poteze</string>
 </resources>

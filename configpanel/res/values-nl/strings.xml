@@ -60,4 +60,7 @@
   <string name="oclick_notification_title_connected">O-Click verbonden</string>
   <string name="oclick_notification_title_disconnected">O-Click niet verbonden</string>
   <string name="oclick_notification_content_disconnected">Klik op de O-Click-knop om opnieuw verbinding te maken</string>
+  <string name="touchscreen_extras">Extra\'s</string>
+  <string name="haptic_feedback">Trillen</string>
+  <string name="haptic_feedback_summary">Trillen wanneer een gebaar wordt gedetecteerd</string>
 </resources>

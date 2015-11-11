@@ -18,8 +18,7 @@
     <string name="app_name">Advanced settings</string>
 
     <!-- O-Touch settings -->
-    <string name="backpad_panel_title">O-Touch settings</string>
-    <string name="backpad_panel_summary">Configure O-Touch</string>
+    <string name="backpad_panel_title" translatable="false">O-Touch</string>
 
     <string name="touchpad_enable_title">Enable O-Touch</string>
     <string name="touchpad_enable_summary">Rear touchpad to navigate the phone</string>
@@ -29,8 +28,7 @@
     <string name="touchpad_double_tap_summary">While in camera, double tap to capture image</string>
 
     <!-- Gesture shortcuts -->
-    <string name="screen_gestures_panel_title">Gesture shortcuts</string>
-    <string name="screen_gestures_panel_summary">Use gestures while the screen is off</string>
+    <string name="screen_gestures_panel_title">Gestures</string>
 
     <string name="touchscreen_double_tap_gesture_title">Wake device</string>
     <string name="touchscreen_double_tap_gesture_summary">Double tap to wake the device</string>
@@ -45,8 +43,7 @@
     • Draw right arrow for next track</string>
 
     <!-- O-Click settings -->
-    <string name="oclick_panel_title">O-Click settings</string>
-    <string name="oclick_panel_summary">Configure O-Click device</string>
+    <string name="oclick_panel_title" translatable="false">O-Click</string>
 
     <string name="oclick_connect_string">Connect</string>
     <string name="oclick_disconnect_string">Disconnect</string>

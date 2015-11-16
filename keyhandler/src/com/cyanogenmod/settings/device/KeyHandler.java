@@ -168,6 +168,8 @@ public class KeyHandler implements DeviceKeyHandler {
         @Override
         public void handleMessage(Message msg) {
             KeyEvent event = (KeyEvent) msg.obj;
+            if (event.getAction() != KeyEvent.ACTION_DOWN)
+                return;
             switch (event.getScanCode()) {
             case FLIP_CAMERA_SCANCODE:
                 if (event.getAction() == KeyEvent.ACTION_UP) {

@@ -19,7 +19,6 @@ BOARD_VENDOR := oppo
 # CM Hardware
 BOARD_USES_CYANOGEN_HARDWARE := true
 BOARD_HARDWARE_CLASS += \
-    device/oppo/common/cmhw \
     hardware/cyanogen/cmhw
 
 # QCOM Power

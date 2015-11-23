@@ -167,12 +167,8 @@ public class KeyHandler implements DeviceKeyHandler {
     private class EventHandler extends Handler {
         @Override
         public void handleMessage(Message msg) {
-            KeyEvent event = (KeyEvent) msg.obj;
-            switch (event.getScanCode()) {
+            switch (msg.arg1) {
             case FLIP_CAMERA_SCANCODE:
-                if (event.getAction() == KeyEvent.ACTION_UP) {
-                    break;
-                }
             case GESTURE_CIRCLE_SCANCODE:
                 ensureKeyguardManager();
                 final String action;
@@ -218,34 +214,43 @@ public class KeyHandler implements DeviceKeyHandler {
     }
 
     public boolean handleKeyEvent(KeyEvent event) {
-        if (event.getAction() != KeyEvent.ACTION_UP
-                && event.getScanCode() != FLIP_CAMERA_SCANCODE) {
+        boolean isKeySupported = ArrayUtils.contains(sSupportedGestures, event.getScanCode());
+        if (!isKeySupported) {
             return false;
         }
-        boolean isKeySupported = ArrayUtils.contains(sSupportedGestures, event.getScanCode());
-        if (isKeySupported && !mEventHandler.hasMessages(GESTURE_REQUEST)) {
-            Message msg = getMessageForKeyEvent(event);
+
+        // We only want ACTION_UP event, except FLIP_CAMERA_SCANCODE
+        if (event.getScanCode() == FLIP_CAMERA_SCANCODE) {
+            if (event.getAction() != KeyEvent.ACTION_DOWN)
+                return true;
+        } else {
+            if (event.getAction() != KeyEvent.ACTION_UP)
+                return true;
+        }
+
+        if (!mEventHandler.hasMessages(GESTURE_REQUEST)) {
+            Message msg = getMessageForKeyEvent(event.getScanCode());
             boolean defaultProximity = mContext.getResources().getBoolean(
                 org.cyanogenmod.platform.internal.R.bool.config_proximityCheckOnWakeEnabledByDefault);
             boolean proximityWakeCheckEnabled = CMSettings.System.getInt(mContext.getContentResolver(),
                     CMSettings.System.PROXIMITY_ON_WAKE, defaultProximity ? 1 : 0) == 1;
             if (mProximityWakeSupported && proximityWakeCheckEnabled && mProximitySensor != null) {
                 mEventHandler.sendMessageDelayed(msg, mProximityTimeOut);
-                processEvent(event);
+                processEvent(event.getScanCode());
             } else {
                 mEventHandler.sendMessage(msg);
             }
         }
-        return isKeySupported;
+        return true;
     }
 
-    private Message getMessageForKeyEvent(KeyEvent keyEvent) {
+    private Message getMessageForKeyEvent(int scancode) {
         Message msg = mEventHandler.obtainMessage(GESTURE_REQUEST);
-        msg.obj = keyEvent;
+        msg.arg1 = scancode;
         return msg;
     }
 
-    private void processEvent(final KeyEvent keyEvent) {
+    private void processEvent(final int scancode) {
         mProximityWakeLock.acquire();
         mSensorManager.registerListener(new SensorEventListener() {
             @Override
@@ -258,7 +263,7 @@ public class KeyHandler implements DeviceKeyHandler {
                 }
                 mEventHandler.removeMessages(GESTURE_REQUEST);
                 if (event.values[0] == mProximitySensor.getMaximumRange()) {
-                    Message msg = getMessageForKeyEvent(keyEvent);
+                    Message msg = getMessageForKeyEvent(scancode);
                     mEventHandler.sendMessage(msg);
                 }
             }

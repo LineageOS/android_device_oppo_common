@@ -34,6 +34,7 @@ import android.os.SystemClock;
 import android.os.UserHandle;
 import android.preference.PreferenceManager;
 import android.service.gesture.IGestureService;
+import android.util.Log;
 import android.view.InputDevice;
 import android.view.InputEvent;
 import android.view.KeyCharacterMap;
@@ -45,6 +46,9 @@ import com.cyanogenmod.settings.device.utils.Constants;
 import com.cyanogenmod.settings.device.utils.FileUtils;
 
 public class Startup extends BroadcastReceiver {
+
+    private static final String TAG = Startup.class.getSimpleName();
+
     @Override
     public void onReceive(final Context context, final Intent intent) {
         if (intent.getAction().equals(Intent.ACTION_BOOT_COMPLETED)) {
@@ -58,7 +62,10 @@ public class Startup extends BroadcastReceiver {
                     boolean defaultValue = Constants.sNodeDefaultMap.get(pref);
                     boolean value = Constants.isPreferenceEnabled(context, pref, defaultValue);
                     String node = Constants.sNodePreferenceMap.get(pref);
-                    FileUtils.writeLine(node, value ? "1" : "0");
+                    if (!FileUtils.writeLine(node, value ? "1" : "0")) {
+                        Log.w(TAG, "Write to node " + node +
+                            " failed while restoring saved preference values");
+                    }
                 }
             }
 

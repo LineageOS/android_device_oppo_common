@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "ff82abbf_a9f4be5c",
+        "filename": "keyhandler/src/com/cyanogenmod/settings/device/KeyHandler.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 218,
+      "author": {
+        "id": 13956
+      },
+      "writtenOn": "2015-11-25T23:33:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ff82abbf_097daa1b",
+      "revId": "622b8fbceda3bcec053140033ebe8d9bfdcf2e1f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ff82abbf_c976e23f",
         "filename": "keyhandler/src/com/cyanogenmod/settings/device/KeyHandler.java",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2015-11-25T18:38:58Z",
       "side": 1,
       "message": "While the xor certainly is creative and makes this condition short, I\u0027d much prefer if this was written with \u003d\u003d, !\u003d and \u0026\u0026 so one doesn\u0027t need to wrap one\u0027s head about the condition.",
+      "revId": "622b8fbceda3bcec053140033ebe8d9bfdcf2e1f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff82abbf_09036a44",
+        "filename": "keyhandler/src/com/cyanogenmod/settings/device/KeyHandler.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 223,
+      "author": {
+        "id": 13956
+      },
+      "writtenOn": "2015-11-25T23:33:27Z",
+      "side": 1,
+      "message": "Isn\u0027t the comment and xor itself pretty clean",
+      "parentUuid": "ff82abbf_c976e23f",
       "revId": "622b8fbceda3bcec053140033ebe8d9bfdcf2e1f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false

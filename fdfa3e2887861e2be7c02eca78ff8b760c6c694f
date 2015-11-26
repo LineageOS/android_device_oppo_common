@@ -1,0 +1,140 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff82abbf_e272db11",
+        "filename": "configpanel/src/com/cyanogenmod/settings/device/SliderSettings.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2015-11-26T18:44:38Z",
+      "side": 1,
+      "message": "Should import com.* after android.*",
+      "revId": "fdfa3e2887861e2be7c02eca78ff8b760c6c694f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff82abbf_a2661351",
+        "filename": "configpanel/src/com/cyanogenmod/settings/device/SliderSettings.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2015-11-26T18:44:38Z",
+      "side": 1,
+      "message": "This check seems rather useless, the whole pref leading into here should be hidden if the slider is not present.",
+      "revId": "fdfa3e2887861e2be7c02eca78ff8b760c6c694f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff82abbf_82618f3c",
+        "filename": "configpanel/src/com/cyanogenmod/settings/device/SliderSettings.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2015-11-26T18:44:38Z",
+      "side": 1,
+      "message": "100 chars",
+      "revId": "fdfa3e2887861e2be7c02eca78ff8b760c6c694f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff82abbf_2269a324",
+        "filename": "configpanel/src/com/cyanogenmod/settings/device/SliderSettings.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2015-11-26T18:44:38Z",
+      "side": 1,
+      "message": "This can be replaced by \u0027else return false\u0027",
+      "revId": "fdfa3e2887861e2be7c02eca78ff8b760c6c694f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff82abbf_c27557fc",
+        "filename": "configpanel/src/com/cyanogenmod/settings/device/SliderSettings.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2015-11-26T18:44:38Z",
+      "side": 1,
+      "message": "Replace by \u0027setSummary((ListPreference) preference, file)\u0027?",
+      "revId": "fdfa3e2887861e2be7c02eca78ff8b760c6c694f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff82abbf_425b8786",
+        "filename": "configpanel/src/com/cyanogenmod/settings/device/Startup.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2015-11-26T18:44:38Z",
+      "side": 1,
+      "message": "- Should be outside of touchscreen gesture presence check\n- Variables need camel caps naming\n- Shouldn\u0027t there a file presence check?\n- 100 chars",
+      "revId": "fdfa3e2887861e2be7c02eca78ff8b760c6c694f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff82abbf_62600b34",
+        "filename": "configpanel/src/com/cyanogenmod/settings/device/utils/Constants.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2015-11-26T18:44:38Z",
+      "side": 1,
+      "message": "100 chars",
+      "revId": "fdfa3e2887861e2be7c02eca78ff8b760c6c694f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff82abbf_02557f50",
+        "filename": "configpanel/src/com/cyanogenmod/settings/device/utils/Constants.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2015-11-26T18:44:38Z",
+      "side": 1,
+      "message": "I\u0027m not sure why this string-to-int-and-back stuff is needed. Why not just use \u0027600\u0027, \u0027601\u0027 and \u0027602\u0027 as values in the list prefs?",
+      "revId": "fdfa3e2887861e2be7c02eca78ff8b760c6c694f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

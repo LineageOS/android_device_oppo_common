@@ -60,4 +60,7 @@
   <string name="oclick_notification_title_connected">O-Click csatlakoztatva</string>
   <string name="oclick_notification_title_disconnected">O-Click leválasztva</string>
   <string name="oclick_notification_content_disconnected">Érintse meg az O-Click gombot az újracsatlakozáshoz</string>
+  <string name="touchscreen_extras">Extrák</string>
+  <string name="haptic_feedback">Érintési visszajelzés</string>
+  <string name="haptic_feedback_summary">Rezeg, mikor egy gesztus érzékelésre kerül</string>
 </resources>

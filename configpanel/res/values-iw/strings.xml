@@ -35,7 +35,7 @@
   <string name="touchscreen_flashlight_gesture_title">פנס</string>
   <string name="touchscreen_flashlight_gesture_summary">צייר V להפעלת/כיבוי הפנס</string>
   <string name="touchscreen_music_gesture_summary">השתמש במחוות לשליטה בהשמעת מוזיקה\n
-    • שתי אצבעות אנכית לניגון/השהייה\n
+    • שתי אצבעות אנכית לניגון\השהייה\n
     • ציור חץ שמאלה לחזרה לרצועה הקודמת\n
     • ציור חץ ימינה למעבר לרצועה הבאה</string>
   <string name="oclick_panel_title">הגדרות O-Click</string>

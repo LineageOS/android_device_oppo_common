@@ -60,4 +60,7 @@
   <string name="oclick_notification_title_connected">O-Click bağlandı</string>
   <string name="oclick_notification_title_disconnected">O-Click bağlantısı kəsildi</string>
   <string name="oclick_notification_content_disconnected">Yenidən bağlanmaq üçün O-Click düyməsinə basın</string>
+  <string name="touchscreen_extras">Əlavələr</string>
+  <string name="haptic_feedback">Sensor geri bildiriş</string>
+  <string name="haptic_feedback_summary">Bir jest aşkarlananda titrəyər</string>
 </resources>

@@ -60,4 +60,7 @@
   <string name="oclick_notification_title_connected">O-Click đã được kết nối</string>
   <string name="oclick_notification_title_disconnected">O-Click đã ngắt kết nối</string>
   <string name="oclick_notification_content_disconnected">Nhấn phím O-Click để kết nối lại</string>
+  <string name="touchscreen_extras">Thêm</string>
+  <string name="haptic_feedback">Phản hồi xúc giác</string>
+  <string name="haptic_feedback_summary">Rung khi phát hiện cử chỉ</string>
 </resources>

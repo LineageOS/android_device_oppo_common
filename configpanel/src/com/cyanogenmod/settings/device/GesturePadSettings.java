@@ -16,10 +16,10 @@
 
 package com.cyanogenmod.settings.device;
 
-import com.android.internal.util.cm.ScreenType;
-
 import com.cyanogenmod.settings.device.utils.Constants;
 import com.cyanogenmod.settings.device.utils.NodePreferenceActivity;
+
+import cyanogenmod.util.ScreenType;
 
 import android.os.Bundle;
 import android.os.IBinder;

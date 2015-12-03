@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bf8cb3f7_b52092f9",
+        "filename": "configpanel/src/com/cyanogenmod/settings/device/Startup.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-12-03T01:30:04Z",
+      "side": 1,
+      "message": "I originally meant just handle it here by having\n\ntry {\n\nFileUtils.writeLine(...);\n\n} catch (FileNotFoundException e) {\n\n}\n\nbut since the FileUtils function is already catching IOException and returning false (which I find strange to begin with), this is fine.",
+      "revId": "76f639d36eabf37fb8db36c47ad8031e58a98910",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

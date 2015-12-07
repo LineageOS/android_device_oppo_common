@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9f91af0f_b9e3afa4",
+        "filename": "configpanel/res/xml/slider_panel.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2015-12-07T15:18:40Z",
+      "side": 1,
+      "message": "I still maintain the position that this should be an array with the values 600/601/602 instead: This would make the whole integer-to-string-and-back conversion superfluous and would allow automatic summary handling etc.",
+      "revId": "5282e891fe2f3ac98258d13d3dccea5e4e7deeee",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

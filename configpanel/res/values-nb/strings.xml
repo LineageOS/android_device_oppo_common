@@ -60,4 +60,6 @@
   <string name="oclick_notification_title_connected">O-Klikk tilkoblet</string>
   <string name="oclick_notification_title_disconnected">O-Klikk frakoblet</string>
   <string name="oclick_notification_content_disconnected">Trykk på O-Klikk for å koble til</string>
+  <string name="touchscreen_extras">Ekstra</string>
+  <string name="haptic_feedback">Haptisk tilbakemelding</string>
 </resources>

@@ -17,16 +17,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">Avancerade inställningar</string>
-  <string name="backpad_panel_title">O-Touch-inställningar</string>
-  <string name="backpad_panel_summary">Konfigurera O-Touch</string>
   <string name="touchpad_enable_title">Aktivera O-Touch</string>
   <string name="touchpad_enable_summary">Bakre pekplatta för att navigera telefonen</string>
   <string name="touchpad_long_press_title">Långtryck för att öppna kamera</string>
   <string name="touchpad_long_press_summary">Långtryck på pekplattan kommer att öppna kameraappen</string>
   <string name="touchpad_double_tap_title">Dubbeltryck för att ta bild</string>
   <string name="touchpad_double_tap_summary">När du är i kameran, dubbeltryck för att ta en bild</string>
-  <string name="screen_gestures_panel_title">Gestgenvägar</string>
-  <string name="screen_gestures_panel_summary">Använd gester medan skärmen är avstängd</string>
   <string name="touchscreen_double_tap_gesture_title">Väck enhet</string>
   <string name="touchscreen_double_tap_gesture_summary">Dubbeltryck för att väcka enheten</string>
   <string name="touchscreen_camera_gesture_title">Kamera</string>
@@ -38,8 +34,6 @@
     • Två fingrar vertikalt för att spela/pausa\n
     • Rita en vänsterpil för föregående spår\n
     • Rita en högerpil för nästa spår</string>
-  <string name="oclick_panel_title">O-Click-inställningar</string>
-  <string name="oclick_panel_summary">Konfigurera O-Click-enhet</string>
   <string name="oclick_connect_string">Anslut</string>
   <string name="oclick_disconnect_string">Koppla från</string>
   <string name="oclick_take_snapshot_title">Fjärrstyrd kameraavtryckare</string>

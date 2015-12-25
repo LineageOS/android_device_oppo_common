@@ -17,16 +17,13 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">הגדרות מתקדמות</string>
-  <string name="backpad_panel_title">הגדרות O-Touch</string>
-  <string name="backpad_panel_summary">הגדר O-Touch</string>
   <string name="touchpad_enable_title">הפעל O-Touch</string>
   <string name="touchpad_enable_summary">משטח מגע אחורי לניווט במכשיר</string>
   <string name="touchpad_long_press_title">לחיצה ארוכה להפעלת המצלמה</string>
   <string name="touchpad_long_press_summary">לחיצה ארוכה על משטח מגע תפעיל את יישום המצלמה</string>
   <string name="touchpad_double_tap_title">הקשה כפולה לצילום</string>
   <string name="touchpad_double_tap_summary">בזמן שהמצלמה פעילה, הקש פעמיים ללכידת תמונה</string>
-  <string name="screen_gestures_panel_title">קיצורי מחוות</string>
-  <string name="screen_gestures_panel_summary">השתמש במחוות כאשר המסך כבוי</string>
+  <string name="screen_gestures_panel_title">מחוות</string>
   <string name="touchscreen_double_tap_gesture_title">הער מכשיר</string>
   <string name="touchscreen_double_tap_gesture_summary">הקש פעמיים להפעלת המכשיר</string>
   <string name="touchscreen_camera_gesture_title">מצלמה</string>
@@ -35,11 +32,9 @@
   <string name="touchscreen_flashlight_gesture_title">פנס</string>
   <string name="touchscreen_flashlight_gesture_summary">צייר V להפעלת/כיבוי הפנס</string>
   <string name="touchscreen_music_gesture_summary">השתמש במחוות לשליטה בהשמעת מוזיקה\n
-    • שתי אצבעות אנכית לניגון/השהייה\n
+    • שתי אצבעות אנכית לניגון\השהייה\n
     • ציור חץ שמאלה לחזרה לרצועה הקודמת\n
     • ציור חץ ימינה למעבר לרצועה הבאה</string>
-  <string name="oclick_panel_title">הגדרות O-Click</string>
-  <string name="oclick_panel_summary">הגדר התקן O-Click</string>
   <string name="oclick_connect_string">התחבר</string>
   <string name="oclick_disconnect_string">התנתק</string>
   <string name="oclick_summary_connected">מחובר ל-O-Click</string>
@@ -60,4 +55,7 @@
   <string name="oclick_notification_title_connected">O-Click מחובר</string>
   <string name="oclick_notification_title_disconnected">O-Click מנותק</string>
   <string name="oclick_notification_content_disconnected">לחץ על כפתור ה-O-Click כדי להתחבר מחדש</string>
+  <string name="touchscreen_extras">תוספות</string>
+  <string name="haptic_feedback">משוב רטט</string>
+  <string name="haptic_feedback_summary">רטוט כאשר מחווה מזוהה</string>
 </resources>

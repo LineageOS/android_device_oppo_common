@@ -17,16 +17,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">ಸುಧಾರಿತ ಸೆಟ್ಟಿಂಗ್ಸ್</string>
-  <string name="backpad_panel_title">ಒ-ಸ್ಪರ್ಶ ಸೆಟ್ಟಿಂಗ್ಸ್</string>
-  <string name="backpad_panel_summary">ಒ-ಸ್ಪರ್ಶ ಕಾನ್ಫಿಗರ್ ಮಾಡಿ</string>
   <string name="touchpad_enable_title">ಒ-ಸ್ಪರ್ಶ ಸಕ್ರಿಯ</string>
   <string name="touchpad_enable_summary">ಫೋನನ್ನು ನಾವಿಗೇಟ್ ಮಾಡಲು ಹಿಂಬದಿ ಸ್ಪರ್ಶಪ್ಯಾಡ್</string>
   <string name="touchpad_long_press_title">ಕ್ಯಾಮೆರಾ ತೆರೆಯಲು ದೀರ್ಘ ಸ್ಪರ್ಶ</string>
   <string name="touchpad_long_press_summary">ಸ್ಪರ್ಶಪ್ಯಾಡ್ ಮೇಲೆ ದೀರ್ಘ ಸ್ಪರ್ಶ ಮಾಡುವುದರಿಂದ ಕ್ಯಾಮೆರಾ ಅಪ್ಲಿಕೇಶನ್ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ</string>
   <string name="touchpad_double_tap_title">ಸೆರೆಹಿಡಿಯಲು ದ್ವಿಗುಣ ಸ್ಪರ್ಶ</string>
   <string name="touchpad_double_tap_summary">ಕ್ಯಾಮೆರಾದಲ್ಲಿರುವಾಗ, ಇಮೇಜನ್ನು ಸೆರೆಹಿಡಿಯಲು ದ್ಚಿಗುಣ ಸ್ಪರ್ಶಿಸಿ</string>
-  <string name="screen_gestures_panel_title">ಸನ್ನೆ ಕಿರುಮಾರ್ಗಗಳು</string>
-  <string name="screen_gestures_panel_summary">ಪರದೆ ಆಪ್ ಇರುವಾಗ ಸನ್ನೆಗಳನ್ನು ಉಪಯೋಗಿಸಿ</string>
   <string name="touchscreen_double_tap_gesture_title">ಸಾಧನವನ್ನು ಎಚ್ಚರಗೊಳಿಸಿ</string>
   <string name="touchscreen_double_tap_gesture_summary">ಸಾಧನವನ್ನು ಎಚ್ಚರಗೊಳಿಸಲು ದ್ವಿಗುಣ ಸ್ಪರ್ಶಿಸಿ</string>
   <string name="touchscreen_camera_gesture_title">ಕ್ಯಾಮೆರಾ</string>
@@ -38,8 +34,6 @@
     • ಪ್ಲೇ/ವಿರಾಮಿಸಲು ಎರಡು ಬೆರಳುಗಳನ್ನು ಲಂಬವಾಗಿ\n
     • ಹಿಂದಿನ ಹಾಡಿಗಾಗಿ ಎಡ ಬಾಣವನ್ನು ಬರೆಯಿರಿ\n
     • ಮುಂದಿನ ಹಾಡಿಗಾಗಿ ಬಲ ಬಾಣವನ್ನು ಬರೆಯಿರಿ</string>
-  <string name="oclick_panel_title">ಒ-ಕ್ಲಿಕ್ ಸೆಟ್ಟಿಂಗ್ಸ್</string>
-  <string name="oclick_panel_summary">ಒ-ಕ್ಲಿಕ್ ಸಾಧನವನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಿ</string>
   <string name="oclick_connect_string">ಸಂಪರ್ಕಿಸಿ</string>
   <string name="oclick_disconnect_string">ಸಂಪರ್ಕ ಕಡಿತಗೊಳಿಸಿ</string>
   <string name="oclick_summary_connected">ಒ-ಕ್ಲಿಕ್‍ಗೆ ಸಂಪರ್ಕಿಸಲಾಗಿದೆ</string>
@@ -60,4 +54,7 @@
   <string name="oclick_notification_title_connected">ಒ-ಕ್ಲಿಕ್ ಸಂಪರ್ಕಗೊಂಡಿದೆ</string>
   <string name="oclick_notification_title_disconnected">ಒ-ಕ್ಲಿ ಸಂಪರ್ಕ ಕಡಿತಗೊಂಡಿದೆ</string>
   <string name="oclick_notification_content_disconnected">ಮರುಸಂಪರ್ಕಗೊಳಿಸಲು ಒ-ಕ್ಲಿಕ್ ಬಟನನ್ನು ಒತ್ತಿ</string>
+  <string name="touchscreen_extras">ಹೆಚ್ಚುವರಿ</string>
+  <string name="haptic_feedback">ಸ್ಪಾರ್ಶ ಪ್ರತಿಕ್ರಿಯೆ</string>
+  <string name="haptic_feedback_summary">ಸನ್ನೆ ಪತ್ತೆಯಾದಾಗ ಕಂಪಿಸು</string>
 </resources>

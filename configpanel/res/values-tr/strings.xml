@@ -39,7 +39,7 @@
 • Sola ok çizimi önceki şarkıya gider\n
 • Sağa ok çizimi sonraki şarkıya gider</string>
   <string name="oclick_panel_title">O-Click ayarları</string>
-  <string name="oclick_panel_summary">O-Click aygıtını ayarla</string>
+  <string name="oclick_panel_summary">O-Click aygıtını yapılandır</string>
   <string name="oclick_connect_string">Bağlan</string>
   <string name="oclick_disconnect_string">Bağlantıyı Kes</string>
   <string name="oclick_summary_connected">O-Click\'e bağlanıldı</string>

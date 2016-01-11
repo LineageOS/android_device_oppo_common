@@ -19,7 +19,7 @@
   <string name="app_name">Definições avançadas</string>
   <string name="touchpad_enable_title">Ativar O-Touch</string>
   <string name="touchpad_enable_summary">Painel tátil traseiro para navegar pelo telefone</string>
-  <string name="touchpad_long_press_title">Pressione e segure para iniciar a  câmara</string>
+  <string name="touchpad_long_press_title">Pressão longa para iniciar a câmara</string>
   <string name="touchpad_long_press_summary">Pressionar e segurar o touchpad lançará a aplicação da câmara</string>
   <string name="touchpad_double_tap_title">Toque duplo para capturar</string>
   <string name="touchpad_double_tap_summary">Na câmara, dê um toque duplo para capturar a imagem</string>
@@ -31,13 +31,16 @@
   <string name="touchscreen_music_gesture_title">Música</string>
   <string name="touchscreen_flashlight_gesture_title">Lanterna</string>
   <string name="touchscreen_flashlight_gesture_summary">Desenhar um \'V\' para alterar o estado da lanterna</string>
-  <string name="touchscreen_music_gesture_summary">Utilizar gestos para controlar a  reprodução da música \n • Mover dois dedos verticalmente para iniciar/parar\n • Desenhar uma seta para a esquerda para a faixa anterior\n • Desenhar uma seta para a direita para a faixa seguinte</string>
+  <string name="touchscreen_music_gesture_summary">Utilizar gestos para controlar a  reprodução da música\n
+  • Mover dois dedos verticalmente para iniciar/parar\n
+  • Desenhar uma seta para a esquerda para a faixa anterior\n
+  • Desenhar uma seta para a direita para a faixa seguinte</string>
   <string name="oclick_connect_string">Conectar</string>
   <string name="oclick_disconnect_string">Desconectar</string>
   <string name="oclick_summary_connected">Conectado ao O-Click</string>
   <string name="oclick_summary_paired">O-Click emparelhado, mas desconectado</string>
   <string name="oclick_dialog_connecting_message">A conectar ao O-Click\u2026\nPressione o botão do O-Click para acelerar a descoberta.</string>
-  <string name="oclick_take_snapshot_title">Obturador de câmara remota</string>
+  <string name="oclick_take_snapshot_title">Obturador de câmara remoto</string>
   <string name="oclick_take_snapshot_summary">Clicar uma vez para tirar foto</string>
   <string name="oclick_find_my_phone_title">Localizador de telefone</string>
   <string name="oclick_find_my_phone_summary">Clicar duas vezes para encontrar o telefone</string>

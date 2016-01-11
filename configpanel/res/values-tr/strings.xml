@@ -57,5 +57,5 @@
   <string name="oclick_notification_content_disconnected">Tekrar bağlanmak için O-Click tuşuna basın</string>
   <string name="touchscreen_extras">Ekstralar</string>
   <string name="haptic_feedback">Dokunmatik geri bildirim</string>
-  <string name="haptic_feedback_summary">Bir harekat algılandığında titrer</string>
+  <string name="haptic_feedback_summary">Bir hareket algılandığında titrer</string>
 </resources>

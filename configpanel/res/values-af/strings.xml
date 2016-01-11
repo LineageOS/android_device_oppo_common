@@ -23,6 +23,7 @@
   <string name="touchpad_long_press_summary">Lang druk op die touchpad sal die kamera program begin</string>
   <string name="touchpad_double_tap_title">Double tik om vas te lê</string>
   <string name="touchpad_double_tap_summary">Terwyl in kamera, dubbel tik neem foto</string>
+  <string name="screen_gestures_panel_title">Gebare</string>
   <string name="touchscreen_double_tap_gesture_title">Aktiveer foon</string>
   <string name="touchscreen_double_tap_gesture_summary">Klop-Klop die toestel om te aktiveer</string>
   <string name="touchscreen_camera_gesture_title">Kamera</string>

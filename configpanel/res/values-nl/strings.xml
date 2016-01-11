@@ -23,6 +23,7 @@
   <string name="touchpad_long_press_summary">Touchpad lang aanraken start de camera-app</string>
   <string name="touchpad_double_tap_title">Dubbeltikken voor opname</string>
   <string name="touchpad_double_tap_summary">In camera dubbeltikken om een foto te nemen</string>
+  <string name="screen_gestures_panel_title">Gebaren</string>
   <string name="touchscreen_double_tap_gesture_title">Ontwaken</string>
   <string name="touchscreen_double_tap_gesture_summary">Dubbeltikken om apparaat te ontwaken</string>
   <string name="touchscreen_camera_gesture_title">Camera</string>

@@ -23,6 +23,7 @@
   <string name="touchpad_long_press_summary">Long press on the touchpad will launch the camera application</string>
   <string name="touchpad_double_tap_title">Double tap to capture</string>
   <string name="touchpad_double_tap_summary">While in camera, double tap to capture image</string>
+  <string name="screen_gestures_panel_title">Gestures</string>
   <string name="touchscreen_double_tap_gesture_title">Wake device</string>
   <string name="touchscreen_double_tap_gesture_summary">Double tap to wake the device</string>
   <string name="touchscreen_camera_gesture_title">Camera</string>
@@ -54,4 +55,7 @@
   <string name="oclick_notification_title_connected">O-Click connected</string>
   <string name="oclick_notification_title_disconnected">O-Click disconnected</string>
   <string name="oclick_notification_content_disconnected">Press the O-Click button to reconnect</string>
+  <string name="touchscreen_extras">Extras</string>
+  <string name="haptic_feedback">Haptic feedback</string>
+  <string name="haptic_feedback_summary">Vibrate when a gesture got detected</string>
 </resources>

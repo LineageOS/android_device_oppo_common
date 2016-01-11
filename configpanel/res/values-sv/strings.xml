@@ -23,6 +23,7 @@
   <string name="touchpad_long_press_summary">Långtryck på pekplattan kommer att öppna kameraappen</string>
   <string name="touchpad_double_tap_title">Dubbeltryck för att ta bild</string>
   <string name="touchpad_double_tap_summary">När du är i kameran, dubbeltryck för att ta en bild</string>
+  <string name="screen_gestures_panel_title">Gester</string>
   <string name="touchscreen_double_tap_gesture_title">Väck enhet</string>
   <string name="touchscreen_double_tap_gesture_summary">Dubbeltryck för att väcka enheten</string>
   <string name="touchscreen_camera_gesture_title">Kamera</string>

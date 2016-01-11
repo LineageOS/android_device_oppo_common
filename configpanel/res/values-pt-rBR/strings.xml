@@ -23,6 +23,7 @@
   <string name="touchpad_long_press_summary">Pressionar e segurar o touchpad iniciará o aplicativo da câmera</string>
   <string name="touchpad_double_tap_title">Clique duas vezes para capturar</string>
   <string name="touchpad_double_tap_summary">Enquanto estiver na câmera, clique duas vezes para capturar a imagem</string>
+  <string name="screen_gestures_panel_title">Gestos</string>
   <string name="touchscreen_double_tap_gesture_title">Acordar o aparelho</string>
   <string name="touchscreen_double_tap_gesture_summary">Clique duas vezes para acordar o aparelho</string>
   <string name="touchscreen_camera_gesture_title">Câmera</string>

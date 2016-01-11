@@ -23,6 +23,7 @@
   <string name="touchpad_long_press_summary">langt trykk på touchpad vil starte kameraet</string>
   <string name="touchpad_double_tap_title">dobbeltrykk for å ta bilde</string>
   <string name="touchpad_double_tap_summary">i kameramodus, dobbeltrykk for å ta bilde</string>
+  <string name="screen_gestures_panel_title">Bevegelser</string>
   <string name="touchscreen_double_tap_gesture_title">Våkne enhet</string>
   <string name="touchscreen_double_tap_gesture_summary">Dobbeltrykk for å reaktivere enheten</string>
   <string name="touchscreen_camera_gesture_title">Kamera</string>

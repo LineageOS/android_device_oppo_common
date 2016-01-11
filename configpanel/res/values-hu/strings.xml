@@ -23,6 +23,7 @@
   <string name="touchpad_long_press_summary">Kamera alkalmazás indítása a touchpad hosszan nyomva tartással</string>
   <string name="touchpad_double_tap_title">Kép készítése dupla érintéssel</string>
   <string name="touchpad_double_tap_summary">A kamera alkalmazás futása esetén kép készítése dupla érintéssel</string>
+  <string name="screen_gestures_panel_title">Kézmozdulatok</string>
   <string name="touchscreen_double_tap_gesture_title">Eszköz felébresztése</string>
   <string name="touchscreen_double_tap_gesture_summary">Dupla érintés felébreszti az eszközt</string>
   <string name="touchscreen_camera_gesture_title">Kamera</string>

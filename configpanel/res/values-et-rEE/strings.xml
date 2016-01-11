@@ -23,6 +23,7 @@
   <string name="touchpad_long_press_summary">Pikk vajutus puuteplaadil käivitab kaamera rakenduse</string>
   <string name="touchpad_double_tap_title">Topeltpuuduta et jäädvustada</string>
   <string name="touchpad_double_tap_summary">Kaameras olles topeltpuudutusel jäädvustab pildi</string>
+  <string name="screen_gestures_panel_title">Žestid</string>
   <string name="touchscreen_double_tap_gesture_title">Ärata seade</string>
   <string name="touchscreen_double_tap_gesture_summary">Topeltpuuduta et äratada seade</string>
   <string name="touchscreen_camera_gesture_title">Kaamera</string>

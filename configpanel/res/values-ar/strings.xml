@@ -54,8 +54,13 @@
   <string name="oclick_disconnect_alert_title">خارج نطاق التنبيه</string>
   <string name="oclick_disconnect_alert_summary">التنبيه عندما تكون خارج المجال</string>
   <string name="alert_category_title">تنبيهات</string>
+  <string name="action_category_title">الاجراءات</string>
+  <string name="oclick_locator_notification_title">محدد هاتف O-Click</string>
   <string name="oclick_locator_notification_text">تنبيه المحدد يشتغل الان. المس من أجل الاستبعاد</string>
   <string name="oclick_notification_title_connected">O-Click متصل</string>
   <string name="oclick_notification_title_disconnected">O-Click غير متصل</string>
   <string name="oclick_notification_content_disconnected">اضغط على زر O-Click لإعادة الاتصال</string>
+  <string name="touchscreen_extras">إضافات</string>
+  <string name="haptic_feedback">التعليقات اللمسية</string>
+  <string name="haptic_feedback_summary">الاهتزاز عند الكشف عن الإيماءة</string>
 </resources>

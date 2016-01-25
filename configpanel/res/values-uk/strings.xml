@@ -23,6 +23,7 @@
   <string name="touchpad_long_press_summary">Довгий дотик на сенсорну панель запустить програму камери</string>
   <string name="touchpad_double_tap_title">Подвійне натискання для зйомки</string>
   <string name="touchpad_double_tap_summary">У програмі камери двічі натисніть на сенсорну панель, щоб зробити знімок</string>
+  <string name="screen_gestures_panel_title">Жести</string>
   <string name="touchscreen_double_tap_gesture_title">Розбудити пристрій</string>
   <string name="touchscreen_double_tap_gesture_summary">Натисніть двічі щоб розбудити пристрій</string>
   <string name="touchscreen_camera_gesture_title">Камера</string>
@@ -51,4 +52,7 @@
   <string name="oclick_notification_title_connected">З\'єднано з O-Click</string>
   <string name="oclick_notification_title_disconnected">Роз\'єднано з O-Click</string>
   <string name="oclick_notification_content_disconnected">Натисніть кнопку \"O-Click\", щоб перепід\'єднатися</string>
+  <string name="touchscreen_extras">Додатково</string>
+  <string name="haptic_feedback">Вібро-відгук</string>
+  <string name="haptic_feedback_summary">Вібрувати, коли виявлено жест</string>
 </resources>

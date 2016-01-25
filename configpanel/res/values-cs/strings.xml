@@ -23,6 +23,7 @@
   <string name="touchpad_long_press_summary">Dlouhým dotykem na touchpad spustíte aplikaci fotoaparátu</string>
   <string name="touchpad_double_tap_title">Dvojdotyk k vyfocení</string>
   <string name="touchpad_double_tap_summary">Pokud je aktivní fotoaparát, dvojitým dotykem pořídíte forografii</string>
+  <string name="screen_gestures_panel_title">Gesta</string>
   <string name="touchscreen_double_tap_gesture_title">Probudit zařízení</string>
   <string name="touchscreen_double_tap_gesture_summary">Dvojdotyk probudí zařízení</string>
   <string name="touchscreen_camera_gesture_title">Fotoaparát</string>

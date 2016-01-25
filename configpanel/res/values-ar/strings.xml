@@ -54,4 +54,7 @@
   <string name="oclick_notification_title_connected">O-Click متصل</string>
   <string name="oclick_notification_title_disconnected">O-Click غير متصل</string>
   <string name="oclick_notification_content_disconnected">اضغط على زر O-Click لإعادة الاتصال</string>
+  <string name="touchscreen_extras">إضافات</string>
+  <string name="haptic_feedback">التعليقات اللمسية</string>
+  <string name="haptic_feedback_summary">الاهتزاز عند الكشف عن الإيماءة</string>
 </resources>

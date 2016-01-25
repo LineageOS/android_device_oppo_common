@@ -23,6 +23,7 @@
   <string name="touchpad_long_press_summary">Apăsarea lungă pe touchpad va lansa aplicația de cameră</string>
   <string name="touchpad_double_tap_title">Apăsare dublă pentru captură</string>
   <string name="touchpad_double_tap_summary">În cameră, apasă de două ori pentru a captura imaginea</string>
+  <string name="screen_gestures_panel_title">Gesturi</string>
   <string name="touchscreen_double_tap_gesture_title">Trezește dispozitiv</string>
   <string name="touchscreen_double_tap_gesture_summary">Apasă de două ori pentru a trezi dispozitivul</string>
   <string name="touchscreen_camera_gesture_title">Cameră</string>
@@ -54,4 +55,6 @@
   <string name="oclick_notification_title_connected">O-Click conectat</string>
   <string name="oclick_notification_title_disconnected">O-Click deconectat</string>
   <string name="oclick_notification_content_disconnected">Apăsați butonul O-Click pentru a reconecta</string>
+  <string name="touchscreen_extras">Mai multe</string>
+  <string name="haptic_feedback">Reacție tactilă</string>
 </resources>

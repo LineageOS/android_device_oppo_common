@@ -57,4 +57,7 @@
   <string name="oclick_notification_title_connected">З\'єднано з O-Click</string>
   <string name="oclick_notification_title_disconnected">Роз\'єднано з O-Click</string>
   <string name="oclick_notification_content_disconnected">Натисніть кнопку \"O-Click\", щоб перепід\'єднатися</string>
+  <string name="touchscreen_extras">Додатково</string>
+  <string name="haptic_feedback">Вібро-відгук</string>
+  <string name="haptic_feedback_summary">Вібрувати, коли виявлено жест</string>
 </resources>

@@ -60,4 +60,6 @@
   <string name="oclick_notification_title_connected">O-Click conectat</string>
   <string name="oclick_notification_title_disconnected">O-Click deconectat</string>
   <string name="oclick_notification_content_disconnected">Apăsați butonul O-Click pentru a reconecta</string>
+  <string name="touchscreen_extras">Mai multe</string>
+  <string name="haptic_feedback">Reacție tactilă</string>
 </resources>

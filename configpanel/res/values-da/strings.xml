@@ -23,6 +23,7 @@
   <string name="touchpad_long_press_summary">Langt tryk på O-Touch vil aktivere kameraet</string>
   <string name="touchpad_double_tap_title">Dobbelttryk for at tage billede</string>
   <string name="touchpad_double_tap_summary">Dobbelttryk for at tage et billede, når kameraet er åbent</string>
+  <string name="screen_gestures_panel_title">Bevægelser</string>
   <string name="touchscreen_double_tap_gesture_title">Væk enhed</string>
   <string name="touchscreen_double_tap_gesture_summary">Dobbelttryk for at vække enheden</string>
   <string name="touchscreen_camera_gesture_title">Kamera</string>

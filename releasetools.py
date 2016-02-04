@@ -75,6 +75,44 @@ def InstallRawImage(image_data, api_version, input_zip, fn, info, filesmap):
   else:
     print "warning radio-update: no support for api_version less than 3."
 
+def AddDDRWipe(info):
+  files = GetRadioFiles(info.input_zip)
+  if files == {}:
+    print "warning radio-update: no radio image in input target_files; not wiping DDR"
+    return
+  filesmap = LoadFilesMap(info.input_zip)
+  if filesmap == {}:
+    print "warning radio-update: no or invalid filesmap file found.  not wiping DDR"
+    return
+  info.script.Print("Wiping DDR")
+  #todo, find _fn variables based on partition rather than assuming their names.
+  rpm_fn = "rpm.mbn"
+  rpm_part = filesmap[rpm_fn][0]
+  rpm_cs = filesmap[rpm_fn][1]
+  rpm_fs = filesmap[rpm_fn][2]
+  sbl_fn = "sbl1.mbn"
+  sbl_part = filesmap[sbl_fn][0]
+  sbl_cs = filesmap[sbl_fn][1]
+  sbl_fs = filesmap[sbl_fn][2]
+  ddr_part = "/dev/block/platform/msm_sdcc.1/by-name/DDR"
+  info.script.AppendExtra('ifelse((sha1_check(read_file("EMMC:%s:%d:%s")) != ""),' #RPM
+                          'ifelse((sha1_check(read_file("EMMC:%s:%d:%s")) != ""),' #SBL
+                          '(ui_print("RPM+SBL Already up to date, not wiping DDR")),'
+                          '(wipe_block_device("%s", 32768))),'
+                          '(wipe_block_device("%s", 32768)));' % (
+                          rpm_part, rpm_fs, rpm_cs,
+                          sbl_part, sbl_fs, sbl_cs,
+                          ddr_part,
+                          ddr_part)
+                          )
+
+  # 5188431849b4613152fd7bdba6a3ff0a4fd6424b  32k DDR partition all zero sha1
+  info.script.AppendExtra('ifelse(sha1_check(read_file("EMMC:%s:%d:%s")) != "",'
+                                 'ui_print("Verified DDR wipe"),'
+                                 'ui_print("DDR wipe failed or not performed"));' % (
+                          ddr_part, 32768, "5188431849b4613152fd7bdba6a3ff0a4fd6424b"
+                          ))
+
 def InstallRadioFiles(info):
   files = GetRadioFiles(info.input_zip)
   if files == {}:
@@ -103,9 +141,11 @@ def InstallRadioFiles(info):
   return
 
 def FullOTA_InstallEnd(info):
+  AddDDRWipe(info)
   InstallRadioFiles(info)
 
 def IncrementalOTA_InstallEnd(info):
+  AddDDRWipe(info)
   InstallRadioFiles(info)
 
 def AddTrustZoneAssertion(info):

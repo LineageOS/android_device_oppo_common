@@ -17,6 +17,7 @@
 #include <sys/mman.h>
 #include <sys/stat.h>
 #include <sys/types.h>
+#include <inttypes.h>
 #include <errno.h>
 #include <fcntl.h>
 #include <stdint.h>
@@ -187,6 +188,101 @@ Value * VerifyTrustZoneFn(const char *name, State *state, int argc, Expr *argv[]
     return StringValue(strdup(ret ? "1" : "0"));
 }
 
+/*
+ * Arbitrarily choose 4k as the maximum to allocate and write.
+ */
+#define MAX_BLOCK (4 * 1024)
+/*
+ * TODO: Move over into the main updater binary as this should be useful on other
+ *       devices.
+ */
+Value * ErasePartitionFn(const char *name, State *state, int argc, Expr *argv[]) {
+    void *zero_buffer;
+    char **part;
+    int devfd;
+    int64_t ret = 1, pages, extra_page_size, i;
+    int64_t bytes_written = 0, partition_len = 0;
+
+    if (argc != 1)
+        return ErrorAbort(state, "%s() not enough arguments got %i expected 1", name, argc);
+
+    /*
+     * Check if there's an IOCTL that will zero the partition in 1 op
+     * BLKDISCARD/SECBLKDISCARD are candidates, but they require the
+     * block device to be emmc page aligned, so don't use them for now.
+     */
+
+    part = ReadVarArgs(state, argc, argv);
+    devfd = open(part[0], O_RDWR);
+
+    if (devfd < 0)
+        return ErrorAbort(state, "%s() unable to open block device %s", name, part[0]);
+
+    ret = lseek(devfd, 0, SEEK_END);
+    if (ret < 0) {
+        uiPrintf(state, "%s() unable to find end of block device %s %s",
+                name, part[0], strerror(errno));
+        partition_len = -MAX_BLOCK;
+        ret = 0;
+    } else {
+        partition_len = ret;
+    }
+    lseek(devfd, 0, SEEK_SET);
+
+    pages = partition_len / MAX_BLOCK;
+    extra_page_size = partition_len % MAX_BLOCK;
+
+    zero_buffer = calloc(1, MAX_BLOCK);
+    if (!zero_buffer)
+        goto out_free_args;
+
+    uiPrintf(state, "Erasing %s", part[0]);
+
+    if (pages > 0) {
+        for (i = 0; i < pages; i++) {
+            ret = write(devfd, zero_buffer, MAX_BLOCK);
+            if (ret != MAX_BLOCK) {
+               uiPrintf(state, "Error writing block %" PRId64 " of %" PRId64, i, pages);
+               ret = 0;
+               goto out_write;
+            }
+            bytes_written += ret;
+        }
+    } else if (pages == -1) {
+        uiPrintf(state, "Using slow wipe");
+        ret = 0;
+        do {
+            bytes_written += ret;
+            ret = write(devfd, zero_buffer, 1);
+        } while (ret > 0);
+    }
+
+    if(extra_page_size) {
+        ret = write(devfd, zero_buffer, extra_page_size);
+        if (ret != extra_page_size) {
+            uiPrintf(state, "Error writing final block of size %" PRId64, extra_page_size);
+            ret = 0;
+            goto out_write;
+        }
+        bytes_written += ret;
+    }
+
+    uiPrintf(state, "Wrote %" PRId64 " bytes to %s", bytes_written, part[0]);
+
+out_write:
+    free(zero_buffer);
+
+out_free_args:
+    for (i = 0; i < argc; i++) {
+        free(part[i]);
+    }
+    free(part);
+    close(devfd);
+
+    return StringValue(strdup(ret ? "1" : "0"));
+}
+
 void Register_librecovery_updater_oppo() {
     RegisterFunction("oppo.verify_trustzone", VerifyTrustZoneFn);
+    RegisterFunction("oppo.erase_partition", ErasePartitionFn);
 }

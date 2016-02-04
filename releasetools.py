@@ -75,6 +75,39 @@ def InstallRawImage(image_data, api_version, input_zip, fn, info, filesmap):
   else:
     print "warning radio-update: no support for api_version less than 3."
 
+def AddDDRWipe(info):
+  files = GetRadioFiles(info.input_zip)
+  if files == {}:
+    print "warning radio-update: no radio image in input target_files; not wiping DDR"
+    return
+  filesmap = LoadFilesMap(info.input_zip)
+  if filesmap == {}:
+    print "warning radio-update: no or invalid filesmap file found.  not wiping DDR"
+    return
+  info.script.Print("Wiping DDR")
+  #todo, find _fn variables based on partition rather than assuming their names.
+  rpm_fn = "rpm.mbn"
+  rpm_part = filesmap[rpm_fn][0]
+  rpm_cs = filesmap[rpm_fn][1]
+  rpm_fs = filesmap[rpm_fn][2]
+  sbl_fn = "sbl1.mbn"
+  sbl_part = filesmap[sbl_fn][0]
+  sbl_cs = filesmap[sbl_fn][1]
+  sbl_fs = filesmap[sbl_fn][2]
+  ddr_fn= "DDR.bin"
+  ddr_part = "/dev/block/platform/msm_sdcc.1/by-name/DDR"
+  info.script.AppendExtra('ifelse((sha1_check(read_file("EMMC:%s:%d:%s")) != ""),' #RPM
+                          'ifelse((sha1_check(read_file("EMMC:%s:%d:%s")) != ""),' #SBL
+                          '(ui_print("RPM+SBL Already up to date, not wiping DDR")),'
+                          '(run_program("/sbin/toybox","dd","if=/dev/zero","of=%s"))),'
+                          '(run_program("/sbin/toybox","dd","if=/dev/zero","of=%s")));' % (
+                          rpm_part, rpm_fs, rpm_cs,
+                          sbl_part, sbl_fs, sbl_cs,
+
+                          ddr_part,
+                          ddr_part
+                          ))
+
 def InstallRadioFiles(info):
   files = GetRadioFiles(info.input_zip)
   if files == {}:
@@ -103,9 +136,11 @@ def InstallRadioFiles(info):
   return
 
 def FullOTA_InstallEnd(info):
+  AddDDRWipe(info)
   InstallRadioFiles(info)
 
 def IncrementalOTA_InstallEnd(info):
+  AddDDRWipe(info)
   InstallRadioFiles(info)
 
 def AddTrustZoneAssertion(info):

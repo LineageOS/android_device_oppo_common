@@ -41,8 +41,10 @@
 #define TZ_VER_STR_LEN 24
 #define TZ_VER_BUF_LEN 255
 #define TZ_SZ 500 * KB    /* MMAP 500K of TZ, TZ partition is 500K */
-
 /* Boyer-Moore string search implementation from Wikipedia */
+
+/* This lives in install.c */
+void uiPrintf(State* state, const char* format, ...);
 
 /* Return longest suffix length of suffix ending at str[p] */
 static int max_suffix_len(const char *str, size_t str_len, size_t p) {
@@ -187,6 +189,93 @@ Value * VerifyTrustZoneFn(const char *name, State *state, int argc, Expr *argv[]
     return StringValue(strdup(ret ? "1" : "0"));
 }
 
+/*
+ * Arbitrarily choose 64k as the maximum to allocate and write.
+ */
+#define MAX_BLOCK (64 * 1024)
+/*
+ * TODO: Move over into the main updater binary as this should be useful on other
+ *       devices.
+ */
+Value * ErasePartitionFn(const char *name, State *state, int argc, Expr *argv[]) {
+    void *zero_buffer;
+    char **part;
+    int devfd;
+    int64_t ret = 1, pages, extra_page;
+    int64_t bytes_written = 0, partition_len = 0;
+
+    if (argc != 1)
+        return ErrorAbort(state, "%s() not enough arguments got %i expected 1", name, argc);
+
+    /*
+     * TODO: Check if there's an IOCTL that will zero the partition in 1 op
+     *       BLKDISCARD seems like a solid candidate
+     */
+
+    part = ReadVarArgs(state, argc, argv);
+    devfd = open(part[0], O_RDWR);
+
+    if (devfd < 0)
+        return ErrorAbort(state, "%s() unable to open block device %s", name, part[0]);
+
+    ret = lseek(devfd, 0, SEEK_END);
+    /*
+     * TODO: Fall back to writing 0s until error in this case
+     */
+    if (ret < 0)
+        return ErrorAbort(state, "%s() unable to find end of block device %s %s", name, part[0], strerror(errno));
+
+    partition_len = ret;
+    lseek(devfd, 0, SEEK_SET);
+
+    pages = partition_len / MAX_BLOCK;
+    extra_page = partition_len % MAX_BLOCK;
+
+    /*
+     * TODO: handle malloc failures in this.
+     */
+    zero_buffer = malloc(MAX_BLOCK);
+    memset(zero_buffer, 0, MAX_BLOCK);
+
+    if (pages >= 0)
+        uiPrintf(state, "Erasing %s in %i + %i writes of %i + %i bytes",
+                 part[0], pages, MAX_BLOCK, 1, extra_page);
+
+    if (pages > 0) {
+        for (int i = 0; i < pages; i++) {
+            ret = write(devfd, zero_buffer, MAX_BLOCK);
+            if (ret != MAX_BLOCK) {
+               uiPrintf(state, "Error writing block %i of %i", i, pages);
+               ret = 0;
+               goto out_write;
+            }
+            bytes_written += ret;
+        }
+    } else if (pages == -1) {
+        /* TODO set pages = -MAX_BLOCK and fall to here to do slowest method */
+    }
+
+    if(extra_page) {
+        free(zero_buffer);
+        zero_buffer = malloc(extra_page);
+        ret = write(devfd, zero_buffer, extra_page);
+        if (ret != extra_page) {
+            uiPrintf(state, "Error writing final block of size %i", extra_page);
+            ret = 0;
+            goto out_write;
+        }
+        bytes_written += ret;
+    }
+
+    uiPrintf(state, "Wrote %i bytes to %i", bytes_written, part[0]);
+
+out_write:
+    free(zero_buffer);
+
+    return StringValue(strdup(ret ? "1" : "0"));
+}
+
 void Register_librecovery_updater_oppo() {
     RegisterFunction("oppo.verify_trustzone", VerifyTrustZoneFn);
+    RegisterFunction("oppo.erase_partition", ErasePartitionFn);
 }

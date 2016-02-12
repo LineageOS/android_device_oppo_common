@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ffb9cba7_9bcb341d",
+        "filename": "configpanel/AndroidManifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 8328
+      },
+      "writtenOn": "2016-02-12T07:45:21Z",
+      "side": 1,
+      "message": "unsure about how it gets exposed to the user, please feel free to change it to the correct way :)",
+      "revId": "44bfe3ba12d8f66e744273adc0354fb6511894c0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

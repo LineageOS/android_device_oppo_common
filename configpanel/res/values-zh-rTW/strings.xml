@@ -23,6 +23,7 @@
   <string name="touchpad_long_press_summary">長按觸控板將啟動相機</string>
   <string name="touchpad_double_tap_title">輕觸兩下即可拍攝</string>
   <string name="touchpad_double_tap_summary">使用相機時，輕觸兩下即可拍攝</string>
+  <string name="screen_gestures_panel_title">手勢操作</string>
   <string name="touchscreen_double_tap_gesture_title">喚醒裝置</string>
   <string name="touchscreen_double_tap_gesture_summary">輕觸兩下即可喚醒裝置</string>
   <string name="touchscreen_camera_gesture_title">相機</string>

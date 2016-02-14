@@ -38,6 +38,8 @@
   <string name="oclick_connect_string">Anslut</string>
   <string name="oclick_disconnect_string">Koppla från</string>
   <string name="oclick_summary_connected">Ansluten till O-Click</string>
+  <string name="oclick_summary_paired">O-Click parad men bortkopplad</string>
+  <string name="oclick_dialog_connecting_message">Ansluter till O-Click\u2026\nTryck på O-Click knappen för att påskynda upptäckandet.</string>
   <string name="oclick_take_snapshot_title">Fjärrstyrd kameraavtryckare</string>
   <string name="oclick_take_snapshot_summary">Tryck en gång för att ta en bild</string>
   <string name="oclick_find_my_phone_title">Telefonlokalisering</string>
@@ -49,7 +51,11 @@
   <string name="alert_category_title">Varningar</string>
   <string name="action_category_title">Åtgärder</string>
   <string name="oclick_locator_notification_title">O-Click telefonhittare</string>
+  <string name="oclick_locator_notification_text">Hittasignal spelas. Tryck för att stänga av</string>
   <string name="oclick_notification_title_connected">O-Click ansluten</string>
   <string name="oclick_notification_title_disconnected">O-Click frånkopplad</string>
+  <string name="oclick_notification_content_disconnected">Tryck på O-Click knappen för att återansluta</string>
   <string name="touchscreen_extras">Extra</string>
+  <string name="haptic_feedback">Haptisk feedback</string>
+  <string name="haptic_feedback_summary">Vibrera när en gest upptäcktes</string>
 </resources>

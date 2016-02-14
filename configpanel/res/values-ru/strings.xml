@@ -25,12 +25,12 @@
   <string name="touchpad_double_tap_summary">В приложении «Камера» дважды нажмите на сенсорную панель, чтобы сделать снимок</string>
   <string name="screen_gestures_panel_title">Жесты</string>
   <string name="touchscreen_double_tap_gesture_title">Включение устройства</string>
-  <string name="touchscreen_double_tap_gesture_summary">Нажмите дважды для включения экрана</string>
+  <string name="touchscreen_double_tap_gesture_summary">Дважды нажмите для включения устройства</string>
   <string name="touchscreen_camera_gesture_title">Камера</string>
   <string name="touchscreen_camera_gesture_summary">Нарисуйте круг для запуска камеры</string>
   <string name="touchscreen_music_gesture_title">Музыка</string>
   <string name="touchscreen_flashlight_gesture_title">Фонарик</string>
-  <string name="touchscreen_flashlight_gesture_summary">Нарисуйте букву «V» для включения или выключения фонарика</string>
+  <string name="touchscreen_flashlight_gesture_summary">Нарисуйте букву «V», чтобы включить или выключить фонарик</string>
   <string name="touchscreen_music_gesture_summary">Используйте жесты для управления плеером: \n
     • Проведите двумя пальцами вверх или вниз для воспроизведения или паузы\n
     • Нарисуйте стрелку влево для перехода к предыдущему треку\n

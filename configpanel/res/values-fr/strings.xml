@@ -46,7 +46,7 @@
   <string name="oclick_find_my_phone_summary">Appui double pour trouver le téléphone</string>
   <string name="oclick_fence_title">Alerte de proximité</string>
   <string name="oclick_fence_summary">Alerter quand éloigné du téléphone</string>
-  <string name="oclick_disconnect_alert_title">Hors de la plage d\'alert</string>
+  <string name="oclick_disconnect_alert_title">Alerte hors de portée</string>
   <string name="oclick_disconnect_alert_summary">Alerte quand hors de portée</string>
   <string name="alert_category_title">Alertes</string>
   <string name="action_category_title">Actions</string>

@@ -33,6 +33,23 @@
       "revId": "a67632e677734f73b90db80facd61fca9d4abfce",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_c72d46a9",
+        "filename": "recovery/recovery_updater.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 273,
+      "author": {
+        "id": 13409
+      },
+      "writtenOn": "2016-02-15T15:30:59Z",
+      "side": 1,
+      "message": "I\u0027m missing a close(fd) here.",
+      "revId": "a67632e677734f73b90db80facd61fca9d4abfce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }

@@ -36,6 +36,23 @@
     },
     {
       "key": {
+        "uuid": "ffb9cba7_a71e126e",
+        "filename": "recovery/recovery_updater.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 260,
+      "author": {
+        "id": 13409
+      },
+      "writtenOn": "2016-02-15T16:02:12Z",
+      "side": 1,
+      "message": "I guess there\u0027s no reason to free/realloc the buffer here",
+      "revId": "a67632e677734f73b90db80facd61fca9d4abfce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ffb9cba7_c72d46a9",
         "filename": "recovery/recovery_updater.c",
         "patchSetId": 2

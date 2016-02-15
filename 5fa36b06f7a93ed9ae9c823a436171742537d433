@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ffb9cba7_f2184a76",
+        "filename": "keyhandler/src/com/cyanogenmod/settings/device/KeyHandler.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 214,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2016-02-15T16:59:27Z",
+      "side": 1,
+      "message": "Please elaborate on that.",
+      "revId": "5fa36b06f7a93ed9ae9c823a436171742537d433",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_92278eb7",
+        "filename": "keyhandler/src/com/cyanogenmod/settings/device/KeyHandler.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 257,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2016-02-15T16:59:27Z",
+      "side": 1,
+      "message": "Nope, can\u0027t do it like that. This is more than ugly.\n\nInstead, if the toast is really needed (is it?) send a broadcast (with an action like \u0027com.cyanogenmod.action.NOTIFICATIONS_SLIDER_STATE_CHANGED and mode included as extra) which ConfigPanel can catch, and create the toast there. If the custom layout is really needed (is it?), inflate it from an XML there.",
+      "revId": "5fa36b06f7a93ed9ae9c823a436171742537d433",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

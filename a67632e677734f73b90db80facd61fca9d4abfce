@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ffb9cba7_0724bec5",
+        "filename": "recovery/recovery_updater.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 13409
+      },
+      "writtenOn": "2016-02-15T15:29:07Z",
+      "side": 1,
+      "message": "Should move this up above the Boyer-Moore comment, and split it to a separate patch.  It just cleans up a compile warning.",
+      "revId": "a67632e677734f73b90db80facd61fca9d4abfce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_673fbad6",
+        "filename": "recovery/recovery_updater.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 226,
+      "author": {
+        "id": 13409
+      },
+      "writtenOn": "2016-02-15T15:29:07Z",
+      "side": 1,
+      "message": "Line Length, oops.",
+      "revId": "a67632e677734f73b90db80facd61fca9d4abfce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

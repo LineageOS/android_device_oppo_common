@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ffb9cba7_92feae03",
+        "filename": "configpanel/res/values/strings.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2016-02-15T16:54:18Z",
+      "side": 1,
+      "message": "Isn\u0027t this rather \u0027Slider in top position\u0027 etc.?",
+      "revId": "6b8f977b4360203f661c505260091f80016a5f3e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_52083627",
+        "filename": "configpanel/src/com/cyanogenmod/settings/device/Startup.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2016-02-15T16:54:18Z",
+      "side": 1,
+      "message": "This also re-writes the gesture settings. You should probably introduce a new map for the slider settings.",
+      "revId": "6b8f977b4360203f661c505260091f80016a5f3e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_b203b20d",
+        "filename": "configpanel/src/com/cyanogenmod/settings/device/Startup.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2016-02-15T16:54:18Z",
+      "side": 1,
+      "message": "The string-to-int-and-back seems a little pointless. Why not query those as strings and write them as strings?",
+      "revId": "6b8f977b4360203f661c505260091f80016a5f3e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_720d3a36",
+        "filename": "configpanel/src/com/cyanogenmod/settings/device/utils/Constants.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2016-02-15T16:54:18Z",
+      "side": 1,
+      "message": "This is pointless, see comment in Startup.java",
+      "revId": "6b8f977b4360203f661c505260091f80016a5f3e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_1212be59",
+        "filename": "configpanel/src/com/cyanogenmod/settings/device/utils/Constants.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2016-02-15T16:54:18Z",
+      "side": 1,
+      "message": "As above.",
+      "revId": "6b8f977b4360203f661c505260091f80016a5f3e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

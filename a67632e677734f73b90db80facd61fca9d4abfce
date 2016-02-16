@@ -129,6 +129,30 @@
     },
     {
       "key": {
+        "uuid": "ffb9cba7_2d0f632f",
+        "filename": "recovery/recovery_updater.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 242,
+      "author": {
+        "id": 13409
+      },
+      "writtenOn": "2016-02-16T02:23:40Z",
+      "side": 1,
+      "message": "It\u0027s mostly so I can verify my math.  I\u0027ll simplify it down to just Erasing %s once I\u0027ve verified it works.",
+      "parentUuid": "ffb9cba7_b27df2e8",
+      "range": {
+        "startLine": 241,
+        "startChar": 25,
+        "endLine": 242,
+        "endChar": 59
+      },
+      "revId": "a67632e677734f73b90db80facd61fca9d4abfce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ffb9cba7_f24b6aad",
         "filename": "recovery/recovery_updater.c",
         "patchSetId": 2

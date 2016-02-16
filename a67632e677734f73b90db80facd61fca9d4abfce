@@ -59,6 +59,30 @@
     },
     {
       "key": {
+        "uuid": "ffb9cba7_f2036a0e",
+        "filename": "recovery/recovery_updater.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 232,
+      "author": {
+        "id": 13409
+      },
+      "writtenOn": "2016-02-16T01:42:20Z",
+      "side": 1,
+      "message": "extra_page_size better?",
+      "parentUuid": "ffb9cba7_72ee9a89",
+      "range": {
+        "startLine": 232,
+        "startChar": 4,
+        "endLine": 232,
+        "endChar": 14
+      },
+      "revId": "a67632e677734f73b90db80facd61fca9d4abfce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ffb9cba7_72d53ab9",
         "filename": "recovery/recovery_updater.c",
         "patchSetId": 2
@@ -116,6 +140,30 @@
       "writtenOn": "2016-02-16T01:20:23Z",
       "side": 1,
       "message": "use an unsigned for everything instead of int64_t and you never get to this (realistically, you never do anyway).",
+      "range": {
+        "startLine": 254,
+        "startChar": 5,
+        "endLine": 256,
+        "endChar": 5
+      },
+      "revId": "a67632e677734f73b90db80facd61fca9d4abfce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_d2066621",
+        "filename": "recovery/recovery_updater.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 256,
+      "author": {
+        "id": 13409
+      },
+      "writtenOn": "2016-02-16T01:42:20Z",
+      "side": 1,
+      "message": "My plan was to use -MAX_BLOCK for the case that the device somehow doesn\u0027t implement SEEK_END, then fall back to just writing 1 byte over and over until we get an error.",
+      "parentUuid": "ffb9cba7_f24b6aad",
       "range": {
         "startLine": 254,
         "startChar": 5,

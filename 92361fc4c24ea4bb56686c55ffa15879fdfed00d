@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ffb9cba7_4d45f76f",
+        "filename": "recovery/recovery_updater.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 238,
+      "author": {
+        "id": 13409
+      },
+      "writtenOn": "2016-02-16T06:17:50Z",
+      "side": 1,
+      "message": "calloc (per matt)",
+      "revId": "92361fc4c24ea4bb56686c55ffa15879fdfed00d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_ad503334",
+        "filename": "recovery/recovery_updater.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 258,
+      "author": {
+        "id": 13409
+      },
+      "writtenOn": "2016-02-16T06:17:50Z",
+      "side": 1,
+      "message": "oops, whitespace",
+      "range": {
+        "startLine": 258,
+        "startChar": 42,
+        "endLine": 258,
+        "endChar": 43
+      },
+      "revId": "92361fc4c24ea4bb56686c55ffa15879fdfed00d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

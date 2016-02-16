@@ -36,6 +36,98 @@
     },
     {
       "key": {
+        "uuid": "ffb9cba7_72ee9a89",
+        "filename": "recovery/recovery_updater.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 232,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2016-02-16T01:20:23Z",
+      "side": 1,
+      "message": "not really a good name for this variable.",
+      "range": {
+        "startLine": 232,
+        "startChar": 4,
+        "endLine": 232,
+        "endChar": 14
+      },
+      "revId": "a67632e677734f73b90db80facd61fca9d4abfce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_72d53ab9",
+        "filename": "recovery/recovery_updater.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 240,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2016-02-16T01:20:23Z",
+      "side": 1,
+      "message": "Always print this",
+      "range": {
+        "startLine": 240,
+        "startChar": 4,
+        "endLine": 240,
+        "endChar": 19
+      },
+      "revId": "a67632e677734f73b90db80facd61fca9d4abfce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_b27df2e8",
+        "filename": "recovery/recovery_updater.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 242,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2016-02-16T01:20:23Z",
+      "side": 1,
+      "message": "This doesn\u0027t make sense to me.",
+      "range": {
+        "startLine": 241,
+        "startChar": 25,
+        "endLine": 242,
+        "endChar": 59
+      },
+      "revId": "a67632e677734f73b90db80facd61fca9d4abfce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_f24b6aad",
+        "filename": "recovery/recovery_updater.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 256,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2016-02-16T01:20:23Z",
+      "side": 1,
+      "message": "use an unsigned for everything instead of int64_t and you never get to this (realistically, you never do anyway).",
+      "range": {
+        "startLine": 254,
+        "startChar": 5,
+        "endLine": 256,
+        "endChar": 5
+      },
+      "revId": "a67632e677734f73b90db80facd61fca9d4abfce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ffb9cba7_a71e126e",
         "filename": "recovery/recovery_updater.c",
         "patchSetId": 2
@@ -47,6 +139,24 @@
       "writtenOn": "2016-02-15T16:02:12Z",
       "side": 1,
       "message": "I guess there\u0027s no reason to free/realloc the buffer here",
+      "revId": "a67632e677734f73b90db80facd61fca9d4abfce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_f2e04a99",
+        "filename": "recovery/recovery_updater.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 260,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2016-02-16T01:20:23Z",
+      "side": 1,
+      "message": "yep",
+      "parentUuid": "ffb9cba7_a71e126e",
       "revId": "a67632e677734f73b90db80facd61fca9d4abfce",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false

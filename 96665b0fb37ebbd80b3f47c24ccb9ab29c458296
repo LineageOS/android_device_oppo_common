@@ -48,6 +48,30 @@
     },
     {
       "key": {
+        "uuid": "ffb9cba7_7583e105",
+        "filename": "recovery/recovery_updater.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 258,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-02-17T05:16:15Z",
+      "side": 1,
+      "message": "If you do things that way, you\u0027ll probably want to simplify the logic around partition_len.",
+      "parentUuid": "ffb9cba7_d5a5edb6",
+      "range": {
+        "startLine": 241,
+        "startChar": 0,
+        "endLine": 258,
+        "endChar": 5
+      },
+      "revId": "96665b0fb37ebbd80b3f47c24ccb9ab29c458296",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ffb9cba7_1532a5f2",
         "filename": "recovery/recovery_updater.c",
         "patchSetId": 4

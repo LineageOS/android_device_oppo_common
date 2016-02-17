@@ -2,6 +2,52 @@
   "comments": [
     {
       "key": {
+        "uuid": "ffb9cba7_35732983",
+        "filename": "recovery/recovery_updater.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 237,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2016-02-17T05:00:30Z",
+      "side": 1,
+      "message": "set ret \u003d 0.",
+      "range": {
+        "startLine": 236,
+        "startChar": 4,
+        "endLine": 237,
+        "endChar": 27
+      },
+      "revId": "96665b0fb37ebbd80b3f47c24ccb9ab29c458296",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_d5a5edb6",
+        "filename": "recovery/recovery_updater.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 258,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2016-02-17T05:00:30Z",
+      "side": 1,
+      "message": "We ought to be able to do this easier.  This is generic \u0026 could work as long as you\u0027re not verifying number of bytes written:\n\n do {\n   ret \u003d write(devfd, zero_buffer, MAX_BLOCK);\n } while(ret \u003e 0);\n\n if (ret \u003c 0 errno !\u003d -ENOSPC) {\n  //error\n }",
+      "range": {
+        "startLine": 241,
+        "startChar": 0,
+        "endLine": 258,
+        "endChar": 5
+      },
+      "revId": "96665b0fb37ebbd80b3f47c24ccb9ab29c458296",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ffb9cba7_1532a5f2",
         "filename": "recovery/recovery_updater.c",
         "patchSetId": 4
@@ -31,6 +77,29 @@
       "side": 1,
       "message": "Thanks, I went through so many times verifying whitespace, and still missed this one.",
       "parentUuid": "ffb9cba7_1532a5f2",
+      "revId": "96665b0fb37ebbd80b3f47c24ccb9ab29c458296",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_35f809c3",
+        "filename": "releasetools.py",
+        "patchSetId": 4
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2016-02-17T05:00:30Z",
+      "side": 1,
+      "message": "unused?",
+      "range": {
+        "startLine": 97,
+        "startChar": 2,
+        "endLine": 97,
+        "endChar": 19
+      },
       "revId": "96665b0fb37ebbd80b3f47c24ccb9ab29c458296",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false

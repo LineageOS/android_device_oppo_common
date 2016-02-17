@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ffb9cba7_1532a5f2",
+        "filename": "recovery/recovery_updater.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 260,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-02-17T03:43:20Z",
+      "side": 1,
+      "message": "if (",
+      "revId": "96665b0fb37ebbd80b3f47c24ccb9ab29c458296",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ffb9cba7_f52031fa",
+        "filename": "releasetools.py",
+        "patchSetId": 5
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-02-17T05:55:34Z",
+      "side": 1,
+      "message": "Still unused?",
+      "revId": "dd400815114336332e64085e829547af4f1d6f7d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_b57879f8",
+        "filename": "releasetools.py",
+        "patchSetId": 5
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-02-17T05:55:34Z",
+      "side": 1,
+      "message": "Usually you\u0027d move one or both of these ) up.",
+      "revId": "dd400815114336332e64085e829547af4f1d6f7d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

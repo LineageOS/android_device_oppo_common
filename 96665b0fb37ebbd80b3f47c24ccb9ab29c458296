@@ -72,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "ffb9cba7_15c2a534",
+        "filename": "recovery/recovery_updater.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 258,
+      "author": {
+        "id": 13409
+      },
+      "writtenOn": "2016-02-17T05:29:07Z",
+      "side": 1,
+      "message": "If we don\u0027t ever care about checking the amount written, this can be greatly shrunk.  I\u0027d planned on moving this over to bootable/recovery/updater later, so I coded it with that in mind.  The plan is to, after moving it, add some alignment checking, then do secdiscard, with discard as a fallback,, and finally the 2 ways of writing zeroes as fallbacks as well.",
+      "parentUuid": "ffb9cba7_7583e105",
+      "range": {
+        "startLine": 241,
+        "startChar": 0,
+        "endLine": 258,
+        "endChar": 5
+      },
+      "revId": "96665b0fb37ebbd80b3f47c24ccb9ab29c458296",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ffb9cba7_1532a5f2",
         "filename": "recovery/recovery_updater.c",
         "patchSetId": 4
@@ -100,6 +124,24 @@
       "writtenOn": "2016-02-17T04:10:54Z",
       "side": 1,
       "message": "Thanks, I went through so many times verifying whitespace, and still missed this one.",
+      "parentUuid": "ffb9cba7_1532a5f2",
+      "revId": "96665b0fb37ebbd80b3f47c24ccb9ab29c458296",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_b52dd947",
+        "filename": "recovery/recovery_updater.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 260,
+      "author": {
+        "id": 13409
+      },
+      "writtenOn": "2016-02-17T05:29:07Z",
+      "side": 1,
+      "message": "Done",
       "parentUuid": "ffb9cba7_1532a5f2",
       "revId": "96665b0fb37ebbd80b3f47c24ccb9ab29c458296",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
@@ -213,6 +255,24 @@
       "side": 1,
       "message": "Huh. It would still probably be best to get closer to the accepted python standard though.",
       "parentUuid": "ffb9cba7_354a4927",
+      "revId": "96665b0fb37ebbd80b3f47c24ccb9ab29c458296",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_d532cda7",
+        "filename": "releasetools.py",
+        "patchSetId": 4
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 13409
+      },
+      "writtenOn": "2016-02-17T05:29:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ffb9cba7_b55f19e4",
       "revId": "96665b0fb37ebbd80b3f47c24ccb9ab29c458296",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false

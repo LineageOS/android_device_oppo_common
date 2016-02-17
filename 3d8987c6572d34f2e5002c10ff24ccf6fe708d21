@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "ffb9cba7_953f75d5",
+        "filename": "recovery/recovery_updater.c",
+        "patchSetId": 6
+      },
+      "lineNbr": 217,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2016-02-17T07:44:53Z",
+      "side": 1,
+      "message": "should still clean up",
+      "range": {
+        "startLine": 217,
+        "startChar": 4,
+        "endLine": 217,
+        "endChar": 18
+      },
+      "revId": "3d8987c6572d34f2e5002c10ff24ccf6fe708d21",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ffb9cba7_b5307909",
         "filename": "recovery/recovery_updater.c",
         "patchSetId": 6
@@ -42,6 +65,46 @@
         "startChar": 4,
         "endLine": 220,
         "endChar": 30
+      },
+      "revId": "3d8987c6572d34f2e5002c10ff24ccf6fe708d21",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_152b8594",
+        "filename": "recovery/recovery_updater.c",
+        "patchSetId": 6
+      },
+      "lineNbr": 234,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2016-02-17T07:44:53Z",
+      "side": 1,
+      "message": "set ret \u003d 0 \u0026 fail?",
+      "revId": "3d8987c6572d34f2e5002c10ff24ccf6fe708d21",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_753a01e8",
+        "filename": "recovery/recovery_updater.c",
+        "patchSetId": 6
+      },
+      "lineNbr": 239,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2016-02-17T07:44:53Z",
+      "side": 1,
+      "message": "unused",
+      "range": {
+        "startLine": 239,
+        "startChar": 0,
+        "endLine": 239,
+        "endChar": 10
       },
       "revId": "3d8987c6572d34f2e5002c10ff24ccf6fe708d21",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",

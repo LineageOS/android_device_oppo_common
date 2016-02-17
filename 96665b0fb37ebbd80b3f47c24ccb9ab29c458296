@@ -105,6 +105,24 @@
       "revId": "96665b0fb37ebbd80b3f47c24ccb9ab29c458296",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_b55f19e4",
+        "filename": "releasetools.py",
+        "patchSetId": 4
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-02-17T04:34:29Z",
+      "side": 1,
+      "message": "Huh. It would still probably be best to get closer to the accepted python standard though.",
+      "parentUuid": "ffb9cba7_354a4927",
+      "revId": "96665b0fb37ebbd80b3f47c24ccb9ab29c458296",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }

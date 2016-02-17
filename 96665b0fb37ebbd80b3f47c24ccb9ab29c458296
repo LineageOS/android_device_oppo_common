@@ -51,6 +51,24 @@
       "revId": "96665b0fb37ebbd80b3f47c24ccb9ab29c458296",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_95f775f6",
+        "filename": "releasetools.py",
+        "patchSetId": 4
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 13409
+      },
+      "writtenOn": "2016-02-17T04:11:58Z",
+      "side": 1,
+      "message": "No, due to how convoluted the nesting was here, I made the rows of the arguments match up with the print above to make it clear (to me) which call was getting which argument.",
+      "parentUuid": "ffb9cba7_f5491160",
+      "revId": "96665b0fb37ebbd80b3f47c24ccb9ab29c458296",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }

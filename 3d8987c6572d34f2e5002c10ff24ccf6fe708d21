@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ffb9cba7_b5307909",
+        "filename": "recovery/recovery_updater.c",
+        "patchSetId": 6
+      },
+      "lineNbr": 220,
+      "author": {
+        "id": 14145
+      },
+      "writtenOn": "2016-02-17T07:39:02Z",
+      "side": 1,
+      "message": "Not needed.",
+      "range": {
+        "startLine": 220,
+        "startChar": 4,
+        "endLine": 220,
+        "endChar": 30
+      },
+      "revId": "3d8987c6572d34f2e5002c10ff24ccf6fe708d21",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_1556252b",
+        "filename": "recovery/recovery_updater.c",
+        "patchSetId": 6
+      },
+      "lineNbr": 254,
+      "author": {
+        "id": 14145
+      },
+      "writtenOn": "2016-02-17T07:39:02Z",
+      "side": 1,
+      "message": "I imaging this being used on other devices also.  Should it have a more generic name so we don\u0027t have to worry about updating it for each device?",
+      "range": {
+        "startLine": 254,
+        "startChar": 22,
+        "endLine": 254,
+        "endChar": 42
+      },
+      "revId": "3d8987c6572d34f2e5002c10ff24ccf6fe708d21",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

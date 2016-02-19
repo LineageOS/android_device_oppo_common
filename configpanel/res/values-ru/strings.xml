@@ -28,7 +28,7 @@
   <string name="screen_gestures_panel_title">Настройка жестов</string>
   <string name="screen_gestures_panel_summary">Настройка использования жестов при выключенном экране</string>
   <string name="touchscreen_double_tap_gesture_title">Включение устройства</string>
-  <string name="touchscreen_double_tap_gesture_summary">Нажмите дважды для включения устройства</string>
+  <string name="touchscreen_double_tap_gesture_summary">Дважды нажмите для включения устройства</string>
   <string name="touchscreen_camera_gesture_title">Камера</string>
   <string name="touchscreen_camera_gesture_summary">Нарисуйте круг для запуска камеры</string>
   <string name="touchscreen_music_gesture_title">Музыка</string>
@@ -59,7 +59,7 @@
   <string name="oclick_locator_notification_text">Воспроизводится звук локатора. Нажмите, чтобы отключить</string>
   <string name="oclick_notification_title_connected">Устройство O-Click подключено</string>
   <string name="oclick_notification_title_disconnected">Устройство O-Click отключено</string>
-  <string name="oclick_notification_content_disconnected">Нажмите кнопку O-Click, чтобы повторно подключиться</string>
+  <string name="oclick_notification_content_disconnected">Нажмите кнопку O-Click для переподключения</string>
   <string name="touchscreen_extras">Прочее</string>
   <string name="haptic_feedback">Виброотклик</string>
   <string name="haptic_feedback_summary">Вибрировать при успешном распознавании жеста</string>

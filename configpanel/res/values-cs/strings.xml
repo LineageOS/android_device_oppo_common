@@ -30,7 +30,7 @@
   <string name="touchscreen_camera_gesture_summary">Namalováním kruhu spustíte fotoaparát</string>
   <string name="touchscreen_music_gesture_title">Hudba</string>
   <string name="touchscreen_flashlight_gesture_title">Svítilna</string>
-  <string name="touchscreen_flashlight_gesture_summary">Namalováním \'V\' přepnete stav svítilny</string>
+  <string name="touchscreen_flashlight_gesture_summary">Namalováním písmene „V“ přepnete stav svítilny</string>
   <string name="touchscreen_music_gesture_summary">Použijte gesta k ovládání přehrávání hudby\n
     \u2022 Dvěma prsty svisle - přehrát/pozastavit\n
     \u2022 Nakreslením šipky vlevo - předchozí stopa\n

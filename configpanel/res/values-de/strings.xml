@@ -54,7 +54,7 @@
   <string name="oclick_locator_notification_text">Telefonfinder-Alarm aktiv. Zum Beenden tippen</string>
   <string name="oclick_notification_title_connected">O-Click verbunden</string>
   <string name="oclick_notification_title_disconnected">O-Click getrennt</string>
-  <string name="oclick_notification_content_disconnected">Drücken Sie die O-Click-Taste, um die Verbindung wiederherzustellen</string>
+  <string name="oclick_notification_content_disconnected">Drücken Sie die O-Click-Taste, um die Verbindung wiederherzustellen.</string>
   <string name="touchscreen_extras">Extras</string>
   <string name="haptic_feedback">Haptisches Feedback</string>
   <string name="haptic_feedback_summary">Vibrieren, wenn eine Geste erkannt wurde</string>

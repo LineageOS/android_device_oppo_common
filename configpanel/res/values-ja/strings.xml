@@ -57,5 +57,5 @@
   <string name="oclick_notification_content_disconnected">O-Clickボタンをクリックして再接続します</string>
   <string name="touchscreen_extras">その他</string>
   <string name="haptic_feedback">タッチ操作バイブ</string>
-  <string name="haptic_feedback_summary">ジェスチャーを検出したときにバイブレーションする</string>
+  <string name="haptic_feedback_summary">ジェスチャーを検出したときに振動する</string>
 </resources>

@@ -16,22 +16,21 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">高级设置</string>
+  <!-- O-Touch settings -->
   <string name="touchpad_enable_title">启用 O-Touch</string>
   <string name="touchpad_enable_summary">背面触摸板导航手机</string>
   <string name="touchpad_long_press_title">长按启动相机</string>
   <string name="touchpad_long_press_summary">长按触摸板将启动相机应用</string>
   <string name="touchpad_double_tap_title">轻按两下来拍摄</string>
   <string name="touchpad_double_tap_summary">在相机中，轻按两下来拍摄照片</string>
-  <string name="screen_gestures_panel_title">手势</string>
-  <string name="touchscreen_double_tap_gesture_title">唤醒设备</string>
-  <string name="touchscreen_double_tap_gesture_summary">双击唤醒设备</string>
+  <!-- Gesture shortcuts -->
   <string name="touchscreen_camera_gesture_title">相机</string>
   <string name="touchscreen_camera_gesture_summary">画一个圆圈以启动相机</string>
   <string name="touchscreen_music_gesture_title">音乐</string>
   <string name="touchscreen_flashlight_gesture_title">手电筒</string>
   <string name="touchscreen_flashlight_gesture_summary">画 \'V\' 以启动手电筒</string>
   <string name="touchscreen_music_gesture_summary">使用手势控制音乐播放 \n • 两个手指垂直滑动来播放或暂停\n • 向左划切换到上一首\n • 向右划切换到下一首</string>
+  <!-- O-Click settings -->
   <string name="oclick_connect_string">连接</string>
   <string name="oclick_disconnect_string">断开连接</string>
   <string name="oclick_summary_connected">已连接到 O-Click</string>
@@ -47,12 +46,10 @@
   <string name="oclick_disconnect_alert_summary">当到达外面时发出警报</string>
   <string name="alert_category_title">警报</string>
   <string name="action_category_title">操作</string>
+  <!-- O-Click notification -->
   <string name="oclick_locator_notification_title">O-Click 电话定位器</string>
   <string name="oclick_locator_notification_text">正在播放定位器警报。点击以停止</string>
   <string name="oclick_notification_title_connected">O-Click 已连接</string>
   <string name="oclick_notification_title_disconnected">O-Click 已断开连接</string>
   <string name="oclick_notification_content_disconnected">按下 O-Click 按钮重新连接</string>
-  <string name="touchscreen_extras">附加功能</string>
-  <string name="haptic_feedback">触觉反馈</string>
-  <string name="haptic_feedback_summary">检测到手势时振动</string>
 </resources>

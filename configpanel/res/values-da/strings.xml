@@ -16,16 +16,14 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">Avancerede indstillinger</string>
+  <!-- O-Touch settings -->
   <string name="touchpad_enable_title">Aktivér O-Touch</string>
   <string name="touchpad_enable_summary">Navigér telefonen med O-Touch</string>
   <string name="touchpad_long_press_title">Langt tryk for at aktivere kamera</string>
   <string name="touchpad_long_press_summary">Langt tryk på O-Touch vil aktivere kameraet</string>
   <string name="touchpad_double_tap_title">Dobbelttryk for at tage billede</string>
   <string name="touchpad_double_tap_summary">Dobbelttryk for at tage et billede, når kameraet er åbent</string>
-  <string name="screen_gestures_panel_title">Bevægelser</string>
-  <string name="touchscreen_double_tap_gesture_title">Væk enhed</string>
-  <string name="touchscreen_double_tap_gesture_summary">Dobbelttryk for at vække enheden</string>
+  <!-- Gesture shortcuts -->
   <string name="touchscreen_camera_gesture_title">Kamera</string>
   <string name="touchscreen_camera_gesture_summary">Tegn en cirkel for at aktivere kamera</string>
   <string name="touchscreen_music_gesture_title">Musik</string>
@@ -35,6 +33,7 @@
     • To fingre vertikalt for at afspille/pause\n
     • Tegn venstrepil for forrige spor\n
     • Tegn højrepil for næste spor</string>
+  <!-- O-Click settings -->
   <string name="oclick_connect_string">Forbind</string>
   <string name="oclick_disconnect_string">Afbryd</string>
   <string name="oclick_summary_connected">Tilsluttet til O-Click</string>
@@ -50,12 +49,10 @@
   <string name="oclick_disconnect_alert_summary">Advarsel, når telefonen er udenfor O-Clicks rækkevidde</string>
   <string name="alert_category_title">Advarsler</string>
   <string name="action_category_title">Handlinger</string>
+  <!-- O-Click notification -->
   <string name="oclick_locator_notification_title">O-Click-alarm</string>
   <string name="oclick_locator_notification_text">O-Click ringer til dig. Tryk for at afbryde</string>
   <string name="oclick_notification_title_connected">O-Click forbundet</string>
   <string name="oclick_notification_title_disconnected">O-Click afbrudt</string>
   <string name="oclick_notification_content_disconnected">Tryk på O-Click for at genoprette forbindelsen</string>
-  <string name="touchscreen_extras">Ekstrafunktioner</string>
-  <string name="haptic_feedback">Berøringsvibration</string>
-  <string name="haptic_feedback_summary">Vibrere, når en berøring bliver registreret</string>
 </resources>

@@ -16,15 +16,14 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">Advanced settings</string>
+  <!-- O-Touch settings -->
   <string name="touchpad_enable_title">Enable O-Touch</string>
   <string name="touchpad_enable_summary">Rear touchpad to navigate the phone</string>
   <string name="touchpad_long_press_title">Long press to launch camera</string>
   <string name="touchpad_long_press_summary">Long press on the touchpad will launch the camera application</string>
   <string name="touchpad_double_tap_title">Double tap to capture</string>
   <string name="touchpad_double_tap_summary">While in camera, double tap to capture image</string>
-  <string name="touchscreen_double_tap_gesture_title">Wake device</string>
-  <string name="touchscreen_double_tap_gesture_summary">Double tap to wake the device</string>
+  <!-- Gesture shortcuts -->
   <string name="touchscreen_camera_gesture_title">Camera</string>
   <string name="touchscreen_camera_gesture_summary">Draw a circle to activate camera</string>
   <string name="touchscreen_music_gesture_title">Music</string>
@@ -34,6 +33,7 @@
     • Two fingers vertically to play/pause\n
     • Draw left arrow for previous track\n
     • Draw right arrow for next track</string>
+  <!-- O-Click settings -->
   <string name="oclick_connect_string">Connect</string>
   <string name="oclick_disconnect_string">Disconnect</string>
   <string name="oclick_summary_connected">Connected to O-Click</string>
@@ -49,6 +49,7 @@
   <string name="oclick_disconnect_alert_summary">Alert when outside of reach</string>
   <string name="alert_category_title">Alerts</string>
   <string name="action_category_title">Actions</string>
+  <!-- O-Click notification -->
   <string name="oclick_locator_notification_title">O-Click phone locator</string>
   <string name="oclick_locator_notification_text">Locator alert is playing. Tap to dismiss</string>
   <string name="oclick_notification_title_connected">O-Click connected</string>

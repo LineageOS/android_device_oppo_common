@@ -16,15 +16,14 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">Pengaturan lanjut</string>
+  <!-- O-Touch settings -->
   <string name="touchpad_enable_title">Aktifkan O-Touch</string>
   <string name="touchpad_enable_summary">Touchpad belakang untuk navigasi telepon</string>
   <string name="touchpad_long_press_title">Tekan agak lama untuk meluncurkan kamera</string>
   <string name="touchpad_long_press_summary">Tekan agak lama pada touchpad akan meluncurkan aplikasi kamera</string>
   <string name="touchpad_double_tap_title">Dua kali tap untuk menangkap gambar</string>
   <string name="touchpad_double_tap_summary">Saat di dalam kamera, dua kali tap untuk menangkap gambar</string>
-  <string name="touchscreen_double_tap_gesture_title">Bangunkan perangkat</string>
-  <string name="touchscreen_double_tap_gesture_summary">Dua kali tap untuk membangunkan perangkat</string>
+  <!-- Gesture shortcuts -->
   <string name="touchscreen_camera_gesture_title">Kamera</string>
   <string name="touchscreen_camera_gesture_summary">Gambar lingkaran untuk mengaktifkan kamera</string>
   <string name="touchscreen_music_gesture_title">Musik</string>
@@ -34,6 +33,7 @@
 • Dua jari vertikal untuk memutar/menjeda\n
 • Gambar anak panah ke kiri untuk lagu sebelumnya\n
 • Gambar anak panah ke kanan untuk lagu berikutnya</string>
+  <!-- O-Click settings -->
   <string name="oclick_connect_string">Sambungkan</string>
   <string name="oclick_disconnect_string">Putuskan</string>
   <string name="oclick_summary_connected">Terhubung ke O-Click</string>
@@ -49,6 +49,7 @@
   <string name="oclick_disconnect_alert_summary">Peringatan ketika di luar jangkauan</string>
   <string name="alert_category_title">Peringatan</string>
   <string name="action_category_title">Tindakan</string>
+  <!-- O-Click notification -->
   <string name="oclick_locator_notification_title">Pelacak telepon O-Click</string>
   <string name="oclick_locator_notification_text">Peringatan pelacak diputar. Tekan untuk mengabaikan</string>
   <string name="oclick_notification_title_connected">O-Click terhubung</string>

@@ -16,16 +16,14 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">Napredne postavke</string>
+  <!-- O-Touch settings -->
   <string name="touchpad_enable_title">Uključi O-Touch</string>
   <string name="touchpad_enable_summary">Stražnji touchpad za upravljanje telefonom</string>
   <string name="touchpad_long_press_title">Dugi pritisak za pokretanje kamere</string>
   <string name="touchpad_long_press_summary">Dugi pritisak touchpada će pokrenuti kameru</string>
   <string name="touchpad_double_tap_title">Dupli-klik za slikanje</string>
   <string name="touchpad_double_tap_summary">U kamera aplikaciji, dupli-klik će uslikati sliku</string>
-  <string name="screen_gestures_panel_title">Pokreti</string>
-  <string name="touchscreen_double_tap_gesture_title">Probudi uređaj</string>
-  <string name="touchscreen_double_tap_gesture_summary">Dupli-klik za buđenje uređaja</string>
+  <!-- Gesture shortcuts -->
   <string name="touchscreen_camera_gesture_title">Kamera</string>
   <string name="touchscreen_camera_gesture_summary">Nacrtaj krug za pokretanje kamere</string>
   <string name="touchscreen_music_gesture_title">Glazba</string>
@@ -35,6 +33,7 @@
     • Dva prsta vertikalno za produciraj/pauziraj\n
     • Nacrtaj strelicu lijevo za prethodnu pjesmu\n
     • Nacrtaj strelicu desno za sljedeću pjesmu</string>
+  <!-- O-Click settings -->
   <string name="oclick_connect_string">Spoji</string>
   <string name="oclick_disconnect_string">Odspoji</string>
   <string name="oclick_summary_connected">Povezan s O-klik</string>
@@ -50,12 +49,10 @@
   <string name="oclick_disconnect_alert_summary">Upozorenje kada ste izvan dosega</string>
   <string name="alert_category_title">Upozorenja</string>
   <string name="action_category_title">Radnje</string>
+  <!-- O-Click notification -->
   <string name="oclick_locator_notification_title">O-Click lokator telefona</string>
   <string name="oclick_locator_notification_text">Upozorenje lokatora je aktivno. Isključite dodirom</string>
   <string name="oclick_notification_title_connected">O-Click spojen</string>
   <string name="oclick_notification_title_disconnected">O-Click nije spojen</string>
   <string name="oclick_notification_content_disconnected">Pritisnite O-Click tipku za ponovno spajanje</string>
-  <string name="touchscreen_extras">Dodatno</string>
-  <string name="haptic_feedback">Haptic povratne informacije</string>
-  <string name="haptic_feedback_summary">Vibriraj kad je gesta prepoznata</string>
 </resources>

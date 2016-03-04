@@ -16,21 +16,21 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">Papildomi nustatymai</string>
+  <!-- O-Touch settings -->
   <string name="touchpad_enable_title">Įgalinti „O-Touch“</string>
   <string name="touchpad_enable_summary">Galinis jutiklinis pultas naršyti telefonui</string>
   <string name="touchpad_long_press_title">Ilgas paspaudimas paleisti fotoaparatui</string>
   <string name="touchpad_long_press_summary">Ilgas jutiklinio pulto paspaudimas paleis fotoaparato programą</string>
   <string name="touchpad_double_tap_title">Dukart bakstelėti, kad užfiksuoti</string>
   <string name="touchpad_double_tap_summary">Naudojantis fotoaparatu dukart bakstelėti, kad užfiksuoti vaizdą</string>
-  <string name="touchscreen_double_tap_gesture_title">Pažadinti įrenginį</string>
-  <string name="touchscreen_double_tap_gesture_summary">Dukart bakstelėti, kad pažadinti įrenginį</string>
+  <!-- Gesture shortcuts -->
   <string name="touchscreen_camera_gesture_title">Fotoaparatas</string>
   <string name="touchscreen_camera_gesture_summary">Nubrėžti apskritimą, kad įjungti fotoaparatą</string>
   <string name="touchscreen_music_gesture_title">Muzika</string>
   <string name="touchscreen_flashlight_gesture_title">Žibintuvėlis</string>
   <string name="touchscreen_flashlight_gesture_summary">Nubrėžkite „V“, kad įjungtumėte žibintuvėlį</string>
   <string name="touchscreen_music_gesture_summary">Naudoti gestus, kad kontroliuoti muzikos atkūrimą \n • Du pirštus vertikaliai - paleisti / sustabdyti\n • Nubrėžti rodyklę kairėn - ankstesnis takelis\n • Nubrėžti rodyklę dešinėn - kitas takelis</string>
+  <!-- O-Click settings -->
   <string name="oclick_connect_string">Prisijungti</string>
   <string name="oclick_disconnect_string">Atsijungti</string>
   <string name="oclick_summary_connected">Prisijungta prie „O-Click“</string>
@@ -46,6 +46,7 @@
   <string name="oclick_disconnect_alert_summary">Įspėti, kai nepasiekiamas</string>
   <string name="alert_category_title">Signalai</string>
   <string name="action_category_title">Veiksmai</string>
+  <!-- O-Click notification -->
   <string name="oclick_locator_notification_title">„O-Click“ telefono lokatorius</string>
   <string name="oclick_locator_notification_text">Leidžiamas lokatoriaus signalas. Bakstelėkite, kad atmestumėte</string>
   <string name="oclick_notification_title_connected">„O-Click“ prijungtas</string>

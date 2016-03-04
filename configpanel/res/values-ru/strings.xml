@@ -16,16 +16,14 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">Дополнительные настройки</string>
+  <!-- O-Touch settings -->
   <string name="touchpad_enable_title">Включить O-Touch</string>
   <string name="touchpad_enable_summary">Сенсорная панель на задней стороне телефона</string>
   <string name="touchpad_long_press_title">Долгое нажатие для запуска камеры</string>
   <string name="touchpad_long_press_summary">Удерживайте сенсорную панель для запуска приложения «Камера»</string>
   <string name="touchpad_double_tap_title">Двойное нажатие для съёмки</string>
   <string name="touchpad_double_tap_summary">В приложении «Камера» дважды нажмите на сенсорную панель, чтобы сделать снимок</string>
-  <string name="screen_gestures_panel_title">Жесты</string>
-  <string name="touchscreen_double_tap_gesture_title">Включение устройства</string>
-  <string name="touchscreen_double_tap_gesture_summary">Дважды нажмите для включения устройства</string>
+  <!-- Gesture shortcuts -->
   <string name="touchscreen_camera_gesture_title">Камера</string>
   <string name="touchscreen_camera_gesture_summary">Нарисуйте круг для запуска камеры</string>
   <string name="touchscreen_music_gesture_title">Музыка</string>
@@ -35,6 +33,7 @@
     • Проведите двумя пальцами вверх или вниз для воспроизведения или паузы\n
     • Нарисуйте стрелку влево для перехода к предыдущему треку\n
     • Нарисуйте стрелку вправо для перехода к следующему треку</string>
+  <!-- O-Click settings -->
   <string name="oclick_connect_string">Подключить</string>
   <string name="oclick_disconnect_string">Отключить</string>
   <string name="oclick_summary_connected">Подключено к устройству O-Click</string>
@@ -50,12 +49,10 @@
   <string name="oclick_disconnect_alert_summary">Сигнализировать, когда соединение с устройством потеряно</string>
   <string name="alert_category_title">Предупреждения</string>
   <string name="action_category_title">Действия</string>
+  <!-- O-Click notification -->
   <string name="oclick_locator_notification_title">Поиск телефона O-Click</string>
   <string name="oclick_locator_notification_text">Воспроизводится звук локатора. Нажмите, чтобы отключить</string>
   <string name="oclick_notification_title_connected">Устройство O-Click подключено</string>
   <string name="oclick_notification_title_disconnected">Устройство O-Click отключено</string>
-  <string name="oclick_notification_content_disconnected">Нажмите кнопку O-Click для переподключения</string>
-  <string name="touchscreen_extras">Прочее</string>
-  <string name="haptic_feedback">Виброотклик</string>
-  <string name="haptic_feedback_summary">Вибрировать при успешном распознавании жеста</string>
+  <string name="oclick_notification_content_disconnected">Нажмите кнопку O-Click, чтобы повторно подключиться</string>
 </resources>

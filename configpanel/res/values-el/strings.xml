@@ -16,16 +16,14 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">Προηγμένες ρυθμίσεις</string>
+  <!-- O-Touch settings -->
   <string name="touchpad_enable_title">Ενεργοποίηση O-Touch</string>
   <string name="touchpad_enable_summary">Πίσω επιφάνεια αφής για πλοήγηση στο τηλέφωνο</string>
   <string name="touchpad_long_press_title">Πίεση για άνοιγμα φωτογρ. μηχανής</string>
   <string name="touchpad_long_press_summary">Παρατεταμένη πίεση στην επιφάνεια αφής θα ανοίγει την φωτογρ. μηχανή</string>
   <string name="touchpad_double_tap_title">Διπλό χτύπημα για λήψη</string>
   <string name="touchpad_double_tap_summary">Ενώ είστε στην κάμερα, χτυπήστε ελαφρά δύο φορές για λήψη φωτογραφίας</string>
-  <string name="screen_gestures_panel_title">Χειρονομίες</string>
-  <string name="touchscreen_double_tap_gesture_title">Αφύπνιση συσκευής</string>
-  <string name="touchscreen_double_tap_gesture_summary">Διπλό χτύπημα για αφύπνιση της συσκευής</string>
+  <!-- Gesture shortcuts -->
   <string name="touchscreen_camera_gesture_title">Φωτογρ. μηχανή</string>
   <string name="touchscreen_camera_gesture_summary">Σχεδιάστε έναν κύκλο για εκκίνηση της φωτογρ. μηχανής</string>
   <string name="touchscreen_music_gesture_title">Μουσική</string>
@@ -35,6 +33,7 @@
     • Δύο δάχτυλα κάθετα για αναπαραγωγή/παύση\n
     • Σχεδιάστε βελάκι προς τα αριστερά για προηγούμενο κομμάτι\n
     • Σχεδιάστε βελάκι προς τα δεξιά για επόμενο κομμάτι</string>
+  <!-- O-Click settings -->
   <string name="oclick_connect_string">Σύνδεση</string>
   <string name="oclick_disconnect_string">Αποσύνδεση</string>
   <string name="oclick_summary_connected">Συνδεδεδεμένο με το O-Click</string>
@@ -50,12 +49,10 @@
   <string name="oclick_disconnect_alert_summary">Ειδοποίηση όταν είναι εκτός εμβέλειας</string>
   <string name="alert_category_title">Συναγερμοί</string>
   <string name="action_category_title">Λειτουργίες</string>
+  <!-- O-Click notification -->
   <string name="oclick_locator_notification_title">Εντοπισμός τηλεφώνου O-Click</string>
   <string name="oclick_locator_notification_text">Ενεργοποιήθηκε ο συναγερμός εντοπισμού. Πιέστε για απόρριψη</string>
   <string name="oclick_notification_title_connected">Το O-Click συνδέθηκε</string>
   <string name="oclick_notification_title_disconnected">Το O-Click αποσυνδέθηκε</string>
   <string name="oclick_notification_content_disconnected">Πιέστε το πλήκτρο O-Click για επανασύνδεση</string>
-  <string name="touchscreen_extras">Επιπλέον ρυθμίσεις</string>
-  <string name="haptic_feedback">Απτική ανάδραση</string>
-  <string name="haptic_feedback_summary">Δόνηση κατά τον εντοπισμό μιας χειρονομίας</string>
 </resources>

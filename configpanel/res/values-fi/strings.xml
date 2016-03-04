@@ -16,16 +16,14 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">Lisäasetukset</string>
+  <!-- O-Touch settings -->
   <string name="touchpad_enable_title">Ota O-Touch käyttöön</string>
   <string name="touchpad_enable_summary">Navigoi puhelimessa takana olevan kosketuspinnan avulla</string>
   <string name="touchpad_long_press_title">Käynnistä kamera</string>
   <string name="touchpad_long_press_summary">Avaa kamerasovellus painamalla kosketuspintaa pitkään</string>
   <string name="touchpad_double_tap_title">Ota kuva</string>
   <string name="touchpad_double_tap_summary">Kun kamerassa, napauta kahdesti ottaaksesi kuvan</string>
-  <string name="screen_gestures_panel_title">Eleet</string>
-  <string name="touchscreen_double_tap_gesture_title">Herätä laite</string>
-  <string name="touchscreen_double_tap_gesture_summary">Napauta kahdesti herättääksesi laitteen</string>
+  <!-- Gesture shortcuts -->
   <string name="touchscreen_camera_gesture_title">Kamera</string>
   <string name="touchscreen_camera_gesture_summary">Piirrä ympyrä aktivoidaksesi kameran</string>
   <string name="touchscreen_music_gesture_title">Musiikki</string>
@@ -35,6 +33,7 @@
     • Kaksi sormea pystysuunnassa: Toisto/Tauko\n
     • Piirrä nuoli vasemmalle: Edellinen kappale\n
     • Piirrä nuoli oikealle: Seuraava kappale</string>
+  <!-- O-Click settings -->
   <string name="oclick_connect_string">Yhdistä</string>
   <string name="oclick_disconnect_string">Katkaise yhteys</string>
   <string name="oclick_summary_connected">Yhdistetty O-Clickiin</string>
@@ -50,12 +49,10 @@
   <string name="oclick_disconnect_alert_summary">Hälytä kun ollaan laitteen kantavuusalueen ulkopuolella</string>
   <string name="alert_category_title">Hälytykset</string>
   <string name="action_category_title">Toiminnot</string>
+  <!-- O-Click notification -->
   <string name="oclick_locator_notification_title">O-Click puhelimen paikannus</string>
   <string name="oclick_locator_notification_text">Paikannushälytys soi. Kosketa sulkeaksesi hälytyksen</string>
   <string name="oclick_notification_title_connected">O-Click yhdistetty</string>
   <string name="oclick_notification_title_disconnected">Yhteys O-Clickiin katkaistu</string>
   <string name="oclick_notification_content_disconnected">Paina O-Clickin painiketta yhdistääksesi uudelleen</string>
-  <string name="touchscreen_extras">Ekstrat</string>
-  <string name="haptic_feedback">Haptinen palaute</string>
-  <string name="haptic_feedback_summary">Värise kun ele tunnistetaan</string>
 </resources>

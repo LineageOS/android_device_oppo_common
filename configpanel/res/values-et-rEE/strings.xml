@@ -16,16 +16,14 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">Täpsemad seaded</string>
+  <!-- O-Touch settings -->
   <string name="touchpad_enable_title">Luba O-Touch</string>
   <string name="touchpad_enable_summary">Tagumine puuteplaat et navigeerida telefonis</string>
   <string name="touchpad_long_press_title">Pikk vajutus et käivitada kaamera</string>
   <string name="touchpad_long_press_summary">Pikk vajutus puuteplaadil käivitab kaamera rakenduse</string>
   <string name="touchpad_double_tap_title">Topeltpuuduta et jäädvustada</string>
   <string name="touchpad_double_tap_summary">Kaameras olles topeltpuudutusel jäädvustab pildi</string>
-  <string name="screen_gestures_panel_title">Žestid</string>
-  <string name="touchscreen_double_tap_gesture_title">Ärata seade</string>
-  <string name="touchscreen_double_tap_gesture_summary">Topeltpuuduta et äratada seade</string>
+  <!-- Gesture shortcuts -->
   <string name="touchscreen_camera_gesture_title">Kaamera</string>
   <string name="touchscreen_camera_gesture_summary">Tõmmake ring et aktiveerida kaamera</string>
   <string name="touchscreen_music_gesture_title">Muusika</string>
@@ -35,6 +33,7 @@
     • Kahe nupuga vertikaalselt et esitada/peatada\n
     • Joonista vasak nool eelmise loo jaoks\n
     • Joonista parem nool järgmise loo jaoks</string>
+  <!-- O-Click settings -->
   <string name="oclick_connect_string">Ühenda</string>
   <string name="oclick_disconnect_string">Katkesta ühendus</string>
   <string name="oclick_summary_connected">Ühendatud O-Clickiga</string>
@@ -50,12 +49,10 @@
   <string name="oclick_disconnect_alert_summary">Teavita kui väljaspool ulatust</string>
   <string name="alert_category_title">Teatised</string>
   <string name="action_category_title">Tegevused</string>
+  <!-- O-Click notification -->
   <string name="oclick_locator_notification_title">O-Click telefon otsing</string>
   <string name="oclick_locator_notification_text">Otsingu teatis mängib. Puuduta katkestamiseks</string>
   <string name="oclick_notification_title_connected">O-Click ühendatud</string>
   <string name="oclick_notification_title_disconnected">O-Click ühendatamata</string>
   <string name="oclick_notification_content_disconnected">Vajuta O-Click nupul et taasühenduda</string>
-  <string name="touchscreen_extras">Lisad</string>
-  <string name="haptic_feedback">Haptiline tagasiside</string>
-  <string name="haptic_feedback_summary">Vibreeri kui žest avastati</string>
 </resources>

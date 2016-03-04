@@ -16,14 +16,14 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- O-Touch settings -->
   <string name="touchpad_enable_title">O-ස්පර්ශ සබල කරන්න</string>
   <string name="touchpad_enable_summary">දුරකථනයේ යාත්‍රණයට පසුපස ස්පර්ශ පෑඩය</string>
   <string name="touchpad_long_press_title">කැමරාව දියත් කිරිමට ඔබාගෙන සිටින්න</string>
   <string name="touchpad_long_press_summary">ස්පර්ශ පෑඩය ඔබාගෙන සිටීමෙන් කැමරා යෙදුම දියත්කෙරේ</string>
   <string name="touchpad_double_tap_title">ග්‍රහණයට දෙවරක් තට්ටු කරන්න</string>
   <string name="touchpad_double_tap_summary">කමරාවේදී, සේයාව ග්‍රහණයට දෙවරක් තට්ටු කරන්න</string>
-  <string name="touchscreen_double_tap_gesture_title">උපාංගය අවදි කරන්න</string>
-  <string name="touchscreen_double_tap_gesture_summary">උපාංගය අවදි කිරීමට දෙවරක් තට්ටු කරන්න</string>
+  <!-- Gesture shortcuts -->
   <string name="touchscreen_camera_gesture_title">කැමරාව</string>
   <string name="touchscreen_camera_gesture_summary">කැමරාව සක්‍රීය කිරීමට රවුමක් අඳින්න</string>
   <string name="touchscreen_music_gesture_title">සංගීත</string>
@@ -33,6 +33,7 @@
     • ධාවනය/විරාමය සඳහා ඇඟිලි දෙකක් සිරස්ව\n
     • පෙර ඛණ්ඩය සඳහා වම් ඊතලයක් අඳින්න\n
     • මීළඟ ඛණ්ඩය සඳහා දකුණු ඊතලයක් අඳින්න</string>
+  <!-- O-Click settings -->
   <string name="oclick_connect_string">සබඳින්න</string>
   <string name="oclick_disconnect_string">විසන්ධි කරන්න</string>
   <string name="oclick_take_snapshot_title">දුරස්ථ කැමරා ශටරය</string>
@@ -45,4 +46,5 @@
   <string name="oclick_disconnect_alert_summary">ළඟාවීමට නොහැකිවිට අඟවන්න</string>
   <string name="alert_category_title">ඇඟවීම්</string>
   <string name="action_category_title">ක්‍රියා</string>
+  <!-- O-Click notification -->
 </resources>

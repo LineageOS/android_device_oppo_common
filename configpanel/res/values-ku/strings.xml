@@ -16,14 +16,14 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- O-Touch settings -->
   <string name="touchpad_enable_title">چالاککردنی o-بیسووە</string>
   <string name="touchpad_enable_summary">سوینی پاشه‌وه‌ی پاد بۆ ته‌له‌فۆنی نه‌رێ</string>
   <string name="touchpad_long_press_title">دەست داگرتن بۆ ماوەکەی درێژ بۆ کردنەوەی کامێرە</string>
   <string name="touchpad_long_press_summary">بۆ ماوەیەکی درێژ دەست دابگرە بۆ کردنەوەی بەرنامەی کامێرە</string>
   <string name="touchpad_double_tap_title">دووجار ده‌ستی لێبدە بۆ گرتنی وێنه‌</string>
   <string name="touchpad_double_tap_summary">کاتێک کامێرا، دووجار ده‌ستی لێبدە بۆ گرتنی وێنه‌</string>
-  <string name="touchscreen_double_tap_gesture_title">ئامێره‌که‌ هەڵدەستێنێت</string>
-  <string name="touchscreen_double_tap_gesture_summary">دووجار دەستی لێبدە بۆ هەڵسانی ئامێرەکە</string>
+  <!-- Gesture shortcuts -->
   <string name="touchscreen_camera_gesture_title">کامێرا</string>
   <string name="touchscreen_camera_gesture_summary">بازنه‌یه‌کی خڕ بکێشه‌ بۆ چالاککردنی کامێرا</string>
   <string name="touchscreen_music_gesture_title">مۆسیقا</string>
@@ -33,6 +33,7 @@
 به‌ ئەستونی په‌نجه‌کانت لێبده‌ بۆ لێدان/وه‌ستانی \n
 ده‌ست بکێشه‌ بۆ چه‌پ تڕاکی پێشووتر \n
 ده‌ستبکێشه‌ بۆ ڕاست بۆ لێدانی تڕاکی داهاتوو</string>
+  <!-- O-Click settings -->
   <string name="oclick_connect_string">په‌یوه‌ندیکردن</string>
   <string name="oclick_disconnect_string">پچڕانی پەیوەندی</string>
   <string name="oclick_take_snapshot_title">کامێرای دوور کوژانه‌وه‌</string>
@@ -45,4 +46,5 @@
   <string name="oclick_disconnect_alert_summary">ئاگادارکردنه‌وه‌ کاتێک له‌ده‌ره‌وه‌ی ده‌ستپێگه‌شتنه‌</string>
   <string name="alert_category_title">ئاگادارکردنه‌وه‌کان</string>
   <string name="action_category_title">چالاکیه‌کان</string>
+  <!-- O-Click notification -->
 </resources>

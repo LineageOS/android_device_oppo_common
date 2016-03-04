@@ -16,16 +16,14 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">Дадатковыя налады</string>
+  <!-- O-Touch settings -->
   <string name="touchpad_enable_title">Уключыць O-Touch</string>
   <string name="touchpad_enable_summary">Сэнсорная панэль на заднім боку тэлефона</string>
   <string name="touchpad_long_press_title">Доўгі націск для запуску камеры</string>
   <string name="touchpad_long_press_summary">Утрымвайце сэнсорную панэль для запуску дадаткі \"Камера\"</string>
   <string name="touchpad_double_tap_title">Падвойны націск для здымкі</string>
   <string name="touchpad_double_tap_summary">У дадатку \"Камера\" двойчы націсніце на сэнсорную панэль, каб зрабіць здымак</string>
-  <string name="screen_gestures_panel_title">Рухі</string>
-  <string name="touchscreen_double_tap_gesture_title">Улучэнне прылады</string>
-  <string name="touchscreen_double_tap_gesture_summary">Націсніце двойчы для ўлучэння экрана</string>
+  <!-- Gesture shortcuts -->
   <string name="touchscreen_camera_gesture_title">Камера</string>
   <string name="touchscreen_camera_gesture_summary">Намалюйце кола для запуску камеры</string>
   <string name="touchscreen_music_gesture_title">Музыка</string>
@@ -35,6 +33,7 @@
     Правядзіце двума пальцамі ўгару ці ўніз для прайгравання ці паўзы\n
     Намалюйце стрэлку налева для пераходу да папярэдняга трэка\n
     Намалюйце стрэлку направа для пераходу да наступнага трэка</string>
+  <!-- O-Click settings -->
   <string name="oclick_connect_string">Далучыць</string>
   <string name="oclick_disconnect_string">Адключыць</string>
   <string name="oclick_summary_connected">Падлучана да прылады O-Click</string>
@@ -50,12 +49,10 @@
   <string name="oclick_disconnect_alert_summary">Сігналізаваць, калі злучэнне з прыладай страчана</string>
   <string name="alert_category_title">Папярэджанні</string>
   <string name="action_category_title">Дзеянні</string>
+  <!-- O-Click notification -->
   <string name="oclick_locator_notification_title">Пошук тэлефона O-Click</string>
   <string name="oclick_locator_notification_text">Прайграваецца гук лакатара. Націсніце, каб адключыць</string>
   <string name="oclick_notification_title_connected">Прылада O-Click падлучана</string>
   <string name="oclick_notification_title_disconnected">Прылада O-Click адключана</string>
   <string name="oclick_notification_content_disconnected">Націсніце кнопку O-Click для перападлучэння</string>
-  <string name="touchscreen_extras">Іншае</string>
-  <string name="haptic_feedback">Вібраводгук</string>
-  <string name="haptic_feedback_summary">Вібраваць пры паспяховым распазнанні жэста</string>
 </resources>

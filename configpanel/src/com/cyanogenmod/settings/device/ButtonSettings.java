@@ -19,17 +19,48 @@ package com.cyanogenmod.settings.device;
 import android.os.Bundle;
 import android.preference.ListPreference;
 import android.preference.Preference;
+import android.preference.SwitchPreference;
 
 import com.cyanogenmod.settings.device.utils.Constants;
 import com.cyanogenmod.settings.device.utils.FileUtils;
 import com.cyanogenmod.settings.device.utils.NodePreferenceActivity;
 
+import cyanogenmod.providers.CMSettings;
+
 import org.cyanogenmod.internal.util.ScreenType;
 
 public class ButtonSettings extends NodePreferenceActivity {
+    private static final String KEY_IGNORE_AUTO = "notification_slider_ignore_auto";
+
+    private SwitchPreference mIgnoreAuto;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.button_panel);
+
+        mIgnoreAuto = (SwitchPreference) findPreference(KEY_IGNORE_AUTO);
+        mIgnoreAuto.setOnPreferenceChangeListener(this);
+    }
+
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        final String key = preference.getKey();
+        if (KEY_IGNORE_AUTO.equals(key)) {
+            final boolean value = (Boolean) newValue;
+            CMSettings.System.putInt(getContentResolver(),
+                    CMSettings.System.NOTIFICATION_SLIDER_IGNORE_AUTO, value ? 1 : 0);
+            return true;
+        }
+
+        return super.onPreferenceChange(preference, newValue);
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        mIgnoreAuto.setChecked(CMSettings.System.getInt(getContentResolver(),
+                CMSettings.System.NOTIFICATION_SLIDER_IGNORE_AUTO, 0) != 0);
     }
 }

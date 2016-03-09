@@ -34,6 +34,7 @@ import android.os.PowerManager;
 import android.os.PowerManager.WakeLock;
 import android.os.SystemClock;
 import android.os.Vibrator;
+import android.provider.Settings;
 import android.util.Log;
 import android.view.KeyEvent;
 
@@ -186,9 +187,18 @@ public class KeyHandler implements DeviceKeyHandler {
         }
     }
 
+    private boolean hasSetupCompleted() {
+        return Settings.Secure.getInt(mContext.getContentResolver(),
+            Settings.Secure.USER_SETUP_COMPLETE, 0) != 0;
+    }
+
     public boolean handleKeyEvent(KeyEvent event) {
         boolean isKeySupported = ArrayUtils.contains(sSupportedGestures, event.getScanCode());
         if (!isKeySupported) {
+            return false;
+        }
+
+        if (!hasSetupCompleted()) {
             return false;
         }
 

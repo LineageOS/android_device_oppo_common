@@ -44,22 +44,28 @@
 
             android:label="@string/oclick_panel_title">
             <intent-filter>
-                <action android:name="com.cyanogenmod.action.LAUNCH_BLUETOOTH_INPUT_SETTINGS" />
+                <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
             </intent-filter>
             <meta-data
-                android:name="com.android.settings.title"
-                android:resource="@string/oclick_panel_title"/>
+                android:name="com.android.settings.category"
+                android:value="com.android.settings.category.device" />
+            <meta-data
+                android:name="com.android.settings.icon"
+                android:resource="@drawable/ic_settings_oclick" />
         </activity>
 
         <activity
             android:name=".TouchscreenGestureSettings"
             android:label="@*cyanogenmod.platform:string/screen_gestures_panel_title">
             <intent-filter>
-                <action android:name="com.cyanogenmod.action.LAUNCH_TOUCHSCREEN_GESTURE_SETTINGS" />
+                <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
             </intent-filter>
             <meta-data
-                android:name="com.android.settings.title"
-                android:resource="@*cyanogenmod.platform:string/screen_gestures_panel_title"/>
+                android:name="com.android.settings.category"
+                android:value="com.android.settings.category.device" />
+            <meta-data
+                android:name="com.android.settings.icon"
+                android:resource="@drawable/ic_settings_gestures" />
         </activity>
 
         <activity
@@ -70,7 +76,7 @@
             </intent-filter>
             <meta-data
                 android:name="com.android.settings.title"
-                android:resource="@string/backpad_panel_title"/>
+                android:resource="@string/backpad_panel_title" />
         </activity>
 
         <receiver android:name=".Startup" >

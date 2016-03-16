@@ -33,6 +33,24 @@
       "revId": "252669123cb7ca1ff4354e414e87382e4415a7ae",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9fb8cfa7_c7cebe82",
+        "filename": "configpanel/res/drawable/ic_settings_notification_slider.xml",
+        "patchSetId": 12
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2016-03-16T14:03:34Z",
+      "side": 1,
+      "message": "Or be replaced by android:color/black, like e.g. in packages/apps/Settings/res/drawable/ic_settings.memory.xml.",
+      "parentUuid": "9fb8cfa7_67c03252",
+      "revId": "252669123cb7ca1ff4354e414e87382e4415a7ae",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }

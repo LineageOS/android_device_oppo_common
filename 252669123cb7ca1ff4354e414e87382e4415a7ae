@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9fb8cfa7_07b5b6ee",
+        "filename": "configpanel/res/drawable/ic_settings_notification_slider.xml",
+        "patchSetId": 12
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2016-03-16T14:02:33Z",
+      "side": 1,
+      "message": "Instead of the below, add android:tint\u003d\"?android:attr/colorAccent\" here.",
+      "revId": "252669123cb7ca1ff4354e414e87382e4415a7ae",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9fb8cfa7_67c03252",
+        "filename": "configpanel/res/drawable/ic_settings_notification_slider.xml",
+        "patchSetId": 12
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2016-03-16T14:02:33Z",
+      "side": 1,
+      "message": "This should go",
+      "revId": "252669123cb7ca1ff4354e414e87382e4415a7ae",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

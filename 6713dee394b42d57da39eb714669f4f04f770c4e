@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9fb8cfa7_67a592b5",
+        "filename": "configpanel/AndroidManifest.xml",
+        "patchSetId": 13
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2016-03-16T14:13:08Z",
+      "side": 1,
+      "message": "I think it would be better to use the com.android.settings.cion meta-data item.",
+      "revId": "6713dee394b42d57da39eb714669f4f04f770c4e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

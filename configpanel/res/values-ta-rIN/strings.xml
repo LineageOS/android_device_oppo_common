@@ -17,7 +17,39 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- O-Touch settings -->
+  <string name="touchpad_enable_title">செயல்படுத்து O-Touch</string>
+  <string name="touchpad_enable_summary">தொலைப்பேசியை வழிசெல்ல பின்புற தொடுதளம்</string>
+  <string name="touchpad_long_press_title">கேமராவை தொடங்க நீண்ட அழுத்தம்செய்</string>
+  <string name="touchpad_long_press_summary">தொடுதளத்தின் மீது நீண்ட அழுத்தம்செய்தல் கேமரா பயன்பாட்டைத் தொடங்கும்</string>
+  <string name="touchpad_double_tap_title">பிடிக்க இருமுறை தட்டு</string>
+  <string name="touchpad_double_tap_summary">கேமராவில் இருக்கும்போது, படம் பிடிக்க இருமுறை தட்டு</string>
   <!-- Gesture shortcuts -->
+  <string name="touchscreen_camera_gesture_title">கேமரா</string>
+  <string name="touchscreen_camera_gesture_summary">கேமராவை செயல்படுத்த ஒரு வட்டத்தை வரை</string>
+  <string name="touchscreen_music_gesture_title">இசை</string>
+  <string name="touchscreen_flashlight_gesture_title">ஃபிளாஷ்லைட்</string>
+  <string name="touchscreen_flashlight_gesture_summary">ஃப்ளாஷ்லைட்டை நிலைமாற்றல் ஒரு \'V\' வரை</string>
+  <string name="touchscreen_music_gesture_summary">இசை மறு இயக்கத்தைக் கட்டுப்படுத்த குறிப்புணர்வுகளைப் பயன்படுத்து  \n • ப்ளே/நிற்க இரண்டு விரல்கள் செங்குத்தாக\n • முந்தைய தடத்திற்கு இடது அம்பு வரை\n • அடுத்த தடத்திற்கு வலது அம்பு வரை</string>
   <!-- O-Click settings -->
+  <string name="oclick_connect_string">இணை</string>
+  <string name="oclick_disconnect_string">தொடர்பைத் துண்டி</string>
+  <string name="oclick_summary_connected">O-Click உடன் இணை</string>
+  <string name="oclick_summary_paired">O-Click பிணைக்கப்பட்டது, ஆனால் துண்டிக்கப்பட்டது</string>
+  <string name="oclick_dialog_connecting_message">O-Click உடன் இணைக்கிறது\u2026\n கண்டுபிடித்தலை துரிதப்படுத்த O-Click பொத்தானை அழுத்து</string>
+  <string name="oclick_take_snapshot_title">தொலைநிலை கேமரா மூடி</string>
+  <string name="oclick_take_snapshot_summary">படம் எடுக்க ஒற்றை கிளிக் செய்</string>
+  <string name="oclick_find_my_phone_title">தொலைப்பேசி லொகேட்டர்</string>
+  <string name="oclick_find_my_phone_summary">தொலைப்பேசியை கண்டுபிடிக்க இருமுறை கிளிக் செய்</string>
+  <string name="oclick_fence_title">அண்மை விழிப்பூட்டல்</string>
+  <string name="oclick_fence_summary">தொலைப்பேசிக்கு அருகில் இல்லாதபோது விழிப்பூட்டு</string>
+  <string name="oclick_disconnect_alert_title">வரம்புக்கு வெளியே விழிப்பூட்டல்</string>
+  <string name="oclick_disconnect_alert_summary">தொடுதூரத்திற்கு வெளியே இருக்கும்போது விழிப்பூட்டு</string>
+  <string name="alert_category_title">விழிப்பூட்டல்கள்</string>
+  <string name="action_category_title">செயல்கள்</string>
   <!-- O-Click notification -->
+  <string name="oclick_locator_notification_title">O-Click தொலைப்பேசி லொகேட்டர்</string>
+  <string name="oclick_locator_notification_text">லொகேட்டர் விழிப்பூட்டல் இயங்குகிறது. நிராகரிக்க தட்டு</string>
+  <string name="oclick_notification_title_connected">O-Click இணைக்கப்பட்டது</string>
+  <string name="oclick_notification_title_disconnected">O-Click துண்டிக்கப்பட்டது</string>
+  <string name="oclick_notification_content_disconnected">மறு இணைப்பு செய்ய O-Click பொத்தானை அழுத்து</string>
 </resources>

@@ -17,7 +17,39 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- O-Touch settings -->
+  <string name="touchpad_enable_title">O-స్పర్శ సెట్టింగ్స్ అమలు చెయ్యి</string>
+  <string name="touchpad_enable_summary">ఫోనును నావిగేట్ చేసేందుకు వెనుక స్పర్శ ప్యాడ్</string>
+  <string name="touchpad_long_press_title">కెమెరాను ప్రారంభించేందుకు ఎక్కువ సేపు నొక్కండి</string>
+  <string name="touchpad_long_press_summary">కెమెరా అప్లికేషనును ప్రారంభించేందుకు స్పర్శ ప్యాడ్ పైన ఎక్కువ సేపు నొక్కండి</string>
+  <string name="touchpad_double_tap_title">చిత్రీకరణ కొరకు రెండుసార్లు ట్యాప్ చేయండి</string>
+  <string name="touchpad_double_tap_summary">కెమెరాలో ఉన్నప్పుడు, చిత్రాన్ని బంధించేందుకు రెండుసార్లు ట్యాప్ చేయండి</string>
   <!-- Gesture shortcuts -->
+  <string name="touchscreen_camera_gesture_title">కెమెరా</string>
+  <string name="touchscreen_camera_gesture_summary">కెమెరాను క్రియాశీలం చేసేందుకు ఒక వృత్తాన్ని గీయండి</string>
+  <string name="touchscreen_music_gesture_title">సంగీతం</string>
+  <string name="touchscreen_flashlight_gesture_title">ఫ్లాష్‌లైట్</string>
+  <string name="touchscreen_flashlight_gesture_summary">ఫ్లాష్ లైటును ద్విక్రియం చేసేందుకు \'V\'ను గీయండి</string>
+  <string name="touchscreen_music_gesture_summary">సంగీతం ప్లేబ్యాకును నియంత్రించేందుకు సంజ్ఞలను ఉపయోగించండి  \n • ప్లే/నిలిపివేసేందుకు రెండు వెళ్ళను నిలువుగా ఉంచండి\n • పూర్వపు పాటను ప్లే చేసేందుకు ఎడమ బాణాన్ని గీయండి\n • తరువాతి పాట కొరకు కుడి బాణాన్ని గీయండి</string>
   <!-- O-Click settings -->
+  <string name="oclick_connect_string">కనెక్ట్ చేయి</string>
+  <string name="oclick_disconnect_string">డిస్‌కనెక్ట్ చేయి</string>
+  <string name="oclick_summary_connected">O-క్లిక్ కు అనుసంధానించబడింది</string>
+  <string name="oclick_summary_paired">O-క్లిక్ జతచేయబడింది, కానీ అనుసంధానం తొలగించబడింది</string>
+  <string name="oclick_dialog_connecting_message">O-క్లిక్ కు అనుసంధానించబడుతుంది\u2026\nఆవిష్కరణను వేగవంతం చేసేందుకు O-క్లిక్ బటన్ నొక్కండి.</string>
+  <string name="oclick_take_snapshot_title">రిమోట్ కెమెరా షట్టర్</string>
+  <string name="oclick_take_snapshot_summary">చిత్రాన్ని బంధించేందుకు ఒక క్లిక్</string>
+  <string name="oclick_find_my_phone_title">ఫోన్ లోకేటర్</string>
+  <string name="oclick_find_my_phone_summary">ఫోనును కనుగొనేందుకు డబుల్-క్లిక్</string>
+  <string name="oclick_fence_title">సామీప్య హెచ్చరిక</string>
+  <string name="oclick_fence_summary">ఫోన్ దగ్గరిలో లేనప్పుడు హెచ్చరిక</string>
+  <string name="oclick_disconnect_alert_title">పరిధిలో లేనప్పుడు హెచ్చరిక</string>
+  <string name="oclick_disconnect_alert_summary">అందుబాటులో లేనప్పుడు హెచ్చరిక</string>
+  <string name="alert_category_title">హెచ్చరికలు</string>
+  <string name="action_category_title">చర్యలు</string>
   <!-- O-Click notification -->
+  <string name="oclick_locator_notification_title">O-క్లిక్ ఫోన్ లోకేటర్</string>
+  <string name="oclick_locator_notification_text">లొకేటర్ హెచ్చరిక నడుస్తూ ఉంది. రద్దు చేసేందుకు ట్యాప్ చేయండి</string>
+  <string name="oclick_notification_title_connected">O-క్లిక్ అనుసంధానించబడింది</string>
+  <string name="oclick_notification_title_disconnected">O-క్లిక్ అనుసంధానం తొలిగించబడింది</string>
+  <string name="oclick_notification_content_disconnected">తిరిగి అనుసంధానించేందుకు O-క్లిక్ బటన్ నొక్కండి</string>
 </resources>

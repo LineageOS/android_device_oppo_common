@@ -17,7 +17,39 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- O-Touch settings -->
+  <string name="touchpad_enable_title">ଓ-ଟଚ୍‍ ସକ୍ଷମ କରନ୍ତୁ</string>
+  <string name="touchpad_enable_summary">ଫୋନ୍‍କୁ ନେଭିଗେଟ୍‍ କରିବା ପାଇଁ ଟଚ୍‍ପ୍ୟାଡ୍‍କୁ ପଛ୍ପାଖକୁ ନିଅନ୍ତୁ</string>
+  <string name="touchpad_long_press_title">କ୍ୟାମେରା ଲଞ୍ଚ କରିବା ପାଇଁ ଦୀ‍ର୍ଘ ସମୟ ପ୍ରେସ୍‍ କରନ୍ତୁ</string>
+  <string name="touchpad_long_press_summary">ଟଚ୍‍ପ୍ୟାଡ୍‍ରେ ଦୀ‍ର୍ଘ ସମୟ ପ୍ରେସ୍‍ କରିବା ଦ୍ୱାରା କ୍ୟାମେରା ଆପ୍ଲିକେସନ୍‍ ଉନ୍ମୋଚନ ହେବ</string>
+  <string name="touchpad_double_tap_title">କ୍ୟାପ୍‍ଚର୍‍ କରିବା ପାଇଁ ଦୁଇଥର ଟ୍ୟାପ୍‍ କରନ୍ତୁ</string>
+  <string name="touchpad_double_tap_summary">କ୍ୟାମେରାରେ ଥିବା ସମୟରେ, ଚିତ୍ର କ୍ୟାପ୍‍ଚର୍‍ କରିବା ପାଇଁ ଦୁଇଥର ଟ୍ୟାପ୍‍ କରନ୍ତୁ</string>
   <!-- Gesture shortcuts -->
+  <string name="touchscreen_camera_gesture_title">କ୍ୟାମେରା</string>
+  <string name="touchscreen_camera_gesture_summary">କ୍ୟାମେରା ସକ୍ରିୟ କରିବା ପାଇଁ ଏକ ସର୍କଲ୍‍ ଆଙ୍କନ୍ତୁ</string>
+  <string name="touchscreen_music_gesture_title">ସଙ୍ଗୀତ</string>
+  <string name="touchscreen_flashlight_gesture_title">ଫ୍ଲାସଲାଇଟ୍</string>
+  <string name="touchscreen_flashlight_gesture_summary">ଫ୍ଲାସ୍‍ଲାଇଟ୍‍ ଟୋଗଲ୍‍ କରିବା ପାଇଁ ଏକ \'V\' ଆଙ୍କନ୍ତୁ</string>
+  <string name="touchscreen_music_gesture_summary">ମ୍ୟୁଜିକ୍‍ ପ୍ଲେବ୍ୟାକ୍‍କୁ ନିୟନ୍ତ୍ରଣ କରିବା ପାଇଁ ଅଙ୍ଗଭଙ୍ଗୀ୍ସ ବ୍ୟବହାର କରନ୍ତୁ\n। ପ୍ଲେ/ପଜ୍‍ କରିବା ପାଇଁ ଦୁଇଟି ଆଙ୍ଗୁଠି ଭୂଲମ୍ବଭାବେ ବୟବହାର କରନ୍ତୁ\n। ପୂର୍ବ ଟ୍ରାକ୍‍ ପାଇଁ ବାମ ତୀର ଆଙ୍କନ୍ତୁ\n। ପର ଟ୍ରାକ୍‍ ପାଇଁ ଡାହାଣ ତୀର ଆଙ୍କନ୍ତୁ</string>
   <!-- O-Click settings -->
+  <string name="oclick_connect_string">ସଂଯୋଗ କରନ୍ତୁ</string>
+  <string name="oclick_disconnect_string">ବିଚ୍ଛିନ୍ନ କରନ୍ତୁ</string>
+  <string name="oclick_summary_connected">ଓ-କ୍ଲିକ୍‍ ସହ ସଂଯୋଗ ହୋଇଛି</string>
+  <string name="oclick_summary_paired">ଓ-କ୍ଲିକ୍‍ ପେଆର୍‍ ହୋଇଛି, ମାତ୍ର ବିଛିନ୍ନ ହୋଇଛି</string>
+  <string name="oclick_dialog_connecting_message">ଓ-କ୍ଲିକ୍‍ ସହ ସଂଯୋଗ ହୋଇଛି\u2026\nସନ୍ଧାନର ବେଗ ବଢାଇବା ପାଇଁ ଓ-କ୍ଲିକ୍ ଦବାନ୍ତୁ।</string>
+  <string name="oclick_take_snapshot_title">ଦୂର କ୍ୟାମେରା ସଟର୍‍</string>
+  <string name="oclick_take_snapshot_summary">ଫଟୋ ନେବା ପାଇଁ ଥରେ କ୍ଲିକ୍‍ କରନ୍ତୁ</string>
+  <string name="oclick_find_my_phone_title">ଫୋନ୍‍ ଲୋକେଟର୍‍</string>
+  <string name="oclick_find_my_phone_summary">ଫୋନ୍‍ ପ୍ରାପ୍ତ କରିବା ପାଇଁ ଦୁଇଥର କ୍ଲିକ୍‍ କରନ୍ତୁ</string>
+  <string name="oclick_fence_title">ପ୍ରକ୍ସିମିଟି ସତର୍କତା</string>
+  <string name="oclick_fence_summary">ଫୋନ୍‍ ନିକଟରେ ନଥିବା ସମୟରେ ସତର୍କତତା</string>
+  <string name="oclick_disconnect_alert_title">ପରିସୀମା ବାହାରେ ସତର୍କ</string>
+  <string name="oclick_disconnect_alert_summary">ପହ୍ଞ୍ଚ ଠାରୁ ଦୂରରେ ଥିବା ସମୟରେ ସତର୍କତା</string>
+  <string name="alert_category_title">ସତର୍କଗୁଡିକ</string>
+  <string name="action_category_title">କ୍ରିୟାଗୁଡିକ</string>
   <!-- O-Click notification -->
+  <string name="oclick_locator_notification_title">ଓ-କ୍ଲିକ୍‍</string>
+  <string name="oclick_locator_notification_text">ଲୋକେଟର୍‍ ସତର୍କତା ପ୍ଲେ କରାଯାଉଛି ଡିସ୍‍ମିସ୍‍ କରିବା ପାଇଁ ଟ୍ୟାପ୍‍ କରନ୍ତୁ</string>
+  <string name="oclick_notification_title_connected">ଓ-କ୍ଲିକ୍‍ ସଂଯୋଗ ହୋଇଛି</string>
+  <string name="oclick_notification_title_disconnected">ଓ-କ୍ଲିକ୍‍ ବିଛିନ୍ନ ହୋଇଛି</string>
+  <string name="oclick_notification_content_disconnected">ପୁନଃ-ସଂଯୋଗ କରିବା ପାଇଁ ଓ-କ୍ଲିକ୍‍ ଦବାନ୍ତୁ</string>
 </resources>

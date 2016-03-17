@@ -25,10 +25,10 @@
   <string name="touchpad_double_tap_summary">In camera dubbeltikken om een foto te nemen</string>
   <!-- Gesture shortcuts -->
   <string name="touchscreen_camera_gesture_title">Camera</string>
-  <string name="touchscreen_camera_gesture_summary">Cirkel tekenen om camera te openen</string>
+  <string name="touchscreen_camera_gesture_summary">Teken een cirkel om camera te openen</string>
   <string name="touchscreen_music_gesture_title">Muziek</string>
   <string name="touchscreen_flashlight_gesture_title">Zaklamp</string>
-  <string name="touchscreen_flashlight_gesture_summary">Een \'V\' tekenen voor zaklamp</string>
+  <string name="touchscreen_flashlight_gesture_summary">Teken een \"V\" om zaklamp aan/uit te zetten</string>
   <string name="touchscreen_music_gesture_summary">Gebaren gebruiken om muziek te bedienen \n
     • Twee vingers verticaal voor afspelen/pauzeren\n
     • Pijl links tekenen voor vorig nummer\n

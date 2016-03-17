@@ -28,7 +28,7 @@
   <string name="touchscreen_camera_gesture_summary">円を描いてカメラを有効にする</string>
   <string name="touchscreen_music_gesture_title">音楽</string>
   <string name="touchscreen_flashlight_gesture_title">フラッシュライト</string>
-  <string name="touchscreen_flashlight_gesture_summary">｢V｣を描いてフラッシュライトを切り替える</string>
+  <string name="touchscreen_flashlight_gesture_summary">Vを描いてフラッシュライトを切り替える</string>
   <string name="touchscreen_music_gesture_summary">ジェスチャーを使用して音楽の再生をコントロールする\n
     • 2本の指を垂直にスワイプして再生/停止する\n
     • 左矢印を描いて前のトラックに進む\n

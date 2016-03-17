@@ -17,7 +17,39 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- O-Touch settings -->
+  <string name="touchpad_enable_title">O-ટચ સક્ષમ કરો</string>
+  <string name="touchpad_enable_summary">ફોન નેવિગેટ કરવા પાછળનું ટચપૅડ</string>
+  <string name="touchpad_long_press_title">કેમેરા લોન્ચ કરવા લાંબો સમય દબાવો</string>
+  <string name="touchpad_long_press_summary">ટચપૅડને લાંબો સમય દબાવવાથી કેમેરા ઍપ્લિકેશન લોન્ચ થશે</string>
+  <string name="touchpad_double_tap_title">કૅપ્ચર કરવા ડબલ ટૅપ કરો</string>
+  <string name="touchpad_double_tap_summary">કેમેરામાં હોવ ત્યારે છબી કૅપ્ચર કરવા ડબલ ટૅપ કરો</string>
   <!-- Gesture shortcuts -->
+  <string name="touchscreen_camera_gesture_title">કૅમેરો</string>
+  <string name="touchscreen_camera_gesture_summary">ગોળાકાર પાડીને કેમેરાને સક્રિય કરો</string>
+  <string name="touchscreen_music_gesture_title">સંગીત</string>
+  <string name="touchscreen_flashlight_gesture_title">ફ્લેશલાઇટ</string>
+  <string name="touchscreen_flashlight_gesture_summary">ફ્લૅશલાઇટ ટૉગલ કરવા માટે \'V\' દોરો</string>
+  <string name="touchscreen_music_gesture_summary">સંગીત પ્લેબૅક નિયંત્રિત કરવા અંગસ્થિતિઓનો ઉપયોગ કરો \n • પ્લે/પૉઝ કરવા માટે બે આંગળીઓ ઊભી\n • અગાઉના ટ્રૅક માટે ડાબું તીર દોરો\n • આગામી ટ્રૅક માટે જમણું તીર દોરો</string>
   <!-- O-Click settings -->
+  <string name="oclick_connect_string">કનેક્ટ કરો</string>
+  <string name="oclick_disconnect_string">ડિસ્કનેક્ટ કરો</string>
+  <string name="oclick_summary_connected">O-ક્લિક સાથે કનેક્ટ થયું</string>
+  <string name="oclick_summary_paired">O-ક્લિક પેર થઈ, પરંતુ ડિસકનેક્ટ થઈ</string>
+  <string name="oclick_dialog_connecting_message">ઓ-ક્લિક સાથે કનેક્ટ થાય છે\u2026\nશોધખોળને ઝડપી બનાવવા ઓ-ક્લિક બટન દબાવો.</string>
+  <string name="oclick_take_snapshot_title">રિમોટ કૅમેરા શટર</string>
+  <string name="oclick_take_snapshot_summary">તસ્વીર લેવા માટે એકલ ક્લિક કરો</string>
+  <string name="oclick_find_my_phone_title">ફોન લોકેટર</string>
+  <string name="oclick_find_my_phone_summary">ફોન શોધવા ડબલ ક્લિક કરો</string>
+  <string name="oclick_fence_title">પ્રૉક્સિમિટી ચેતવણી</string>
+  <string name="oclick_fence_summary">ફોનની નિકટ ન હોવ ત્યારે ચેતવણી આપો</string>
+  <string name="oclick_disconnect_alert_title">પહોંચની બહાર ચેતવણી</string>
+  <string name="oclick_disconnect_alert_summary">પહોંચ બહાર હોવ ત્યારે ચેતવણી આપો</string>
+  <string name="alert_category_title">ચેતવણીઓ</string>
+  <string name="action_category_title">પગલાં</string>
   <!-- O-Click notification -->
+  <string name="oclick_locator_notification_title">O-ક્લિક ફોન શોધક</string>
+  <string name="oclick_locator_notification_text">લોકેટર ચેતવણી પ્લે થાય છે. બરતરફ કરવા ટૅપ કરો</string>
+  <string name="oclick_notification_title_connected">O-ક્લિક કનેક્ટ થયું</string>
+  <string name="oclick_notification_title_disconnected">O-ક્લિક ડિસકનેક્ટ થયું</string>
+  <string name="oclick_notification_content_disconnected">ફરી કનેક્ટ કરવા ઓ-ક્લિક બટન દબાવો</string>
 </resources>

@@ -77,12 +77,21 @@ public class Startup extends BroadcastReceiver {
                 IBinder b = ServiceManager.getService("gesture");
                 IGestureService sInstance = IGestureService.Stub.asInterface(b);
 
+                boolean value = Constants.isPreferenceEnabled(context,
+                        Constants.TOUCHPAD_STATE_KEY);
+                String node = Constants.sBooleanNodePreferenceMap.get(
+                        Constants.TOUCHPAD_STATE_KEY);
+                if (!FileUtils.writeLine(node, value ? "1" : "0")) {
+                    Log.w(TAG, "Write to node " + node +
+                            " failed while restoring touchpad enable state");
+                }
+
                 // Set longPress event
                 toggleLongPress(context, sInstance, Constants.isPreferenceEnabled(
                         context, Constants.TOUCHPAD_LONGPRESS_KEY));
 
                 // Set doubleTap event
-                toggleLongPress(context, sInstance, Constants.isPreferenceEnabled(
+                toggleDoubleTap(context, sInstance, Constants.isPreferenceEnabled(
                         context, Constants.TOUCHPAD_DOUBLETAP_KEY));
             }
 

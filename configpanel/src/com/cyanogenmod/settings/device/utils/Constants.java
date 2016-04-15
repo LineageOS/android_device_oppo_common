@@ -72,7 +72,6 @@ public class Constants {
     public static final Map<String, Object> sNodeDefaultMap = new HashMap<>();
 
     public static final String[] sGesturePrefKeys = {
-        TOUCHPAD_STATE_KEY,
         TOUCHSCREEN_CAMERA_GESTURE_KEY,
         TOUCHSCREEN_MUSIC_GESTURE_KEY,
         TOUCHSCREEN_FLASHLIGHT_GESTURE_KEY

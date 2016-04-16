@@ -17,7 +17,42 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- O-Touch settings -->
+  <string name="touchpad_enable_title">Aktifkan O-Touch</string>
+  <string name="touchpad_enable_summary">Pad sentuh bagian belakang untuk navigasi ponsel</string>
+  <string name="touchpad_long_press_title">Tekan agak lama untuk meluncurkan Kamera</string>
+  <string name="touchpad_long_press_summary">Tekan agak lama pada pad sentuh untuk meluncurkan aplikasi Kamera</string>
+  <string name="touchpad_double_tap_title">Ketuk dua kali untuk menangkap gambar</string>
+  <string name="touchpad_double_tap_summary">Ketika di dalam Kamera, ketuk dua kali untuk menangkap gambar</string>
   <!-- Gesture shortcuts -->
+  <string name="touchscreen_camera_gesture_title">Kamera</string>
+  <string name="touchscreen_camera_gesture_summary">Gambar lingkaran untuk menghidupkan Kamera</string>
+  <string name="touchscreen_music_gesture_title">Musik</string>
+  <string name="touchscreen_flashlight_gesture_title">Senter</string>
+  <string name="touchscreen_flashlight_gesture_summary">Gambar \'V\' untuk hidup/matikan senter</string>
+  <string name="touchscreen_music_gesture_summary">Gunakan gerakan untuk mengatur pemutaran musik\n
+    • Dua jari tegak lurus untuk memutar/menjeda\n
+    • Gambar anak panah ke kiri untuk lagu sebelumnya\n
+    • Gambar anak panah ke kanan untuk lagu berikutnya</string>
   <!-- O-Click settings -->
+  <string name="oclick_connect_string">Hubungkan</string>
+  <string name="oclick_disconnect_string">Putuskan</string>
+  <string name="oclick_summary_connected">Terhubung ke O-Click</string>
+  <string name="oclick_summary_paired">O-Click disandingkan, tetapi terputus</string>
+  <string name="oclick_dialog_connecting_message">Menghubungkan O-Click\u2026\nTekan tombol O-Click untuk mempercepat penemuan.</string>
+  <string name="oclick_take_snapshot_title">Pengontrol jauh rana kamera</string>
+  <string name="oclick_take_snapshot_summary">Klik sekali untuk mengambil gambar</string>
+  <string name="oclick_find_my_phone_title">Pelacak telepon</string>
+  <string name="oclick_find_my_phone_summary">Klik dua kali untuk menemukan telepon</string>
+  <string name="oclick_fence_title">Lansiran kedekatan</string>
+  <string name="oclick_fence_summary">Beri lansiran ketika tidak dekat telepon</string>
+  <string name="oclick_disconnect_alert_title">Lansiran di luar jangkauan</string>
+  <string name="oclick_disconnect_alert_summary">Beri lansiran ketika berada di luar jangkauan</string>
+  <string name="alert_category_title">Lansiran</string>
+  <string name="action_category_title">Tindakan</string>
   <!-- O-Click notification -->
+  <string name="oclick_locator_notification_title">Pelacak telepon O-Click</string>
+  <string name="oclick_locator_notification_text">Lansiran pelacak menyala. Tekan untuk menyingkirkan</string>
+  <string name="oclick_notification_title_connected">O-Click terhubung</string>
+  <string name="oclick_notification_title_disconnected">O-Click terputus</string>
+  <string name="oclick_notification_content_disconnected">Tekan tombol O-Click untuk menyambung kembali</string>
 </resources>

@@ -17,6 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">Impostazioni avanzate</string>
+  <!-- O-Touch settings -->
   <string name="backpad_panel_title">Impostazioni O-Touch</string>
   <string name="backpad_panel_summary">Configura O-Touch</string>
   <string name="touchpad_enable_title">Attiva O-Touch</string>
@@ -25,6 +26,7 @@
   <string name="touchpad_long_press_summary">Premere a lungo il touchpad avvierà l\'app della fotocamera</string>
   <string name="touchpad_double_tap_title">Doppio tocco per scattare</string>
   <string name="touchpad_double_tap_summary">Quando la fotocamera è avviata, tocca due volte per scattare foto</string>
+  <!-- Gesture shortcuts -->
   <string name="screen_gestures_panel_title">Scorciatoie gesture</string>
   <string name="screen_gestures_panel_summary">Usa le gesture mentre lo schermo è spento</string>
   <string name="touchscreen_double_tap_gesture_title">Risveglia dispositivo</string>
@@ -38,6 +40,7 @@
     \u2022 Due dita in verticale per riprodurre/mettere in pausa\n
     \u2022 Disegna una freccia rivolta a sinistra per la traccia precedente\n
     \u2022 Disegna una freccia rivolta a destra per la traccia successiva</string>
+  <!-- O-Click settings -->
   <string name="oclick_panel_title">Impostazioni O-Click</string>
   <string name="oclick_panel_summary">Configura dispositivo O-Click</string>
   <string name="oclick_connect_string">Connetti</string>
@@ -55,11 +58,13 @@
   <string name="oclick_disconnect_alert_summary">Avvisa quando si è fuori dalla portata</string>
   <string name="alert_category_title">Allarmi</string>
   <string name="action_category_title">Azioni</string>
+  <!-- O-Click notification -->
   <string name="oclick_locator_notification_title">Localizzatore telefono O-Click</string>
   <string name="oclick_locator_notification_text">Avviso del localizzatore in esecuzione. Tocca per fermare</string>
   <string name="oclick_notification_title_connected">O-Click connesso</string>
   <string name="oclick_notification_title_disconnected">O-Click disconnesso</string>
   <string name="oclick_notification_content_disconnected">Premi il tasto O-Click per riconnettere</string>
+  <!-- haptic feedback  -->
   <string name="touchscreen_extras">Extra</string>
   <string name="haptic_feedback">Feedback tattile</string>
   <string name="haptic_feedback_summary">Vibra quando viene rilevata una gesture</string>

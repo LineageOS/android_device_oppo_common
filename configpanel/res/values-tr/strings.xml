@@ -17,6 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">Gelişmiş ayarlar</string>
+  <!-- O-Touch settings -->
   <string name="backpad_panel_title">O-Touch ayarları</string>
   <string name="backpad_panel_summary">O-Touch\'ı ayarla</string>
   <string name="touchpad_enable_title">O-Touch\'ı etkinleştir</string>
@@ -25,6 +26,7 @@
   <string name="touchpad_long_press_summary">Dokunmatik yüzeye uzun dokunuş kamera uygulamasını açar</string>
   <string name="touchpad_double_tap_title">Çekmek için çift dokunun</string>
   <string name="touchpad_double_tap_summary">Kameradayken resim çekmek için çift dokunun</string>
+  <!-- Gesture shortcuts -->
   <string name="screen_gestures_panel_title">Hareket kısayolları</string>
   <string name="screen_gestures_panel_summary">Ekran kapalıyken hareketleri kullanın</string>
   <string name="touchscreen_double_tap_gesture_title">Cihazı uyandır</string>
@@ -38,6 +40,7 @@
 • Dikey şekilde iki parmak şarkıyı durdurur/oynatır\n
 • Sola ok çizimi önceki şarkıya gider\n
 • Sağa ok çizimi sonraki şarkıya gider</string>
+  <!-- O-Click settings -->
   <string name="oclick_panel_title">O-Click ayarları</string>
   <string name="oclick_panel_summary">O-Click aygıtını yapılandır</string>
   <string name="oclick_connect_string">Bağlan</string>
@@ -55,11 +58,13 @@
   <string name="oclick_disconnect_alert_summary">Ulaşılamazken uyar</string>
   <string name="alert_category_title">Uyarılar</string>
   <string name="action_category_title">Eylemler</string>
+  <!-- O-Click notification -->
   <string name="oclick_locator_notification_title">O-Click telefon bulucu</string>
   <string name="oclick_locator_notification_text">Bulucu uyarısı çalıyor. Durdurmak için dokunun</string>
   <string name="oclick_notification_title_connected">O-Click bağlandı</string>
   <string name="oclick_notification_title_disconnected">O-Click bağlantısı kesildi</string>
   <string name="oclick_notification_content_disconnected">Tekrar bağlanmak için O-Click tuşuna basın</string>
+  <!-- haptic feedback  -->
   <string name="touchscreen_extras">Ekstralar</string>
   <string name="haptic_feedback">Dokunmatik geri bildirim</string>
   <string name="haptic_feedback_summary">Bir hareket algılandığında titrer</string>

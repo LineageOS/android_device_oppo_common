@@ -17,6 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">Papildu iestatījumi</string>
+  <!-- O-Touch settings -->
   <string name="backpad_panel_title">O-Touch iestatījumi</string>
   <string name="backpad_panel_summary">Iestatīt O-Touch</string>
   <string name="touchpad_enable_title">Ieslēgt O-Touch</string>
@@ -25,6 +26,7 @@
   <string name="touchpad_long_press_summary">Ilga nospiešana uz skārienekrāna palaidīs kameras lietotni</string>
   <string name="touchpad_double_tap_title">Dubultpiesitiens, lai uzņemtu</string>
   <string name="touchpad_double_tap_summary">Kameras režīmā divreiz piesitiet, lai uzņemtu attēlu</string>
+  <!-- Gesture shortcuts -->
   <string name="screen_gestures_panel_title">Žesta saīsnes</string>
   <string name="screen_gestures_panel_summary">Izmantot žestus kamēr ekrāns ir izslēgts</string>
   <string name="touchscreen_double_tap_gesture_title">Pamodināt iekārtu</string>
@@ -35,6 +37,7 @@
   <string name="touchscreen_flashlight_gesture_title">Kabatas lukturītis</string>
   <string name="touchscreen_flashlight_gesture_summary">Zīmēt \"V\", lai ieslēgtu zibspuldzi</string>
   <string name="touchscreen_music_gesture_summary">Izmantot žestus, lai kontrolēt mūzikas atskaņošanu \n • divus pirkstus vertikāli, lai spēlē/pause\n • zīmēt kreiso bultiņu iepriekšējā track\n • izdarīt pa labi vērsto bultiņu uz nākamo dziesmu</string>
+  <!-- O-Click settings -->
   <string name="oclick_panel_title"> Viena pieskāriena iestatījumi</string>
   <string name="oclick_panel_summary">Iestatīt O-Click iekārtu</string>
   <string name="oclick_connect_string">Izveidot savienojumu</string>
@@ -49,4 +52,6 @@
   <string name="oclick_disconnect_alert_summary">Brīdināt, kad nav sasniedzamības</string>
   <string name="alert_category_title">Brīdinājumi</string>
   <string name="action_category_title">Darbības</string>
+  <!-- O-Click notification -->
+  <!-- haptic feedback  -->
 </resources>

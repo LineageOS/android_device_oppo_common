@@ -17,6 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">Configuració avançada</string>
+  <!-- O-Touch settings -->
   <string name="backpad_panel_title">Configuració O-Touch</string>
   <string name="backpad_panel_summary">Configura O-Touch</string>
   <string name="touchpad_enable_title">Activa O-Touch</string>
@@ -24,7 +25,8 @@
   <string name="touchpad_long_press_title">Pulsació llarga per obrir la càmera</string>
   <string name="touchpad_long_press_summary">Pulsació llarga al panell tàctil per obrir l\'aplicació de la càmera</string>
   <string name="touchpad_double_tap_title">Pica dues vegades per capturar</string>
-  <string name="touchpad_double_tap_summary">En l\'aplicació de la càmera, pica doblement per capturar una imatge</string>
+  <string name="touchpad_double_tap_summary">En l\'aplicació de la càmera, pica dues vegades per capturar una imatge</string>
+  <!-- Gesture shortcuts -->
   <string name="screen_gestures_panel_title">Dreceres gestuals</string>
   <string name="screen_gestures_panel_summary">Utilitza gestos mentre la pantalla està apagada</string>
   <string name="touchscreen_double_tap_gesture_title">Encén el dispositiu</string>
@@ -38,6 +40,7 @@
     • Dos dits verticalment per reproduir/pausar\n
     • Dibuixa una fletxa a l\'esquerra per anar a la pista anterior\n
     • Dibuixa una fletxa a la dreta per anar a la pista següent</string>
+  <!-- O-Click settings -->
   <string name="oclick_panel_title">Configuració O-Click</string>
   <string name="oclick_panel_summary">Configura el dispositiu O-Click</string>
   <string name="oclick_connect_string">Connecta</string>
@@ -55,11 +58,13 @@
   <string name="oclick_disconnect_alert_summary">Alerta quan sigui fora de l\'abast</string>
   <string name="alert_category_title">Alertes</string>
   <string name="action_category_title">Accions</string>
+  <!-- O-Click notification -->
   <string name="oclick_locator_notification_title">Localitzador de telèfon O-Click</string>
   <string name="oclick_locator_notification_text">Alerta de localitzador en curs. Pica per descartar</string>
   <string name="oclick_notification_title_connected">O-Click connectat</string>
   <string name="oclick_notification_title_disconnected">O-Click desconnectat</string>
   <string name="oclick_notification_content_disconnected">Prem el botó O-click per tornar a connectar</string>
+  <!-- haptic feedback  -->
   <string name="touchscreen_extras">Extres</string>
   <string name="haptic_feedback">Resposta hàptica</string>
   <string name="haptic_feedback_summary">Vibra quan es detecti un gest</string>

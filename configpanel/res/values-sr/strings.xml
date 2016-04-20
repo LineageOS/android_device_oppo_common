@@ -17,6 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">Напредна подешавања</string>
+  <!-- O-Touch settings -->
   <string name="backpad_panel_title">О-Додирна подешавања</string>
   <string name="backpad_panel_summary">Конфигуриши О-Додир</string>
   <string name="touchpad_enable_title">Омогући О-Додир</string>
@@ -25,6 +26,7 @@
   <string name="touchpad_long_press_summary">Дуг притисак на touchpad ће покренути апликацију камере</string>
   <string name="touchpad_double_tap_title">Дупли додир да ухватиш</string>
   <string name="touchpad_double_tap_summary">Док си у камери, два пута додирни да снимиш слику</string>
+  <!-- Gesture shortcuts -->
   <string name="screen_gestures_panel_title">Пречице покретима</string>
   <string name="screen_gestures_panel_summary">Користи покрете док је екран искључен</string>
   <string name="touchscreen_double_tap_gesture_title">Пробуди уређај</string>
@@ -38,6 +40,7 @@
 • Два прста вертикално на пусти/пауза\n
 • Нацртај леву стрелицу за претходну нумеру\n
 • Нацртај десну стрелицу за следећу нумеру</string>
+  <!-- O-Click settings -->
   <string name="oclick_panel_title">O-Click подешавања</string>
   <string name="oclick_panel_summary">Конфигуриши O-Click уређај</string>
   <string name="oclick_connect_string">Повежи</string>
@@ -55,11 +58,13 @@
   <string name="oclick_disconnect_alert_summary">Упозори када је изван домашаја</string>
   <string name="alert_category_title">Упозорења</string>
   <string name="action_category_title">Акције</string>
+  <!-- O-Click notification -->
   <string name="oclick_locator_notification_title">O-Click проналазач телефона</string>
   <string name="oclick_locator_notification_text">Аларм проналазача је активиран. Додирни да одбациш</string>
   <string name="oclick_notification_title_connected">O-Click конектован</string>
   <string name="oclick_notification_title_disconnected">O-Click дисконектован</string>
   <string name="oclick_notification_content_disconnected">Додирни O-Click дугме да се поново повежеш</string>
+  <!-- haptic feedback  -->
   <string name="touchscreen_extras">Додаци</string>
   <string name="haptic_feedback">Повратне информације</string>
   <string name="haptic_feedback_summary">Вибрација кад гест није откривен</string>

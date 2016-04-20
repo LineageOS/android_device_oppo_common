@@ -17,6 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">Avancerade inställningar</string>
+  <!-- O-Touch settings -->
   <string name="backpad_panel_title">O-Touch-inställningar</string>
   <string name="backpad_panel_summary">Konfigurera O-Touch</string>
   <string name="touchpad_enable_title">Aktivera O-Touch</string>
@@ -25,6 +26,7 @@
   <string name="touchpad_long_press_summary">Långtryck på pekplattan kommer att öppna kameraappen</string>
   <string name="touchpad_double_tap_title">Dubbeltryck för att ta bild</string>
   <string name="touchpad_double_tap_summary">När du är i kameran, dubbeltryck för att ta en bild</string>
+  <!-- Gesture shortcuts -->
   <string name="screen_gestures_panel_title">Genvägar för gester</string>
   <string name="screen_gestures_panel_summary">Använd gester medan skärmen är avstängd</string>
   <string name="touchscreen_double_tap_gesture_title">Väck enhet</string>
@@ -38,6 +40,7 @@
     • Två fingrar vertikalt för att spela/pausa\n
     • Rita en vänsterpil för föregående spår\n
     • Rita en högerpil för nästa spår</string>
+  <!-- O-Click settings -->
   <string name="oclick_panel_title">O-Click-inställningar</string>
   <string name="oclick_panel_summary">Konfigurera O-Click-enhet</string>
   <string name="oclick_connect_string">Anslut</string>
@@ -55,11 +58,13 @@
   <string name="oclick_disconnect_alert_summary">Varnar vid för långt avstånd för kontakt</string>
   <string name="alert_category_title">Varningar</string>
   <string name="action_category_title">Åtgärder</string>
+  <!-- O-Click notification -->
   <string name="oclick_locator_notification_title">O-Click telefonhittare</string>
   <string name="oclick_locator_notification_text">Hittasignal spelas. Tryck för att stänga av</string>
   <string name="oclick_notification_title_connected">O-Click ansluten</string>
   <string name="oclick_notification_title_disconnected">O-Click frånkopplad</string>
   <string name="oclick_notification_content_disconnected">Tryck på O-Click knappen för att återansluta</string>
+  <!-- haptic feedback  -->
   <string name="touchscreen_extras">Extra</string>
   <string name="haptic_feedback">Haptisk feedback</string>
   <string name="haptic_feedback_summary">Vibrera när en gest upptäcktes</string>

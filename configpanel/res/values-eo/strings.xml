@@ -17,6 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">Altnivelaj agordoj</string>
+  <!-- O-Touch settings -->
   <string name="backpad_panel_title">O-Touch agordoj</string>
   <string name="backpad_panel_summary">Agordi O-Touch</string>
   <string name="touchpad_enable_title">Ebligi O-Touch</string>
@@ -25,6 +26,7 @@
   <string name="touchpad_long_press_summary">Longe premu  sur la tuŝplato por lanĉi la fotan aplikaĵon</string>
   <string name="touchpad_double_tap_title">Duobla tuŝeto por kapti</string>
   <string name="touchpad_double_tap_summary">En la fota aplikaĵo, duoble tuŝetu por foti</string>
+  <!-- Gesture shortcuts -->
   <string name="screen_gestures_panel_title">Fulmgestoj</string>
   <string name="screen_gestures_panel_summary">Uzi gestojn kiam la ekrano malŝaltas</string>
   <string name="touchscreen_double_tap_gesture_title">Veki aparaton</string>
@@ -38,6 +40,7 @@
     • Du-fingra vertikale por ludi/paŭzi \n
     • Desegnu maldekstran sagon por antaŭa kanto\n
     • Desegnu dekstran sagon por venonta kanto</string>
+  <!-- O-Click settings -->
   <string name="oclick_panel_title">O-Click agordoj</string>
   <string name="oclick_panel_summary">Agordi O-Click aparaton</string>
   <string name="oclick_connect_string">Konektiĝi</string>
@@ -55,9 +58,11 @@
   <string name="oclick_disconnect_alert_summary">Alarmo kiam for trafeblo</string>
   <string name="alert_category_title">Alarmoj</string>
   <string name="action_category_title">Agoj</string>
+  <!-- O-Click notification -->
   <string name="oclick_locator_notification_title">O-Click telefonila lokigilo</string>
   <string name="oclick_locator_notification_text">Lokiga alarmo funkcias. Tuŝetu por rezigni</string>
   <string name="oclick_notification_title_connected">O-Click konektita</string>
   <string name="oclick_notification_title_disconnected">O-Click malkonektita</string>
   <string name="oclick_notification_content_disconnected">Premu O-click butonon por rekonektiĝi</string>
+  <!-- haptic feedback  -->
 </resources>

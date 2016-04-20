@@ -17,6 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">Xüsusi tənzimləmələr</string>
+  <!-- O-Touch settings -->
   <string name="backpad_panel_title">O-Touch tənzimləmələri</string>
   <string name="backpad_panel_summary">O-Touch\'u nizamla</string>
   <string name="touchpad_enable_title">O-Touch\'u fəallaşdır</string>
@@ -25,6 +26,7 @@
   <string name="touchpad_long_press_summary">Sensor səthə uzun toxunuş kamera tətbiqetməsini açar</string>
   <string name="touchpad_double_tap_title">Çəkmək üçün iki dəfə toxunun</string>
   <string name="touchpad_double_tap_summary">Kamerada olarkən şəkil çəkmək üçün iki dəfə toxunun</string>
+  <!-- Gesture shortcuts -->
   <string name="screen_gestures_panel_title">Hərəkət qısayolları</string>
   <string name="screen_gestures_panel_summary">Ekran sönəndə hərəkətlərdən istifadə edin</string>
   <string name="touchscreen_double_tap_gesture_title">Cihazı oyandır</string>
@@ -38,6 +40,7 @@
 • Şaquli vəziyyətdə iki barmaq oynadar/dayandırar\n
 • Sola ox çəkmək əvvəlki mahnıya gedər\n
 • Sağa ox çəkmək növbəti mahnıya gedər</string>
+  <!-- O-Click settings -->
   <string name="oclick_panel_title">O-Click tənzimləmələri</string>
   <string name="oclick_panel_summary">O-Click cihazını nizamla</string>
   <string name="oclick_connect_string">Bağlan</string>
@@ -55,11 +58,13 @@
   <string name="oclick_disconnect_alert_summary">Əlçatmaz olarkən xəbərdar et</string>
   <string name="alert_category_title">Xəbərdarlıqlar</string>
   <string name="action_category_title">Hərəkətlər</string>
+  <!-- O-Click notification -->
   <string name="oclick_locator_notification_title">O-Click telefon axtarıcı</string>
   <string name="oclick_locator_notification_text">Axtarıcı xəbərdarlığı oynadılır. Dayandırmaq üçün toxunun</string>
   <string name="oclick_notification_title_connected">O-Click bağlandı</string>
   <string name="oclick_notification_title_disconnected">O-Click bağlantısı kəsildi</string>
   <string name="oclick_notification_content_disconnected">Yenidən bağlanmaq üçün O-Click düyməsinə basın</string>
+  <!-- haptic feedback  -->
   <string name="touchscreen_extras">Əlavələr</string>
   <string name="haptic_feedback">Sensor geri bildiriş</string>
   <string name="haptic_feedback_summary">Bir jest aşkarlananda titrəyər</string>

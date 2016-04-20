@@ -17,6 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">Avancerede indstillinger</string>
+  <!-- O-Touch settings -->
   <string name="backpad_panel_title">Indstillinger for O-Touch</string>
   <string name="backpad_panel_summary">Konfigurér O-Touch</string>
   <string name="touchpad_enable_title">Aktivér O-Touch</string>
@@ -25,6 +26,7 @@
   <string name="touchpad_long_press_summary">Langt tryk på O-Touch vil aktivere kameraet</string>
   <string name="touchpad_double_tap_title">Dobbelttryk for at tage billede</string>
   <string name="touchpad_double_tap_summary">Dobbelttryk for at tage et billede, når kameraet er åbent</string>
+  <!-- Gesture shortcuts -->
   <string name="screen_gestures_panel_title">Bevægelsesgenveje</string>
   <string name="screen_gestures_panel_summary">Brug bevægelser, når skærmen er slukket</string>
   <string name="touchscreen_double_tap_gesture_title">Væk enhed</string>
@@ -38,6 +40,7 @@
     • To fingre vertikalt for at afspille/pause\n
     • Tegn venstrepil for forrige spor\n
     • Tegn højrepil for næste spor</string>
+  <!-- O-Click settings -->
   <string name="oclick_panel_title">Indstillinger for O-Click</string>
   <string name="oclick_panel_summary">Konfigurér O-Click-enheden</string>
   <string name="oclick_connect_string">Forbind</string>
@@ -55,11 +58,13 @@
   <string name="oclick_disconnect_alert_summary">Advarsel, når telefonen er udenfor O-Clicks rækkevidde</string>
   <string name="alert_category_title">Advarsler</string>
   <string name="action_category_title">Handlinger</string>
+  <!-- O-Click notification -->
   <string name="oclick_locator_notification_title">O-Click-alarm</string>
   <string name="oclick_locator_notification_text">O-Click ringer til dig. Tryk for at afbryde</string>
   <string name="oclick_notification_title_connected">O-Click forbundet</string>
   <string name="oclick_notification_title_disconnected">O-Click afbrudt</string>
   <string name="oclick_notification_content_disconnected">Tryk på O-Click for at genoprette forbindelsen</string>
+  <!-- haptic feedback  -->
   <string name="touchscreen_extras">Ekstrafunktioner</string>
   <string name="haptic_feedback">Berøringsvibration</string>
   <string name="haptic_feedback_summary">Vibrere, når en berøring bliver registreret</string>

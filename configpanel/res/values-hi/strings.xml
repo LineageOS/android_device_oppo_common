@@ -17,6 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">उन्नत सेटिंग</string>
+  <!-- O-Touch settings -->
   <string name="backpad_panel_title">ओ-स्पर्श सेटिंग</string>
   <string name="backpad_panel_summary">ओ-स्पर्श को कॉन्फ़िगर करें</string>
   <string name="touchpad_enable_title">ओ-स्पर्श को सक्षम करें</string>
@@ -25,6 +26,7 @@
   <string name="touchpad_long_press_summary">स्पर्श पैड को देर तक स्पर्श करने पर कैमरा एप्लिकेशन चालू होगा</string>
   <string name="touchpad_double_tap_title">फ़ोटो लेने के लिए दो बार टैप करें</string>
   <string name="touchpad_double_tap_summary">फ़ोटो लेने के लिए, कैमरे में रहते हुए दो बार टैप करें</string>
+  <!-- Gesture shortcuts -->
   <string name="screen_gestures_panel_title">गेश्चर शॉटकट</string>
   <string name="screen_gestures_panel_summary">जब स्क्रीन बंद हो, गेश्चर का प्रयोग करें</string>
   <string name="touchscreen_double_tap_gesture_title">उपकरण को जगाएँ</string>
@@ -38,6 +40,7 @@
     • प्ले/पॉज़ करने के लिए दो खड़ी उँगलियाँ\n
     • पिछले गाने के लिए बायाँ तीर बनाएँ\n
     • अगले गाने के लिए दायीं दायाँ तीर बनाएँ</string>
+  <!-- O-Click settings -->
   <string name="oclick_panel_title">ओ-क्लिक सेटिंग</string>
   <string name="oclick_panel_summary">ओ-क्लिक उपकरण को कॉन्फ़िगर करें</string>
   <string name="oclick_connect_string">कनेक्ट करें</string>
@@ -55,9 +58,11 @@
   <string name="oclick_disconnect_alert_summary">पहुँच के बाहर होने की चेतावनी</string>
   <string name="alert_category_title">चेतावनियाँ</string>
   <string name="action_category_title">क्रियाएँ</string>
+  <!-- O-Click notification -->
   <string name="oclick_locator_notification_title">ओ-क्लिक फ़ोन लोकेटर</string>
   <string name="oclick_locator_notification_text">लोकेटर चेतावनी चालू है। उसे बंद करने के लिए टैप करें</string>
   <string name="oclick_notification_title_connected">ओ-क्लिक के साथ जुड़ गए</string>
   <string name="oclick_notification_title_disconnected">ओ-क्लिक से अलग हो गए</string>
   <string name="oclick_notification_content_disconnected">फिर से जुड़ने के लिए ओ-क्लिक बटन को दबाएँ</string>
+  <!-- haptic feedback  -->
 </resources>

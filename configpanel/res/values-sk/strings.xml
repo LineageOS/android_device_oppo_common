@@ -17,6 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">Rozšírené nastavenia</string>
+  <!-- O-Touch settings -->
   <string name="backpad_panel_title">Nastavenia O-Touch</string>
   <string name="backpad_panel_summary">Nastaviť O-Touch</string>
   <string name="touchpad_enable_title">Povoliť O-Touch</string>
@@ -25,6 +26,7 @@
   <string name="touchpad_long_press_summary">Dlhé stlačenie na touchpad spustí aplikáciu Fotoaparát</string>
   <string name="touchpad_double_tap_title">Dvojklikom zosnímať fotografiu</string>
   <string name="touchpad_double_tap_summary">Ak ste vo Fotoaparáte, dvojklikom zosnímate fotografiu</string>
+  <!-- Gesture shortcuts -->
   <string name="screen_gestures_panel_title">Skratky pomocou gést</string>
   <string name="screen_gestures_panel_summary">Používať gestá pri vypnutej obrazovke</string>
   <string name="touchscreen_double_tap_gesture_title">Prebudiť zariadenie</string>
@@ -38,6 +40,7 @@
     • Dva prsty zvisle - prehrať/pozastaviť\n
     • Nakreslenie šípky doľava - predchádzajúca stopa\n
     • Nakreslenie šípky doprava - nasledujúca stopa</string>
+  <!-- O-Click settings -->
   <string name="oclick_panel_title">Nastavenia O-Click</string>
   <string name="oclick_panel_summary">Nastaviť zariadenie O-Click</string>
   <string name="oclick_connect_string">Pripojiť</string>
@@ -55,11 +58,13 @@
   <string name="oclick_disconnect_alert_summary">Upozorniť, ak je mimo dosahu</string>
   <string name="alert_category_title">Výstrahy</string>
   <string name="action_category_title">Akcie</string>
+  <!-- O-Click notification -->
   <string name="oclick_locator_notification_title">Vyhľadávanie telefónu O-Click</string>
   <string name="oclick_locator_notification_text">Upozornenie vyhľadávania je spustené. Kliknutím zrušte</string>
   <string name="oclick_notification_title_connected">O-Click pripojený</string>
   <string name="oclick_notification_title_disconnected">O-Click odpojený</string>
   <string name="oclick_notification_content_disconnected">Stlačte tlačidlo O-Click pre opätovné pripojenie</string>
+  <!-- haptic feedback  -->
   <string name="touchscreen_extras">Doplnky</string>
   <string name="haptic_feedback">Hmatová spätná väzba</string>
   <string name="haptic_feedback_summary">Vibrovať pri zistení gesta</string>

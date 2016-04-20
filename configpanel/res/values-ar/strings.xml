@@ -17,6 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">الإعدادات المتقدمة</string>
+  <!-- O-Touch settings -->
   <string name="backpad_panel_title">O-اعدادات اللمس</string>
   <string name="backpad_panel_summary">تكوين O-اللمس</string>
   <string name="touchpad_enable_title">تمكين O-اللمس</string>
@@ -25,6 +26,7 @@
   <string name="touchpad_long_press_summary">الضغط لمدة طويلة على لوحة اللمس سيؤدي إلى تشغيل تطبيق الكاميرا</string>
   <string name="touchpad_double_tap_title">انقر مرتين للإلتقاط</string>
   <string name="touchpad_double_tap_summary">عند التواجد في وضع الكاميرا، انقر مرتين لألتقاط الصورة</string>
+  <!-- Gesture shortcuts -->
   <string name="screen_gestures_panel_title">اختصارات الإيماءة</string>
   <string name="screen_gestures_panel_summary">استخدام الإيماءات أثناء إيقاف الشاشة</string>
   <string name="touchscreen_double_tap_gesture_title">تنشيط الجهاز</string>
@@ -38,6 +40,7 @@
  • اصبعين عمودياً للتشغيل/إيقاف\n 
 • رسم السهم الأيسر للمسار السابق\n 
 • رسم السهم الأيمن للمسار التالي</string>
+  <!-- O-Click settings -->
   <string name="oclick_panel_title">إعدادان نقر- O</string>
   <string name="oclick_panel_summary">تكوين جهاز نقر- O</string>
   <string name="oclick_connect_string">الاتصال</string>
@@ -55,11 +58,13 @@
   <string name="oclick_disconnect_alert_summary">التنبيه عندما تكون خارج المجال</string>
   <string name="alert_category_title">تنبيهات</string>
   <string name="action_category_title">الاجراءات</string>
+  <!-- O-Click notification -->
   <string name="oclick_locator_notification_title">محدد هاتف O-Click</string>
   <string name="oclick_locator_notification_text">تنبيه المحدد يشتغل الان. المس من أجل الاستبعاد</string>
   <string name="oclick_notification_title_connected">O-Click متصل</string>
   <string name="oclick_notification_title_disconnected">O-Click غير متصل</string>
   <string name="oclick_notification_content_disconnected">اضغط على زر O-Click لإعادة الاتصال</string>
+  <!-- haptic feedback  -->
   <string name="touchscreen_extras">إضافات</string>
   <string name="haptic_feedback">التعليقات اللمسية</string>
   <string name="haptic_feedback_summary">الاهتزاز عند الكشف عن الإيماءة</string>

@@ -17,6 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">詳細設定</string>
+  <!-- O-Touch settings -->
   <string name="backpad_panel_title">O-Touchの設定</string>
   <string name="backpad_panel_summary">O-Touchを設定する</string>
   <string name="touchpad_enable_title">O-Touchを有効化</string>
@@ -25,6 +26,7 @@
   <string name="touchpad_long_press_summary">タッチパッドを長押ししてカメラアプリを起動する</string>
   <string name="touchpad_double_tap_title">ダブルタップしてシャッター</string>
   <string name="touchpad_double_tap_summary">カメラアプリを起動中にダブルタップしてシャッターを切る</string>
+  <!-- Gesture shortcuts -->
   <string name="screen_gestures_panel_title">ジェスチャーショートカット</string>
   <string name="screen_gestures_panel_summary">画面消灯中にジェスチャーを使用する</string>
   <string name="touchscreen_double_tap_gesture_title">スリープ解除</string>
@@ -33,11 +35,12 @@
   <string name="touchscreen_camera_gesture_summary">円を描いてカメラを有効にする</string>
   <string name="touchscreen_music_gesture_title">音楽</string>
   <string name="touchscreen_flashlight_gesture_title">フラッシュライト</string>
-  <string name="touchscreen_flashlight_gesture_summary">｢V｣を描いてフラッシュライトを切り替える</string>
+  <string name="touchscreen_flashlight_gesture_summary">Vを描いてフラッシュライトを切り替える</string>
   <string name="touchscreen_music_gesture_summary">ジェスチャーを使用して音楽の再生をコントロールする\n
     • 2本の指を垂直にスワイプして再生/停止する\n
     • 左矢印を描いて前のトラックに進む\n
     • 右矢印を描いて次のトラックに戻る</string>
+  <!-- O-Click settings -->
   <string name="oclick_panel_title">O-Clickの設定</string>
   <string name="oclick_panel_summary">O-Clickデバイスを設定する</string>
   <string name="oclick_connect_string">接続</string>
@@ -55,12 +58,14 @@
   <string name="oclick_disconnect_alert_summary">範囲外に出たときにアラートで知らせる</string>
   <string name="alert_category_title">アラート</string>
   <string name="action_category_title">動作</string>
+  <!-- O-Click notification -->
   <string name="oclick_locator_notification_title">O-Click携帯電話の場所</string>
   <string name="oclick_locator_notification_text">場所アラートを再生しています。タップして終了します。</string>
   <string name="oclick_notification_title_connected">O-Clickが接続しました</string>
   <string name="oclick_notification_title_disconnected">O-Clickが切断しました</string>
   <string name="oclick_notification_content_disconnected">O-Clickボタンをクリックして再接続します</string>
+  <!-- haptic feedback  -->
   <string name="touchscreen_extras">その他</string>
   <string name="haptic_feedback">タッチ操作バイブ</string>
-  <string name="haptic_feedback_summary">ジェスチャーを検出したときにバイブレーションする</string>
+  <string name="haptic_feedback_summary">ジェスチャーを検出したときに振動する</string>
 </resources>

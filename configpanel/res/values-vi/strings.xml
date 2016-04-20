@@ -17,6 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">Cài đặt nâng cao</string>
+  <!-- O-Touch settings -->
   <string name="backpad_panel_title">Cài đặt O-Touch</string>
   <string name="backpad_panel_summary">Cấu hình O-Touch</string>
   <string name="touchpad_enable_title">Bật O-Touch</string>
@@ -25,6 +26,7 @@
   <string name="touchpad_long_press_summary">Nhấn giữ lên touchpad để khởi động ứng dụng máy ảnh</string>
   <string name="touchpad_double_tap_title">Nhấn đúp để chụp</string>
   <string name="touchpad_double_tap_summary">Trong máy ảnh, nhấn đúp để chụp ảnh</string>
+  <!-- Gesture shortcuts -->
   <string name="screen_gestures_panel_title">Lối tắt cử chỉ</string>
   <string name="screen_gestures_panel_summary">Sử dụng cử chỉ trong khi màn hình tắt</string>
   <string name="touchscreen_double_tap_gesture_title">Mở thiết bị</string>
@@ -38,6 +40,7 @@
     • Kéo hai ngón tay theo chiều dọc để phát/tạm dừng\n
     • Kéo mũi tên về bên trái để phát bài trước đó\n
     • Kéo mũi tên về bên phải để phát bài kế tiếp</string>
+  <!-- O-Click settings -->
   <string name="oclick_panel_title">Cài đặt O-Click</string>
   <string name="oclick_panel_summary">Cấu hình thiết bị O-Click</string>
   <string name="oclick_connect_string">Kết nối</string>
@@ -55,11 +58,13 @@
   <string name="oclick_disconnect_alert_summary">Cảnh báo khi bên ngoài tầm tay</string>
   <string name="alert_category_title">Cảnh báo</string>
   <string name="action_category_title">Thao tác</string>
+  <!-- O-Click notification -->
   <string name="oclick_locator_notification_title">Trình định vị điện thoại O-Click</string>
   <string name="oclick_locator_notification_text">Trình định vị đang phát cảnh báo. Chạm để bỏ qua</string>
   <string name="oclick_notification_title_connected">O-Click đã được kết nối</string>
   <string name="oclick_notification_title_disconnected">O-Click đã ngắt kết nối</string>
   <string name="oclick_notification_content_disconnected">Nhấn nút O-Click để kết nối lại</string>
+  <!-- haptic feedback  -->
   <string name="touchscreen_extras">Thêm</string>
   <string name="haptic_feedback">Phản hồi xúc giác</string>
   <string name="haptic_feedback_summary">Rung khi phát hiện cử chỉ</string>

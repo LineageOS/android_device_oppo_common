@@ -17,6 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">Допълнителни настройки</string>
+  <!-- O-Touch settings -->
   <string name="backpad_panel_title">O-Touch настройки</string>
   <string name="backpad_panel_summary">Конфигуриране на O-Touch</string>
   <string name="touchpad_enable_title">Активирай O-Touch</string>
@@ -25,6 +26,7 @@
   <string name="touchpad_long_press_summary">Продължително натискане върху тъчпада ще стартира приложението за камерата</string>
   <string name="touchpad_double_tap_title">Почукайте два пъти за да снимате</string>
   <string name="touchpad_double_tap_summary">Докато сте в камера почукайте два пъти за да направите снимка</string>
+  <!-- Gesture shortcuts -->
   <string name="screen_gestures_panel_title">Преки пътища с жестове</string>
   <string name="screen_gestures_panel_summary">Използвайте жестове когато екрана е изключен</string>
   <string name="touchscreen_double_tap_gesture_title">Събуди устройството</string>
@@ -38,7 +40,8 @@
     • Два пръста верикално за пускане/пауза\n
     • Начертайте стрелка наляво за предходната песен\n
     • Начертайте стрелка надясно за следващата песен</string>
-  <string name="oclick_panel_title">O-Click настройките</string>
+  <!-- O-Click settings -->
+  <string name="oclick_panel_title">O-Click настройки</string>
   <string name="oclick_panel_summary">Конфигуриране на O-Click устройство</string>
   <string name="oclick_connect_string">Свързване</string>
   <string name="oclick_disconnect_string">Прекъсване на връзката</string>
@@ -55,11 +58,13 @@
   <string name="oclick_disconnect_alert_summary">Сигнал при загуба на обхват</string>
   <string name="alert_category_title">Предупреждения</string>
   <string name="action_category_title">Действия</string>
+  <!-- O-Click notification -->
   <string name="oclick_locator_notification_title">O-Click телефонен локатор</string>
   <string name="oclick_locator_notification_text">Възпроизвежда се предупреждение за локализация. Докоснете, за да отхвърлите</string>
   <string name="oclick_notification_title_connected">O-Click е свързан</string>
   <string name="oclick_notification_title_disconnected">O-Click е прекъснат</string>
   <string name="oclick_notification_content_disconnected">Натиснете O-Click бутона за повторно свързване</string>
+  <!-- haptic feedback  -->
   <string name="touchscreen_extras">Екстри</string>
   <string name="haptic_feedback">Вибрация при докосване (обратна връзка)</string>
   <string name="haptic_feedback_summary">Вибрирай, когато се засече жест</string>

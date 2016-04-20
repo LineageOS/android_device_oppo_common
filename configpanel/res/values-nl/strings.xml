@@ -17,6 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">Geavanceerde instellingen</string>
+  <!-- O-Touch settings -->
   <string name="backpad_panel_title">Instellingen O-Touch</string>
   <string name="backpad_panel_summary">O-Touch instellen</string>
   <string name="touchpad_enable_title">O-Touch inschakelen</string>
@@ -25,19 +26,21 @@
   <string name="touchpad_long_press_summary">Touchpad lang aanraken start de camera-app</string>
   <string name="touchpad_double_tap_title">Dubbeltikken voor opname</string>
   <string name="touchpad_double_tap_summary">In camera dubbeltikken om een foto te nemen</string>
+  <!-- Gesture shortcuts -->
   <string name="screen_gestures_panel_title">Gebarensnelkoppelingen</string>
   <string name="screen_gestures_panel_summary">Gebaren gebruiken als het scherm uit is</string>
   <string name="touchscreen_double_tap_gesture_title">Ontwaken</string>
   <string name="touchscreen_double_tap_gesture_summary">Dubbeltikken om apparaat te ontwaken</string>
   <string name="touchscreen_camera_gesture_title">Camera</string>
-  <string name="touchscreen_camera_gesture_summary">Cirkel tekenen om camera te openen</string>
+  <string name="touchscreen_camera_gesture_summary">Teken een cirkel om camera te openen</string>
   <string name="touchscreen_music_gesture_title">Muziek</string>
   <string name="touchscreen_flashlight_gesture_title">Zaklamp</string>
-  <string name="touchscreen_flashlight_gesture_summary">Een \'V\' tekenen voor zaklamp</string>
+  <string name="touchscreen_flashlight_gesture_summary">Teken een \"V\" om zaklamp aan/uit te zetten</string>
   <string name="touchscreen_music_gesture_summary">Gebaren gebruiken om muziek te bedienen \n
     • Twee vingers verticaal voor afspelen/pauzeren\n
     • Pijl links tekenen voor vorig nummer\n
     • Pijl rechts tekenen voor volgend nummer</string>
+  <!-- O-Click settings -->
   <string name="oclick_panel_title">Instellingen O-Click</string>
   <string name="oclick_panel_summary">O-Click-apparaat instellen</string>
   <string name="oclick_connect_string">Verbinding maken</string>
@@ -55,11 +58,13 @@
   <string name="oclick_disconnect_alert_summary">Melden wanneer buiten bereik</string>
   <string name="alert_category_title">Waarschuwingen</string>
   <string name="action_category_title">Acties</string>
+  <!-- O-Click notification -->
   <string name="oclick_locator_notification_title">O-Click-telefoonlokalisatie</string>
   <string name="oclick_locator_notification_text">Geluid voor lokalisatie wordt afgespeeld. Tik om te stoppen</string>
   <string name="oclick_notification_title_connected">O-Click verbonden</string>
   <string name="oclick_notification_title_disconnected">O-Click niet verbonden</string>
   <string name="oclick_notification_content_disconnected">Klik op de O-Click-knop om opnieuw verbinding te maken</string>
+  <!-- haptic feedback  -->
   <string name="touchscreen_extras">Extra\'s</string>
   <string name="haptic_feedback">Trillen</string>
   <string name="haptic_feedback_summary">Trillen wanneer een gebaar wordt gedetecteerd</string>

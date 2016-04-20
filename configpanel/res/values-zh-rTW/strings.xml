@@ -17,6 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">進階設定</string>
+  <!-- O-Touch settings -->
   <string name="backpad_panel_title">O-Touch 設定</string>
   <string name="backpad_panel_summary">配置 O-Touch</string>
   <string name="touchpad_enable_title">啟用 O-Touch</string>
@@ -25,6 +26,7 @@
   <string name="touchpad_long_press_summary">長按觸控板將啟動相機</string>
   <string name="touchpad_double_tap_title">輕觸兩下即可拍攝</string>
   <string name="touchpad_double_tap_summary">使用相機時，輕觸兩下即可拍攝</string>
+  <!-- Gesture shortcuts -->
   <string name="screen_gestures_panel_title">手勢捷徑</string>
   <string name="screen_gestures_panel_summary">螢幕關閉時使用手勢</string>
   <string name="touchscreen_double_tap_gesture_title">喚醒裝置</string>
@@ -38,6 +40,7 @@
   • 兩隻手指垂直滑動即可播放/暫停\n
   • 畫左箭頭上一首\n
   • 畫右箭頭下一首</string>
+  <!-- O-Click settings -->
   <string name="oclick_panel_title">O-Click 設定</string>
   <string name="oclick_panel_summary">配置 O-Click 裝置</string>
   <string name="oclick_connect_string">連線</string>
@@ -55,9 +58,11 @@
   <string name="oclick_disconnect_alert_summary">手機不在範圍時發出警報</string>
   <string name="alert_category_title">警報</string>
   <string name="action_category_title">動作</string>
+  <!-- O-Click notification -->
   <string name="oclick_locator_notification_title">O-Click 手機定位器</string>
   <string name="oclick_locator_notification_text">定位器正在響起警報。輕觸即可取消</string>
   <string name="oclick_notification_title_connected">O-Click 已連線</string>
   <string name="oclick_notification_title_disconnected">O-Click 失去連線</string>
   <string name="oclick_notification_content_disconnected">按下 O-Click 按鈕以重新連線</string>
+  <!-- haptic feedback  -->
 </resources>

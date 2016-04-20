@@ -17,6 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">Ezarpen aurreratuak</string>
+  <!-- O-Touch settings -->
   <string name="backpad_panel_title">O-Touch ezarpenak</string>
   <string name="backpad_panel_summary">Konfiguratu O-Touch</string>
   <string name="touchpad_enable_title">Gaitu O-Touch</string>
@@ -25,6 +26,7 @@
   <string name="touchpad_long_press_summary">Ukipen panelean denbora luzez sakatzeak Kamera aplikazioa abiatuko du</string>
   <string name="touchpad_double_tap_title">Birritan sakatu argazkia ateratzeko</string>
   <string name="touchpad_double_tap_summary">Kamera aplikazioan egonda, birritan sakatzeak argazkia aterako du</string>
+  <!-- Gesture shortcuts -->
   <string name="screen_gestures_panel_title">Keinuzko lasterbideak</string>
   <string name="screen_gestures_panel_summary">Erabili keinuak pantaila itzalita dagoenean</string>
   <string name="touchscreen_double_tap_gesture_title">Esnatu gailua</string>
@@ -38,6 +40,7 @@
     \u2022 Bi atzamar bertikalki irristatu erreproduzitzeko/pausan jartzeko\n
     \u2022 Gezi bat ezkerrerantz marraztu atzera joateko\n
     \u2022 Gezi bat eskumarantz marraztu aurrera joateko</string>
+  <!-- O-Click settings -->
   <string name="oclick_panel_title">O-Click ezarpenak</string>
   <string name="oclick_panel_summary">Konfiguratu O-Click gailua</string>
   <string name="oclick_connect_string">Konektatu</string>
@@ -55,11 +58,13 @@
   <string name="oclick_disconnect_alert_summary">Telefonoa irismenetik kanpo dagonean abisatu</string>
   <string name="alert_category_title">Oharpenak</string>
   <string name="action_category_title">Ekintzak</string>
+  <!-- O-Click notification -->
   <string name="oclick_locator_notification_title">O-Click telefono bilatzailea</string>
   <string name="oclick_locator_notification_text">Bilaketa alerta jotzen ari da. Sakatu gelditzeko</string>
   <string name="oclick_notification_title_connected">O-Click konektatuta</string>
   <string name="oclick_notification_title_disconnected">O-Click deskonektatuta</string>
   <string name="oclick_notification_content_disconnected">Sakatu O-Click botoia berriro konektatzeko</string>
+  <!-- haptic feedback  -->
   <string name="touchscreen_extras">Gehigarriak</string>
   <string name="haptic_feedback">Erantzun haptikoa</string>
   <string name="haptic_feedback_summary">Bibratu keinu bat antzematean</string>

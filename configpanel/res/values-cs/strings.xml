@@ -17,6 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">Pokročilé nastavení</string>
+  <!-- O-Touch settings -->
   <string name="backpad_panel_title">Nastavení O-Touch</string>
   <string name="backpad_panel_summary">Nastavení O-Touch</string>
   <string name="touchpad_enable_title">Povolit O-Touch</string>
@@ -25,6 +26,7 @@
   <string name="touchpad_long_press_summary">Dlouhým dotykem na touchpad spustíte aplikaci fotoaparátu</string>
   <string name="touchpad_double_tap_title">Dvojdotyk k vyfocení</string>
   <string name="touchpad_double_tap_summary">Pokud je aktivní fotoaparát, dvojitým dotykem pořídíte forografii</string>
+  <!-- Gesture shortcuts -->
   <string name="screen_gestures_panel_title">Rychlá gesta</string>
   <string name="screen_gestures_panel_summary">Povolit gesta při vypnuté obrazovce</string>
   <string name="touchscreen_double_tap_gesture_title">Probudit zařízení</string>
@@ -33,11 +35,12 @@
   <string name="touchscreen_camera_gesture_summary">Namalováním kruhu spustíte fotoaparát</string>
   <string name="touchscreen_music_gesture_title">Hudba</string>
   <string name="touchscreen_flashlight_gesture_title">Svítilna</string>
-  <string name="touchscreen_flashlight_gesture_summary">Namalováním \'V\' přepnete stav svítilny</string>
+  <string name="touchscreen_flashlight_gesture_summary">Namalováním písmene „V“ přepnete stav svítilny</string>
   <string name="touchscreen_music_gesture_summary">Použijte gesta k ovládání přehrávání hudby\n
     \u2022 Dvěma prsty svisle - přehrát/pozastavit\n
     \u2022 Nakreslením šipky vlevo - předchozí stopa\n
     \u2022 Nakreslením šipky vpravo - následující stopa</string>
+  <!-- O-Click settings -->
   <string name="oclick_panel_title">Nastavení O-Click</string>
   <string name="oclick_panel_summary">Nastavení zařízení O-Click</string>
   <string name="oclick_connect_string">Připojit</string>
@@ -55,11 +58,13 @@
   <string name="oclick_disconnect_alert_summary">Upozornit, pokud je telefon mimo dosah</string>
   <string name="alert_category_title">Upozornění</string>
   <string name="action_category_title">Akce</string>
+  <!-- O-Click notification -->
   <string name="oclick_locator_notification_title">Telefonní lokátor O-Click</string>
   <string name="oclick_locator_notification_text">Výstraha lokátoru je aktivní. Klepnutím zavřete</string>
   <string name="oclick_notification_title_connected">O-Click připojen</string>
   <string name="oclick_notification_title_disconnected">O-Click odpojen</string>
   <string name="oclick_notification_content_disconnected">Tlačítkem O-Click znovu připojit</string>
+  <!-- haptic feedback  -->
   <string name="touchscreen_extras">Doplňky</string>
   <string name="haptic_feedback">Hmatová odezva</string>
   <string name="haptic_feedback_summary">Vibrovat při detekci gesta</string>

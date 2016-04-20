@@ -17,6 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">Lisäasetukset</string>
+  <!-- O-Touch settings -->
   <string name="backpad_panel_title">O-Touch-asetukset</string>
   <string name="backpad_panel_summary">Konfiguroi O-Touch</string>
   <string name="touchpad_enable_title">Ota O-Touch käyttöön</string>
@@ -25,6 +26,7 @@
   <string name="touchpad_long_press_summary">Avaa kamerasovellus painamalla kosketuspintaa pitkään</string>
   <string name="touchpad_double_tap_title">Ota kuva</string>
   <string name="touchpad_double_tap_summary">Kun kamerassa, napauta kahdesti ottaaksesi kuvan</string>
+  <!-- Gesture shortcuts -->
   <string name="screen_gestures_panel_title">Ele-komennot</string>
   <string name="screen_gestures_panel_summary">Käytä eleitä näytön ollessa pois päältä</string>
   <string name="touchscreen_double_tap_gesture_title">Herätä laite</string>
@@ -38,6 +40,7 @@
     • Kaksi sormea pystysuunnassa: Toisto/Tauko\n
     • Piirrä nuoli vasemmalle: Edellinen kappale\n
     • Piirrä nuoli oikealle: Seuraava kappale</string>
+  <!-- O-Click settings -->
   <string name="oclick_panel_title">O-Click-asetukset</string>
   <string name="oclick_panel_summary">Määritä O-Click-laite</string>
   <string name="oclick_connect_string">Yhdistä</string>
@@ -55,11 +58,13 @@
   <string name="oclick_disconnect_alert_summary">Hälytä kun ollaan laitteen kantavuusalueen ulkopuolella</string>
   <string name="alert_category_title">Hälytykset</string>
   <string name="action_category_title">Toiminnot</string>
+  <!-- O-Click notification -->
   <string name="oclick_locator_notification_title">O-Click puhelimen paikannus</string>
   <string name="oclick_locator_notification_text">Paikannushälytys soi. Kosketa sulkeaksesi hälytyksen</string>
   <string name="oclick_notification_title_connected">O-Click yhdistetty</string>
   <string name="oclick_notification_title_disconnected">Yhteys O-Clickiin katkaistu</string>
   <string name="oclick_notification_content_disconnected">Paina O-Clickin painiketta yhdistääksesi uudelleen</string>
+  <!-- haptic feedback  -->
   <string name="touchscreen_extras">Ekstrat</string>
   <string name="haptic_feedback">Haptinen palaute</string>
   <string name="haptic_feedback_summary">Värise kun ele tunnistetaan</string>

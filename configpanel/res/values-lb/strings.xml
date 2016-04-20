@@ -17,6 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">Erweidert Astellungen</string>
+  <!-- O-Touch settings -->
   <string name="backpad_panel_title">O-Touch-Astellungen</string>
   <string name="backpad_panel_summary">O-Touch astellen</string>
   <string name="touchpad_enable_title">O-Touch aktivéieren</string>
@@ -25,6 +26,7 @@
   <string name="touchpad_long_press_summary">Laang op den Touchpad drécke fir d\'Kamera-App ze starten</string>
   <string name="touchpad_double_tap_title">Zweemol drécke fir eng Foto ze maachen</string>
   <string name="touchpad_double_tap_summary">An der Kamera-App zweemol drécke fir Fotoen ze knipsen</string>
+  <!-- Gesture shortcuts -->
   <string name="screen_gestures_panel_title">Steierung mat Gesten</string>
   <string name="screen_gestures_panel_summary">Steierung duerch Geste wann de Schierm ausgeschalt ass</string>
   <string name="touchscreen_double_tap_gesture_title">Apparat waakreg maachen</string>
@@ -38,6 +40,7 @@
     • Zwéi Fangere vertikal fir Ofspillen/Paus\n
     • Feil no lénks zeechne fir dat Stéck vu virdrun\n
     • Feil no riets zeechne fir dat nächst Stéck</string>
+  <!-- O-Click settings -->
   <string name="oclick_panel_title">O-Click-Astellungen</string>
   <string name="oclick_panel_summary">O-Click konfiguréieren</string>
   <string name="oclick_connect_string">Connectéieren</string>
@@ -55,11 +58,13 @@
   <string name="oclick_disconnect_alert_summary">Alarméieren, wann d\'Distanz ze grouss ass</string>
   <string name="alert_category_title">Alarmen</string>
   <string name="action_category_title">Aktiounen</string>
+  <!-- O-Click notification -->
   <string name="oclick_locator_notification_title">O-Click-Telefonslokaliséierer</string>
   <string name="oclick_locator_notification_text">Lokaliséierungs-Alarm gëtt ofgespillt. Dréck fir ze verwerfen</string>
   <string name="oclick_notification_title_connected">O-Click verbonnen</string>
   <string name="oclick_notification_title_disconnected">O-Click net verbonnen</string>
   <string name="oclick_notification_content_disconnected">Dréck den O-Click-Knäppche fir nei ze verbannen</string>
+  <!-- haptic feedback  -->
   <string name="touchscreen_extras">Extraen</string>
   <string name="haptic_feedback">Haptesche Feedback</string>
   <string name="haptic_feedback_summary">Vibréieren, wann e Gest erkannt gëtt</string>

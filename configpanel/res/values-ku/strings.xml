@@ -16,6 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- O-Touch settings -->
   <string name="backpad_panel_title">ڕێکخستنی بیسووە</string>
   <string name="backpad_panel_summary">سازدانی o.بیسووە</string>
   <string name="touchpad_enable_title">چالاککردنی o-بیسووە</string>
@@ -24,6 +25,7 @@
   <string name="touchpad_long_press_summary">بۆ ماوەیەکی درێژ دەست دابگرە بۆ کردنەوەی بەرنامەی کامێرە</string>
   <string name="touchpad_double_tap_title">دووجار ده‌ستی لێبدە بۆ گرتنی وێنه‌</string>
   <string name="touchpad_double_tap_summary">کاتێک کامێرا، دووجار ده‌ستی لێبدە بۆ گرتنی وێنه‌</string>
+  <!-- Gesture shortcuts -->
   <string name="screen_gestures_panel_title">چاوجوڵاندن قەدبڕەکان</string>
   <string name="screen_gestures_panel_summary">به‌کارهێنانی جوڵاندن له‌ کاتێکدا شاشەکە کوژاوه‌ته‌وه‌</string>
   <string name="touchscreen_double_tap_gesture_title">ئامێره‌که‌ هەڵدەستێنێت</string>
@@ -37,6 +39,7 @@
 به‌ ئەستونی په‌نجه‌کانت لێبده‌ بۆ لێدان/وه‌ستانی \n
 ده‌ست بکێشه‌ بۆ چه‌پ تڕاکی پێشووتر \n
 ده‌ستبکێشه‌ بۆ ڕاست بۆ لێدانی تڕاکی داهاتوو</string>
+  <!-- O-Click settings -->
   <string name="oclick_panel_title">o-کرتە بۆ ڕێکخستنەکان</string>
   <string name="oclick_panel_summary">ڕێکخستنی o-کرتە بۆ ئامێره‌که‌</string>
   <string name="oclick_connect_string">په‌یوه‌ندیکردن</string>
@@ -51,4 +54,6 @@
   <string name="oclick_disconnect_alert_summary">ئاگادارکردنه‌وه‌ کاتێک له‌ده‌ره‌وه‌ی ده‌ستپێگه‌شتنه‌</string>
   <string name="alert_category_title">ئاگادارکردنه‌وه‌کان</string>
   <string name="action_category_title">چالاکیه‌کان</string>
+  <!-- O-Click notification -->
+  <!-- haptic feedback  -->
 </resources>

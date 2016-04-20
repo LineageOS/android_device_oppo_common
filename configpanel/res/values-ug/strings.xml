@@ -17,6 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="app_name">ئالىي تەڭشەكلەر</string>
+  <!-- O-Touch settings -->
   <string name="backpad_panel_title">O-Touch تەڭشەكلەر</string>
   <string name="backpad_panel_summary">O-Touch سەپلىمىسى</string>
   <string name="touchpad_enable_title">O-Touch قوزغات</string>
@@ -25,6 +26,7 @@
   <string name="touchpad_long_press_summary">سەزگۈر تاختا ئۇزۇن بېسىلسا كامېرا ئەپنى قوزغىتىدۇ</string>
   <string name="touchpad_double_tap_title">قوش چېكىلسە سۈرەت تارتىدۇ</string>
   <string name="touchpad_double_tap_summary">كامېرادا قوش چېكىلسە سۈرەت تارتىدۇ</string>
+  <!-- Gesture shortcuts -->
   <string name="screen_gestures_panel_title">ئىشارەت قىسقا يوللىرى</string>
   <string name="screen_gestures_panel_summary">ئېكران تاقاق ھالەتتە قول ئىشارىتىنى ئىشلىتىڭ</string>
   <string name="touchscreen_double_tap_gesture_title">ئۈسكۈنىنى ئويغات</string>
@@ -38,13 +40,14 @@
     • ئىككى بارماق بويىغا ئىككى سېرىلسا نەغمە چېلىپ/ۋاقىتلىق توختايدۇ\n
     • سول يا ئوق سىزىلسا ئالدىنقى ناخشا\n
     • ئوڭ يا ئوق سىزىلسا كېيىنكى ناخشا</string>
+  <!-- O-Click settings -->
   <string name="oclick_panel_title">O-Click تەڭشەكلەر</string>
   <string name="oclick_panel_summary">O-Click ئۈسكۈنە سەپلىمىسى</string>
-  <string name="oclick_connect_string">باغلان</string>
+  <string name="oclick_connect_string">ئۇلاش</string>
   <string name="oclick_disconnect_string">ئۈز</string>
-  <string name="oclick_summary_connected">O-Click كە باغلاندى</string>
+  <string name="oclick_summary_connected">O-Click كە ئۇلاندى</string>
   <string name="oclick_summary_paired">O-Click جۈپلەندى، ئەمما ئۈزۈلدى</string>
-  <string name="oclick_dialog_connecting_message">O-Click كە باغلىنىۋاتىدۇ\u2026\nبۇ O-Click توپچا بېسىلسا بايقاش سۈرئىتى تېزلەيدۇ.</string>
+  <string name="oclick_dialog_connecting_message">O-Click كە ئۇلىنىۋاتىدۇ\u2026\nبۇ O-Click توپچا بېسىلسا بايقاش سۈرئىتى تېزلەيدۇ.</string>
   <string name="oclick_take_snapshot_title">يىراقتىن كامېرا چېكىش</string>
   <string name="oclick_take_snapshot_summary">رەسىم تارتىش ئۈچۈن يەككە چېكىڭ</string>
   <string name="oclick_find_my_phone_title">تېلېفون تاپقۇچ</string>
@@ -55,9 +58,14 @@
   <string name="oclick_disconnect_alert_summary">ئۇلىشالمىسا ئاگاھلاندۇر</string>
   <string name="alert_category_title">ئاگاھلاندۇرۇشلار</string>
   <string name="action_category_title">مەشغۇلاتلار</string>
+  <!-- O-Click notification -->
   <string name="oclick_locator_notification_title">O-Click تېلېفون تاپقۇچ</string>
   <string name="oclick_locator_notification_text">تېلېفون تاپقۇچ ئاگاھلاندۇرۇشى. چېكىلسە توختايدۇ</string>
-  <string name="oclick_notification_title_connected">O-Click باغلاندى</string>
+  <string name="oclick_notification_title_connected">O-Click ئۇلاندى</string>
   <string name="oclick_notification_title_disconnected">O-Click ئۈزۈلدى</string>
-  <string name="oclick_notification_content_disconnected">بۇ O-Click كۇنۇپكىسى بېسىلسا قايتا باغلايدۇ</string>
+  <string name="oclick_notification_content_disconnected">بۇ O-Click كۇنۇپكىسى بېسىلسا قايتا ئۇلىنىدۇ</string>
+  <!-- haptic feedback  -->
+  <string name="touchscreen_extras">قوشۇمچە ئىقتىدار</string>
+  <string name="haptic_feedback">تېگىش ئىنكاسى</string>
+  <string name="haptic_feedback_summary">قوش ئىشارىتىنى بايقىغاندا تىتىرەيدۇ</string>
 </resources>

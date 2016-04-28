@@ -55,4 +55,18 @@
   <string name="oclick_notification_title_connected">Устройство O-Click подключено</string>
   <string name="oclick_notification_title_disconnected">Устройство O-Click отключено</string>
   <string name="oclick_notification_content_disconnected">Нажмите кнопку O-Click, чтобы повторно подключиться</string>
+  <!-- Button settings -->
+  <string name="button_panel_title">Дополнительные кнопки</string>
+  <string name="button_swap_title">Поменять кнопки местами</string>
+  <string name="button_swap_summary">Поменять местами кнопки «Обзор» и «Назад»</string>
+  <!-- Notification slider -->
+  <string name="notification_slider_category_title">Переключатель уведомл.</string>
+  <string name="notification_slider_selection_dialog_title">Действие</string>
+  <string name="notification_slider_top_position">Верхнее положение</string>
+  <string name="notification_slider_middle_position">Среднее положение</string>
+  <string name="notification_slider_bottom_position">Нижнее положение</string>
+  <string name="notification_slider_mode_total_silence">Полная тишина</string>
+  <string name="notification_slider_mode_alarms_only">Только будильник</string>
+  <string name="notification_slider_mode_priority_only">Только важные</string>
+  <string name="notification_slider_mode_none">Отключено</string>
 </resources>

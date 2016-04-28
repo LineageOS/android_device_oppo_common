@@ -55,4 +55,6 @@
   <string name="oclick_notification_title_connected">O-Click connecté</string>
   <string name="oclick_notification_title_disconnected">O-Click déconnecté</string>
   <string name="oclick_notification_content_disconnected">Appuyez sur le bouton O-Click pour se reconnecter</string>
+  <!-- Button settings -->
+  <!-- Notification slider -->
 </resources>

@@ -55,4 +55,18 @@
   <string name="oclick_notification_title_connected">O-Click конектован</string>
   <string name="oclick_notification_title_disconnected">O-Click дисконектован</string>
   <string name="oclick_notification_content_disconnected">Додирни O-Click дугме да се поново повежеш</string>
+  <!-- Button settings -->
+  <string name="button_panel_title">Додатна дугмад</string>
+  <string name="button_swap_title">Замени дугмад</string>
+  <string name="button_swap_summary">Замени редослед за скоро и назад</string>
+  <!-- Notification slider -->
+  <string name="notification_slider_category_title">Клизач за обавештења</string>
+  <string name="notification_slider_selection_dialog_title">Радња</string>
+  <string name="notification_slider_top_position">Највиши положај</string>
+  <string name="notification_slider_middle_position">Средњи положај</string>
+  <string name="notification_slider_bottom_position">Доњи положај</string>
+  <string name="notification_slider_mode_total_silence">Потпуна тишина</string>
+  <string name="notification_slider_mode_alarms_only">Само аларм</string>
+  <string name="notification_slider_mode_priority_only">Само приоритетни</string>
+  <string name="notification_slider_mode_none">Ништа</string>
 </resources>

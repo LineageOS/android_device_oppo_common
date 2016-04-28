@@ -52,4 +52,6 @@
   <string name="oclick_notification_title_connected">O-ক্লিক সংযোগিত</string>
   <string name="oclick_notification_title_disconnected">O-ক্লিক সংযোগহীন</string>
   <string name="oclick_notification_content_disconnected">পুনৰ সংযোগ কৰিবলৈ O-ক্লিক বুটাম টিপক</string>
+  <!-- Button settings -->
+  <!-- Notification slider -->
 </resources>

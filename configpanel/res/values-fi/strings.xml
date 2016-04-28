@@ -55,4 +55,18 @@
   <string name="oclick_notification_title_connected">O-Click yhdistetty</string>
   <string name="oclick_notification_title_disconnected">Yhteys O-Clickiin katkaistu</string>
   <string name="oclick_notification_content_disconnected">Paina O-Clickin painiketta yhdistääksesi uudelleen</string>
+  <!-- Button settings -->
+  <string name="button_panel_title">Lisänäppäimet</string>
+  <string name="button_swap_title">Vaihda näppäimet</string>
+  <string name="button_swap_summary">Vaihda Takaisin- ja Viimeisimmät-näppäinten paikkaa</string>
+  <!-- Notification slider -->
+  <string name="notification_slider_category_title">Ilmoitussäädin</string>
+  <string name="notification_slider_selection_dialog_title">Toiminto</string>
+  <string name="notification_slider_top_position">Yläasento</string>
+  <string name="notification_slider_middle_position">Keskiasento</string>
+  <string name="notification_slider_bottom_position">Ala-asento</string>
+  <string name="notification_slider_mode_total_silence">Täysin äänetön</string>
+  <string name="notification_slider_mode_alarms_only">Vain hälytykset</string>
+  <string name="notification_slider_mode_priority_only">Vain tärkeät</string>
+  <string name="notification_slider_mode_none">Pois käytöstä</string>
 </resources>

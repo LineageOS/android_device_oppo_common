@@ -55,4 +55,6 @@
   <string name="oclick_notification_title_connected">O-Click متصل شد</string>
   <string name="oclick_notification_title_disconnected">اتصال O-Click قطع شد</string>
   <string name="oclick_notification_content_disconnected">کلید O-Click را برای اتصال مجدد بزنید</string>
+  <!-- Button settings -->
+  <!-- Notification slider -->
 </resources>

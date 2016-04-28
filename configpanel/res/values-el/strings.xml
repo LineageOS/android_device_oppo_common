@@ -55,4 +55,18 @@
   <string name="oclick_notification_title_connected">Το O-Click συνδέθηκε</string>
   <string name="oclick_notification_title_disconnected">Το O-Click αποσυνδέθηκε</string>
   <string name="oclick_notification_content_disconnected">Πιέστε το πλήκτρο O-Click για επανασύνδεση</string>
+  <!-- Button settings -->
+  <string name="button_panel_title">Πρόσθετα πλήκτρα</string>
+  <string name="button_swap_title">Εναλλαγή πλήκτρων</string>
+  <string name="button_swap_summary">Εναλλαγή της διάταξης των πλήκτρων προσφάτων και πίσω</string>
+  <!-- Notification slider -->
+  <string name="notification_slider_category_title">Ρυθμιστικό ειδοποιήσεων</string>
+  <string name="notification_slider_selection_dialog_title">Ενέργεια</string>
+  <string name="notification_slider_top_position">Πάνω θέση</string>
+  <string name="notification_slider_middle_position">Μεσαία θέση</string>
+  <string name="notification_slider_bottom_position">Κάτω θέση</string>
+  <string name="notification_slider_mode_total_silence">Απόλυτη σίγαση</string>
+  <string name="notification_slider_mode_alarms_only">Μόνο ξυπνητήρια</string>
+  <string name="notification_slider_mode_priority_only">Μόνο προτεραιότητα</string>
+  <string name="notification_slider_mode_none">Καμία</string>
 </resources>

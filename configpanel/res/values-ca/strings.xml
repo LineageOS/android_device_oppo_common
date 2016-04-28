@@ -22,7 +22,7 @@
   <string name="touchpad_long_press_title">Pulsació llarga per obrir la càmera</string>
   <string name="touchpad_long_press_summary">Pulsació llarga al panell tàctil per obrir l\'aplicació de la càmera</string>
   <string name="touchpad_double_tap_title">Pica dues vegades per capturar</string>
-  <string name="touchpad_double_tap_summary">En l\'aplicació de la càmera, pica doblement per capturar una imatge</string>
+  <string name="touchpad_double_tap_summary">En l\'aplicació de la càmera, pica dues vegades per capturar una imatge</string>
   <!-- Gesture shortcuts -->
   <string name="touchscreen_camera_gesture_title">Càmera</string>
   <string name="touchscreen_camera_gesture_summary">Dibuixa un cercle per activar la càmera</string>
@@ -55,4 +55,18 @@
   <string name="oclick_notification_title_connected">O-Click connectat</string>
   <string name="oclick_notification_title_disconnected">O-Click desconnectat</string>
   <string name="oclick_notification_content_disconnected">Prem el botó O-click per tornar a connectar</string>
+  <!-- Button settings -->
+  <string name="button_panel_title">Botons addicionals</string>
+  <string name="button_swap_title">Intercanvia els botons</string>
+  <string name="button_swap_summary">Intercanvia l\'ordre dels botons recent i enrera</string>
+  <!-- Notification slider -->
+  <string name="notification_slider_category_title">Barra lliscant de notificacions</string>
+  <string name="notification_slider_selection_dialog_title">Acció</string>
+  <string name="notification_slider_top_position">Posició superior</string>
+  <string name="notification_slider_middle_position">Posició central</string>
+  <string name="notification_slider_bottom_position">Posició inferior</string>
+  <string name="notification_slider_mode_total_silence">Silenci total</string>
+  <string name="notification_slider_mode_alarms_only">Només alarmes</string>
+  <string name="notification_slider_mode_priority_only">Només prioritat</string>
+  <string name="notification_slider_mode_none">Cap</string>
 </resources>

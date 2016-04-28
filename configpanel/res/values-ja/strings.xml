@@ -55,4 +55,6 @@
   <string name="oclick_notification_title_connected">O-Clickが接続しました</string>
   <string name="oclick_notification_title_disconnected">O-Clickが切断しました</string>
   <string name="oclick_notification_content_disconnected">O-Clickボタンをクリックして再接続します</string>
+  <!-- Button settings -->
+  <!-- Notification slider -->
 </resources>

@@ -52,4 +52,6 @@
   <string name="oclick_notification_title_connected">O-क्लिक कनेक्ट झाले</string>
   <string name="oclick_notification_title_disconnected">O-क्लिक डिस्कनेक्ट झाले</string>
   <string name="oclick_notification_content_disconnected">पुन्हा कनेक्ट करण्यासाठी O-क्लिक बटण दाबा</string>
+  <!-- Button settings -->
+  <!-- Notification slider -->
 </resources>

@@ -55,4 +55,6 @@
   <string name="oclick_notification_title_connected">O-Click ئۇلاندى</string>
   <string name="oclick_notification_title_disconnected">O-Click ئۈزۈلدى</string>
   <string name="oclick_notification_content_disconnected">بۇ O-Click كۇنۇپكىسى بېسىلسا قايتا ئۇلىنىدۇ</string>
+  <!-- Button settings -->
+  <!-- Notification slider -->
 </resources>

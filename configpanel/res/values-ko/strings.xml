@@ -55,4 +55,6 @@
   <string name="oclick_notification_title_connected">O-Click 연결 됨</string>
   <string name="oclick_notification_title_disconnected">O-Click 연결 끊김</string>
   <string name="oclick_notification_content_disconnected">다시 연결하려면 O-Click 버튼을 누르십시오.</string>
+  <!-- Button settings -->
+  <!-- Notification slider -->
 </resources>

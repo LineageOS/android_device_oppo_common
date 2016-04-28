@@ -55,4 +55,6 @@
   <string name="oclick_notification_title_connected">O-Click е свързан</string>
   <string name="oclick_notification_title_disconnected">O-Click е прекъснат</string>
   <string name="oclick_notification_content_disconnected">Натиснете O-Click бутона за повторно свързване</string>
+  <!-- Button settings -->
+  <!-- Notification slider -->
 </resources>

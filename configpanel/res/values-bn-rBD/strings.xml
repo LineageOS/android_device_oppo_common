@@ -47,4 +47,6 @@
   <string name="alert_category_title">সতর্কতা</string>
   <string name="action_category_title">ক্রিয়াকলাপ</string>
   <!-- O-Click notification -->
+  <!-- Button settings -->
+  <!-- Notification slider -->
 </resources>

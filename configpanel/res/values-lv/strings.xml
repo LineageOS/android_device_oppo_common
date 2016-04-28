@@ -44,4 +44,6 @@
   <string name="alert_category_title">Brīdinājumi</string>
   <string name="action_category_title">Darbības</string>
   <!-- O-Click notification -->
+  <!-- Button settings -->
+  <!-- Notification slider -->
 </resources>

@@ -55,4 +55,6 @@
   <string name="oclick_notification_title_connected">O-Click ühendatud</string>
   <string name="oclick_notification_title_disconnected">O-Click ühendatamata</string>
   <string name="oclick_notification_content_disconnected">Vajuta O-Click nupul et taasühenduda</string>
+  <!-- Button settings -->
+  <!-- Notification slider -->
 </resources>

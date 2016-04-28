@@ -55,4 +55,6 @@
   <string name="oclick_notification_title_connected">O-Click متصل</string>
   <string name="oclick_notification_title_disconnected">O-Click غير متصل</string>
   <string name="oclick_notification_content_disconnected">اضغط على زر O-Click لإعادة الاتصال</string>
+  <!-- Button settings -->
+  <!-- Notification slider -->
 </resources>

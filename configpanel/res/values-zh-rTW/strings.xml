@@ -55,4 +55,6 @@
   <string name="oclick_notification_title_connected">O-Click 已連線</string>
   <string name="oclick_notification_title_disconnected">O-Click 失去連線</string>
   <string name="oclick_notification_content_disconnected">按下 O-Click 按鈕以重新連線</string>
+  <!-- Button settings -->
+  <!-- Notification slider -->
 </resources>

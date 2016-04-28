@@ -55,4 +55,6 @@
   <string name="oclick_notification_title_connected">เชื่อมต่อ O-Click แล้ว</string>
   <string name="oclick_notification_title_disconnected">หยุดเชื่อมต่อ O-Click แล้ว</string>
   <string name="oclick_notification_content_disconnected">กดปุ่ม O-click เพื่อเชื่อมต่ออีกครั้ง</string>
+  <!-- Button settings -->
+  <!-- Notification slider -->
 </resources>

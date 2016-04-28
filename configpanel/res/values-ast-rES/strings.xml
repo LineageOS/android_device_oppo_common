@@ -55,4 +55,6 @@
   <string name="oclick_notification_title_connected">O-Click coneutáu</string>
   <string name="oclick_notification_title_disconnected">O-Click desconeutáu</string>
   <string name="oclick_notification_content_disconnected">Primi\'l botón O-Click pa volver a coneutar</string>
+  <!-- Button settings -->
+  <!-- Notification slider -->
 </resources>

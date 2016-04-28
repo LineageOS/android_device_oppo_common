@@ -55,4 +55,6 @@
   <string name="oclick_notification_title_connected">O-Click konektatuta</string>
   <string name="oclick_notification_title_disconnected">O-Click deskonektatuta</string>
   <string name="oclick_notification_content_disconnected">Sakatu O-Click botoia berriro konektatzeko</string>
+  <!-- Button settings -->
+  <!-- Notification slider -->
 </resources>

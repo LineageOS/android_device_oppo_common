@@ -29,10 +29,10 @@
   <string name="touchscreen_music_gesture_title">Música</string>
   <string name="touchscreen_flashlight_gesture_title">Lanterna</string>
   <string name="touchscreen_flashlight_gesture_summary">Desenhar um \'V\' para alterar o estado da lanterna</string>
-  <string name="touchscreen_music_gesture_summary">Utilizar gestos para controlar a  reprodução da música\n
-  • Mover dois dedos verticalmente para iniciar/parar\n
-  • Desenhar uma seta para a esquerda para a faixa anterior\n
-  • Desenhar uma seta para a direita para a faixa seguinte</string>
+  <string name="touchscreen_music_gesture_summary">Utilize gestos para controlar a reprodução da música \n
+    • Deslize dois dedos verticalmente para tocar/pausar\n
+    • Desenhe uma seta para a esquerda para voltar para a faixa anterior\n
+    • Desenhe uma seta para a direita para avançar para a faixa seguinte</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Conectar</string>
   <string name="oclick_disconnect_string">Desconectar</string>
@@ -55,4 +55,6 @@
   <string name="oclick_notification_title_connected">O-Click conectado</string>
   <string name="oclick_notification_title_disconnected">O-Click desconectado</string>
   <string name="oclick_notification_content_disconnected">Pressione o botão do O-Click para reconectar</string>
+  <!-- Button settings -->
+  <!-- Notification slider -->
 </resources>

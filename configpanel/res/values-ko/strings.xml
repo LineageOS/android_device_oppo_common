@@ -67,5 +67,5 @@
   <!-- haptic feedback  -->
   <string name="touchscreen_extras">추가 기능</string>
   <string name="haptic_feedback">햅틱 반응</string>
-  <string name="haptic_feedback_summary">제스쳐가 감지되면 진동합니다</string>
+  <string name="haptic_feedback_summary">제스처가 감지되면 진동합니다</string>
 </resources>

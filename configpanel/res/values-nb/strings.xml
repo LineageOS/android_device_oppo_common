@@ -67,4 +67,5 @@
   <!-- haptic feedback  -->
   <string name="touchscreen_extras">Ekstra</string>
   <string name="haptic_feedback">Haptisk tilbakemelding</string>
+  <string name="haptic_feedback_summary">Vibrer når en gest ble oppdaget</string>
 </resources>

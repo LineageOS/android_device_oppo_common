@@ -56,5 +56,17 @@
   <string name="oclick_notification_title_disconnected">O-Click deskonektatuta</string>
   <string name="oclick_notification_content_disconnected">Sakatu O-Click botoia berriro konektatzeko</string>
   <!-- Button settings -->
+  <string name="button_panel_title">Botoi gehigarriak</string>
+  <string name="button_swap_title">Trukatu botoiak</string>
+  <string name="button_swap_summary">Trukatu oraintsukoak eta atzera botoen ordena</string>
   <!-- Notification slider -->
+  <string name="notification_slider_category_title">Jakinarazpenen tiradera</string>
+  <string name="notification_slider_selection_dialog_title">Ekintza</string>
+  <string name="notification_slider_top_position">Goian</string>
+  <string name="notification_slider_middle_position">Erdian</string>
+  <string name="notification_slider_bottom_position">Behean</string>
+  <string name="notification_slider_mode_total_silence">Isiltasun osoa</string>
+  <string name="notification_slider_mode_alarms_only">Alarmak besterik ez</string>
+  <string name="notification_slider_mode_priority_only">Lehentasunezkoak besterik ez</string>
+  <string name="notification_slider_mode_none">Bat ere ez</string>
 </resources>

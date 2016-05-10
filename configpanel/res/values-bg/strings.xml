@@ -56,5 +56,17 @@
   <string name="oclick_notification_title_disconnected">O-Click е прекъснат</string>
   <string name="oclick_notification_content_disconnected">Натиснете O-Click бутона за повторно свързване</string>
   <!-- Button settings -->
+  <string name="button_panel_title">Допълнителни бутони</string>
+  <string name="button_swap_title">Помени местата на бутоните</string>
+  <string name="button_swap_summary">Разменени бутонити \"Последни\" и \"Назад\"</string>
   <!-- Notification slider -->
+  <string name="notification_slider_category_title">Панел за нотификации</string>
+  <string name="notification_slider_selection_dialog_title">Действие</string>
+  <string name="notification_slider_top_position">Най-горна позиция</string>
+  <string name="notification_slider_middle_position">Средна позиция</string>
+  <string name="notification_slider_bottom_position">Най-ниска позиция</string>
+  <string name="notification_slider_mode_total_silence">Пълна тишина</string>
+  <string name="notification_slider_mode_alarms_only">Само будилници</string>
+  <string name="notification_slider_mode_priority_only">Само с приоритед</string>
+  <string name="notification_slider_mode_none">Без</string>
 </resources>

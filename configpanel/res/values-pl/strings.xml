@@ -53,5 +53,16 @@
   <string name="oclick_notification_title_disconnected">O-Click niepołączony</string>
   <string name="oclick_notification_content_disconnected">Naciśnij przycisk O-Click, aby połączyć ponownie</string>
   <!-- Button settings -->
+  <string name="button_panel_title">Dodatkowe przyciski</string>
+  <string name="button_swap_title">Zamień przyciski</string>
   <!-- Notification slider -->
+  <string name="notification_slider_category_title">Panel powiadomień</string>
+  <string name="notification_slider_selection_dialog_title">Akcja</string>
+  <string name="notification_slider_top_position">Górna pozycja</string>
+  <string name="notification_slider_middle_position">Środkowa pozycja</string>
+  <string name="notification_slider_bottom_position">Dolna pozycja</string>
+  <string name="notification_slider_mode_total_silence">Całkowita cisza</string>
+  <string name="notification_slider_mode_alarms_only">Tylko alarmy</string>
+  <string name="notification_slider_mode_priority_only">Tylko priorytet</string>
+  <string name="notification_slider_mode_none">Brak</string>
 </resources>

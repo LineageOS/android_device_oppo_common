@@ -56,5 +56,17 @@
   <string name="oclick_notification_title_disconnected">หยุดเชื่อมต่อ O-Click แล้ว</string>
   <string name="oclick_notification_content_disconnected">กดปุ่ม O-click เพื่อเชื่อมต่ออีกครั้ง</string>
   <!-- Button settings -->
+  <string name="button_panel_title">ปุ่มเพิ่มเติม</string>
+  <string name="button_swap_title">สลับปุ่ม</string>
+  <string name="button_swap_summary">สลับตำแหน่งของปุ่มล่าสุดและปุ่มย้อนกลับ</string>
   <!-- Notification slider -->
+  <string name="notification_slider_category_title">ตัวเลื่อนการแจ้งเตือน</string>
+  <string name="notification_slider_selection_dialog_title">การทำงาน</string>
+  <string name="notification_slider_top_position">ตำแหน่งบนสุด</string>
+  <string name="notification_slider_middle_position">ตำแหน่งกึ่งกลาง</string>
+  <string name="notification_slider_bottom_position">ตำแหน่งล่างสุด</string>
+  <string name="notification_slider_mode_total_silence">ความเงียบรวม</string>
+  <string name="notification_slider_mode_alarms_only">เฉพาะการแจ้งเตือน</string>
+  <string name="notification_slider_mode_priority_only">เฉพาะระดับความสำคัญ</string>
+  <string name="notification_slider_mode_none">ไม่มี</string>
 </resources>

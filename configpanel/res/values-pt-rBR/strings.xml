@@ -63,7 +63,7 @@
   <string name="notification_slider_category_title">Controle deslizante de notificação</string>
   <string name="notification_slider_selection_dialog_title">Ação</string>
   <string name="notification_slider_top_position">Posição superior</string>
-  <string name="notification_slider_middle_position">Posição média</string>
+  <string name="notification_slider_middle_position">Posição central</string>
   <string name="notification_slider_bottom_position">Posição inferior</string>
   <string name="notification_slider_mode_total_silence">Silêncio total</string>
   <string name="notification_slider_mode_alarms_only">Somente alarmes</string>

@@ -56,5 +56,17 @@
   <string name="oclick_notification_title_disconnected">O-Click 연결 끊김</string>
   <string name="oclick_notification_content_disconnected">다시 연결하려면 O-Click 버튼을 누르십시오.</string>
   <!-- Button settings -->
+  <string name="button_panel_title">기타 버튼</string>
+  <string name="button_swap_title">버튼 바꾸기</string>
+  <string name="button_swap_summary">최근 앱과 뒤로 버튼의 위치 바꾸기</string>
   <!-- Notification slider -->
+  <string name="notification_slider_category_title">알림 슬라이더</string>
+  <string name="notification_slider_selection_dialog_title">작업</string>
+  <string name="notification_slider_top_position">위 위치</string>
+  <string name="notification_slider_middle_position">중간 위치</string>
+  <string name="notification_slider_bottom_position">아래 위치</string>
+  <string name="notification_slider_mode_total_silence">모두 차단</string>
+  <string name="notification_slider_mode_alarms_only">알람만</string>
+  <string name="notification_slider_mode_priority_only">중요 알림만</string>
+  <string name="notification_slider_mode_none">끔</string>
 </resources>

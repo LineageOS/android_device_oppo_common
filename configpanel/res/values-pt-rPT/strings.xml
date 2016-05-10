@@ -56,5 +56,17 @@
   <string name="oclick_notification_title_disconnected">O-Click desconectado</string>
   <string name="oclick_notification_content_disconnected">Pressione o botão do O-Click para reconectar</string>
   <!-- Button settings -->
+  <string name="button_panel_title">Botões adicionais</string>
+  <string name="button_swap_title">Trocar botões</string>
+  <string name="button_swap_summary">Trocar a ordem dos botões Recentes e Voltar</string>
   <!-- Notification slider -->
+  <string name="notification_slider_category_title">Botão deslizante de notificações</string>
+  <string name="notification_slider_selection_dialog_title">Ação</string>
+  <string name="notification_slider_top_position">Em cima</string>
+  <string name="notification_slider_middle_position">No meio</string>
+  <string name="notification_slider_bottom_position">Em baixo</string>
+  <string name="notification_slider_mode_total_silence">Silêncio total</string>
+  <string name="notification_slider_mode_alarms_only">Apenas alarmes</string>
+  <string name="notification_slider_mode_priority_only">Apenas Prioridade</string>
+  <string name="notification_slider_mode_none">Nenhuma</string>
 </resources>

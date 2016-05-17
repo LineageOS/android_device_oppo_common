@@ -57,4 +57,8 @@
   <string name="oclick_notification_content_disconnected">Klik op de O-Click-knop om opnieuw verbinding te maken</string>
   <!-- Button settings -->
   <!-- Notification slider -->
+  <string name="notification_slider_middle_position">Middelste positie</string>
+  <string name="notification_slider_bottom_position">Onderste positie</string>
+  <string name="notification_slider_mode_total_silence">Totale stilte</string>
+  <string name="notification_slider_mode_none">Geen</string>
 </resources>

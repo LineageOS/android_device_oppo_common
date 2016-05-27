@@ -41,17 +41,17 @@
   <string name="oclick_dialog_connecting_message">O-Clickに接続しています\u2026\nO-Clickボタンをクリックすると早く接続できます。</string>
   <string name="oclick_take_snapshot_title">リモートカメラシャッター</string>
   <string name="oclick_take_snapshot_summary">シングルクリックで写真を撮る</string>
-  <string name="oclick_find_my_phone_title">携帯電話の場所</string>
+  <string name="oclick_find_my_phone_title">携帯電話ロケータ</string>
   <string name="oclick_find_my_phone_summary">ダブルクリックで携帯電話を探す</string>
-  <string name="oclick_fence_title">接近アラート</string>
-  <string name="oclick_fence_summary">携帯電話が近くになければアラートで知らせる</string>
-  <string name="oclick_disconnect_alert_title">範囲外アラート</string>
-  <string name="oclick_disconnect_alert_summary">範囲外に出たときにアラートで知らせる</string>
-  <string name="alert_category_title">アラート</string>
+  <string name="oclick_fence_title">接近警告</string>
+  <string name="oclick_fence_summary">携帯電話が近くにないときに警告する</string>
+  <string name="oclick_disconnect_alert_title">範囲外警告</string>
+  <string name="oclick_disconnect_alert_summary">範囲外に出たときに警告する</string>
+  <string name="alert_category_title">警告</string>
   <string name="action_category_title">動作</string>
   <!-- O-Click notification -->
-  <string name="oclick_locator_notification_title">O-Click携帯電話の場所</string>
-  <string name="oclick_locator_notification_text">場所アラートを再生しています。タップして終了します。</string>
+  <string name="oclick_locator_notification_title">O-Click携帯電話ロケータ</string>
+  <string name="oclick_locator_notification_text">ロケータアラートを再生しています。タップして終了します。</string>
   <string name="oclick_notification_title_connected">O-Clickが接続しました</string>
   <string name="oclick_notification_title_disconnected">O-Clickが切断しました</string>
   <string name="oclick_notification_content_disconnected">O-Clickボタンをクリックして再接続します</string>

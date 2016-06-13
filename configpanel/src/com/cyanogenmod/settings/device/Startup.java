@@ -43,7 +43,8 @@ import android.view.KeyEvent;
 import java.io.File;
 
 import com.cyanogenmod.settings.device.utils.Constants;
-import com.cyanogenmod.settings.device.utils.FileUtils;
+
+import org.cyanogenmod.internal.util.FileUtils;
 
 public class Startup extends BroadcastReceiver {
 

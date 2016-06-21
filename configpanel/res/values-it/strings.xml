@@ -30,7 +30,7 @@
   <string name="screen_gestures_panel_title">Scorciatoie gesture</string>
   <string name="screen_gestures_panel_summary">Usa le gesture mentre lo schermo è spento</string>
   <string name="touchscreen_double_tap_gesture_title">Risveglia dispositivo</string>
-  <string name="touchscreen_double_tap_gesture_summary">Doppio tocco per attivare il dispositivo</string>
+  <string name="touchscreen_double_tap_gesture_summary">Risveglio con doppio tocco</string>
   <string name="touchscreen_camera_gesture_title">Fotocamera</string>
   <string name="touchscreen_camera_gesture_summary">Disegnare un cerchio per attivare la fotocamera</string>
   <string name="touchscreen_music_gesture_title">Musica</string>

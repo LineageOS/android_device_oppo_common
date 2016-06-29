@@ -56,7 +56,15 @@
   <string name="oclick_notification_title_disconnected">O-Click afbrudt</string>
   <string name="oclick_notification_content_disconnected">Tryk på O-Click for at genoprette forbindelsen</string>
   <!-- Button settings -->
+  <string name="button_panel_title">Yderligere knapper</string>
+  <string name="button_swap_title">Ombyt knapper</string>
+  <string name="button_swap_summary">Byt om på rækkefølgen af knapperne seneste og tilbage</string>
   <!-- Notification slider -->
+  <string name="notification_slider_category_title">Meddelelsesskyder</string>
+  <string name="notification_slider_selection_dialog_title">Handling</string>
+  <string name="notification_slider_top_position">Øverste position</string>
+  <string name="notification_slider_middle_position">Midterste position</string>
+  <string name="notification_slider_bottom_position">Nederste position</string>
   <string name="notification_slider_mode_total_silence">Total stilhed</string>
   <string name="notification_slider_mode_alarms_only">Kun alarmer</string>
   <string name="notification_slider_mode_priority_only">Kun prioritet</string>

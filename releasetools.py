@@ -87,10 +87,13 @@ def AddDDRWipe(info):
   info.script.Print("Wiping DDR")
   #todo, find _fn variables based on partition rather than assuming their names.
   rpm_fn = "rpm.mbn"
+  sbl_fn = "sbl1.mbn"
+  if rpm_fn not in filesmap or sbl_fn not in filesmap:
+      print "warning radio-update: skipping DDR wipe, not all required images were found"
+      return
   rpm_part = filesmap[rpm_fn][0]
   rpm_cs = filesmap[rpm_fn][1]
   rpm_fs = filesmap[rpm_fn][2]
-  sbl_fn = "sbl1.mbn"
   sbl_part = filesmap[sbl_fn][0]
   sbl_cs = filesmap[sbl_fn][1]
   sbl_fs = filesmap[sbl_fn][2]

@@ -54,7 +54,7 @@ public class NodePreferenceActivity extends PreferenceActivity
             b.setOnPreferenceChangeListener(this);
             String node = Constants.sNodePreferenceMap.get(pref);
             String curNodeValue = FileUtils.readOneLine(node);
-            b.setChecked(curNodeValue.equals("1"));
+            b.setChecked("1".equals(curNodeValue));
         }
     }
 

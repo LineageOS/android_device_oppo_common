@@ -29,10 +29,6 @@
   <string name="touchscreen_music_gesture_title">ಸಂಗೀತ</string>
   <string name="touchscreen_flashlight_gesture_title">ಟಾರ್ಚ್</string>
   <string name="touchscreen_flashlight_gesture_summary">ಟಾರ್ಚನ್ನು ಟಾಗಲ್ ಮಾಡಲು ಒಂದು \'V\'ಯನ್ನು ಬರೆಯಿರಿ</string>
-  <string name="touchscreen_music_gesture_summary">ಸಂಗೀತ ಪ್ಲೇಬ್ಯಾಕನ್ನು ನಿಯಂತ್ರಿಸಲು ಸನ್ನೆಗಳನ್ನು ಉಪಯೋಗಿಸಿ \n
-    • ಪ್ಲೇ/ವಿರಾಮಿಸಲು ಎರಡು ಬೆರಳುಗಳನ್ನು ಲಂಬವಾಗಿ\n
-    • ಹಿಂದಿನ ಹಾಡಿಗಾಗಿ ಎಡ ಬಾಣವನ್ನು ಬರೆಯಿರಿ\n
-    • ಮುಂದಿನ ಹಾಡಿಗಾಗಿ ಬಲ ಬಾಣವನ್ನು ಬರೆಯಿರಿ</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">ಸಂಪರ್ಕಿಸಿ</string>
   <string name="oclick_disconnect_string">ಸಂಪರ್ಕ ಕಡಿತಗೊಳಿಸಿ</string>

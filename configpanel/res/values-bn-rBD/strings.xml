@@ -29,10 +29,6 @@
   <string name="touchscreen_music_gesture_title">সঙ্গীত</string>
   <string name="touchscreen_flashlight_gesture_title">উজ্জ্যল বাতি</string>
   <string name="touchscreen_flashlight_gesture_summary">উজ্জ্যল বাতি সক্রিয় করতে \'V\' অঙ্কন করুন</string>
-  <string name="touchscreen_music_gesture_summary">সঙ্গীত পরিচালনা করতে ভঙ্গী ব্যাবহার করুন \n
- • দুই আঙ্গুল উল্লম্বভাবে চলা/স্থির \n
- • পূর্ববর্তী সঙ্গীতের জন্যে বাম তীরচিহ্ন ভঙ্গি আঁকুন \n
- • পরবর্তী সঙ্গীতের জন্যে ডান তীরচিহ্ন ভঙ্গি আঁকুন \n</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">সংযোগ</string>
   <string name="oclick_disconnect_string">সংযোগ ছিন্ন</string>

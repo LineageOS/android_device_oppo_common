@@ -29,10 +29,6 @@
   <string name="touchscreen_music_gesture_title">Muzică</string>
   <string name="touchscreen_flashlight_gesture_title">Lanternă</string>
   <string name="touchscreen_flashlight_gesture_summary">Desenează un „v” pentru a deschide lanterna</string>
-  <string name="touchscreen_music_gesture_summary">Folosește gesturi pentru a controla redarea muzicii \n
-    • Două degete vertical pentru a reda/opri\n
-    • Desenează o săgeată la stânga pentru melodia anterioară\n
-    • Desenează o săgeată la dreapta pentru melodia următoare</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Conectează</string>
   <string name="oclick_disconnect_string">Deconectează</string>

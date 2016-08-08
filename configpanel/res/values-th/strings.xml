@@ -29,10 +29,6 @@
   <string name="touchscreen_music_gesture_title">เพลง</string>
   <string name="touchscreen_flashlight_gesture_title">ไฟฉาย</string>
   <string name="touchscreen_flashlight_gesture_summary">วาด \'V\' เพื่อเปิดไฟฉาย</string>
-  <string name="touchscreen_music_gesture_summary">ใช้ท่าทางเพื่อควบคุมการเล่นเพลง\n
-• สองนิ้วในแนวตั้งเพื่อ เล่น/หยุดชั่วคราว\n
-• วาดลูกศรชี้ซ้ายเพื่อเล่นเพลงก่อนหน้า\n
-• วาดลูกศรชี้ขวาเพื่อเล่นเพลงถัดไป</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">เชื่อมต่อ</string>
   <string name="oclick_disconnect_string">ตัดการเชื่อมต่อ</string>

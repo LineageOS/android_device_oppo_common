@@ -29,10 +29,6 @@
   <string name="touchscreen_music_gesture_title">Muziko</string>
   <string name="touchscreen_flashlight_gesture_title">Poŝlampo</string>
   <string name="touchscreen_flashlight_gesture_summary">Desegnu \'V\' por baskuli poŝlampon</string>
-  <string name="touchscreen_music_gesture_summary">Uzu gestojn por kontroli la muzikludon \n
-    • Du-fingra vertikale por ludi/paŭzi \n
-    • Desegnu maldekstran sagon por antaŭa kanto\n
-    • Desegnu dekstran sagon por venonta kanto</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Konektiĝi</string>
   <string name="oclick_disconnect_string">Malkonektiĝi</string>

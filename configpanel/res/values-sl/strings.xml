@@ -29,10 +29,10 @@
   <string name="touchscreen_music_gesture_title">Glasba</string>
   <string name="touchscreen_flashlight_gesture_title">Svetilka</string>
   <string name="touchscreen_flashlight_gesture_summary">Narišite \"V\", da preklopite svetilko</string>
-  <string name="touchscreen_music_gesture_summary">Uporabite poteze za nadzor predvajanja glasbe \n
-    • Dva prsta navpično za predvajanje/premor\n
-    • Narišite puščico v levo za prejšnjo skladbo\n
-    • Narišite puščico v desno za naslednjo skladbo</string>
+  <string name="touchscreen_music_gesture_summary">Uporabite poteze za nadzor predvajanja glasbe\n
+    • Dva prsta navpično za predvajanje/ustavljanje\n
+    • Narišite puščico v levo (\'&lt;\') za prejšnjo skladbo\n
+    • Narišite puščico v desno (\'&gt;\') za naslednjo skladbo</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Poveži</string>
   <string name="oclick_disconnect_string">Prekini</string>

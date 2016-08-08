@@ -29,7 +29,6 @@
   <string name="touchscreen_music_gesture_title">মিউজিক</string>
   <string name="touchscreen_flashlight_gesture_title">ফ্লেশলাইট</string>
   <string name="touchscreen_flashlight_gesture_summary">ফ্লেশলাইট টগল কৰিবলৈ \'V\' আঁকক</string>
-  <string name="touchscreen_music_gesture_summary">সংগীত প্লেবেক নিয়ন্ত্ৰণ কৰিবলৈ ভঙ্গিমা ব্যৱহাৰ কৰক \n • প্লে/পজ কৰিবলৈ দুটা আঙুলি উলম্বভাবে\n • পূৰ্বৱৰ্তী ট্ৰেকৰ বাবে বাওঁফালে কাড় আঁকক\n • পৰৱৰ্তী ট্ৰেকৰ বাবে সোঁফালে কাড় আঁকক</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">সংযোগ</string>
   <string name="oclick_disconnect_string">সংযোগ বিচ্ছিন্ন কৰা</string>

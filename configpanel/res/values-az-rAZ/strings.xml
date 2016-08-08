@@ -29,10 +29,6 @@
   <string name="touchscreen_music_gesture_title">Musiqi</string>
   <string name="touchscreen_flashlight_gesture_title">Fənər</string>
   <string name="touchscreen_flashlight_gesture_summary">Fənəri açıb bağlamaq üçün \'V\' çәkin</string>
-  <string name="touchscreen_music_gesture_summary">Musiqiyə nəzarət etmək üçün hərəkətlərdən istifadə edin \n
-• Şaquli vəziyyətdə iki barmaq oynadar/dayandırar\n
-• Sola ox çəkmək əvvəlki mahnıya gedər\n
-• Sağa ox çəkmək növbəti mahnıya gedər</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Bağlan</string>
   <string name="oclick_disconnect_string">Bağlantını kəs</string>

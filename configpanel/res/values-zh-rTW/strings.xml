@@ -29,10 +29,6 @@
   <string name="touchscreen_music_gesture_title">音樂</string>
   <string name="touchscreen_flashlight_gesture_title">手電筒</string>
   <string name="touchscreen_flashlight_gesture_summary">畫一個「V」即可開關手電筒</string>
-  <string name="touchscreen_music_gesture_summary">使用手勢控制音樂播放\n
-  • 兩隻手指垂直滑動即可播放/暫停\n
-  • 畫左箭頭上一首\n
-  • 畫右箭頭下一首</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">連線</string>
   <string name="oclick_disconnect_string">中斷連線</string>

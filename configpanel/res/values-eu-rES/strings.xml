@@ -29,10 +29,10 @@
   <string name="touchscreen_music_gesture_title">Musika</string>
   <string name="touchscreen_flashlight_gesture_title">Linterna</string>
   <string name="touchscreen_flashlight_gesture_summary">Marraztu \"V\" bat linterna txandakatzeko</string>
-  <string name="touchscreen_music_gesture_summary">Musika erreprodukzioa maneiatzeko keinuak erabili:\n
-    \u2022 Bi atzamar bertikalki irristatu erreproduzitzeko/pausan jartzeko\n
-    \u2022 Gezi bat ezkerrerantz marraztu atzera joateko\n
-    \u2022 Gezi bat eskumarantz marraztu aurrera joateko</string>
+  <string name="touchscreen_music_gesture_summary">Erabili keinuak musika erreprodukzioa kontrolatzeko:\n
+    \u2022 Bi atzamar bertikalki erreproduzitzeko/pausan jartzeko\n
+    \u2022 Gezi bat ezkerrerantz (\'&lt;\') aurreko pistarako\n
+    \u2022 Gezi bat eskumarantz (\'&gt;\') hurrengo pistarako</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Konektatu</string>
   <string name="oclick_disconnect_string">Deskonektatu</string>

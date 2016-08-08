@@ -29,10 +29,6 @@
   <string name="touchscreen_music_gesture_title">Hudba</string>
   <string name="touchscreen_flashlight_gesture_title">Svietidlo</string>
   <string name="touchscreen_flashlight_gesture_summary">Nakreslením \'V\' spustíte svietidlo</string>
-  <string name="touchscreen_music_gesture_summary">Používať gestá pre ovládanie prehrávania hudby \n
-    • Dva prsty zvisle - prehrať/pozastaviť\n
-    • Nakreslenie šípky doľava - predchádzajúca stopa\n
-    • Nakreslenie šípky doprava - nasledujúca stopa</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Pripojiť</string>
   <string name="oclick_disconnect_string">Odpojiť</string>

@@ -29,10 +29,6 @@
   <string name="touchscreen_music_gesture_title">സംഗീതം</string>
   <string name="touchscreen_flashlight_gesture_title">മിന്നല്‍വിളക്ക്</string>
   <string name="touchscreen_flashlight_gesture_summary">മിന്നല്‍വിളക്ക് ഓണ്‍/ഓഫ ചെയ്യാൻ \"V\" എന്ന് വരയ്ക്കുക</string>
-  <string name="touchscreen_music_gesture_summary">ചേഷ്ടകൾ ഉപയോഗിച്ച് സംഗീതം കന്റ്രോൾ ചെയ്യു \n
-• രണ്ട് വിരലുകൾ ലംബമായി പ്ലേ/പോസ് \n
-• മുന്പത്തെ പാട്ടിന് ഇടത്തോട്ടുള്ള അംബ് വരക്കുക\n
-• അടുത്ത പാട്ടിന് വലത്തേക്കുള്ള അംബ് വരക്കുക</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">ഘടിപ്പിക്കുക</string>
   <string name="oclick_disconnect_string">വേര്‍പെടുത്തുക</string>

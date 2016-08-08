@@ -29,10 +29,6 @@
   <string name="touchscreen_music_gesture_title">Música</string>
   <string name="touchscreen_flashlight_gesture_title">Llinterna</string>
   <string name="touchscreen_flashlight_gesture_summary">Dibuxa una V pa conmutar lla luz de la llinterna</string>
-  <string name="touchscreen_music_gesture_summary">Usa xestos pa remanar la reproducción de música:\n
-    • Esliza 2 deos verticalmente pa reproducir/posar\n
-    • Dibuxa una flecha a la esquierda pa retroceder pista\n
-    • Dibuxa una flecha a la derecha p\'avanzar pista</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Coneutar</string>
   <string name="oclick_disconnect_string">Desconeutar</string>

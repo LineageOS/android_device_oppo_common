@@ -29,7 +29,6 @@
   <string name="touchscreen_music_gesture_title">સંગીત</string>
   <string name="touchscreen_flashlight_gesture_title">ફ્લેશલાઇટ</string>
   <string name="touchscreen_flashlight_gesture_summary">ફ્લૅશલાઇટ ટૉગલ કરવા માટે \'V\' દોરો</string>
-  <string name="touchscreen_music_gesture_summary">સંગીત પ્લેબૅક નિયંત્રિત કરવા અંગસ્થિતિઓનો ઉપયોગ કરો \n • પ્લે/પૉઝ કરવા માટે બે આંગળીઓ ઊભી\n • અગાઉના ટ્રૅક માટે ડાબું તીર દોરો\n • આગામી ટ્રૅક માટે જમણું તીર દોરો</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">કનેક્ટ કરો</string>
   <string name="oclick_disconnect_string">ડિસ્કનેક્ટ કરો</string>

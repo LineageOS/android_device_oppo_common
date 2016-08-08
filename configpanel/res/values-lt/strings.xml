@@ -29,7 +29,6 @@
   <string name="touchscreen_music_gesture_title">Muzika</string>
   <string name="touchscreen_flashlight_gesture_title">Žibintuvėlis</string>
   <string name="touchscreen_flashlight_gesture_summary">Nubrėžkite „V“, kad įjungtumėte žibintuvėlį</string>
-  <string name="touchscreen_music_gesture_summary">Naudoti gestus, kad kontroliuoti muzikos atkūrimą \n • Du pirštus vertikaliai - paleisti / sustabdyti\n • Nubrėžti rodyklę kairėn - ankstesnis takelis\n • Nubrėžti rodyklę dešinėn - kitas takelis</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Prisijungti</string>
   <string name="oclick_disconnect_string">Atsijungti</string>

@@ -29,10 +29,6 @@
   <string name="touchscreen_music_gesture_title">Музика</string>
   <string name="touchscreen_flashlight_gesture_title">Лампа</string>
   <string name="touchscreen_flashlight_gesture_summary">Нацртај \'V\' да покренеш лампу</string>
-  <string name="touchscreen_music_gesture_summary">Користи покрете за контролу репродукције музике \n
-• Два прста вертикално на пусти/пауза\n
-• Нацртај леву стрелицу за претходну нумеру\n
-• Нацртај десну стрелицу за следећу нумеру</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Повежи</string>
   <string name="oclick_disconnect_string">Прекини везу</string>

@@ -29,10 +29,6 @@
   <string name="touchscreen_music_gesture_title">Música</string>
   <string name="touchscreen_flashlight_gesture_title">Lanterna</string>
   <string name="touchscreen_flashlight_gesture_summary">Debuxar un \"V\" para cambiar o estado da lanterna</string>
-  <string name="touchscreen_music_gesture_summary">Utilizar xestos para controlar a reprodución de música\n
-    • Deslizar dous dedos verticalmente para reproducir/pausar\n
-    • Debuxar unha frecha para a esquerda para retroceder\n
-    • Debuxar unha frecha para a dereita para avanzar</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Conectar</string>
   <string name="oclick_disconnect_string">Desconectar</string>

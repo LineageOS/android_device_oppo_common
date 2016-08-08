@@ -29,10 +29,6 @@
   <string name="touchscreen_music_gesture_title">Musik</string>
   <string name="touchscreen_flashlight_gesture_title">Ficklampa</string>
   <string name="touchscreen_flashlight_gesture_summary">Rita ett \"V\" för att använda ficklampan</string>
-  <string name="touchscreen_music_gesture_summary">Använd gester för att kontrollera musikuppspelning \n
-    • Två fingrar vertikalt för att spela/pausa\n
-    • Rita en vänsterpil för föregående spår\n
-    • Rita en högerpil för nästa spår</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Anslut</string>
   <string name="oclick_disconnect_string">Koppla från</string>

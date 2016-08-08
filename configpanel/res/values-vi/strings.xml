@@ -29,10 +29,6 @@
   <string name="touchscreen_music_gesture_title">Nhạc</string>
   <string name="touchscreen_flashlight_gesture_title">Đèn pin</string>
   <string name="touchscreen_flashlight_gesture_summary">Vẽ một chữ \'V\' để bật/tắt đèn pin</string>
-  <string name="touchscreen_music_gesture_summary">Dùng cử chỉ để điều khiển quá trình phát lại nhạc \n
-    • Kéo hai ngón tay theo chiều dọc để phát/tạm dừng\n
-    • Kéo mũi tên về bên trái để phát bài trước đó\n
-    • Kéo mũi tên về bên phải để phát bài kế tiếp</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Kết nối</string>
   <string name="oclick_disconnect_string">Ngắt kết nối</string>

@@ -29,10 +29,6 @@
   <string name="touchscreen_music_gesture_title">Musique</string>
   <string name="touchscreen_flashlight_gesture_title">Lampe de poche</string>
   <string name="touchscreen_flashlight_gesture_summary">Dessiner un « V » pour activer ou désactiver la lampe de poche</string>
-  <string name="touchscreen_music_gesture_summary">Utiliser les mouvements pour le contrôle de la musique en lecture \n 
-• deux doigts verticalement pour jouer/pause\n 
-• dessiner une flèche vers la gauche pour la piste précédente\n 
-• dessiner une flèche vers la droite pour la piste suivante</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Connecter</string>
   <string name="oclick_disconnect_string">Déconnecter</string>

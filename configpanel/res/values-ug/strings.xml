@@ -29,10 +29,6 @@
   <string name="touchscreen_music_gesture_title">نەغمە</string>
   <string name="touchscreen_flashlight_gesture_title">قول چىراغ</string>
   <string name="touchscreen_flashlight_gesture_summary">قول چىراغ ئۈچۈن \'V\' سىزىڭ</string>
-  <string name="touchscreen_music_gesture_summary">قول ئىشارىتىدە نەغمە قويۇشنى تىزگىنلەيدۇ \n
-    • ئىككى بارماق بويىغا ئىككى سېرىلسا نەغمە چېلىپ/ۋاقىتلىق توختايدۇ\n
-    • سول يا ئوق سىزىلسا ئالدىنقى ناخشا\n
-    • ئوڭ يا ئوق سىزىلسا كېيىنكى ناخشا</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">ئۇلاش</string>
   <string name="oclick_disconnect_string">ئۈز</string>

@@ -29,7 +29,6 @@
   <string name="touchscreen_music_gesture_title">Muzyka</string>
   <string name="touchscreen_flashlight_gesture_title">Latarka</string>
   <string name="touchscreen_flashlight_gesture_summary">Narysuj \'V\', aby włączyć latarkę</string>
-  <string name="touchscreen_music_gesture_summary">Użyj gestów do kontroli odtwarzania muzyki\n• Przesuń dwa palce pionowo dla odtwarzania/pauzy\n• Narysuj lewą strzałkę dla poprzedniego utworu\n• Narysuj prawą strzałkę dla następnego utworu</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Połącz</string>
   <string name="oclick_disconnect_string">Rozłącz</string>

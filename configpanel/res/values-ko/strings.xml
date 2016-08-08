@@ -29,10 +29,6 @@
   <string name="touchscreen_music_gesture_title">음악</string>
   <string name="touchscreen_flashlight_gesture_title">손전등</string>
   <string name="touchscreen_flashlight_gesture_summary">\'V\'를 그려 손전등 토글</string>
-  <string name="touchscreen_music_gesture_summary">제스처를 사용하여 음악을 제어합니다 \n
-    • 두 손가락을 세로로 움직여 재생/일시정지\n
-    • 왼쪽 화살표를 그려 이전 트랙으로\n
-    • 오른쪽 화살표를 그려 다음 트랙으로</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">연결</string>
   <string name="oclick_disconnect_string">연결 해제</string>

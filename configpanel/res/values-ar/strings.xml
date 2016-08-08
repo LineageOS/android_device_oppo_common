@@ -29,10 +29,6 @@
   <string name="touchscreen_music_gesture_title">موسيقى</string>
   <string name="touchscreen_flashlight_gesture_title">كشاف</string>
   <string name="touchscreen_flashlight_gesture_summary">رسم \'V\' للتبديل بين الكشاف</string>
-  <string name="touchscreen_music_gesture_summary">استخدام الإيماءات للتحكم في قائمة تشغيل الموسيقى \n
- • اصبعين عمودياً للتشغيل/إيقاف\n 
-• رسم السهم الأيسر للمسار السابق\n 
-• رسم السهم الأيمن للمسار التالي</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">الاتصال</string>
   <string name="oclick_disconnect_string">فصل</string>

@@ -29,10 +29,6 @@
   <string name="touchscreen_music_gesture_title">Musikk</string>
   <string name="touchscreen_flashlight_gesture_title">Lommelykt</string>
   <string name="touchscreen_flashlight_gesture_summary">Tegne en \'V\' for å aktivere lommelykt</string>
-  <string name="touchscreen_music_gesture_summary">Bruk bevegelser til å kontrollere musikk avspilling \n
-• to fingre loddrett for å spille/pause\n
-• trekke venstrepilen for tidligere sport\n
-• trekke høyrepilen for neste spor</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Koble til</string>
   <string name="oclick_disconnect_string">Koble fra</string>

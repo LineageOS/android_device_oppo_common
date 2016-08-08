@@ -29,7 +29,6 @@
   <string name="touchscreen_music_gesture_title">సంగీతం</string>
   <string name="touchscreen_flashlight_gesture_title">ఫ్లాష్‌లైట్</string>
   <string name="touchscreen_flashlight_gesture_summary">ఫ్లాష్ లైటును ద్విక్రియం చేసేందుకు \'V\'ను గీయండి</string>
-  <string name="touchscreen_music_gesture_summary">సంగీతం ప్లేబ్యాకును నియంత్రించేందుకు సంజ్ఞలను ఉపయోగించండి  \n • ప్లే/నిలిపివేసేందుకు రెండు వెళ్ళను నిలువుగా ఉంచండి\n • పూర్వపు పాటను ప్లే చేసేందుకు ఎడమ బాణాన్ని గీయండి\n • తరువాతి పాట కొరకు కుడి బాణాన్ని గీయండి</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">కనెక్ట్ చేయి</string>
   <string name="oclick_disconnect_string">డిస్‌కనెక్ట్ చేయి</string>

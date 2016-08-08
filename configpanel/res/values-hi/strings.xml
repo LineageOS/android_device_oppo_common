@@ -29,10 +29,6 @@
   <string name="touchscreen_music_gesture_title">संगीत</string>
   <string name="touchscreen_flashlight_gesture_title">टॉर्च</string>
   <string name="touchscreen_flashlight_gesture_summary">टॉर्च को चालू-बंद करने के लिए \'वी\' बनाएँ</string>
-  <string name="touchscreen_music_gesture_summary">संगीत के प्लेबैक को नियंत्रित करने के लिए गेश्चर का प्रयोग करें \n
-    • प्ले/पॉज़ करने के लिए दो खड़ी उँगलियाँ\n
-    • पिछले गाने के लिए बायाँ तीर बनाएँ\n
-    • अगले गाने के लिए दायीं दायाँ तीर बनाएँ</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">कनेक्ट करें</string>
   <string name="oclick_disconnect_string">डिसकनेक्ट करें</string>

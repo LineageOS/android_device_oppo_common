@@ -29,10 +29,6 @@
   <string name="touchscreen_music_gesture_title">موسیقی</string>
   <string name="touchscreen_flashlight_gesture_title">چراغ‌قوه</string>
   <string name="touchscreen_flashlight_gesture_summary">حرف \'V\' را رسم کنید تا چراغ‌قوه فعال شود</string>
-  <string name="touchscreen_music_gesture_summary">برای کنترل موسیقی از حرکات دست استفاده کنید \n
-    • دو انگشت عمودی برای پخش/توقف \n
-    • فلش به سمت چپ برای آهنگ قبلی\n
-    • فلش به سمت راست برای آهنگ بعدی</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">اتصال</string>
   <string name="oclick_disconnect_string">قطع ارتباط</string>

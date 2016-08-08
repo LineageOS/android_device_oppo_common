@@ -29,10 +29,6 @@
   <string name="touchscreen_music_gesture_title">Musik</string>
   <string name="touchscreen_flashlight_gesture_title">Taschenlampe</string>
   <string name="touchscreen_flashlight_gesture_summary">\"V\" zeichnen, um die Taschenlampe ein-/auszuschalten</string>
-  <string name="touchscreen_music_gesture_summary">Musikwiedergabe durch Gesten steuern \n
-    • Zwei Finger vertikal für Play/Pause\n
-    • Pfeil nach links für vorherigen Titel\n
-    • Pfeil nach rechts für nächsten Titel</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Verbinden</string>
   <string name="oclick_disconnect_string">Trennen</string>

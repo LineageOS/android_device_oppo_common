@@ -29,7 +29,6 @@
   <string name="touchscreen_music_gesture_title">ସଙ୍ଗୀତ</string>
   <string name="touchscreen_flashlight_gesture_title">ଫ୍ଲାସଲାଇଟ୍</string>
   <string name="touchscreen_flashlight_gesture_summary">ଫ୍ଲାସ୍‍ଲାଇଟ୍‍ ଟୋଗଲ୍‍ କରିବା ପାଇଁ ଏକ \'V\' ଆଙ୍କନ୍ତୁ</string>
-  <string name="touchscreen_music_gesture_summary">ମ୍ୟୁଜିକ୍‍ ପ୍ଲେବ୍ୟାକ୍‍କୁ ନିୟନ୍ତ୍ରଣ କରିବା ପାଇଁ ଅଙ୍ଗଭଙ୍ଗୀ୍ସ ବ୍ୟବହାର କରନ୍ତୁ\n। ପ୍ଲେ/ପଜ୍‍ କରିବା ପାଇଁ ଦୁଇଟି ଆଙ୍ଗୁଠି ଭୂଲମ୍ବଭାବେ ବୟବହାର କରନ୍ତୁ\n। ପୂର୍ବ ଟ୍ରାକ୍‍ ପାଇଁ ବାମ ତୀର ଆଙ୍କନ୍ତୁ\n। ପର ଟ୍ରାକ୍‍ ପାଇଁ ଡାହାଣ ତୀର ଆଙ୍କନ୍ତୁ</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">ସଂଯୋଗ କରନ୍ତୁ</string>
   <string name="oclick_disconnect_string">ବିଚ୍ଛିନ୍ନ କରନ୍ତୁ</string>

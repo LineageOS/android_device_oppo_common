@@ -29,10 +29,6 @@
   <string name="touchscreen_music_gesture_title">Muziek</string>
   <string name="touchscreen_flashlight_gesture_title">Zaklamp</string>
   <string name="touchscreen_flashlight_gesture_summary">Teken een \"V\" om zaklamp aan/uit te zetten</string>
-  <string name="touchscreen_music_gesture_summary">Gebaren gebruiken om muziek te bedienen \n
-    • Twee vingers verticaal voor afspelen/pauzeren\n
-    • Pijl links tekenen voor vorig nummer\n
-    • Pijl rechts tekenen voor volgend nummer</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Verbinding maken</string>
   <string name="oclick_disconnect_string">Verbinding verbreken</string>

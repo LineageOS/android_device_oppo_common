@@ -29,10 +29,6 @@
   <string name="touchscreen_music_gesture_title">Musiek</string>
   <string name="touchscreen_flashlight_gesture_title">Fits</string>
   <string name="touchscreen_flashlight_gesture_summary">Teken \'n \'V\' om flits aan/af te skakel</string>
-  <string name="touchscreen_music_gesture_summary">Gebruik gebare om musiek te beheer \n
-        • Twee vingers vertikaal om te speel/pouse\n
-        • Teken linker pyl vir vorige snit\n
-        • Maak regte pyl vir volgende snit</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">koppel</string>
   <string name="oclick_disconnect_string">ontkoppel</string>

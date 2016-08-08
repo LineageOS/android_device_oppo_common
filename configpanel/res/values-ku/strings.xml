@@ -29,10 +29,6 @@
   <string name="touchscreen_music_gesture_title">مۆسیقا</string>
   <string name="touchscreen_flashlight_gesture_title">فلاش لایت</string>
   <string name="touchscreen_flashlight_gesture_summary">\'v\' بکێشە بۆ کردنەوەی فلاش لایت</string>
-  <string name="touchscreen_music_gesture_summary">به‌کارهێنانی جوڵه‌ بۆ کۆنترۆڵکردنی لێدانه‌وه‌ی مۆسیقا \n
-به‌ ئەستونی په‌نجه‌کانت لێبده‌ بۆ لێدان/وه‌ستانی \n
-ده‌ست بکێشه‌ بۆ چه‌پ تڕاکی پێشووتر \n
-ده‌ستبکێشه‌ بۆ ڕاست بۆ لێدانی تڕاکی داهاتوو</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">په‌یوه‌ندیکردن</string>
   <string name="oclick_disconnect_string">پچڕانی پەیوەندی</string>

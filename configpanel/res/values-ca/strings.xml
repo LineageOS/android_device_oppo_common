@@ -31,8 +31,8 @@
   <string name="touchscreen_flashlight_gesture_summary">Dibuixa una \'V\' per canviar a la llanterna</string>
   <string name="touchscreen_music_gesture_summary">Utilitza gestos per controlar la reproducció de música \n
     • Dos dits verticalment per reproduir/pausar\n
-    • Dibuixa una fletxa a l\'esquerra per anar a la pista anterior\n
-    • Dibuixa una fletxa a la dreta per anar a la pista següent</string>
+    • Dibuixa una fletxa a l\'esquerra (\'&lt;\') per anar a la pista anterior\n
+    • Dibuixa una fletxa a la dreta (\'&gt;\') per anar a la pista següent</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Connecta</string>
   <string name="oclick_disconnect_string">Desconnecta</string>

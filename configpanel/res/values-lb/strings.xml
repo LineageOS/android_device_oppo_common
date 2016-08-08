@@ -29,10 +29,6 @@
   <string name="touchscreen_music_gesture_title">Musek</string>
   <string name="touchscreen_flashlight_gesture_title">Täscheluucht</string>
   <string name="touchscreen_flashlight_gesture_summary">\'V\' zeechnen, fir d\'Täscheluucht un-/auszemaachen</string>
-  <string name="touchscreen_music_gesture_summary">Benotz Geste fir d\'Musek ze steieren\n
-    • Zwéi Fangere vertikal fir Ofspillen/Paus\n
-    • Feil no lénks zeechne fir dat Stéck vu virdrun\n
-    • Feil no riets zeechne fir dat nächst Stéck</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Connectéieren</string>
   <string name="oclick_disconnect_string">Déconnectéieren</string>

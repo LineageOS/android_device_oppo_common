@@ -29,7 +29,6 @@
   <string name="touchscreen_music_gesture_title">இசை</string>
   <string name="touchscreen_flashlight_gesture_title">ஃபிளாஷ்லைட்</string>
   <string name="touchscreen_flashlight_gesture_summary">ஃப்ளாஷ்லைட்டை நிலைமாற்றல் ஒரு \'V\' வரை</string>
-  <string name="touchscreen_music_gesture_summary">இசை மறு இயக்கத்தைக் கட்டுப்படுத்த குறிப்புணர்வுகளைப் பயன்படுத்து  \n • ப்ளே/நிற்க இரண்டு விரல்கள் செங்குத்தாக\n • முந்தைய தடத்திற்கு இடது அம்பு வரை\n • அடுத்த தடத்திற்கு வலது அம்பு வரை</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">இணை</string>
   <string name="oclick_disconnect_string">தொடர்பைத் துண்டி</string>

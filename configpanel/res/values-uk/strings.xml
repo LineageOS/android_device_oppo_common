@@ -29,7 +29,6 @@
   <string name="touchscreen_music_gesture_title">Музика</string>
   <string name="touchscreen_flashlight_gesture_title">Ліхтарик</string>
   <string name="touchscreen_flashlight_gesture_summary">Намалюйте \'V\' аби перемкнути ліхтарик</string>
-  <string name="touchscreen_music_gesture_summary">Використовуйте жести для управління плеєром: \n• Проведіть двома пальцями вгору або вниз для відтворення або паузи\n• Намалюйте стрілку вліво для переходу до попереднього треку\n• Намалюйте стрілку вправо для переходу до наступного треку</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Підключитись</string>
   <string name="oclick_disconnect_string">Відключитись</string>

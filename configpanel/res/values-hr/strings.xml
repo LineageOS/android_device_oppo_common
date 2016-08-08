@@ -29,10 +29,6 @@
   <string name="touchscreen_music_gesture_title">Glazba</string>
   <string name="touchscreen_flashlight_gesture_title">Bljeskalica</string>
   <string name="touchscreen_flashlight_gesture_summary">Nacrtajte \"V\" za upravljanje bljeskalicom.</string>
-  <string name="touchscreen_music_gesture_summary">Koristite se gestama za upravljanje reprodukcijom glazbe \n
-    • Povucite dva prsta okomito za reprodukciju/pauzu\n
-    • Nacrtajte strelicu prema lijevo za prethodnu pjesmu\n
-    • Nacrtajte strelicu prema desno za sljedeću pjesmu</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Spoji</string>
   <string name="oclick_disconnect_string">Odspoji</string>

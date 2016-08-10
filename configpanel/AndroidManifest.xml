@@ -36,8 +36,17 @@
         android:defaultToDeviceProtectedStorage="true"
         android:directBootAware="true">
 
-        <!-- stub to ensure its loaded - DO NOT REMOVE -->
-        <activity android:name=".KeyHandler"/>
+        <provider
+            android:name=".ConfigPanelSearchIndexablesProvider"
+            android:authorities="com.cyanogenmod.settings.device"
+            android:multiprocess="false"
+            android:grantUriPermissions="true"
+            android:permission="android.permission.READ_SEARCH_INDEXABLES"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.content.action.SEARCH_INDEXABLES_PROVIDER" />
+            </intent-filter>
+        </provider>
 
         <service android:name=".OclickService" />
         <activity

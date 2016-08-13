@@ -29,6 +29,10 @@
   <string name="touchscreen_music_gesture_title">מוזיקה</string>
   <string name="touchscreen_flashlight_gesture_title">פנס</string>
   <string name="touchscreen_flashlight_gesture_summary">צייר V להפעלת/כיבוי הפנס</string>
+  <string name="touchscreen_music_gesture_summary">השתמש במחוות כדי לשלוט בהשמעת מוזיקה\n
+    • שתי אצבעות אנכית להפעלה\השהייה\n
+    • ציור חץ שמאלה (\'&lt;\') לחזרה לרצועה הקודמת\n
+    • ציור חץ ימינה (\'&gt;\') למעבר לרצועה הבאה</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">התחבר</string>
   <string name="oclick_disconnect_string">התנתק</string>

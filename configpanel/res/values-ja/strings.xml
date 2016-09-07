@@ -29,6 +29,10 @@
   <string name="touchscreen_music_gesture_title">音楽</string>
   <string name="touchscreen_flashlight_gesture_title">フラッシュライト</string>
   <string name="touchscreen_flashlight_gesture_summary">Vを描いてフラッシュライトを切り替える</string>
+  <string name="touchscreen_music_gesture_summary">ジェスチャーを使用して音楽の再生をコントロールする\n
+    • 2本の指を垂直にスワイプして再生/停止する\n
+    • 左矢印（\'&lt;\'）を描いて前のトラックに戻る\n
+    • 右矢印（\'&gt;\'）を描いて次のトラックに進む</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">接続</string>
   <string name="oclick_disconnect_string">切断</string>

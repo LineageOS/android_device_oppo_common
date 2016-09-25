@@ -52,6 +52,10 @@
   <string name="oclick_notification_title_disconnected">O-Click frånkopplad</string>
   <string name="oclick_notification_content_disconnected">Tryck på O-Click knappen för att återansluta</string>
   <!-- Button settings -->
+  <string name="button_panel_title">Ytterligare knappar</string>
+  <string name="button_swap_title">Växla knappar</string>
   <!-- Notification slider -->
+  <string name="notification_slider_mode_alarms_only">Endast alarm</string>
+  <string name="notification_slider_mode_priority_only">Endast prioriterat</string>
   <string name="notification_slider_mode_none">Ingen</string>
 </resources>

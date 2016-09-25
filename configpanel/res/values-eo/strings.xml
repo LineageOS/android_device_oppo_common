@@ -32,7 +32,6 @@
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Konektiĝi</string>
   <string name="oclick_disconnect_string">Malkonektiĝi</string>
-  <string name="oclick_summary_connected">Konektita al O-Click</string>
   <string name="oclick_summary_paired">O-Click ligita, sed malkonektita</string>
   <string name="oclick_dialog_connecting_message">Konektado al O-Click\u2026\nPremu la O-Click butonon por rapidigi la malkovradon.</string>
   <string name="oclick_take_snapshot_title">Defore ekagigi fotilon</string>

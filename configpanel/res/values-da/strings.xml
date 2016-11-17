@@ -29,6 +29,10 @@
   <string name="touchscreen_music_gesture_title">Musik</string>
   <string name="touchscreen_flashlight_gesture_title">Lommelygte</string>
   <string name="touchscreen_flashlight_gesture_summary">Tegn et \'V\' for at tænde lommelygten</string>
+  <string name="touchscreen_music_gesture_summary">Brug bevægelser for at styre musikafspilning \n
+    • To fingre vertikalt for at afspille/pause\n
+    • Tegn en venstrepil (\'&lt;\') for forrige musiknummer\n
+    • Tegn en højrepil (\'&gt;\') for næste musiknummer</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Forbind</string>
   <string name="oclick_disconnect_string">Afbryd</string>

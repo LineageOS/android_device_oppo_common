@@ -29,6 +29,10 @@
   <string name="touchscreen_music_gesture_title">音楽</string>
   <string name="touchscreen_flashlight_gesture_title">フラッシュライト</string>
   <string name="touchscreen_flashlight_gesture_summary">Vを描いてフラッシュライトを切り替える</string>
+  <string name="touchscreen_music_gesture_summary">ジェスチャーを使用して音楽の再生をコントロールする\n
+    • 2本の指を垂直にスワイプして再生/停止する\n
+    • 左矢印（&lt;）を描いて前のトラックに戻る\n
+    • 右矢印（&gt;）を描いて次のトラックに進む</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">接続</string>
   <string name="oclick_disconnect_string">切断</string>
@@ -36,7 +40,7 @@
   <string name="oclick_summary_paired">O-Clickはペアリングされていますが、接続していません</string>
   <string name="oclick_dialog_connecting_message">O-Clickに接続しています\u2026\nO-Clickボタンをクリックすると早く接続できます。</string>
   <string name="oclick_take_snapshot_title">リモートカメラシャッター</string>
-  <string name="oclick_take_snapshot_summary">シングルクリックで写真を撮る</string>
+  <string name="oclick_take_snapshot_summary">シングルクリックで写真を撮影する</string>
   <string name="oclick_find_my_phone_title">携帯電話ロケータ</string>
   <string name="oclick_find_my_phone_summary">ダブルクリックで携帯電話を探す</string>
   <string name="oclick_fence_title">接近警告</string>
@@ -52,5 +56,17 @@
   <string name="oclick_notification_title_disconnected">O-Clickが切断しました</string>
   <string name="oclick_notification_content_disconnected">O-Clickボタンをクリックして再接続します</string>
   <!-- Button settings -->
+  <string name="button_panel_title">追加のボタン</string>
+  <string name="button_swap_title">ボタンを入れ替える</string>
+  <string name="button_swap_summary">[履歴]ボタンと[戻る]ボタンの順番を入れ替える</string>
   <!-- Notification slider -->
+  <string name="notification_slider_category_title">通知スライダー</string>
+  <string name="notification_slider_selection_dialog_title">動作</string>
+  <string name="notification_slider_top_position">上部</string>
+  <string name="notification_slider_middle_position">中央</string>
+  <string name="notification_slider_bottom_position">下部</string>
+  <string name="notification_slider_mode_total_silence">完全にサイレント</string>
+  <string name="notification_slider_mode_alarms_only">アラームのみ</string>
+  <string name="notification_slider_mode_priority_only">優先する通知のみ</string>
+  <string name="notification_slider_mode_none">なし</string>
 </resources>

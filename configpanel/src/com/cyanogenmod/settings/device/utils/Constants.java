@@ -37,10 +37,6 @@ public class Constants {
     public static final String OCLICK_FIND_PHONE_KEY = "oclick_find_my_phone";
     public static final String OCLICK_FENCE_KEY = "oclick_fence";
     public static final String OCLICK_DISCONNECT_ALERT_KEY = "oclick_disconnect_alert";
-    public static final String TOUCHSCREEN_CAMERA_GESTURE_KEY = "touchscreen_gesture_camera";
-    public static final String TOUCHSCREEN_MUSIC_GESTURE_KEY = "touchscreen_gesture_music";
-    public static final String TOUCHSCREEN_FLASHLIGHT_GESTURE_KEY =
-            "touchscreen_gesture_flashlight";
     public static final String BUTTON_SWAP_KEY = "button_swap";
     public static final String NOTIF_SLIDER_TOP_KEY = "keycode_top_position";
     public static final String NOTIF_SLIDER_MIDDLE_KEY = "keycode_middle_position";
@@ -48,15 +44,9 @@ public class Constants {
 
     // Proc nodes
     public static final String TOUCH_PAD_NODE = "/proc/touchpad/enable";
-    public static final String TOUCHSCREEN_CAMERA_NODE = "/proc/touchpanel/camera_enable";
-    public static final String TOUCHSCREEN_MUSIC_NODE = "/proc/touchpanel/music_enable";
-    public static final String TOUCHSCREEN_FLASHLIGHT_NODE = "/proc/touchpanel/flashlight_enable";
 
     // Proc nodes default values
     public static final boolean TOUCH_PAD_DEFAULT = false;
-    public static final boolean TOUCHSCREEN_CAMERA_DEFAULT = true;
-    public static final boolean TOUCHSCREEN_MUSIC_DEFAULT = true;
-    public static final boolean TOUCHSCREEN_FLASHLIGHT_DEFAULT = true;
 
     // Button nodes
     public static final String BUTTON_SWAP_NODE = "/proc/s1302/key_rep";
@@ -71,12 +61,6 @@ public class Constants {
     // Holds <preference_key> -> <default_values> mapping
     public static final Map<String, Object> sNodeDefaultMap = new HashMap<>();
 
-    public static final String[] sGesturePrefKeys = {
-        TOUCHSCREEN_CAMERA_GESTURE_KEY,
-        TOUCHSCREEN_MUSIC_GESTURE_KEY,
-        TOUCHSCREEN_FLASHLIGHT_GESTURE_KEY
-    };
-
     public static final String[] sButtonPrefKeys = {
         BUTTON_SWAP_KEY,
         NOTIF_SLIDER_TOP_KEY,
@@ -86,19 +70,12 @@ public class Constants {
 
     static {
         sBooleanNodePreferenceMap.put(TOUCHPAD_STATE_KEY, TOUCH_PAD_NODE);
-        sBooleanNodePreferenceMap.put(TOUCHSCREEN_CAMERA_GESTURE_KEY, TOUCHSCREEN_CAMERA_NODE);
-        sBooleanNodePreferenceMap.put(TOUCHSCREEN_MUSIC_GESTURE_KEY, TOUCHSCREEN_MUSIC_NODE);
-        sBooleanNodePreferenceMap.put(TOUCHSCREEN_FLASHLIGHT_GESTURE_KEY,
-                TOUCHSCREEN_FLASHLIGHT_NODE);
         sBooleanNodePreferenceMap.put(BUTTON_SWAP_KEY, BUTTON_SWAP_NODE);
         sStringNodePreferenceMap.put(NOTIF_SLIDER_TOP_KEY, NOTIF_SLIDER_TOP_NODE);
         sStringNodePreferenceMap.put(NOTIF_SLIDER_MIDDLE_KEY, NOTIF_SLIDER_MIDDLE_NODE);
         sStringNodePreferenceMap.put(NOTIF_SLIDER_BOTTOM_KEY, NOTIF_SLIDER_BOTTOM_NODE);
 
         sNodeDefaultMap.put(TOUCHPAD_STATE_KEY, TOUCH_PAD_DEFAULT);
-        sNodeDefaultMap.put(TOUCHSCREEN_CAMERA_GESTURE_KEY, TOUCHSCREEN_CAMERA_DEFAULT);
-        sNodeDefaultMap.put(TOUCHSCREEN_MUSIC_GESTURE_KEY, TOUCHSCREEN_MUSIC_DEFAULT);
-        sNodeDefaultMap.put(TOUCHSCREEN_FLASHLIGHT_GESTURE_KEY, TOUCHSCREEN_FLASHLIGHT_DEFAULT);
         sNodeDefaultMap.put(TOUCHPAD_DOUBLETAP_KEY, false);
         sNodeDefaultMap.put(TOUCHPAD_LONGPRESS_KEY, false);
         sNodeDefaultMap.put(BUTTON_SWAP_KEY, false);

@@ -25,9 +25,6 @@ import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
-import android.hardware.camera2.CameraAccessException;
-import android.hardware.camera2.CameraCharacteristics;
-import android.hardware.camera2.CameraManager;
 import android.media.session.MediaSessionLegacyHelper;
 import android.os.Handler;
 import android.os.Message;
@@ -52,26 +49,12 @@ public class KeyHandler implements DeviceKeyHandler {
 
     // Supported scancodes
     private static final int FLIP_CAMERA_SCANCODE = 249;
-    private static final int GESTURE_CIRCLE_SCANCODE = 250;
-    private static final int GESTURE_SWIPE_DOWN_SCANCODE = 251;
-    private static final int GESTURE_V_SCANCODE = 252;
-    private static final int GESTURE_LTR_SCANCODE = 253;
-    private static final int GESTURE_GTR_SCANCODE = 254;
     private static final int MODE_TOTAL_SILENCE = 600;
     private static final int MODE_ALARMS_ONLY = 601;
     private static final int MODE_PRIORITY_ONLY = 602;
     private static final int MODE_NONE = 603;
 
     private static final int GESTURE_WAKELOCK_DURATION = 3000;
-
-    private static final int[] sSupportedGestures = new int[] {
-        FLIP_CAMERA_SCANCODE,
-        GESTURE_CIRCLE_SCANCODE,
-        GESTURE_SWIPE_DOWN_SCANCODE,
-        GESTURE_V_SCANCODE,
-        GESTURE_LTR_SCANCODE,
-        GESTURE_GTR_SCANCODE
-    };
 
     private static final SparseIntArray sSupportedSliderModes = new SparseIntArray();
     static {
@@ -87,9 +70,6 @@ public class KeyHandler implements DeviceKeyHandler {
     private final NotificationManager mNotificationManager;
     private EventHandler mEventHandler;
     private SensorManager mSensorManager;
-    private CameraManager mCameraManager;
-    private String mRearCameraId;
-    private boolean mTorchEnabled;
     private Sensor mProximitySensor;
     private Vibrator mVibrator;
     WakeLock mProximityWakeLock;
@@ -123,84 +103,18 @@ public class KeyHandler implements DeviceKeyHandler {
         if (mVibrator == null || !mVibrator.hasVibrator()) {
             mVibrator = null;
         }
-
-        mCameraManager = (CameraManager) mContext.getSystemService(Context.CAMERA_SERVICE);
-        mCameraManager.registerTorchCallback(new MyTorchCallback(), mEventHandler);
-    }
-
-    private class MyTorchCallback extends CameraManager.TorchCallback {
-        @Override
-        public void onTorchModeChanged(String cameraId, boolean enabled) {
-            if (!cameraId.equals(mRearCameraId))
-                return;
-            mTorchEnabled = enabled;
-        }
-
-        @Override
-        public void onTorchModeUnavailable(String cameraId) {
-            if (!cameraId.equals(mRearCameraId))
-                return;
-            mTorchEnabled = false;
-        }
-    }
-
-    private String getRearCameraId() {
-        if (mRearCameraId == null) {
-            try {
-                for (final String cameraId : mCameraManager.getCameraIdList()) {
-                    CameraCharacteristics characteristics =
-                            mCameraManager.getCameraCharacteristics(cameraId);
-                    int cOrientation = characteristics.get(CameraCharacteristics.LENS_FACING);
-                    if (cOrientation == CameraCharacteristics.LENS_FACING_BACK) {
-                        mRearCameraId = cameraId;
-                        break;
-                    }
-                }
-            } catch (CameraAccessException e) {
-                // Ignore
-            }
-        }
-        return mRearCameraId;
     }
 
     private class EventHandler extends Handler {
         @Override
         public void handleMessage(Message msg) {
-            switch (msg.arg1) {
-            case FLIP_CAMERA_SCANCODE:
-            case GESTURE_CIRCLE_SCANCODE:
+            if (msg.arg1 == FLIP_CAMERA_SCANCODE) {
                 mGestureWakeLock.acquire(GESTURE_WAKELOCK_DURATION);
 
-                Intent intent = new Intent(cyanogenmod.content.Intent.ACTION_SCREEN_CAMERA_GESTURE);
+                Intent intent = new Intent(
+                        cyanogenmod.content.Intent.ACTION_SCREEN_CAMERA_GESTURE);
                 mContext.sendBroadcast(intent, Manifest.permission.STATUS_BAR_SERVICE);
                 doHapticFeedback();
-                break;
-            case GESTURE_SWIPE_DOWN_SCANCODE:
-                dispatchMediaKeyWithWakeLockToMediaSession(KeyEvent.KEYCODE_MEDIA_PLAY_PAUSE);
-                doHapticFeedback();
-                break;
-            case GESTURE_V_SCANCODE: {
-                String rearCameraId = getRearCameraId();
-                if (rearCameraId != null) {
-                    mGestureWakeLock.acquire(GESTURE_WAKELOCK_DURATION);
-                    try {
-                        mCameraManager.setTorchMode(rearCameraId, !mTorchEnabled);
-                        mTorchEnabled = !mTorchEnabled;
-                    } catch (CameraAccessException e) {
-                        // Ignore
-                    }
-                    doHapticFeedback();
-                }
-                break;
-            }
-            case GESTURE_LTR_SCANCODE:
-                dispatchMediaKeyWithWakeLockToMediaSession(KeyEvent.KEYCODE_MEDIA_PREVIOUS);
-                doHapticFeedback();
-                break;
-            case GESTURE_GTR_SCANCODE:
-                dispatchMediaKeyWithWakeLockToMediaSession(KeyEvent.KEYCODE_MEDIA_NEXT);
-                doHapticFeedback();
-                break;
             }
         }
     }
@@ -212,7 +126,7 @@ public class KeyHandler implements DeviceKeyHandler {
 
     public boolean handleKeyEvent(KeyEvent event) {
         int scanCode = event.getScanCode();
-        boolean isKeySupported = ArrayUtils.contains(sSupportedGestures, scanCode);
+        boolean isKeySupported = scanCode == FLIP_CAMERA_SCANCODE;
         boolean isSliderModeSupported = sSupportedSliderModes.indexOfKey(scanCode) >= 0;
         if (!isKeySupported && !isSliderModeSupported) {
             return false;
@@ -278,19 +192,6 @@ public class KeyHandler implements DeviceKeyHandler {
             public void onAccuracyChanged(Sensor sensor, int accuracy) {}
 
         }, mProximitySensor, SensorManager.SENSOR_DELAY_FASTEST);
-    }
-
-    private void dispatchMediaKeyWithWakeLockToMediaSession(int keycode) {
-        MediaSessionLegacyHelper helper = MediaSessionLegacyHelper.getHelper(mContext);
-        if (helper != null) {
-            KeyEvent event = new KeyEvent(SystemClock.uptimeMillis(),
-                    SystemClock.uptimeMillis(), KeyEvent.ACTION_DOWN, keycode, 0);
-            helper.sendMediaButtonEvent(event, true);
-            event = KeyEvent.changeAction(event, KeyEvent.ACTION_UP);
-            helper.sendMediaButtonEvent(event, true);
-        } else {
-            Log.w(TAG, "Unable to send media key event");
-        }
     }
 
     private void doHapticFeedback() {

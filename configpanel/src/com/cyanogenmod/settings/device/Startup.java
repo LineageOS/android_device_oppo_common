@@ -54,22 +54,6 @@ public class Startup extends BroadcastReceiver {
     public void onReceive(final Context context, final Intent intent) {
         final String action = intent.getAction();
         if (cyanogenmod.content.Intent.ACTION_INITIALIZE_CM_HARDWARE.equals(action)) {
-            // Disable touchscreen gesture settings if needed
-            if (!hasTouchscreenGestures()) {
-                disableComponent(context, TouchscreenGestureSettings.class.getName());
-            } else {
-                enableComponent(context, TouchscreenGestureSettings.class.getName());
-                // Restore nodes to saved preference values
-                for (String pref : Constants.sGesturePrefKeys) {
-                    boolean value = Constants.isPreferenceEnabled(context, pref);
-                    String node = Constants.sBooleanNodePreferenceMap.get(pref);
-                    if (!FileUtils.writeLine(node, value ? "1" : "0")) {
-                        Log.w(TAG, "Write to node " + node +
-                            " failed while restoring saved preference values");
-                    }
-                }
-            }
-
             // Disable backtouch settings if needed
             if (hasGestureService(context)) {
                 disableComponent(context, GesturePadSettings.class.getName());
@@ -182,12 +166,6 @@ public class Startup extends BroadcastReceiver {
     static boolean hasGestureService(Context context) {
         return !context.getResources().getBoolean(
                 com.android.internal.R.bool.config_enableGestureService);
-    }
-
-    static  boolean hasTouchscreenGestures() {
-        return new File(Constants.TOUCHSCREEN_CAMERA_NODE).exists() &&
-            new File(Constants.TOUCHSCREEN_MUSIC_NODE).exists() &&
-            new File(Constants.TOUCHSCREEN_FLASHLIGHT_NODE).exists();
     }
 
     static boolean hasButtonProcs() {

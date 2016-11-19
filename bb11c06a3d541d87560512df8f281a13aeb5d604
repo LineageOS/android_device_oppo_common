@@ -1,0 +1,22 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff2e2bb8_285a0482",
+        "filename": "cmhw/org/cyanogenmod/hardware/TouchscreenGestures.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2016-11-19T18:42:34Z",
+      "side": 1,
+      "message": "This array can be constant (static final), the GESTURE_PATHS array can be inlined into it.\n\nAlternatively, it can be made a map indexed by ID and values() be returned here.",
+      "parentUuid": "",
+      "revId": "bb11c06a3d541d87560512df8f281a13aeb5d604",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

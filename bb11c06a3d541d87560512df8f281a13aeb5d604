@@ -17,6 +17,23 @@
       "revId": "bb11c06a3d541d87560512df8f281a13aeb5d604",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff2e2bb8_6857ec59",
+        "filename": "cmhw/org/cyanogenmod/hardware/TouchscreenGestures.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2016-11-19T18:44:02Z",
+      "side": 1,
+      "message": "FileUtils.readOneLine(gesture.path)",
+      "revId": "bb11c06a3d541d87560512df8f281a13aeb5d604",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }

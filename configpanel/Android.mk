@@ -25,6 +25,10 @@ LOCAL_PACKAGE_NAME := ConfigPanel
 LOCAL_STATIC_JAVA_LIBRARIES := \
     org.cyanogenmod.platform.internal
 
+LOCAL_RESOURCE_DIR := \
+    $(LOCAL_PATH)/res \
+    $(LOCAL_PATH)/../../../../packages/resources/devicesettings/res
+
 LOCAL_MODULE_TAGS := optional
 
 include $(BUILD_PACKAGE)

@@ -16,7 +16,7 @@
 -->
 <resources>
     <!-- Palette colors referenced by top-level themes. -->
-    <color name="theme_primary">#ff212121</color>
-    <color name="theme_primary_dark">#ff000000</color>
-    <color name="theme_accent">#ff009688</color>
+    <color name="theme_primary">@*android:color/material_pixel_blue_light</color>
+    <color name="theme_primary_dark">@*android:color/material_pixel_blue_dark</color>
+    <color name="theme_accent">@*android:color/material_pixel_blue_bright</color>
 </resources>

@@ -58,6 +58,7 @@
   <!-- Button settings -->
   <string name="button_panel_title">Botões adicionais</string>
   <string name="button_swap_title">Trocar botões</string>
+  <string name="button_swap_summary">Trocar a ordem dos botões Visão geral e Anterior</string>
   <!-- Notification slider -->
   <string name="notification_slider_category_title">Botão deslizante de notificações</string>
   <string name="notification_slider_selection_dialog_title">Ação</string>

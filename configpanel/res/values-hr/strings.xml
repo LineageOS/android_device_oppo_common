@@ -25,7 +25,7 @@
   <string name="touchpad_double_tap_summary">U kamera aplikaciji, dupli-klik će uslikati sliku</string>
   <!-- Gesture shortcuts -->
   <string name="touchscreen_camera_gesture_title">Kamera</string>
-  <string name="touchscreen_camera_gesture_summary">Nacrtaj krug za pokretanje kamere</string>
+  <string name="touchscreen_camera_gesture_summary">Nacrtajte krug za pokretanje fotoaparata.</string>
   <string name="touchscreen_music_gesture_title">Glazba</string>
   <string name="touchscreen_flashlight_gesture_title">Bljeskalica</string>
   <string name="touchscreen_flashlight_gesture_summary">Nacrtajte \"V\" za upravljanje bljeskalicom.</string>

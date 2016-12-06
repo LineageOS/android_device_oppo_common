@@ -39,10 +39,17 @@ public class TouchscreenGestures {
 
     private static final String[] GESTURE_PATHS = {
         "/proc/touchpanel/letter_o_enable",
-        "/proc/touchpanel/down_swipe_enable",
+        "/proc/touchpanel/double_swipe_enable",
         "/proc/touchpanel/letter_v_enable",
         "/proc/touchpanel/left_arrow_enable",
         "/proc/touchpanel/right_arrow_enable",
+        "/proc/touchpanel/up_arrow_enable",
+        "/proc/touchpanel/right_swipe_enable",
+        "/proc/touchpanel/left_swipe_enable",
+        "/proc/touchpanel/down_swipe_enable",
+        "/proc/touchpanel/up_swipe_enable",
+        "/proc/touchpanel/letter_w_enable",
+        "/proc/touchpanel/letter_m_enable",
     };
 
     // Id, name, keycode
@@ -52,6 +59,13 @@ public class TouchscreenGestures {
         new TouchscreenGesture(2, "Letter V", 252),
         new TouchscreenGesture(3, "Left arrow", 253),
         new TouchscreenGesture(4, "Right arrow", 254),
+        new TouchscreenGesture(5, "Up arrow", 255),
+        new TouchscreenGesture(6, "One finger right swipe", 256),
+        new TouchscreenGesture(7, "One finger left swipe", 257),
+        new TouchscreenGesture(8, "One finger down swipe", 258),
+        new TouchscreenGesture(9, "One finger up swipe", 259),
+        new TouchscreenGesture(10, "Letter W", 260),
+        new TouchscreenGesture(11, "Letter M", 261),
     };
 
     /**

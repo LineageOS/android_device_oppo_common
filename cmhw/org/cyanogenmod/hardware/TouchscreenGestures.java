@@ -38,20 +38,34 @@ import cyanogenmod.hardware.TouchscreenGesture;
 public class TouchscreenGestures {
 
     private static final String[] GESTURE_PATHS = {
+        "/proc/touchpanel/up_swipe_enable",
+        "/proc/touchpanel/down_swipe_enable",
+        "/proc/touchpanel/left_swipe_enable",
+        "/proc/touchpanel/right_swipe_enable",
         "/proc/touchpanel/double_swipe_enable",
+        "/proc/touchpanel/up_arrow_enable",
         "/proc/touchpanel/down_arrow_enable",
         "/proc/touchpanel/left_arrow_enable",
         "/proc/touchpanel/right_arrow_enable",
         "/proc/touchpanel/letter_o_enable",
+        "/proc/touchpanel/letter_m_enable",
+        "/proc/touchpanel/letter_w_enable",
     };
 
     // Id, name, keycode
     private static final TouchscreenGesture[] TOUCHSCREEN_GESTURES = {
-        new TouchscreenGesture(0, "Two finger down swipe", 251),
-        new TouchscreenGesture(1, "Down arrow", 252),
-        new TouchscreenGesture(2, "Left arrow", 253),
-        new TouchscreenGesture(3, "Right arrow", 254),
-        new TouchscreenGesture(4, "Letter O", 250),
+        new TouchscreenGesture(0, "One finger up swipe", 259),
+        new TouchscreenGesture(1, "One finger down swipe", 258),
+        new TouchscreenGesture(2, "One finger left swipe", 257),
+        new TouchscreenGesture(3, "One finger right swipe", 256),
+        new TouchscreenGesture(4, "Two finger down swipe", 251),
+        new TouchscreenGesture(5, "Up arrow", 255),
+        new TouchscreenGesture(6, "Down arrow", 252),
+        new TouchscreenGesture(7, "Left arrow", 253),
+        new TouchscreenGesture(8, "Right arrow", 254),
+        new TouchscreenGesture(9, "Letter O", 250),
+        new TouchscreenGesture(10, "Letter M", 261),
+        new TouchscreenGesture(11, "Letter W", 260),
     };
 
     /**

@@ -46,6 +46,30 @@
       "revId": "0b17cff3596976ffaa9c6708c487a15e1a2271b3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f681702_2700d534",
+        "filename": "cmhw/org/cyanogenmod/hardware/TouchscreenGestures.java",
+        "patchSetId": 9
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2016-12-06T14:50:36Z",
+      "side": 1,
+      "message": "How would you represent up arrow then? Greek letter ??\nMy main concern is that this will be inconsistent in the UI",
+      "parentUuid": "5f681702_47f9917e",
+      "range": {
+        "startLine": 43,
+        "startChar": 26,
+        "endLine": 43,
+        "endChar": 34
+      },
+      "revId": "0b17cff3596976ffaa9c6708c487a15e1a2271b3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }

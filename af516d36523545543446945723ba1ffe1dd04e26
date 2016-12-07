@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f681702_d08ef876",
+        "filename": "cmhw/org/cyanogenmod/hardware/TouchscreenGestures.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-12-07T14:11:44Z",
+      "side": 1,
+      "message": "It looks nicer to have the swipes, letters, and arrows grouped separately",
+      "revId": "af516d36523545543446945723ba1ffe1dd04e26",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

@@ -32,14 +32,14 @@
   <string name="touchscreen_double_tap_gesture_title">Probudi uređaj</string>
   <string name="touchscreen_double_tap_gesture_summary">Dupli-klik za buđenje uređaja</string>
   <string name="touchscreen_camera_gesture_title">Kamera</string>
-  <string name="touchscreen_camera_gesture_summary">Nacrtaj krug za pokretanje kamere</string>
+  <string name="touchscreen_camera_gesture_summary">Nacrtajte krug za pokretanje fotoaparata.</string>
   <string name="touchscreen_music_gesture_title">Glazba</string>
   <string name="touchscreen_flashlight_gesture_title">Bljeskalica</string>
-  <string name="touchscreen_flashlight_gesture_summary">Nacrtaj \'V\' za upravljanje bljeskalicom</string>
-  <string name="touchscreen_music_gesture_summary">Koristi pokrete za upravljanje glazbom dok svira \n
-    • Dva prsta vertikalno za produciraj/pauziraj\n
-    • Nacrtaj strelicu lijevo za prethodnu pjesmu\n
-    • Nacrtaj strelicu desno za sljedeću pjesmu</string>
+  <string name="touchscreen_flashlight_gesture_summary">Nacrtajte \"V\" za upravljanje bljeskalicom.</string>
+  <string name="touchscreen_music_gesture_summary">Koristite se gestama za upravljanje reprodukcijom glazbe \n
+    • Povucite dva prsta okomito za reprodukciju/pauzu\n
+    • Nacrtajte strelicu prema lijevo za prethodnu pjesmu\n
+    • Nacrtajte strelicu prema desno za sljedeću pjesmu</string>
   <!-- O-Click settings -->
   <string name="oclick_panel_title">O-Click postavke</string>
   <string name="oclick_panel_summary">Podesi O-Click uređaj</string>
@@ -66,6 +66,6 @@
   <string name="oclick_notification_content_disconnected">Pritisnite O-Click tipku za ponovno spajanje</string>
   <!-- haptic feedback  -->
   <string name="touchscreen_extras">Dodatno</string>
-  <string name="haptic_feedback">Haptic povratne informacije</string>
-  <string name="haptic_feedback_summary">Vibriraj kad je gesta prepoznata</string>
+  <string name="haptic_feedback">Dodirna povratna informacija</string>
+  <string name="haptic_feedback_summary">Vibracija kada se gesta prepozna.</string>
 </resources>

@@ -194,7 +194,8 @@ public class Startup extends BroadcastReceiver {
         return (new File(Constants.NOTIF_SLIDER_TOP_NODE).exists() &&
             new File(Constants.NOTIF_SLIDER_MIDDLE_NODE).exists() &&
             new File(Constants.NOTIF_SLIDER_BOTTOM_NODE).exists()) ||
-            new File(Constants.BUTTON_SWAP_NODE).exists();
+            new File(Constants.BUTTON_SWAP_NODE).exists() ||
+            new File(Constants.FP_WAKEUP_NODE).exists();
     }
 
     static boolean hasOClick() {

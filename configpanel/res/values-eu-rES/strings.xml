@@ -55,10 +55,6 @@
   <string name="oclick_notification_title_connected">O-Click konektatuta</string>
   <string name="oclick_notification_title_disconnected">O-Click deskonektatuta</string>
   <string name="oclick_notification_content_disconnected">Sakatu O-Click botoia berriro konektatzeko</string>
-  <!-- Button settings -->
-  <string name="button_panel_title">Botoi gehigarriak</string>
-  <string name="button_swap_title">Trukatu botoiak</string>
-  <string name="button_swap_summary">Trukatu oraintsukoak eta atzera botoen ordena</string>
   <!-- Notification slider -->
   <string name="notification_slider_category_title">Jakinarazpenen tiradera</string>
   <string name="notification_slider_selection_dialog_title">Ekintza</string>

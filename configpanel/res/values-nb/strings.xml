@@ -55,10 +55,6 @@
   <string name="oclick_notification_title_connected">O-Klikk tilkoblet</string>
   <string name="oclick_notification_title_disconnected">O-Klikk frakoblet</string>
   <string name="oclick_notification_content_disconnected">Trykk på O-Klikk for å koble til</string>
-  <!-- Button settings -->
-  <string name="button_panel_title">Flere knapper</string>
-  <string name="button_swap_title">Bytt knapper</string>
-  <string name="button_swap_summary">Bytt rekkefølgen på nylige- og tilbake-knappene</string>
   <!-- Notification slider -->
   <string name="notification_slider_category_title">Notifikasjonsskuff</string>
   <string name="notification_slider_selection_dialog_title">Handling</string>

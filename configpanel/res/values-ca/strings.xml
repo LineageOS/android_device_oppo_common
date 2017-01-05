@@ -55,10 +55,6 @@
   <string name="oclick_notification_title_connected">O-Click connectat</string>
   <string name="oclick_notification_title_disconnected">O-Click desconnectat</string>
   <string name="oclick_notification_content_disconnected">Prem el botó O-click per tornar a connectar</string>
-  <!-- Button settings -->
-  <string name="button_panel_title">Botons addicionals</string>
-  <string name="button_swap_title">Intercanvia els botons</string>
-  <string name="button_swap_summary">Intercanvia l\'ordre dels botons recent i enrera</string>
   <!-- Notification slider -->
   <string name="notification_slider_category_title">Barra lliscant de notificacions</string>
   <string name="notification_slider_selection_dialog_title">Acció</string>

@@ -55,10 +55,6 @@
   <string name="oclick_notification_title_connected">O-Click conectado</string>
   <string name="oclick_notification_title_disconnected">O-Click desconectado</string>
   <string name="oclick_notification_content_disconnected">Pulse o botón O-Click para volver conectar</string>
-  <!-- Button settings -->
-  <string name="button_panel_title">Botóns adicionais</string>
-  <string name="button_swap_title">Trocar os botóns</string>
-  <string name="button_swap_summary">Trocar a orde dos botóns recentes e atrás</string>
   <!-- Notification slider -->
   <string name="notification_slider_category_title">Deslizador de notificación</string>
   <string name="notification_slider_selection_dialog_title">Acción</string>

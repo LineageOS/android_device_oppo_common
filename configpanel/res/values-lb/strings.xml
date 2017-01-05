@@ -51,6 +51,5 @@
   <string name="oclick_notification_title_connected">O-Click verbonnen</string>
   <string name="oclick_notification_title_disconnected">O-Click net verbonnen</string>
   <string name="oclick_notification_content_disconnected">Dréck den O-Click-Knäppche fir nei ze verbannen</string>
-  <!-- Button settings -->
   <!-- Notification slider -->
 </resources>

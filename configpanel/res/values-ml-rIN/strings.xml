@@ -51,6 +51,5 @@
   <string name="oclick_notification_title_connected">ഓ-ക്ലിക്ക് കണക്റ്റ് ചെയ്തിരിക്കുന്നു</string>
   <string name="oclick_notification_title_disconnected">ഓ-ക്ലിക്ക് ഡിസ്കണക്റ്റ് ചെയ്തിരിക്കുന്നു</string>
   <string name="oclick_notification_content_disconnected">വീണ്ടും കണക്റ്റ് ചെയ്യാൻ ഓ-ക്ലിക്ക് അമർത്തുക</string>
-  <!-- Button settings -->
   <!-- Notification slider -->
 </resources>

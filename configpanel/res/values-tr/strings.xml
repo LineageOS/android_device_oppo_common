@@ -51,10 +51,6 @@
   <string name="oclick_notification_title_connected">O-Click bağlandı</string>
   <string name="oclick_notification_title_disconnected">O-Click bağlantısı kesildi</string>
   <string name="oclick_notification_content_disconnected">Tekrar bağlanmak için O-Click tuşuna basın</string>
-  <!-- Button settings -->
-  <string name="button_panel_title">Ek düğmeler</string>
-  <string name="button_swap_title">Düğmeleri değiştir</string>
-  <string name="button_swap_summary">Son uygulamalar ve geri düğmesinin sırasını değiştir</string>
   <!-- Notification slider -->
   <string name="notification_slider_category_title">Bildirim sürgüsü</string>
   <string name="notification_slider_selection_dialog_title">Eylem</string>

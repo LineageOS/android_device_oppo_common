@@ -55,10 +55,6 @@
   <string name="oclick_notification_title_connected">O-Click verbonden</string>
   <string name="oclick_notification_title_disconnected">O-Click niet verbonden</string>
   <string name="oclick_notification_content_disconnected">Klik op de O-Click-knop om opnieuw verbinding te maken</string>
-  <!-- Button settings -->
-  <string name="button_panel_title">Extra knoppen</string>
-  <string name="button_swap_title">Knoppen verwisselen</string>
-  <string name="button_swap_summary">Recente apps- en Terugknop omwisselen</string>
   <!-- Notification slider -->
   <string name="notification_slider_category_title">Meldingschakelaar</string>
   <string name="notification_slider_selection_dialog_title">Actie</string>

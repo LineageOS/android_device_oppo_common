@@ -55,10 +55,6 @@
   <string name="oclick_notification_title_connected">O-Click מחובר</string>
   <string name="oclick_notification_title_disconnected">O-Click מנותק</string>
   <string name="oclick_notification_content_disconnected">לחץ על לחצן O-Click כדי להתחבר מחדש</string>
-  <!-- Button settings -->
-  <string name="button_panel_title">לחצנים נוספים</string>
-  <string name="button_swap_title">החלף בין לחצנים</string>
-  <string name="button_swap_summary">החלף את סדר הלחצנים ״חזור״ ו״אחרונים״</string>
   <!-- Notification slider -->
   <string name="notification_slider_category_title">מחוון התראות</string>
   <string name="notification_slider_selection_dialog_title">פעולה</string>

@@ -55,10 +55,6 @@
   <string name="oclick_notification_title_connected">O-Click verbunden</string>
   <string name="oclick_notification_title_disconnected">O-Click getrennt</string>
   <string name="oclick_notification_content_disconnected">Drücken Sie die O-Click-Taste, um die Verbindung wiederherzustellen.</string>
-  <!-- Button settings -->
-  <string name="button_panel_title">Weitere Tasten</string>
-  <string name="button_swap_title">Tasten tauschen</string>
-  <string name="button_swap_summary">Anordnung der Tasten für Anwendungsverlauf und Zurück tauschen</string>
   <!-- Notification slider -->
   <string name="notification_slider_category_title">Schieber für Benachrichtigungen</string>
   <string name="notification_slider_selection_dialog_title">Aktion</string>

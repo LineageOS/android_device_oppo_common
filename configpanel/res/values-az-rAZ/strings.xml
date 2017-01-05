@@ -51,6 +51,5 @@
   <string name="oclick_notification_title_connected">O-Click bağlandı</string>
   <string name="oclick_notification_title_disconnected">O-Click bağlantısı kəsildi</string>
   <string name="oclick_notification_content_disconnected">Yenidən bağlanmaq üçün O-Click düyməsinə basın</string>
-  <!-- Button settings -->
   <!-- Notification slider -->
 </resources>

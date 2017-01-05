@@ -51,10 +51,6 @@
   <string name="oclick_notification_title_connected">O-Click đã được kết nối</string>
   <string name="oclick_notification_title_disconnected">O-Click đã ngắt kết nối</string>
   <string name="oclick_notification_content_disconnected">Nhấn nút O-Click để kết nối lại</string>
-  <!-- Button settings -->
-  <string name="button_panel_title">Nút bổ sung</string>
-  <string name="button_swap_title">Nút đổi</string>
-  <string name="button_swap_summary">Đổi thứ tự của các nút gần đây và quay lại</string>
   <!-- Notification slider -->
   <string name="notification_slider_category_title">Thông báo trượt</string>
   <string name="notification_slider_selection_dialog_title">Tác vụ</string>

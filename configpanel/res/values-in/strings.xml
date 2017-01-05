@@ -55,10 +55,6 @@
   <string name="oclick_notification_title_connected">O-Click terhubung</string>
   <string name="oclick_notification_title_disconnected">O-Click terputus</string>
   <string name="oclick_notification_content_disconnected">Tekan tombol O-Click untuk menyambung kembali</string>
-  <!-- Button settings -->
-  <string name="button_panel_title">Tombol tambahan</string>
-  <string name="button_swap_title">Tombol tukar</string>
-  <string name="button_swap_summary">Tukar urutan tombol terbaru dan kembali</string>
   <!-- Notification slider -->
   <string name="notification_slider_category_title">Penggeser pemberitahuan</string>
   <string name="notification_slider_selection_dialog_title">Tindakan</string>

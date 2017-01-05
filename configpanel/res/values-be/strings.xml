@@ -51,7 +51,6 @@
   <string name="oclick_notification_title_connected">Прылада O-Click падлучана</string>
   <string name="oclick_notification_title_disconnected">Прылада O-Click адключана</string>
   <string name="oclick_notification_content_disconnected">Націсніце кнопку O-Click для перападлучэння</string>
-  <!-- Button settings -->
   <!-- Notification slider -->
   <string name="notification_slider_selection_dialog_title">Дзеянне</string>
 </resources>

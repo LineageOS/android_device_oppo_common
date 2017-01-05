@@ -55,10 +55,6 @@
   <string name="oclick_notification_title_connected">O-Clickが接続しました</string>
   <string name="oclick_notification_title_disconnected">O-Clickが切断しました</string>
   <string name="oclick_notification_content_disconnected">O-Clickボタンをクリックして再接続します</string>
-  <!-- Button settings -->
-  <string name="button_panel_title">追加のボタン</string>
-  <string name="button_swap_title">ボタンを入れ替える</string>
-  <string name="button_swap_summary">[履歴]ボタンと[戻る]ボタンの順番を入れ替える</string>
   <!-- Notification slider -->
   <string name="notification_slider_category_title">通知スライダー</string>
   <string name="notification_slider_selection_dialog_title">動作</string>

@@ -51,6 +51,5 @@
   <string name="oclick_notification_title_connected">O-క్లిక్ అనుసంధానించబడింది</string>
   <string name="oclick_notification_title_disconnected">O-క్లిక్ అనుసంధానం తొలిగించబడింది</string>
   <string name="oclick_notification_content_disconnected">తిరిగి అనుసంధానించేందుకు O-క్లిక్ బటన్ నొక్కండి</string>
-  <!-- Button settings -->
   <!-- Notification slider -->
 </resources>

@@ -55,10 +55,6 @@
   <string name="oclick_notification_title_connected">O-Click spojen</string>
   <string name="oclick_notification_title_disconnected">O-Click nije spojen</string>
   <string name="oclick_notification_content_disconnected">Pritisnite O-Click tipku za ponovno spajanje</string>
-  <!-- Button settings -->
-  <string name="button_panel_title">Dodatne tipke</string>
-  <string name="button_swap_title">Zamijeni tipke</string>
-  <string name="button_swap_summary">Zamijeni redoslijed nedavnih i tipke za natrag</string>
   <!-- Notification slider -->
   <string name="notification_slider_category_title">Klizač obavijesti</string>
   <string name="notification_slider_selection_dialog_title">Radnja</string>

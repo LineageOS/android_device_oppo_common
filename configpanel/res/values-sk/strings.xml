@@ -54,10 +54,6 @@
   <string name="oclick_notification_title_connected">O-Click pripojený</string>
   <string name="oclick_notification_title_disconnected">O-Click odpojený</string>
   <string name="oclick_notification_content_disconnected">Stlačte tlačidlo O-Click pre opätovné pripojenie</string>
-  <!-- Button settings -->
-  <string name="button_panel_title">Ďalšie tlačítka</string>
-  <string name="button_swap_title">Vymeniť tlačítka</string>
-  <string name="button_swap_summary">Vymeniť poradie tlačítok nedávne a späť</string>
   <!-- Notification slider -->
   <string name="notification_slider_category_title">Posuvník upozornení</string>
   <string name="notification_slider_selection_dialog_title">Akcia</string>

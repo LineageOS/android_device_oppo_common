@@ -55,10 +55,6 @@
   <string name="oclick_notification_title_connected">O-Click połączony</string>
   <string name="oclick_notification_title_disconnected">O-Click niepołączony</string>
   <string name="oclick_notification_content_disconnected">Naciśnij przycisk O-Click, aby połączyć ponownie</string>
-  <!-- Button settings -->
-  <string name="button_panel_title">Dodatkowe przyciski</string>
-  <string name="button_swap_title">Zamień przyciski</string>
-  <string name="button_swap_summary">Zamień miejscami przyciski ostatnio uruchomionych aplikacji i powrotu</string>
   <!-- Notification slider -->
   <string name="notification_slider_category_title">Panel powiadomień</string>
   <string name="notification_slider_selection_dialog_title">Akcja</string>

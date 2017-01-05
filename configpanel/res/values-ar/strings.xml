@@ -51,10 +51,6 @@
   <string name="oclick_notification_title_connected">O-Click متصل</string>
   <string name="oclick_notification_title_disconnected">O-Click غير متصل</string>
   <string name="oclick_notification_content_disconnected">اضغط على زر O-Click لإعادة الاتصال</string>
-  <!-- Button settings -->
-  <string name="button_panel_title">أزرار إضافية</string>
-  <string name="button_swap_title">تبديل الأزرار</string>
-  <string name="button_swap_summary">تبديل ترتيب أزرار حديث ورجوع</string>
   <!-- Notification slider -->
   <string name="notification_slider_category_title">أداة تمرار الإشعارات</string>
   <string name="notification_slider_selection_dialog_title">إجراء</string>

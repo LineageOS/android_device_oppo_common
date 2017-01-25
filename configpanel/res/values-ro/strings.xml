@@ -29,6 +29,10 @@
   <string name="touchscreen_music_gesture_title">Muzică</string>
   <string name="touchscreen_flashlight_gesture_title">Lanternă</string>
   <string name="touchscreen_flashlight_gesture_summary">Desenează un „v” pentru a deschide lanterna</string>
+  <string name="touchscreen_music_gesture_summary">Folosiți gesturi pentru a controla redarea muzicii \n
+    • Două degete vertical pentru a reda/opri\n
+    • Desenează o săgeată la stânga (\'&lt;\') pentru melodia anterioară\n
+    • Desenează o săgeată la dreapta (\'&gt;\') pentru melodia următoare</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Conectează</string>
   <string name="oclick_disconnect_string">Deconectează</string>
@@ -52,4 +56,13 @@
   <string name="oclick_notification_title_disconnected">O-Click deconectat</string>
   <string name="oclick_notification_content_disconnected">Apăsați butonul O-Click pentru a reconecta</string>
   <!-- Notification slider -->
+  <string name="notification_slider_category_title">Cursor notificare</string>
+  <string name="notification_slider_selection_dialog_title">Acțiune</string>
+  <string name="notification_slider_top_position">Poziţie de top</string>
+  <string name="notification_slider_middle_position">Poziţie de mijloc</string>
+  <string name="notification_slider_bottom_position">Poziție de jos</string>
+  <string name="notification_slider_mode_total_silence">Niciun sunet</string>
+  <string name="notification_slider_mode_alarms_only">Numai alarme</string>
+  <string name="notification_slider_mode_priority_only">Numai cu prioritate</string>
+  <string name="notification_slider_mode_none">Niciuna</string>
 </resources>

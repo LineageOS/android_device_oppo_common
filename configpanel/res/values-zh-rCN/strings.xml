@@ -30,7 +30,7 @@
   <string name="touchscreen_flashlight_gesture_title">手电筒</string>
   <string name="touchscreen_flashlight_gesture_summary">画 \'V\' 以启动手电筒</string>
   <string name="touchscreen_music_gesture_summary">使用手势控制音乐播放 \n
-    • 两个手指垂直滑动来播放或暂停\n 
+    • 双指垂直滑动来播放/暂停\n 
     • 画左箭头 (\'&lt;\') 切换到上一首\n 
     • 画右箭头 (\'&gt;\') 切换到下一首</string>
   <!-- O-Click settings -->

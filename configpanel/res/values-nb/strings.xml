@@ -56,7 +56,7 @@
   <string name="oclick_notification_title_disconnected">O-Klikk frakoblet</string>
   <string name="oclick_notification_content_disconnected">Trykk på O-Klikk for å koble til</string>
   <!-- Notification slider -->
-  <string name="notification_slider_category_title">Notifikasjonsskuff</string>
+  <string name="notification_slider_category_title">Varselskuff</string>
   <string name="notification_slider_selection_dialog_title">Handling</string>
   <string name="notification_slider_top_position">Topplassering</string>
   <string name="notification_slider_middle_position">Midtplassering</string>

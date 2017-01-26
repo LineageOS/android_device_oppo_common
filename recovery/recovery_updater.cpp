@@ -41,7 +41,7 @@
 #define TZ_VER_STR "QC_IMAGE_VERSION_STRING="
 #define TZ_VER_STR_LEN 24
 #define TZ_VER_BUF_LEN 255
-#define TZ_SZ 500 * KB    /* MMAP 500K of TZ, TZ partition is 500K */
+#define TZ_SZ BOARD_TRUSTZONE_PARTITION_SIZE * KB
 
 /* Boyer-Moore string search implementation from Wikipedia */
 

@@ -41,7 +41,6 @@
 #define TZ_VER_STR "QC_IMAGE_VERSION_STRING="
 #define TZ_VER_STR_LEN 24
 #define TZ_VER_BUF_LEN 255
-#define TZ_SZ 500 * KB    /* MMAP 500K of TZ, TZ partition is 500K */
 
 /* Boyer-Moore string search implementation from Wikipedia */
 
@@ -124,6 +123,7 @@ static char * bm_search(const char *str, size_t str_len, const char *pat,
 static int get_tz_version(char *ver_str, size_t len) {
     int ret = 0;
     int fd;
+    int tz_size;
     char *tz_data = NULL;
     char *offset = NULL;
 
@@ -133,21 +133,22 @@ static int get_tz_version(char *ver_str, size_t len) {
         goto err_ret;
     }
 
-    tz_data = (char *) mmap(NULL, TZ_SZ, PROT_READ, MAP_PRIVATE, fd, 0);
+    tz_size = lseek64(fd, 0, SEEK_END);
+    tz_data = (char *) mmap(NULL, tz_size, PROT_READ, MAP_PRIVATE, fd, 0);
     if (tz_data == (char *)-1) {
         ret = errno;
         goto err_fd_close;
     }
 
     /* Do Boyer-Moore search across TZ data */
-    offset = bm_search(tz_data, TZ_SZ, TZ_VER_STR, TZ_VER_STR_LEN);
+    offset = bm_search(tz_data, tz_size, TZ_VER_STR, TZ_VER_STR_LEN);
     if (offset != NULL) {
         strncpy(ver_str, offset + TZ_VER_STR_LEN, len);
     } else {
         ret = -ENOENT;
     }
 
-    munmap(tz_data, TZ_SZ);
+    munmap(tz_data, tz_size);
 err_fd_close:
     close(fd);
 err_ret:

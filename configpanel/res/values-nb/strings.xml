@@ -60,7 +60,7 @@
   <string name="button_swap_title">Bytt knapper</string>
   <string name="button_swap_summary">Bytt rekkefølgen på nylige- og tilbake-knappene</string>
   <!-- Notification slider -->
-  <string name="notification_slider_category_title">Notifikasjonsskuff</string>
+  <string name="notification_slider_category_title">Varselskuff</string>
   <string name="notification_slider_selection_dialog_title">Handling</string>
   <string name="notification_slider_top_position">Topplassering</string>
   <string name="notification_slider_middle_position">Midtplassering</string>

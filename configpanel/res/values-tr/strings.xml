@@ -29,6 +29,10 @@
   <string name="touchscreen_music_gesture_title">Müzik</string>
   <string name="touchscreen_flashlight_gesture_title">El feneri</string>
   <string name="touchscreen_flashlight_gesture_summary">Flaş ışığını açıp kapatmak için \'V\' çizin</string>
+  <string name="touchscreen_music_gesture_summary">Müziği kontrol etmek için hareketlerinizi kullanın\n• 
+    Dikey şekilde iki parmak oynatır/duraklatır\n• 
+    Sola doğru ok çizimi önceki şarkıya gider\n•
+    Sağa doğru ok çizimi sonraki şarkıya gider</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Bağlan</string>
   <string name="oclick_disconnect_string">Bağlantıyı Kes</string>

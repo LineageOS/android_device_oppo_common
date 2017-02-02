@@ -29,6 +29,7 @@
   <string name="touchscreen_music_gesture_title">Música</string>
   <string name="touchscreen_flashlight_gesture_title">Linterna</string>
   <string name="touchscreen_flashlight_gesture_summary">Dibuja una V para alternar la linterna</string>
+  <string name="touchscreen_music_gesture_summary">Utiliza gestos para controlar la reproducción de música \n • Desliza dos dedos verticalmente para reproducir/pausar\n • Dibuja una flecha hacia la izquierda (\'&lt;\') para volver a la anterior canción\n • Dibuja una flecha hacia la derecha (\'&gt;\') para saltar a la siguiente canción</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Conectar</string>
   <string name="oclick_disconnect_string">Desconectar</string>

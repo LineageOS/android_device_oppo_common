@@ -38,7 +38,7 @@
   <string name="oclick_disconnect_string">切断</string>
   <string name="oclick_summary_connected">O-Clickに接続しました</string>
   <string name="oclick_summary_paired">O-Clickはペアリングされていますが、接続していません</string>
-  <string name="oclick_dialog_connecting_message">O-Clickに接続しています\u2026\nO-Clickボタンをクリックすると早く接続できます。</string>
+  <string name="oclick_dialog_connecting_message">O-Clickに接続しています...\nO-Clickボタンをクリックすると早く接続できます。</string>
   <string name="oclick_take_snapshot_title">リモートカメラシャッター</string>
   <string name="oclick_take_snapshot_summary">シングルクリックで写真を撮影する</string>
   <string name="oclick_find_my_phone_title">携帯電話ロケータ</string>

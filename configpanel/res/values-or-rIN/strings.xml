@@ -23,12 +23,6 @@
   <string name="touchpad_long_press_summary">ଟଚ୍‍ପ୍ୟାଡ୍‍ରେ ଦୀ‍ର୍ଘ ସମୟ ପ୍ରେସ୍‍ କରିବା ଦ୍ୱାରା କ୍ୟାମେରା ଆପ୍ଲିକେସନ୍‍ ଉନ୍ମୋଚନ ହେବ</string>
   <string name="touchpad_double_tap_title">କ୍ୟାପ୍‍ଚର୍‍ କରିବା ପାଇଁ ଦୁଇଥର ଟ୍ୟାପ୍‍ କରନ୍ତୁ</string>
   <string name="touchpad_double_tap_summary">କ୍ୟାମେରାରେ ଥିବା ସମୟରେ, ଚିତ୍ର କ୍ୟାପ୍‍ଚର୍‍ କରିବା ପାଇଁ ଦୁଇଥର ଟ୍ୟାପ୍‍ କରନ୍ତୁ</string>
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">କ୍ୟାମେରା</string>
-  <string name="touchscreen_camera_gesture_summary">କ୍ୟାମେରା ସକ୍ରିୟ କରିବା ପାଇଁ ଏକ ସର୍କଲ୍‍ ଆଙ୍କନ୍ତୁ</string>
-  <string name="touchscreen_music_gesture_title">ସଙ୍ଗୀତ</string>
-  <string name="touchscreen_flashlight_gesture_title">ଫ୍ଲାସଲାଇଟ୍</string>
-  <string name="touchscreen_flashlight_gesture_summary">ଫ୍ଲାସ୍‍ଲାଇଟ୍‍ ଟୋଗଲ୍‍ କରିବା ପାଇଁ ଏକ \'V\' ଆଙ୍କନ୍ତୁ</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">ସଂଯୋଗ କରନ୍ତୁ</string>
   <string name="oclick_disconnect_string">ବିଚ୍ଛିନ୍ନ କରନ୍ତୁ</string>

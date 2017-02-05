@@ -23,16 +23,6 @@
   <string name="touchpad_long_press_summary">Apăsarea lungă pe touchpad va lansa aplicația de cameră</string>
   <string name="touchpad_double_tap_title">Apăsare dublă pentru captură</string>
   <string name="touchpad_double_tap_summary">În cameră, apasă de două ori pentru a captura imaginea</string>
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">Cameră</string>
-  <string name="touchscreen_camera_gesture_summary">Desenează un cerc pentru a activa camera</string>
-  <string name="touchscreen_music_gesture_title">Muzică</string>
-  <string name="touchscreen_flashlight_gesture_title">Lanternă</string>
-  <string name="touchscreen_flashlight_gesture_summary">Desenează un „v” pentru a deschide lanterna</string>
-  <string name="touchscreen_music_gesture_summary">Folosiți gesturi pentru a controla redarea muzicii \n
-    • Două degete vertical pentru a reda/opri\n
-    • Desenează o săgeată la stânga (\'&lt;\') pentru melodia anterioară\n
-    • Desenează o săgeată la dreapta (\'&gt;\') pentru melodia următoare</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Conectează</string>
   <string name="oclick_disconnect_string">Deconectează</string>

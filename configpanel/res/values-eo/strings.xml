@@ -17,7 +17,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- O-Touch settings -->
-  <!-- Gesture shortcuts -->
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Konekti</string>
   <string name="oclick_disconnect_string">Malkonekti</string>

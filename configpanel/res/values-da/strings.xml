@@ -23,16 +23,6 @@
   <string name="touchpad_long_press_summary">Langt tryk på O-Touch vil aktivere kameraet</string>
   <string name="touchpad_double_tap_title">Dobbelttryk for at tage billede</string>
   <string name="touchpad_double_tap_summary">Dobbelttryk for at tage et billede, når kameraet er åbent</string>
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">Kamera</string>
-  <string name="touchscreen_camera_gesture_summary">Tegn en cirkel for at aktivere kamera</string>
-  <string name="touchscreen_music_gesture_title">Musik</string>
-  <string name="touchscreen_flashlight_gesture_title">Lommelygte</string>
-  <string name="touchscreen_flashlight_gesture_summary">Tegn et \'V\' for at tænde lommelygten</string>
-  <string name="touchscreen_music_gesture_summary">Brug bevægelser for at styre musikafspilning \n
-    • To fingre vertikalt for at afspille/pause\n
-    • Tegn en venstrepil (\'&lt;\') for forrige musiknummer\n
-    • Tegn en højrepil (\'&gt;\') for næste musiknummer</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Forbind</string>
   <string name="oclick_disconnect_string">Afbryd</string>

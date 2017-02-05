@@ -23,12 +23,6 @@
   <string name="touchpad_long_press_summary">Laang op den Touchpad drécke fir d\'Kamera-App ze starten</string>
   <string name="touchpad_double_tap_title">Zweemol drécke fir eng Foto ze maachen</string>
   <string name="touchpad_double_tap_summary">An der Kamera-App zweemol drécke fir Fotoen ze knipsen</string>
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">Fotoapparat</string>
-  <string name="touchscreen_camera_gesture_summary">Zeechen e Kreess fir de Fotoapparat z\'aktivéieren</string>
-  <string name="touchscreen_music_gesture_title">Musek</string>
-  <string name="touchscreen_flashlight_gesture_title">Täscheluucht</string>
-  <string name="touchscreen_flashlight_gesture_summary">\'V\' zeechnen, fir d\'Täscheluucht un-/auszemaachen</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Connectéieren</string>
   <string name="oclick_disconnect_string">Déconnectéieren</string>

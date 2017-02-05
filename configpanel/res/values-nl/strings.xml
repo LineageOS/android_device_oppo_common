@@ -23,16 +23,6 @@
   <string name="touchpad_long_press_summary">Touchpad lang aanraken start de camera-app</string>
   <string name="touchpad_double_tap_title">Dubbeltikken voor opname</string>
   <string name="touchpad_double_tap_summary">In camera dubbeltikken om een foto te nemen</string>
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">Camera</string>
-  <string name="touchscreen_camera_gesture_summary">Teken een cirkel om camera te openen</string>
-  <string name="touchscreen_music_gesture_title">Muziek</string>
-  <string name="touchscreen_flashlight_gesture_title">Zaklamp</string>
-  <string name="touchscreen_flashlight_gesture_summary">Teken een \"V\" om zaklamp aan/uit te zetten</string>
-  <string name="touchscreen_music_gesture_summary">Gebaren gebruiken om muziek te bedienen\n  
-    • Twee vingers verticaal voor afspelen/pauzeren\n
-    • Pijl naar links tekenen (\'&lt;\') voor vorig nummer\n
-    • Pijl naar rechts tekenen (\'&gt;\') voor volgend nummer</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Verbinding maken</string>
   <string name="oclick_disconnect_string">Verbinding verbreken</string>

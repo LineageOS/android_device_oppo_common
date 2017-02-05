@@ -23,12 +23,6 @@
   <string name="touchpad_long_press_summary">Sensor səthə uzun toxunuş kamera tətbiqetməsini açar</string>
   <string name="touchpad_double_tap_title">Çəkmək üçün iki dəfə toxunun</string>
   <string name="touchpad_double_tap_summary">Kamerada olarkən şəkil çəkmək üçün iki dəfə toxunun</string>
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">Kamera</string>
-  <string name="touchscreen_camera_gesture_summary">Kameranı aktivləşdirmək üçün dairə çəkin</string>
-  <string name="touchscreen_music_gesture_title">Musiqi</string>
-  <string name="touchscreen_flashlight_gesture_title">Fənər</string>
-  <string name="touchscreen_flashlight_gesture_summary">Fənəri açıb bağlamaq üçün \'V\' çәkin</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Bağlan</string>
   <string name="oclick_disconnect_string">Bağlantını kəs</string>

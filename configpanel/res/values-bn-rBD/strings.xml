@@ -23,12 +23,6 @@
   <string name="touchpad_long_press_summary">স্পর্শ সংবেদনশীল স্থ্যানে দীর্ঘ চাপ দ্বারা ক্যামেরা অ্যাপ্লিকেশন সচল করুন</string>
   <string name="touchpad_double_tap_title">ছবি গ্রহণ করতে দুবার টোকা</string>
   <string name="touchpad_double_tap_summary">ছবি তুলতে, ক্যামেরায় দুবার টোকা দেওয়া হবে</string>
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">ক্যামেরা</string>
-  <string name="touchscreen_camera_gesture_summary">ক্যামেরা সক্রিয় করতে বৃত্ত আঁকুন</string>
-  <string name="touchscreen_music_gesture_title">সঙ্গীত</string>
-  <string name="touchscreen_flashlight_gesture_title">উজ্জ্যল বাতি</string>
-  <string name="touchscreen_flashlight_gesture_summary">উজ্জ্যল বাতি সক্রিয় করতে \'V\' অঙ্কন করুন</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">সংযোগ</string>
   <string name="oclick_disconnect_string">সংযোগ ছিন্ন</string>

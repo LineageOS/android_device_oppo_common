@@ -23,12 +23,6 @@
   <string name="touchpad_long_press_summary">Una pulsación prollongada nel panel táctil llanzará l\'aplicación Cámara</string>
   <string name="touchpad_double_tap_title">Pulsación doble pa capturar semeya</string>
   <string name="touchpad_double_tap_summary">Cuando s\'use l\'aplicación Cámara, una doble pulsación capturará una semeya</string>
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">Cámara</string>
-  <string name="touchscreen_camera_gesture_summary">Dibuxar un círculu p\'activar la cámara</string>
-  <string name="touchscreen_music_gesture_title">Música</string>
-  <string name="touchscreen_flashlight_gesture_title">Llinterna</string>
-  <string name="touchscreen_flashlight_gesture_summary">Dibuxa una V pa conmutar lla luz de la llinterna</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Coneutar</string>
   <string name="oclick_disconnect_string">Desconeutar</string>

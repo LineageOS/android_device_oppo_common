@@ -23,12 +23,6 @@
   <string name="touchpad_long_press_summary">स्पर्श पैड को देर तक स्पर्श करने पर कैमरा एप्लिकेशन चालू होगा</string>
   <string name="touchpad_double_tap_title">फ़ोटो लेने के लिए दो बार टैप करें</string>
   <string name="touchpad_double_tap_summary">फ़ोटो लेने के लिए, कैमरे में रहते हुए दो बार टैप करें</string>
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">कैमरा</string>
-  <string name="touchscreen_camera_gesture_summary">कैमरे को सक्रिय करने के लिए वृत्त बनाएँ</string>
-  <string name="touchscreen_music_gesture_title">संगीत</string>
-  <string name="touchscreen_flashlight_gesture_title">टॉर्च</string>
-  <string name="touchscreen_flashlight_gesture_summary">टॉर्च को चालू-बंद करने के लिए \'वी\' बनाएँ</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">कनेक्ट करें</string>
   <string name="oclick_disconnect_string">डिसकनेक्ट करें</string>

@@ -23,16 +23,6 @@
   <string name="touchpad_long_press_summary">Premere a lungo il touchpad avvierà l\'app della fotocamera</string>
   <string name="touchpad_double_tap_title">Doppio tocco per scattare</string>
   <string name="touchpad_double_tap_summary">Quando la fotocamera è avviata, tocca due volte per scattare foto</string>
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">Fotocamera</string>
-  <string name="touchscreen_camera_gesture_summary">Disegnare un cerchio per attivare la fotocamera</string>
-  <string name="touchscreen_music_gesture_title">Musica</string>
-  <string name="touchscreen_flashlight_gesture_title">Torcia</string>
-  <string name="touchscreen_flashlight_gesture_summary">Disegna una \'V\' per attivare/disattivare la torcia</string>
-  <string name="touchscreen_music_gesture_summary">Usa le gesture per controllare la musica in riproduzione \n
-    • Due dita verticalmente per riprodurre/mettere in pausa\n
-    • Disegna una freccia verso sinistra (\'&lt;\') per la traccia precedente\n
-    • Disegna una freccia verso destra (\'&gt;\') per la traccia successiva</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Connetti</string>
   <string name="oclick_disconnect_string">Disconnetti</string>

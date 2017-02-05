@@ -23,12 +23,6 @@
   <string name="touchpad_long_press_summary">กดค้างที่แป้นสัมผัสเพื่อเปิดใช้งานกล้อง</string>
   <string name="touchpad_double_tap_title">แตะสองครั้งเพื่อจับภาพ</string>
   <string name="touchpad_double_tap_summary">ขณะเปิดใช้กล้องอยู่ แตะสองครั้งเพื่อจับภาพ</string>
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">กล้อง</string>
-  <string name="touchscreen_camera_gesture_summary">วาดวงกลมเพื่อเปิดกล้อง</string>
-  <string name="touchscreen_music_gesture_title">เพลง</string>
-  <string name="touchscreen_flashlight_gesture_title">ไฟฉาย</string>
-  <string name="touchscreen_flashlight_gesture_summary">วาด \'V\' เพื่อเปิดไฟฉาย</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">เชื่อมต่อ</string>
   <string name="oclick_disconnect_string">ตัดการเชื่อมต่อ</string>

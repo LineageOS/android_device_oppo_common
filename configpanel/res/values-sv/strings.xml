@@ -23,12 +23,6 @@
   <string name="touchpad_long_press_summary">Långtryck på pekplattan kommer att öppna kameraappen</string>
   <string name="touchpad_double_tap_title">Dubbeltryck för att ta bild</string>
   <string name="touchpad_double_tap_summary">När du är i kameran, dubbeltryck för att ta en bild</string>
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">Kamera</string>
-  <string name="touchscreen_camera_gesture_summary">Rita en cirkel för att aktivera kamera</string>
-  <string name="touchscreen_music_gesture_title">Musik</string>
-  <string name="touchscreen_flashlight_gesture_title">Ficklampa</string>
-  <string name="touchscreen_flashlight_gesture_summary">Rita ett \"V\" för att använda ficklampan</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Anslut</string>
   <string name="oclick_disconnect_string">Koppla från</string>

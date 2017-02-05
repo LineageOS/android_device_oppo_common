@@ -23,16 +23,6 @@
   <string name="touchpad_long_press_summary">Długie przytrzymanie touchpada uruchomi aplikację aparatu</string>
   <string name="touchpad_double_tap_title">Podwójne kliknięcie by uchwycić</string>
   <string name="touchpad_double_tap_summary">Gdy w aparacie, podwójne kliknięcie zrobi zdjęcie</string>
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">Aparat</string>
-  <string name="touchscreen_camera_gesture_summary">Narysuj koło, aby włączyć aparat</string>
-  <string name="touchscreen_music_gesture_title">Muzyka</string>
-  <string name="touchscreen_flashlight_gesture_title">Latarka</string>
-  <string name="touchscreen_flashlight_gesture_summary">Narysuj \'V\', aby włączyć latarkę</string>
-  <string name="touchscreen_music_gesture_summary">Użyj gestów do kontroli muzyki\n
-    • Przesuń dwa palce pionowo dla odtwarzania/pauzy\n
-    • Narysuj strzałkę w lewo (\'&lt;\'), aby przełączyć na poprzedni utwór\n
-    • Narysuj strzałkę w prawo (\'&gt;\'), aby przełączyć na następny utwór</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Połącz</string>
   <string name="oclick_disconnect_string">Rozłącz</string>

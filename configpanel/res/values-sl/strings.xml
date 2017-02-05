@@ -23,16 +23,6 @@
   <string name="touchpad_long_press_summary">Dolg pritisk na sledilno ploščico bo zagnal fotoaparat</string>
   <string name="touchpad_double_tap_title">Tapnite dvakrat za slikanje</string>
   <string name="touchpad_double_tap_summary">Ko ste v fotoaparatu, tapnite dvakrat za slikanje</string>
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">Fotoaparat</string>
-  <string name="touchscreen_camera_gesture_summary">Narišite krog za zagon fotoaparata</string>
-  <string name="touchscreen_music_gesture_title">Glasba</string>
-  <string name="touchscreen_flashlight_gesture_title">Svetilka</string>
-  <string name="touchscreen_flashlight_gesture_summary">Narišite \"V\", da preklopite svetilko</string>
-  <string name="touchscreen_music_gesture_summary">Uporabite poteze za nadzor predvajanja glasbe\n
-    • Dva prsta navpično za predvajanje/ustavljanje\n
-    • Narišite puščico v levo (\'&lt;\') za prejšnjo skladbo\n
-    • Narišite puščico v desno (\'&gt;\') za naslednjo skladbo</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Poveži</string>
   <string name="oclick_disconnect_string">Prekini</string>

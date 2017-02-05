@@ -23,16 +23,6 @@
   <string name="touchpad_long_press_summary">Pulsació llarga al panell tàctil per obrir l\'aplicació de la càmera</string>
   <string name="touchpad_double_tap_title">Pica dues vegades per capturar</string>
   <string name="touchpad_double_tap_summary">En l\'aplicació de la càmera, pica dues vegades per capturar una imatge</string>
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">Càmera</string>
-  <string name="touchscreen_camera_gesture_summary">Dibuixa un cercle per activar la càmera</string>
-  <string name="touchscreen_music_gesture_title">Música</string>
-  <string name="touchscreen_flashlight_gesture_title">Llanterna</string>
-  <string name="touchscreen_flashlight_gesture_summary">Dibuixa una \'V\' per canviar a la llanterna</string>
-  <string name="touchscreen_music_gesture_summary">Utilitza gestos per controlar la reproducció de música \n
-    • Dos dits verticalment per reproduir/pausar\n
-    • Dibuixa una fletxa a l\'esquerra (\'&lt;\') per anar a la pista anterior\n
-    • Dibuixa una fletxa a la dreta (\'&gt;\') per anar a la pista següent</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Connecta</string>
   <string name="oclick_disconnect_string">Desconnecta</string>

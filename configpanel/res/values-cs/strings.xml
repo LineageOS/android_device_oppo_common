@@ -23,16 +23,6 @@
   <string name="touchpad_long_press_summary">Dlouhým dotykem na touchpad spustíte aplikaci fotoaparátu</string>
   <string name="touchpad_double_tap_title">Dvojdotyk k vyfocení</string>
   <string name="touchpad_double_tap_summary">Pokud je aktivní fotoaparát, dvojitým dotykem pořídíte forografii</string>
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">Fotoaparát</string>
-  <string name="touchscreen_camera_gesture_summary">Namalováním kruhu spustíte fotoaparát</string>
-  <string name="touchscreen_music_gesture_title">Hudba</string>
-  <string name="touchscreen_flashlight_gesture_title">Svítilna</string>
-  <string name="touchscreen_flashlight_gesture_summary">Namalováním písmene „V“ přepnete stav svítilny</string>
-  <string name="touchscreen_music_gesture_summary">Použijte gesta k ovládání přehrávání hudby\n
-    \u2022 Dvěma prsty svisle - přehrát/pozastavit\n
-    \u2022 Nakreslením šipky vlevo („&lt;“) - předchozí stopa\n
-    \u2022 Nakreslením šipky vpravo („&gt;“) - následující stopa</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Připojit</string>
   <string name="oclick_disconnect_string">Odpojit</string>

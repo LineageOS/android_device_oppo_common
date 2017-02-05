@@ -23,12 +23,6 @@
   <string name="touchpad_long_press_summary">टचपॅड दीर्घ दाबल्यामुळे कॅमेरा अनुप्रयोग सुरू करा होईल</string>
   <string name="touchpad_double_tap_title">कॅप्चर करण्यासाठी दुहेरी टॅप करा</string>
   <string name="touchpad_double_tap_summary">कॅमेरामध्ये असताना, प्रतिमा कॅप्चर करण्यासाठी दुहेरी टॅप करा</string>
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">कॅमेरा</string>
-  <string name="touchscreen_camera_gesture_summary">कॅमेरा सक्रिय करण्यासाठी वर्तुळ काढा</string>
-  <string name="touchscreen_music_gesture_title">संगीत</string>
-  <string name="touchscreen_flashlight_gesture_title">फ्लॅशलाइट</string>
-  <string name="touchscreen_flashlight_gesture_summary">फ्लॅशलाईट टॉगल करण्यासाठी \'V\' काढा</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">कनेक्ट करा</string>
   <string name="oclick_disconnect_string">‍डिस्कनेक्ट करा</string>

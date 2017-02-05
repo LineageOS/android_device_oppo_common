@@ -23,12 +23,6 @@
   <string name="touchpad_long_press_summary">தொடுதளத்தின் மீது நீண்ட அழுத்தம்செய்தல் கேமரா பயன்பாட்டைத் தொடங்கும்</string>
   <string name="touchpad_double_tap_title">பிடிக்க இருமுறை தட்டு</string>
   <string name="touchpad_double_tap_summary">கேமராவில் இருக்கும்போது, படம் பிடிக்க இருமுறை தட்டு</string>
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">கேமரா</string>
-  <string name="touchscreen_camera_gesture_summary">கேமராவை செயல்படுத்த ஒரு வட்டத்தை வரை</string>
-  <string name="touchscreen_music_gesture_title">இசை</string>
-  <string name="touchscreen_flashlight_gesture_title">ஃபிளாஷ்லைட்</string>
-  <string name="touchscreen_flashlight_gesture_summary">ஃப்ளாஷ்லைட்டை நிலைமாற்றல் ஒரு \'V\' வரை</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">இணை</string>
   <string name="oclick_disconnect_string">தொடர்பைத் துண்டி</string>

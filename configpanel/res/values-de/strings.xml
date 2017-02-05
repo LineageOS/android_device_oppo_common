@@ -23,16 +23,6 @@
   <string name="touchpad_long_press_summary">Langes Drücken des Touchpads startet die Kamera-App</string>
   <string name="touchpad_double_tap_title">Auslösen durch doppeltes Tippen</string>
   <string name="touchpad_double_tap_summary">In der Kamera-App Bilder durch doppeltes Tippen aufnehmen</string>
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">Kamera</string>
-  <string name="touchscreen_camera_gesture_summary">Kreis zeichnen, um die Kamera-App zu starten</string>
-  <string name="touchscreen_music_gesture_title">Musik</string>
-  <string name="touchscreen_flashlight_gesture_title">Taschenlampe</string>
-  <string name="touchscreen_flashlight_gesture_summary">\"V\" zeichnen, um die Taschenlampe ein-/auszuschalten</string>
-  <string name="touchscreen_music_gesture_summary">Musikwiedergabe durch Gesten steuern \n
-    • Zwei Finger vertikal für Play/Pause\n
-    • Pfeil nach links (\"&lt;\") für vorherigen Titel\n
-    • Pfeil nach rechts (\"&gt;\") für nächsten Titel</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Verbinden</string>
   <string name="oclick_disconnect_string">Trennen</string>

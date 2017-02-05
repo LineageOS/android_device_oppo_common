@@ -17,42 +17,32 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- O-Touch settings -->
-  <string name="touchpad_enable_title">Uključi O-Touch</string>
+  <string name="touchpad_enable_title">Omogući O-Touch</string>
   <string name="touchpad_enable_summary">Stražnji touchpad za upravljanje telefonom</string>
-  <string name="touchpad_long_press_title">Dugi pritisak za pokretanje kamere</string>
-  <string name="touchpad_long_press_summary">Dugi pritisak touchpada će pokrenuti kameru</string>
-  <string name="touchpad_double_tap_title">Dupli-klik za slikanje</string>
-  <string name="touchpad_double_tap_summary">U kamera aplikaciji, dupli-klik će uslikati sliku</string>
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">Kamera</string>
-  <string name="touchscreen_camera_gesture_summary">Nacrtajte krug za pokretanje fotoaparata.</string>
-  <string name="touchscreen_music_gesture_title">Glazba</string>
-  <string name="touchscreen_flashlight_gesture_title">Bljeskalica</string>
-  <string name="touchscreen_flashlight_gesture_summary">Nacrtajte \"V\" za upravljanje bljeskalicom.</string>
-  <string name="touchscreen_music_gesture_summary">Koristite se gestama za upravljanje reprodukcijom glazbe \n
-    • Povucite dva prsta okomito za reprodukciju/pauzu\n
-    • Nacrtajte strelicu prema lijevo (\'&lt;\') za prethodnu pjesmu\n
-    • Nacrtajte strelicu prema desno (\'&gt;\') za sljedeću pjesmu</string>
+  <string name="touchpad_long_press_title">Dugi pritisak za pokretanje fotoaparata</string>
+  <string name="touchpad_long_press_summary">Dugi pritisak touchpada pokrenut će fotoaparat</string>
+  <string name="touchpad_double_tap_title">Dvostruki dodir za slikanje</string>
+  <string name="touchpad_double_tap_summary">Dok ste u fotoaparatu, dvostruki dodir će slikati sliku</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Spoji</string>
   <string name="oclick_disconnect_string">Odspoji</string>
-  <string name="oclick_summary_connected">Povezan s O-klik</string>
-  <string name="oclick_summary_paired">O-Click uparen ali nije spojen</string>
-  <string name="oclick_dialog_connecting_message">Povezivanje sa O-Click\u2026\nPritisnite O-Click tipku kako biste ubrzali povezivanje.</string>
-  <string name="oclick_take_snapshot_title">Daljinsko upravljanje kamerom</string>
-  <string name="oclick_take_snapshot_summary">Klik za snimanje forografije</string>
+  <string name="oclick_summary_connected">Povezani ste s O-Clickom</string>
+  <string name="oclick_summary_paired">O-Click je uparen, ali nije spojen</string>
+  <string name="oclick_dialog_connecting_message">Povezivanje sa O-Clickom\u2026\nPritisnite O-Click tipku kako biste ubrzali otkrivanje.</string>
+  <string name="oclick_take_snapshot_title">Daljinsko upravljanje fotoaparatom</string>
+  <string name="oclick_take_snapshot_summary">Jedan dodir za slikanje slike</string>
   <string name="oclick_find_my_phone_title">Lokator telefona</string>
-  <string name="oclick_find_my_phone_summary">Dupli klik za pronalaženje telefona</string>
-  <string name="oclick_fence_title">Proximity upozorenje</string>
+  <string name="oclick_find_my_phone_summary">Dvostruki dodir za pronalaženje telefona</string>
+  <string name="oclick_fence_title">Upozorenje blizine</string>
   <string name="oclick_fence_summary">Upozorenje kada niste u blizini telefona</string>
-  <string name="oclick_disconnect_alert_title">Upozorenje izvan dosega</string>
+  <string name="oclick_disconnect_alert_title">Upozorenje za izvan dosega</string>
   <string name="oclick_disconnect_alert_summary">Upozorenje kada ste izvan dosega</string>
   <string name="alert_category_title">Upozorenja</string>
   <string name="action_category_title">Radnje</string>
   <!-- O-Click notification -->
   <string name="oclick_locator_notification_title">O-Click lokator telefona</string>
-  <string name="oclick_locator_notification_text">Upozorenje lokatora je aktivno. Isključite dodirom</string>
-  <string name="oclick_notification_title_connected">O-Click spojen</string>
+  <string name="oclick_locator_notification_text">Upozorenje lokatora je aktivno. Dodirnite za odbacivanje</string>
+  <string name="oclick_notification_title_connected">O-Click je spojen</string>
   <string name="oclick_notification_title_disconnected">O-Click nije spojen</string>
   <string name="oclick_notification_content_disconnected">Pritisnite O-Click tipku za ponovno spajanje</string>
   <!-- Notification slider -->
@@ -63,6 +53,6 @@
   <string name="notification_slider_bottom_position">Na dnu</string>
   <string name="notification_slider_mode_total_silence">Potpuna tišina</string>
   <string name="notification_slider_mode_alarms_only">Samo alarmi</string>
-  <string name="notification_slider_mode_priority_only">Samo prioritet</string>
-  <string name="notification_slider_mode_none">Nijedan</string>
+  <string name="notification_slider_mode_priority_only">Samo prioriteti</string>
+  <string name="notification_slider_mode_none">Ništa</string>
 </resources>

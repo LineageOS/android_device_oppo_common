@@ -23,12 +23,6 @@
   <string name="touchpad_long_press_summary">স্পৰ্শপেডত দীঘলকৈ টিপিলে কেমেৰা এপ্লিকেচন লান্চ্চ কৰিব</string>
   <string name="touchpad_double_tap_title">কেপচাৰ কৰিবলৈ দুবাৰ টেপ কৰক</string>
   <string name="touchpad_double_tap_summary">কেমৰাত থাকোতে, প্ৰতিচ্ছৱি কেপচাৰ কৰিবলৈ দুবাৰ টেপ কৰক</string>
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">কেমেৰা</string>
-  <string name="touchscreen_camera_gesture_summary">কেমেৰা সক্ৰিয় কৰিবলৈ এটা বৃত্ত আঁকক</string>
-  <string name="touchscreen_music_gesture_title">মিউজিক</string>
-  <string name="touchscreen_flashlight_gesture_title">ফ্লেশলাইট</string>
-  <string name="touchscreen_flashlight_gesture_summary">ফ্লেশলাইট টগল কৰিবলৈ \'V\' আঁকক</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">সংযোগ</string>
   <string name="oclick_disconnect_string">সংযোগ বিচ্ছিন্ন কৰা</string>

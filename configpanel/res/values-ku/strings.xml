@@ -23,12 +23,6 @@
   <string name="touchpad_long_press_summary">بۆ ماوەیەکی درێژ دەست دابگرە بۆ کردنەوەی بەرنامەی کامێرە</string>
   <string name="touchpad_double_tap_title">دووجار ده‌ستی لێبدە بۆ گرتنی وێنه‌</string>
   <string name="touchpad_double_tap_summary">کاتێک کامێرا، دووجار ده‌ستی لێبدە بۆ گرتنی وێنه‌</string>
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">کامێرا</string>
-  <string name="touchscreen_camera_gesture_summary">بازنه‌یه‌کی خڕ بکێشه‌ بۆ چالاککردنی کامێرا</string>
-  <string name="touchscreen_music_gesture_title">مۆسیقا</string>
-  <string name="touchscreen_flashlight_gesture_title">فلاش لایت</string>
-  <string name="touchscreen_flashlight_gesture_summary">\'v\' بکێشە بۆ کردنەوەی فلاش لایت</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">په‌یوه‌ندیکردن</string>
   <string name="oclick_disconnect_string">پچڕانی پەیوەندی</string>

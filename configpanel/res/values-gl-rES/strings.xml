@@ -23,16 +23,6 @@
   <string name="touchpad_long_press_summary">Una pulsación prolongada en el panel táctil abrirá la aplicación de cámara</string>
   <string name="touchpad_double_tap_title">Pulsación doble para capturar</string>
   <string name="touchpad_double_tap_summary">Na cámara, unha doble pulsación capturará unha foto</string>
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">Cámara</string>
-  <string name="touchscreen_camera_gesture_summary">Debuxar un círculo para activar a cámara</string>
-  <string name="touchscreen_music_gesture_title">Música</string>
-  <string name="touchscreen_flashlight_gesture_title">Lanterna</string>
-  <string name="touchscreen_flashlight_gesture_summary">Debuxar un \"V\" para cambiar o estado da lanterna</string>
-  <string name="touchscreen_music_gesture_summary">Usa os xestos para controlar a reprodución de música\n
-    • Dous dedos verticalmente para reproducir/pausar\n
-    • Debuxa unha frecha á esquerda  (\'&lt;\') para ir á anterior pista\n
-    • Debuxa unha frecha á dereita  (\'&gt;\') para ir á seguinte pista</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Conectar</string>
   <string name="oclick_disconnect_string">Desconectar</string>

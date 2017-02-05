@@ -23,16 +23,6 @@
   <string name="touchpad_long_press_summary">Παρατεταμένη πίεση στην επιφάνεια αφής θα ανοίγει την φωτογρ. μηχανή</string>
   <string name="touchpad_double_tap_title">Διπλό χτύπημα για λήψη</string>
   <string name="touchpad_double_tap_summary">Ενώ είστε στην κάμερα, χτυπήστε ελαφρά δύο φορές για λήψη φωτογραφίας</string>
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">Φωτογρ. μηχανή</string>
-  <string name="touchscreen_camera_gesture_summary">Σχεδιάστε έναν κύκλο για εκκίνηση της φωτογρ. μηχανής</string>
-  <string name="touchscreen_music_gesture_title">Μουσική</string>
-  <string name="touchscreen_flashlight_gesture_title">Φακός</string>
-  <string name="touchscreen_flashlight_gesture_summary">Σχεδιάστε ένα \'V\' για ενεργοποίηση του φακού</string>
-  <string name="touchscreen_music_gesture_summary">Χρήση χειρονομιών για τον έλεγχο αναπαραγωγής μουσικής \n
-    • Δύο δάχτυλα κάθετα για αναπαραγωγή/παύση\n
-    • Σχεδιάστε βελάκι προς τα αριστερά (\'&lt;\') για προηγούμενο κομμάτι\n
-    • Σχεδιάστε βελάκι προς τα δεξιά (\'&gt;\') για επόμενο κομμάτι</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Σύνδεση</string>
   <string name="oclick_disconnect_string">Αποσύνδεση</string>

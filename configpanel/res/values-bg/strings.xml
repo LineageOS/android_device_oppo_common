@@ -23,16 +23,6 @@
   <string name="touchpad_long_press_summary">Продължително натискане върху тъчпада ще стартира приложението за камерата</string>
   <string name="touchpad_double_tap_title">Почукайте два пъти за да снимате</string>
   <string name="touchpad_double_tap_summary">Докато сте в камера почукайте два пъти за да направите снимка</string>
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">Камера</string>
-  <string name="touchscreen_camera_gesture_summary">Начертайте кръг за да включите камерата</string>
-  <string name="touchscreen_music_gesture_title">Музика</string>
-  <string name="touchscreen_flashlight_gesture_title">Фенерче</string>
-  <string name="touchscreen_flashlight_gesture_summary">Начертайте \"V\" за включване и изключване на фенерчето</string>
-  <string name="touchscreen_music_gesture_summary">Контролирайте музиката чрез жестове \n
-    • Два пръста верикално за пускане/пауза\n
-    • Начертайте стрелка наляво (\'&lt;\') за предходната песен\n
-    • Начертайте стрелка надясно (\'&gt;\') за следващата песен</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Свързване</string>
   <string name="oclick_disconnect_string">Прекъсване на връзката</string>

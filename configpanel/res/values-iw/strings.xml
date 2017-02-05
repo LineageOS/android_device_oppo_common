@@ -23,16 +23,6 @@
   <string name="touchpad_long_press_summary">לחיצה ארוכה על משטח המגע תפעיל את יישום המצלמה</string>
   <string name="touchpad_double_tap_title">הקשה כפולה לצילום</string>
   <string name="touchpad_double_tap_summary">בעת שהמצלמה פעילה, הקש פעמיים לצילום תמונה</string>
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">מצלמה</string>
-  <string name="touchscreen_camera_gesture_summary">צייר מעגל להפעלת המצלמה</string>
-  <string name="touchscreen_music_gesture_title">מוזיקה</string>
-  <string name="touchscreen_flashlight_gesture_title">פנס</string>
-  <string name="touchscreen_flashlight_gesture_summary">צייר V להפעלת/כיבוי הפנס</string>
-  <string name="touchscreen_music_gesture_summary">השתמש במחוות כדי לשלוט בהשמעת מוזיקה\n
-    • שתי אצבעות אנכית להפעלה\השהייה\n
-    • ציור חץ שמאלה (\'&lt;\') לחזרה לרצועה הקודמת\n
-    • ציור חץ ימינה (\'&gt;\') למעבר לרצועה הבאה</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">התחבר</string>
   <string name="oclick_disconnect_string">התנתק</string>

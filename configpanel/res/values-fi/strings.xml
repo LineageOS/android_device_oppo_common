@@ -23,16 +23,6 @@
   <string name="touchpad_long_press_summary">Avaa kamerasovellus painamalla kosketuspintaa pitkään</string>
   <string name="touchpad_double_tap_title">Ota kuva</string>
   <string name="touchpad_double_tap_summary">Kun kamerassa, napauta kahdesti ottaaksesi kuvan</string>
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">Kamera</string>
-  <string name="touchscreen_camera_gesture_summary">Piirrä ympyrä aktivoidaksesi kameran</string>
-  <string name="touchscreen_music_gesture_title">Musiikki</string>
-  <string name="touchscreen_flashlight_gesture_title">Lamppu</string>
-  <string name="touchscreen_flashlight_gesture_summary">Piirrä \'V\' avataksesi taskulampun</string>
-  <string name="touchscreen_music_gesture_summary">Käytä eleitä ohjataksesi musiikkia \n
-    • Kaksi sormea pystysuunnassa: toisto/tauko\n
-    • Piirrä nuoli vasemmalle(&lt;): edellinen kappale\n
-    • Piirrä nuoli oikealle(&gt;): seuraava kappale</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Yhdistä</string>
   <string name="oclick_disconnect_string">Katkaise yhteys</string>

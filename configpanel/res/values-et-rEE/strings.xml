@@ -23,12 +23,6 @@
   <string name="touchpad_long_press_summary">Pikk vajutus puuteplaadil käivitab kaamera rakenduse</string>
   <string name="touchpad_double_tap_title">Topeltpuuduta et jäädvustada</string>
   <string name="touchpad_double_tap_summary">Kaameras olles topeltpuudutusel jäädvustab pildi</string>
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">Kaamera</string>
-  <string name="touchscreen_camera_gesture_summary">Tõmmake ring et aktiveerida kaamera</string>
-  <string name="touchscreen_music_gesture_title">Muusika</string>
-  <string name="touchscreen_flashlight_gesture_title">Taskulamp</string>
-  <string name="touchscreen_flashlight_gesture_summary">Joonista \'V\' et lülitada taskulampi</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Ühenda</string>
   <string name="oclick_disconnect_string">Katkesta ühendus</string>

@@ -23,12 +23,6 @@
   <string name="touchpad_long_press_summary">కెమెరా అప్లికేషనును ప్రారంభించేందుకు స్పర్శ ప్యాడ్ పైన ఎక్కువ సేపు నొక్కండి</string>
   <string name="touchpad_double_tap_title">చిత్రీకరణ కొరకు రెండుసార్లు ట్యాప్ చేయండి</string>
   <string name="touchpad_double_tap_summary">కెమెరాలో ఉన్నప్పుడు, చిత్రాన్ని బంధించేందుకు రెండుసార్లు ట్యాప్ చేయండి</string>
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">కెమెరా</string>
-  <string name="touchscreen_camera_gesture_summary">కెమెరాను క్రియాశీలం చేసేందుకు ఒక వృత్తాన్ని గీయండి</string>
-  <string name="touchscreen_music_gesture_title">సంగీతం</string>
-  <string name="touchscreen_flashlight_gesture_title">ఫ్లాష్‌లైట్</string>
-  <string name="touchscreen_flashlight_gesture_summary">ఫ్లాష్ లైటును ద్విక్రియం చేసేందుకు \'V\'ను గీయండి</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">కనెక్ట్ చేయి</string>
   <string name="oclick_disconnect_string">డిస్‌కనెక్ట్ చేయి</string>

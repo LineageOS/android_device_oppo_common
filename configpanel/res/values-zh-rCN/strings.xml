@@ -23,16 +23,6 @@
   <string name="touchpad_long_press_summary">长按触摸板将启动相机应用</string>
   <string name="touchpad_double_tap_title">轻按两下来拍摄</string>
   <string name="touchpad_double_tap_summary">在相机中，轻按两下来拍摄照片</string>
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">相机</string>
-  <string name="touchscreen_camera_gesture_summary">画一个圆圈以启动相机</string>
-  <string name="touchscreen_music_gesture_title">音乐</string>
-  <string name="touchscreen_flashlight_gesture_title">手电筒</string>
-  <string name="touchscreen_flashlight_gesture_summary">画 \'V\' 以启动手电筒</string>
-  <string name="touchscreen_music_gesture_summary">使用手势控制音乐播放 \n
-    • 双指垂直滑动来播放/暂停\n 
-    • 画左箭头 (\'&lt;\') 切换到上一首\n 
-    • 画右箭头 (\'&gt;\') 切换到下一首</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">连接</string>
   <string name="oclick_disconnect_string">断开连接</string>

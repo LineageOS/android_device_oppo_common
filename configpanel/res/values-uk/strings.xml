@@ -23,12 +23,6 @@
   <string name="touchpad_long_press_summary">Довгий дотик на сенсорну панель запустить програму камери</string>
   <string name="touchpad_double_tap_title">Подвійне натискання для зйомки</string>
   <string name="touchpad_double_tap_summary">У програмі камери двічі натисніть на сенсорну панель, щоб зробити знімок</string>
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">Камера</string>
-  <string name="touchscreen_camera_gesture_summary">Намалюйте коло щоб задіяти камеру</string>
-  <string name="touchscreen_music_gesture_title">Музика</string>
-  <string name="touchscreen_flashlight_gesture_title">Ліхтарик</string>
-  <string name="touchscreen_flashlight_gesture_summary">Намалюйте \'V\' аби перемкнути ліхтарик</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Підключитись</string>
   <string name="oclick_disconnect_string">Відключитись</string>

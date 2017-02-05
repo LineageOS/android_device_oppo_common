@@ -23,12 +23,6 @@
   <string name="touchpad_long_press_summary">ટચપૅડને લાંબો સમય દબાવવાથી કેમેરા ઍપ્લિકેશન લોન્ચ થશે</string>
   <string name="touchpad_double_tap_title">કૅપ્ચર કરવા ડબલ ટૅપ કરો</string>
   <string name="touchpad_double_tap_summary">કેમેરામાં હોવ ત્યારે છબી કૅપ્ચર કરવા ડબલ ટૅપ કરો</string>
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">કૅમેરો</string>
-  <string name="touchscreen_camera_gesture_summary">ગોળાકાર પાડીને કેમેરાને સક્રિય કરો</string>
-  <string name="touchscreen_music_gesture_title">સંગીત</string>
-  <string name="touchscreen_flashlight_gesture_title">ફ્લેશલાઇટ</string>
-  <string name="touchscreen_flashlight_gesture_summary">ફ્લૅશલાઇટ ટૉગલ કરવા માટે \'V\' દોરો</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">કનેક્ટ કરો</string>
   <string name="oclick_disconnect_string">ડિસ્કનેક્ટ કરો</string>

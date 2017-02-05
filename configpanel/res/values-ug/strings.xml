@@ -23,12 +23,6 @@
   <string name="touchpad_long_press_summary">سەزگۈر تاختا ئۇزۇن بېسىلسا كامېرا ئەپنى قوزغىتىدۇ</string>
   <string name="touchpad_double_tap_title">قوش چېكىلسە سۈرەت تارتىدۇ</string>
   <string name="touchpad_double_tap_summary">كامېرادا قوش چېكىلسە سۈرەت تارتىدۇ</string>
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">كامېرا</string>
-  <string name="touchscreen_camera_gesture_summary">كامېرانى ئاكتىپلاش ئۈچۈن چەمبەر سىزىڭ</string>
-  <string name="touchscreen_music_gesture_title">نەغمە</string>
-  <string name="touchscreen_flashlight_gesture_title">قول چىراغ</string>
-  <string name="touchscreen_flashlight_gesture_summary">قول چىراغ ئۈچۈن \'V\' سىزىڭ</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">ئۇلاش</string>
   <string name="oclick_disconnect_string">ئۈز</string>

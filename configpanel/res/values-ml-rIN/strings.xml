@@ -23,12 +23,6 @@
   <string name="touchpad_long_press_summary">ക്യാമറ തുറക്കാന്‍ ടച്ച്‌ പാഡിൽ നീട്ടി അമര്‍ത്തുക</string>
   <string name="touchpad_double_tap_title">പടമെടുക്കാൻ രണ്ടു വട്ടം ടാപ്പ്‌ ചെയ്യുക</string>
   <string name="touchpad_double_tap_summary">ക്യാമറ തുറന്നിരിക്കുമ്പോൾ, ഫോട്ടോ എടുക്കാൻ ഡബിൾ ടാപ്പ്‌ ചെയ്യു</string>
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">ക്യാമറ</string>
-  <string name="touchscreen_camera_gesture_summary">ക്യാമറ തുറക്കാൻ വൃത്തം വരക്കുക</string>
-  <string name="touchscreen_music_gesture_title">സംഗീതം</string>
-  <string name="touchscreen_flashlight_gesture_title">മിന്നല്‍വിളക്ക്</string>
-  <string name="touchscreen_flashlight_gesture_summary">മിന്നല്‍വിളക്ക് ഓണ്‍/ഓഫ ചെയ്യാൻ \"V\" എന്ന് വരയ്ക്കുക</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">ഘടിപ്പിക്കുക</string>
   <string name="oclick_disconnect_string">വേര്‍പെടുത്തുക</string>

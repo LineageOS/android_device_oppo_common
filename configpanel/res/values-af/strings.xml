@@ -23,16 +23,6 @@
   <string name="touchpad_long_press_summary">Lang druk op die touchpad sal die kamera program begin</string>
   <string name="touchpad_double_tap_title">Double tik om vas te lê</string>
   <string name="touchpad_double_tap_summary">Terwyl in kamera, dubbel tik neem foto</string>
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">Kamera</string>
-  <string name="touchscreen_camera_gesture_summary">Trek \'n sirkel om kamera te aktiveer</string>
-  <string name="touchscreen_music_gesture_title">Musiek</string>
-  <string name="touchscreen_flashlight_gesture_title">Fits</string>
-  <string name="touchscreen_flashlight_gesture_summary">Teken \'n \'V\' om flits aan/af te skakel</string>
-  <string name="touchscreen_music_gesture_summary">Gebruik gebare om musiek te beheer \n
-        • Twee vingers vertikaal om te speel/pouse\n
-        • Teken linker pyl (\'&lt;\') vir vorige snit\n
-        • Teken regs pyltjie (\'&gt;\') vir volgende snit</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">koppel</string>
   <string name="oclick_disconnect_string">ontkoppel</string>

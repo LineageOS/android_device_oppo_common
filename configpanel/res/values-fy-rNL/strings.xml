@@ -17,8 +17,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- O-Touch settings -->
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">Kamera</string>
   <!-- O-Click settings -->
   <!-- O-Click notification -->
   <!-- Notification slider -->

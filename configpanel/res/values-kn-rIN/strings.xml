@@ -23,12 +23,6 @@
   <string name="touchpad_long_press_summary">ಸ್ಪರ್ಶಪ್ಯಾಡ್ ಮೇಲೆ ದೀರ್ಘ ಸ್ಪರ್ಶ ಮಾಡುವುದರಿಂದ ಕ್ಯಾಮೆರಾ ಅಪ್ಲಿಕೇಶನ್ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ</string>
   <string name="touchpad_double_tap_title">ಸೆರೆಹಿಡಿಯಲು ದ್ವಿಗುಣ ಸ್ಪರ್ಶ</string>
   <string name="touchpad_double_tap_summary">ಕ್ಯಾಮೆರಾದಲ್ಲಿರುವಾಗ, ಇಮೇಜನ್ನು ಸೆರೆಹಿಡಿಯಲು ದ್ಚಿಗುಣ ಸ್ಪರ್ಶಿಸಿ</string>
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">ಕ್ಯಾಮೆರಾ</string>
-  <string name="touchscreen_camera_gesture_summary">ಕ್ಯಾಮೆರಾ ಸಕ್ರಿಯಗೊಳಿಸಲು ಒಂದು ವೃತ್ತವನ್ನು ಬರೆಯಿರಿ</string>
-  <string name="touchscreen_music_gesture_title">ಸಂಗೀತ</string>
-  <string name="touchscreen_flashlight_gesture_title">ಟಾರ್ಚ್</string>
-  <string name="touchscreen_flashlight_gesture_summary">ಟಾರ್ಚನ್ನು ಟಾಗಲ್ ಮಾಡಲು ಒಂದು \'V\'ಯನ್ನು ಬರೆಯಿರಿ</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">ಸಂಪರ್ಕಿಸಿ</string>
   <string name="oclick_disconnect_string">ಸಂಪರ್ಕ ಕಡಿತಗೊಳಿಸಿ</string>

@@ -23,12 +23,6 @@
   <string name="touchpad_long_press_summary">Appuyez longuement sur le touchpad lancera l\'application appareil photo</string>
   <string name="touchpad_double_tap_title">Appui double pour capturer</string>
   <string name="touchpad_double_tap_summary">Dans l\'appareil photo, un appui double capture l\'image</string>
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">Appareil photo</string>
-  <string name="touchscreen_camera_gesture_summary">Dessinez un cercle pour activer l\'appareil photo</string>
-  <string name="touchscreen_music_gesture_title">Musique</string>
-  <string name="touchscreen_flashlight_gesture_title">Lampe de poche</string>
-  <string name="touchscreen_flashlight_gesture_summary">Dessiner un « V » pour activer ou désactiver la lampe de poche</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Connecter</string>
   <string name="oclick_disconnect_string">Déconnecter</string>

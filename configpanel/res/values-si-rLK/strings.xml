@@ -23,12 +23,6 @@
   <string name="touchpad_long_press_summary">ස්පර්ශ පෑඩය ඔබාගෙන සිටීමෙන් කැමරා යෙදුම දියත්කෙරේ</string>
   <string name="touchpad_double_tap_title">ග්‍රහණයට දෙවරක් තට්ටු කරන්න</string>
   <string name="touchpad_double_tap_summary">කමරාවේදී, සේයාව ග්‍රහණයට දෙවරක් තට්ටු කරන්න</string>
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">කැමරාව</string>
-  <string name="touchscreen_camera_gesture_summary">කැමරාව සක්‍රීය කිරීමට රවුමක් අඳින්න</string>
-  <string name="touchscreen_music_gesture_title">සංගීත</string>
-  <string name="touchscreen_flashlight_gesture_title">සැණෙලි-එළිය</string>
-  <string name="touchscreen_flashlight_gesture_summary">සැණෙලි-එළිය ටොගලනයට \'V\' අඳින්න</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">සබඳින්න</string>
   <string name="oclick_disconnect_string">විසන්ධි කරන්න</string>

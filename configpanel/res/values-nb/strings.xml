@@ -23,16 +23,6 @@
   <string name="touchpad_long_press_summary">langt trykk på touchpad vil starte kameraet</string>
   <string name="touchpad_double_tap_title">dobbeltrykk for å ta bilde</string>
   <string name="touchpad_double_tap_summary">i kameramodus, dobbeltrykk for å ta bilde</string>
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">Kamera</string>
-  <string name="touchscreen_camera_gesture_summary">Tegne en sirkel for å aktivere kameraet</string>
-  <string name="touchscreen_music_gesture_title">Musikk</string>
-  <string name="touchscreen_flashlight_gesture_title">Lommelykt</string>
-  <string name="touchscreen_flashlight_gesture_summary">Tegne en \'V\' for å aktivere lommelykt</string>
-  <string name="touchscreen_music_gesture_summary">Bruk bevegelser til å styre musikk avspilling \n
-    • To fingre vertikalt for å spille/pause\n
-    • Tegn en venstre pil (\'&lt;\') for forrige sang\n
-    • Tegn en høyre pil (\'&gt;\') for neste sang</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Koble til</string>
   <string name="oclick_disconnect_string">Koble fra</string>

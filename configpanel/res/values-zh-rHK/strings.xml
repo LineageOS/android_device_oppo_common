@@ -23,12 +23,6 @@
   <string name="touchpad_long_press_summary">長按 TouchPad 將啟動相機應用程式</string>
   <string name="touchpad_double_tap_title">輕按兩下來拍攝</string>
   <string name="touchpad_double_tap_summary">在相機時，輕按兩下來拍攝圖像</string>
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">相機</string>
-  <string name="touchscreen_camera_gesture_summary">畫一個圓圈以啟動相機</string>
-  <string name="touchscreen_music_gesture_title">音樂</string>
-  <string name="touchscreen_flashlight_gesture_title">電筒</string>
-  <string name="touchscreen_flashlight_gesture_summary">畫一個「V」以開關電筒</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">連接</string>
   <string name="oclick_disconnect_string">中斷連綫</string>

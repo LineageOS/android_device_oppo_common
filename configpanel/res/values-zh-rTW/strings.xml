@@ -23,16 +23,6 @@
   <string name="touchpad_long_press_summary">長按觸控板將啟動相機</string>
   <string name="touchpad_double_tap_title">輕觸兩下即可拍攝</string>
   <string name="touchpad_double_tap_summary">使用相機時，輕觸兩下即可拍攝</string>
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">相機</string>
-  <string name="touchscreen_camera_gesture_summary">畫出一個圓圈即可啟動相機</string>
-  <string name="touchscreen_music_gesture_title">音樂</string>
-  <string name="touchscreen_flashlight_gesture_title">手電筒</string>
-  <string name="touchscreen_flashlight_gesture_summary">畫出一個「V」即可切換至手電筒</string>
-  <string name="touchscreen_music_gesture_summary">使用手勢控制音樂播放 \n
-    • 兩個手指垂直滑動來播放或暫停\n 
-    • 畫出左箭頭 (\'&lt;\') 切換至上一首\n 
-    • 畫出右箭頭 (\'&gt;\') 切換至下一首</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">連線</string>
   <string name="oclick_disconnect_string">中斷連線</string>

@@ -23,12 +23,6 @@
   <string name="touchpad_long_press_summary">الضغط لمدة طويلة على لوحة اللمس سيؤدي إلى تشغيل تطبيق الكاميرا</string>
   <string name="touchpad_double_tap_title">انقر مرتين للإلتقاط</string>
   <string name="touchpad_double_tap_summary">عند التواجد في وضع الكاميرا، انقر مرتين لألتقاط الصورة</string>
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">الكاميرا</string>
-  <string name="touchscreen_camera_gesture_summary">رسم دائرة لتنشيط الكاميرا</string>
-  <string name="touchscreen_music_gesture_title">موسيقى</string>
-  <string name="touchscreen_flashlight_gesture_title">كشاف</string>
-  <string name="touchscreen_flashlight_gesture_summary">رسم \'V\' للتبديل بين الكشاف</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">الاتصال</string>
   <string name="oclick_disconnect_string">فصل</string>

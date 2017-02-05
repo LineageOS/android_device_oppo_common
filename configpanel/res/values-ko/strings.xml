@@ -23,12 +23,6 @@
   <string name="touchpad_long_press_summary">터치패드를 길게 눌러 카메라 어플리케이션을 실행합니다</string>
   <string name="touchpad_double_tap_title">두 번 탭하여 사진 촬영</string>
   <string name="touchpad_double_tap_summary">카메라 앱에서 두 번 탭하여 사진을 촬영합니다</string>
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">카메라</string>
-  <string name="touchscreen_camera_gesture_summary">원을 그려 카메라 열기</string>
-  <string name="touchscreen_music_gesture_title">음악</string>
-  <string name="touchscreen_flashlight_gesture_title">손전등</string>
-  <string name="touchscreen_flashlight_gesture_summary">\'V\'를 그려 손전등 토글</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">연결</string>
   <string name="oclick_disconnect_string">연결 해제</string>

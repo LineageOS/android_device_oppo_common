@@ -23,13 +23,6 @@
   <string name="touchpad_long_press_summary">Дуг притисак на touchpad ће покренути апликацију камере</string>
   <string name="touchpad_double_tap_title">Дупли додир да ухватиш</string>
   <string name="touchpad_double_tap_summary">Док си у камери, два пута додирни да снимиш слику</string>
-  <!-- Gesture shortcuts -->
-  <string name="touchscreen_camera_gesture_title">Камера</string>
-  <string name="touchscreen_camera_gesture_summary">Нацртај круг да би активирао камеру</string>
-  <string name="touchscreen_music_gesture_title">Музика</string>
-  <string name="touchscreen_flashlight_gesture_title">Лампа</string>
-  <string name="touchscreen_flashlight_gesture_summary">Нацртај \'V\' да покренеш лампу</string>
-  <string name="touchscreen_music_gesture_summary">Користи гестове да контролишеш пуштање музике \n     • Два прста вертикално да пустиш/паузираш\n     • Нацртај леву стрелу (\'&lt;\') за претходну нумеру\n     • Нацртај десну стрелу (\'&gt;\') за следећу нумеру</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Повежи</string>
   <string name="oclick_disconnect_string">Прекини везу</string>

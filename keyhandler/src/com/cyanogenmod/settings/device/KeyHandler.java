@@ -25,6 +25,7 @@ import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
+import android.provider.Settings;
 import android.media.session.MediaSessionLegacyHelper;
 import android.os.Handler;
 import android.os.Message;
@@ -120,8 +121,8 @@ public class KeyHandler implements DeviceKeyHandler {
     }
 
     private boolean hasSetupCompleted() {
-        return CMSettings.Secure.getInt(mContext.getContentResolver(),
-            CMSettings.Secure.CM_SETUP_WIZARD_COMPLETED, 0) != 0;
+        return Settings.Secure.getInt(mContext.getContentResolver(),
+                Settings.Secure.USER_SETUP_COMPLETE, 0) != 0;
     }
 
     public boolean handleKeyEvent(KeyEvent event) {

@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa5d592f_0af8307b",
+        "filename": "keyhandler/src/com/cyanogenmod/settings/device/KeyHandler.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2017-02-18T08:56:13Z",
+      "side": 1,
+      "message": "Settings.Secure.getInt(), not CMSettings.Secure.getInt()",
+      "revId": "1a396fc16819eaea83a342d1d018a7080695d724",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa5d592f_2a03f474",
+        "filename": "keyhandler/src/com/cyanogenmod/settings/device/KeyHandler.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 124,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2017-02-18T08:56:13Z",
+      "side": 1,
+      "message": "Settings.Secure.USER_SETUP_COMPLETED, not CMSettings.Secure.USER_SETUP_COMPLETED.",
+      "revId": "1a396fc16819eaea83a342d1d018a7080695d724",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

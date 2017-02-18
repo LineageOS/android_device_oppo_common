@@ -121,7 +121,7 @@ public class KeyHandler implements DeviceKeyHandler {
 
     private boolean hasSetupCompleted() {
         return CMSettings.Secure.getInt(mContext.getContentResolver(),
-            CMSettings.Secure.CM_SETUP_WIZARD_COMPLETED, 0) != 0;
+            CMSettings.Secure.USER_SETUP_COMPLETED, 0) != 0;
     }
 
     public boolean handleKeyEvent(KeyEvent event) {

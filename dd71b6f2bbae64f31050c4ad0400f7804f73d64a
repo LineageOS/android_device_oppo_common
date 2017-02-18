@@ -22,6 +22,30 @@
       "revId": "dd71b6f2bbae64f31050c4ad0400f7804f73d64a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa5d592f_a5d03554",
+        "filename": "keyhandler/src/com/cyanogenmod/settings/device/KeyHandler.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 124,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-02-18T12:11:01Z",
+      "side": 1,
+      "message": "8 spaces",
+      "parentUuid": "fa5d592f_e5e62d44",
+      "range": {
+        "startLine": 124,
+        "startChar": 12,
+        "endLine": 124,
+        "endChar": 16
+      },
+      "revId": "dd71b6f2bbae64f31050c4ad0400f7804f73d64a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }

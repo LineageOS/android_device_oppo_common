@@ -46,4 +46,13 @@
   <string name="oclick_notification_title_disconnected">Роз\'єднано з O-Click</string>
   <string name="oclick_notification_content_disconnected">Натисніть кнопку \"O-Click\", щоб перепід\'єднатися</string>
   <!-- Notification slider -->
+  <string name="notification_slider_category_title">Повзунок сповіщень</string>
+  <string name="notification_slider_selection_dialog_title">Дія</string>
+  <string name="notification_slider_top_position">Верхнє положення</string>
+  <string name="notification_slider_middle_position">Середнє положення</string>
+  <string name="notification_slider_bottom_position">Нижнє положення</string>
+  <string name="notification_slider_mode_total_silence">Повна тиша</string>
+  <string name="notification_slider_mode_alarms_only">Лише будильник</string>
+  <string name="notification_slider_mode_priority_only">Лише пріоритетні</string>
+  <string name="notification_slider_mode_none">Жодних</string>
 </resources>

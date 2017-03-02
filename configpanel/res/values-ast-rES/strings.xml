@@ -17,42 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- O-Touch settings -->
-  <string name="touchpad_enable_title">Habilitar O-Touch</string>
-  <string name="touchpad_enable_summary">Panel táctil traseru pa navegar dende\'l teléfonu</string>
-  <string name="touchpad_long_press_title">Pulsación prollongada pa llanzar la cámara</string>
-  <string name="touchpad_long_press_summary">Una pulsación prollongada nel panel táctil llanzará l\'aplicación Cámara</string>
-  <string name="touchpad_double_tap_title">Pulsación doble pa capturar semeya</string>
-  <string name="touchpad_double_tap_summary">Cuando s\'use l\'aplicación Cámara, una doble pulsación capturará una semeya</string>
   <!-- O-Click settings -->
-  <string name="oclick_connect_string">Coneutar</string>
-  <string name="oclick_disconnect_string">Desconeutar</string>
-  <string name="oclick_summary_connected">Coneutáu a O-Click</string>
-  <string name="oclick_summary_paired">O-Click empareyáu, pero desconeutáu</string>
-  <string name="oclick_dialog_connecting_message">Coneutando a O-Click\u2026\nPrimi\'l botón O-Click p\'acelerar la gueta.</string>
-  <string name="oclick_take_snapshot_title">Disparador remotu</string>
-  <string name="oclick_take_snapshot_summary">Facer una pulsación simple pa sacar una semeya</string>
-  <string name="oclick_find_my_phone_title">Llocalizador de teléfonu</string>
-  <string name="oclick_find_my_phone_summary">Fai una pulsación doble pa llocalizar el teléfonu</string>
-  <string name="oclick_fence_title">Alerta de proximidá</string>
-  <string name="oclick_fence_summary">Avisar cuando\'l teléfonu nun s\'alcuentre cerca</string>
-  <string name="oclick_disconnect_alert_title">Fuera d\'algame</string>
-  <string name="oclick_disconnect_alert_summary">Avisar cuando\'l teléfonu tea fuera d\'algame</string>
-  <string name="alert_category_title">Alertes</string>
-  <string name="action_category_title">Aiciones</string>
   <!-- O-Click notification -->
-  <string name="oclick_locator_notification_title">Llocalizador del teléfonu O-Click</string>
-  <string name="oclick_locator_notification_text">L\'alerta del llocalizador ta sonando. Toca pa silenciar</string>
-  <string name="oclick_notification_title_connected">O-Click coneutáu</string>
-  <string name="oclick_notification_title_disconnected">O-Click desconeutáu</string>
-  <string name="oclick_notification_content_disconnected">Primi\'l botón O-Click pa volver a coneutar</string>
   <!-- Notification slider -->
-  <string name="notification_slider_category_title">Barra eslizante de notificaciones</string>
-  <string name="notification_slider_selection_dialog_title">Aición</string>
-  <string name="notification_slider_top_position">Posición superior</string>
-  <string name="notification_slider_middle_position">Posición central</string>
-  <string name="notification_slider_bottom_position">Posición inferior</string>
-  <string name="notification_slider_mode_total_silence">Silenciu total</string>
-  <string name="notification_slider_mode_alarms_only">Namái alarmes</string>
-  <string name="notification_slider_mode_priority_only">Namái prioridá</string>
-  <string name="notification_slider_mode_none">Nenguna</string>
 </resources>

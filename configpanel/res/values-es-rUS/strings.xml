@@ -22,7 +22,7 @@
   <string name="touchpad_long_press_title">Pulsación prolongada para abrir la cámara</string>
   <string name="touchpad_long_press_summary">Pulsación prolongada en el panel táctil para abrir la cámara</string>
   <string name="touchpad_double_tap_title">Pulsación doble para capturar</string>
-  <string name="touchpad_double_tap_summary">Cuando esté en la cámara, pulsa 2 veces para capturar una imagen</string>
+  <string name="touchpad_double_tap_summary">Estando en la cámara, pulsa 2 veces para capturar una imagen</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Conectar</string>
   <string name="oclick_disconnect_string">Desconectar</string>
@@ -32,7 +32,7 @@
   <string name="oclick_take_snapshot_title">Disparador remoto</string>
   <string name="oclick_take_snapshot_summary">Pulsa una vez para fotografiar</string>
   <string name="oclick_find_my_phone_title">Localizador de teléfono</string>
-  <string name="oclick_find_my_phone_summary">Pulsar dos veces para ubicar el teléfono</string>
+  <string name="oclick_find_my_phone_summary">Pulsa dos veces para ubicar el teléfono</string>
   <string name="oclick_fence_title">Alerta de proximidad</string>
   <string name="oclick_fence_summary">Avisar al estar lejos del teléfono</string>
   <string name="oclick_disconnect_alert_title">Avisar al estar fuera de alcance</string>
@@ -41,7 +41,7 @@
   <string name="action_category_title">Acciones</string>
   <!-- O-Click notification -->
   <string name="oclick_locator_notification_title">Localizador de teléfono O-Click</string>
-  <string name="oclick_locator_notification_text">Está sonando el aviso del localizador. Pulsar para descartar</string>
+  <string name="oclick_locator_notification_text">Está sonando el aviso del localizador. Pulsa para descartar</string>
   <string name="oclick_notification_title_connected">O-Click conectado</string>
   <string name="oclick_notification_title_disconnected">O-Click desconectado</string>
   <string name="oclick_notification_content_disconnected">Pulsa el botón O-Click para reconectar</string>

@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2015 The CyanogenMod Project
+ *               2017 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -39,8 +40,6 @@ import android.view.InputDevice;
 import android.view.InputEvent;
 import android.view.KeyCharacterMap;
 import android.view.KeyEvent;
-
-import java.io.File;
 
 import com.cyanogenmod.settings.device.utils.Constants;
 
@@ -169,10 +168,10 @@ public class Startup extends BroadcastReceiver {
     }
 
     static boolean hasButtonProcs() {
-        return (new File(Constants.NOTIF_SLIDER_TOP_NODE).exists() &&
-            new File(Constants.NOTIF_SLIDER_MIDDLE_NODE).exists() &&
-            new File(Constants.NOTIF_SLIDER_BOTTOM_NODE).exists()) ||
-            new File(Constants.BUTTON_SWAP_NODE).exists();
+        return (FileUtils.fileExists(Constants.NOTIF_SLIDER_TOP_NODE) &&
+                FileUtils.fileExists(Constants.NOTIF_SLIDER_MIDDLE_NODE) &&
+                FileUtils.fileExists(Constants.NOTIF_SLIDER_BOTTOM_NODE)) ||
+                FileUtils.fileExists(Constants.BUTTON_SWAP_NODE);
     }
 
     static boolean hasOClick() {

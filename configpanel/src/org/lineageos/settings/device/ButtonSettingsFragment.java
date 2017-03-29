@@ -15,37 +15,29 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings.device.utils;
+package org.lineageos.settings.device;
 
 import android.os.Bundle;
-import android.preference.Preference;
-import android.preference.Preference.OnPreferenceChangeListener;
-import android.preference.PreferenceActivity;
-import android.preference.ListPreference;
-import android.preference.SwitchPreference;
+import android.support.v14.preference.PreferenceFragment;
+import android.support.v14.preference.SwitchPreference;
+import android.support.v7.preference.ListPreference;
+import android.support.v7.preference.Preference;
+import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.text.TextUtils;
 import android.view.MenuItem;
 
-import org.lineageos.internal.util.FileUtils;
-import org.lineageos.internal.util.ScreenType;
+import com.android.settingslib.drawer.SettingsDrawerActivity;
 
-public class NodePreferenceActivity extends PreferenceActivity
+import org.lineageos.internal.util.FileUtils;
+import org.lineageos.settings.device.utils.Constants;
+
+public class ButtonSettingsFragment extends PreferenceFragment
         implements OnPreferenceChangeListener {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        getActionBar().setDisplayHomeAsUpEnabled(true);
-    }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-
-        // If running on a phone, remove padding around the listview
-        if (!ScreenType.isTablet(this)) {
-            getListView().setPadding(0, 0, 0, 0);
-        }
+    public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
+        addPreferencesFromResource(R.xml.button_panel);
+        getActivity().getActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     @Override
@@ -98,7 +90,7 @@ public class NodePreferenceActivity extends PreferenceActivity
         switch (item.getItemId()) {
         // Respond to the action bar's Up/Home button
         case android.R.id.home:
-            finish();
+            getActivity().finish();
             return true;
         }
         return super.onOptionsItemSelected(item);

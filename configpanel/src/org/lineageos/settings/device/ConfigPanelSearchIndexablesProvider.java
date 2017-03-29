@@ -43,7 +43,7 @@ public class ConfigPanelSearchIndexablesProvider extends SearchIndexablesProvide
 
     private static SearchIndexableResource[] INDEXABLE_RES = new SearchIndexableResource[]{
             new SearchIndexableResource(1, R.xml.button_panel,
-                    ButtonSettings.class.getName(),
+                    ButtonSettingsActivity.class.getName(),
                     R.drawable.ic_settings_additional_buttons),
             new SearchIndexableResource(1, R.xml.oclick_panel,
                     BluetoothInputSettings.class.getName(),

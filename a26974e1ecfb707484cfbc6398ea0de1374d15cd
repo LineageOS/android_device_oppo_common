@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba57610f_d0bf45cf",
+        "filename": "configpanel/src/com/cyanogenmod/settings/device/Startup.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 171,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2017-04-03T15:00:40Z",
+      "side": 1,
+      "message": "isFileWritable",
+      "range": {
+        "startLine": 171,
+        "startChar": 26,
+        "endLine": 171,
+        "endChar": 36
+      },
+      "revId": "a26974e1ecfb707484cfbc6398ea0de1374d15cd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba57610f_b0b4d1f2",
+        "filename": "configpanel/src/com/cyanogenmod/settings/device/Startup.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 172,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2017-04-03T15:00:40Z",
+      "side": 1,
+      "message": "isFileWritable",
+      "range": {
+        "startLine": 172,
+        "startChar": 26,
+        "endLine": 172,
+        "endChar": 36
+      },
+      "revId": "a26974e1ecfb707484cfbc6398ea0de1374d15cd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba57610f_90b9cdeb",
+        "filename": "configpanel/src/com/cyanogenmod/settings/device/Startup.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 173,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2017-04-03T15:00:40Z",
+      "side": 1,
+      "message": "isFileWritable",
+      "range": {
+        "startLine": 173,
+        "startChar": 26,
+        "endLine": 173,
+        "endChar": 36
+      },
+      "revId": "a26974e1ecfb707484cfbc6398ea0de1374d15cd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba57610f_70ce5985",
+        "filename": "configpanel/src/com/cyanogenmod/settings/device/Startup.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 174,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2017-04-03T15:00:40Z",
+      "side": 1,
+      "message": "isFileWritable",
+      "range": {
+        "startLine": 174,
+        "startChar": 26,
+        "endLine": 174,
+        "endChar": 36
+      },
+      "revId": "a26974e1ecfb707484cfbc6398ea0de1374d15cd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

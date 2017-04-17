@@ -1,5 +1,6 @@
 # Copyright (C) 2009 The Android Open Source Project
 # Copyright (c) 2011, The Linux Foundation. All rights reserved.
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -48,10 +49,12 @@ def GetRadioFiles(z):
   return out
 
 def FullOTA_Assertions(info):
+  AddModemAssertion(info)
   AddTrustZoneAssertion(info)
   return
 
 def IncrementalOTA_Assertions(info):
+  AddModemAssertion(info)
   AddTrustZoneAssertion(info)
   return
 
@@ -147,6 +150,20 @@ def FullOTA_InstallEnd(info):
 def IncrementalOTA_InstallEnd(info):
   AddDDRWipe(info)
   InstallRadioFiles(info)
+
+def AddModemAssertion(info):
+  # Presence of filesmap indicates packaged firmware
+  filesmap = LoadFilesMap(info.input_zip)
+  if filesmap != {}:
+    return
+  android_info = info.input_zip.read("OTA/android-info.txt")
+  m = re.search(r'require\s+version-modem\s*=\s*(.+)', android_info)
+  if m:
+    versions = m.group(1).split('|')
+    if len(versions) and '*' not in versions:
+      cmd = 'assert(oppo.verify_modem(' + ','.join(['"%s"' % modem for modem in versions]) + ') == "1");'
+      info.script.AppendExtra(cmd)
+  return
 
 def AddTrustZoneAssertion(info):
   # Presence of filesmap indicates packaged firmware

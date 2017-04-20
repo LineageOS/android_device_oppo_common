@@ -17,7 +17,42 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- O-Touch settings -->
+  <string name="touchpad_enable_title">Aktivizo O-Touch</string>
+  <string name="touchpad_enable_summary">Paneli taktil i pasëm për lundrim në telefon</string>
+  <string name="touchpad_long_press_title">Mbaj shtypur për të hapur kamerën</string>
+  <string name="touchpad_long_press_summary">Mbajtja shtypur e panelit taktil do të hapë aplikacionin e kamerës</string>
+  <string name="touchpad_double_tap_title">Shtyp dy herë për të shkrepur</string>
+  <string name="touchpad_double_tap_summary">Kur kamera është e hapur, shtyp dy herë për të shkrepur foton</string>
   <!-- O-Click settings -->
+  <string name="oclick_connect_string">Lidhu</string>
+  <string name="oclick_disconnect_string">Shkëputu</string>
+  <string name="oclick_summary_connected">Lidhur me O-Click</string>
+  <string name="oclick_summary_paired">O-Click i çiftëzuar, por i shkëputur</string>
+  <string name="oclick_dialog_connecting_message">Duke u lidhur me O-Click\u2026\nShtypni butonin O-Click për të përshpejtuar proçesin e zbulimit.</string>
+  <string name="oclick_take_snapshot_title">Shkrepja e kamerës në distancë</string>
+  <string name="oclick_take_snapshot_summary">Shtyp një herë për të bërë një foto</string>
+  <string name="oclick_find_my_phone_title">Lokalizuesi i telefonit</string>
+  <string name="oclick_find_my_phone_summary">Shtyp dy herë për të gjetur telefonin</string>
+  <string name="oclick_fence_title">Aktivizimi prej afërsisë</string>
+  <string name="oclick_fence_summary">Më njofto kur nuk ndodhem afër telefonit</string>
+  <string name="oclick_disconnect_alert_title">Njoftim i ndodhjes jashtë rrezes</string>
+  <string name="oclick_disconnect_alert_summary">Më njofto kur është i paarritshëm</string>
+  <string name="alert_category_title">Njoftimet</string>
+  <string name="action_category_title">Veprimet</string>
   <!-- O-Click notification -->
+  <string name="oclick_locator_notification_title">Lokalizuesi i telefonit O-Click</string>
+  <string name="oclick_locator_notification_text">Është duke rënë zilja e njoftimit të lokalizuesit. Shtyp për ta larguar</string>
+  <string name="oclick_notification_title_connected">O-Click i lidhur</string>
+  <string name="oclick_notification_title_disconnected">O-Click i shkëputur</string>
+  <string name="oclick_notification_content_disconnected">Shtyp butonin O-Click për t\'u rilidhur</string>
   <!-- Notification slider -->
+  <string name="notification_slider_category_title">Kursori i njoftimeve</string>
+  <string name="notification_slider_selection_dialog_title">Veprimi</string>
+  <string name="notification_slider_top_position">Lart</string>
+  <string name="notification_slider_middle_position">Në mes</string>
+  <string name="notification_slider_bottom_position">Poshtë</string>
+  <string name="notification_slider_mode_total_silence">Heshtje e plotë</string>
+  <string name="notification_slider_mode_alarms_only">Vetëm alarmet</string>
+  <string name="notification_slider_mode_priority_only">Vetëm kryesoret</string>
+  <string name="notification_slider_mode_none">Asnjë</string>
 </resources>

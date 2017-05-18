@@ -33,7 +33,7 @@
   <string name="oclick_take_snapshot_summary">按一下即可拍照</string>
   <string name="oclick_find_my_phone_title">手機定位器</string>
   <string name="oclick_find_my_phone_summary">按兩下即可尋找手機</string>
-  <string name="oclick_fence_title">接近警報</string>
+  <string name="oclick_fence_title">距離警報</string>
   <string name="oclick_fence_summary">不在手機附近時發出警報</string>
   <string name="oclick_disconnect_alert_title">超出範圍警報</string>
   <string name="oclick_disconnect_alert_summary">手機不在範圍時發出警報</string>

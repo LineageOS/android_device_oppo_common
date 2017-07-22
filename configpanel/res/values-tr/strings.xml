@@ -28,7 +28,7 @@
   <string name="oclick_disconnect_string">Bağlantıyı Kes</string>
   <string name="oclick_summary_connected">O-Click\'e bağlanıldı</string>
   <string name="oclick_summary_paired">O-Click eşleşti ama bağlantı kesildi</string>
-  <string name="oclick_dialog_connecting_message">O-Click\'e bağlanılıyor\u2026\nO-Click tuşuna basarak aygıtı hızlıca bulun.</string>
+  <string name="oclick_dialog_connecting_message">O-Click\'e bağlanılıyor\u2026\nO-Bulmayı hızlandırmak için O-Click tuşuna basın.</string>
   <string name="oclick_take_snapshot_title">Uzaktan çekim</string>
   <string name="oclick_take_snapshot_summary">Resim çekmek için tek tıklayın</string>
   <string name="oclick_find_my_phone_title">Telefon bulucu</string>

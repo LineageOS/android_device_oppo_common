@@ -52,7 +52,7 @@
   <string name="notification_slider_middle_position">Posición intermedia</string>
   <string name="notification_slider_bottom_position">Posición inferior</string>
   <string name="notification_slider_mode_total_silence">Silencio total</string>
-  <string name="notification_slider_mode_alarms_only">Solo alarmas</string>
-  <string name="notification_slider_mode_priority_only">Solo prioridad</string>
+  <string name="notification_slider_mode_alarms_only">Sólo alarmas</string>
+  <string name="notification_slider_mode_priority_only">Sólo prioridad</string>
   <string name="notification_slider_mode_none">Ningún</string>
 </resources>

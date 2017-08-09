@@ -52,7 +52,7 @@
   <string name="notification_slider_middle_position">中間位置</string>
   <string name="notification_slider_bottom_position">底部位置</string>
   <string name="notification_slider_mode_total_silence">一律靜音</string>
-  <string name="notification_slider_mode_alarms_only">僅限提醒</string>
+  <string name="notification_slider_mode_alarms_only">僅限鬧鐘</string>
   <string name="notification_slider_mode_priority_only">僅限優先</string>
   <string name="notification_slider_mode_none">無</string>
 </resources>

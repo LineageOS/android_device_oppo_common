@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "774e75a6_4c4d0cf1",
+        "filename": "recovery/recovery_updater.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 181,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2017-09-15T05:36:29Z",
+      "side": 1,
+      "message": "Using tz_version.size() would be more correct here though.\n\nOr use foreach:\n\nfor (const auto\u0026 version : tz_version) {\n    [...]\n}",
+      "revId": "dc4db501a8f73c6aa2b275481ccf1211069917d8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

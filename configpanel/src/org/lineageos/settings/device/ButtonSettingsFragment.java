@@ -26,8 +26,6 @@ import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.text.TextUtils;
 import android.view.MenuItem;
 
-import com.android.settingslib.drawer.SettingsDrawerActivity;
-
 import org.lineageos.internal.util.FileUtils;
 import org.lineageos.settings.device.utils.Constants;
 

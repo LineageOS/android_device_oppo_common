@@ -16,13 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- O-Touch settings -->
-  <string name="touchpad_enable_title">ಒ-ಸ್ಪರ್ಶ ಸಕ್ರಿಯ</string>
-  <string name="touchpad_enable_summary">ಫೋನನ್ನು ನಾವಿಗೇಟ್ ಮಾಡಲು ಹಿಂಬದಿ ಸ್ಪರ್ಶಪ್ಯಾಡ್</string>
-  <string name="touchpad_long_press_title">ಕ್ಯಾಮೆರಾ ತೆರೆಯಲು ದೀರ್ಘ ಸ್ಪರ್ಶ</string>
-  <string name="touchpad_long_press_summary">ಸ್ಪರ್ಶಪ್ಯಾಡ್ ಮೇಲೆ ದೀರ್ಘ ಸ್ಪರ್ಶ ಮಾಡುವುದರಿಂದ ಕ್ಯಾಮೆರಾ ಅಪ್ಲಿಕೇಶನ್ ತೆರೆದುಕೊಳ್ಳುತ್ತದೆ</string>
-  <string name="touchpad_double_tap_title">ಸೆರೆಹಿಡಿಯಲು ದ್ವಿಗುಣ ಸ್ಪರ್ಶ</string>
-  <string name="touchpad_double_tap_summary">ಕ್ಯಾಮೆರಾದಲ್ಲಿರುವಾಗ, ಇಮೇಜನ್ನು ಸೆರೆಹಿಡಿಯಲು ದ್ಚಿಗುಣ ಸ್ಪರ್ಶಿಸಿ</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">ಸಂಪರ್ಕಿಸಿ</string>
   <string name="oclick_disconnect_string">ಸಂಪರ್ಕ ಕಡಿತಗೊಳಿಸಿ</string>

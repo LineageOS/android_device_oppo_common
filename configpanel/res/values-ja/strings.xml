@@ -16,13 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- O-Touch settings -->
-  <string name="touchpad_enable_title">O-Touchを有効化</string>
-  <string name="touchpad_enable_summary">リアタッチパッドを端末の操作に使用する</string>
-  <string name="touchpad_long_press_title">長押しでカメラを起動</string>
-  <string name="touchpad_long_press_summary">タッチパッドを長押ししてカメラアプリを起動する</string>
-  <string name="touchpad_double_tap_title">ダブルタップしてシャッター</string>
-  <string name="touchpad_double_tap_summary">カメラアプリを起動中にダブルタップしてシャッターを切る</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">接続</string>
   <string name="oclick_disconnect_string">切断</string>

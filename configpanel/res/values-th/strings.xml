@@ -16,13 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- O-Touch settings -->
-  <string name="touchpad_enable_title">เปิดใช้งาน O-Touch</string>
-  <string name="touchpad_enable_summary">แตะหลังเครื่องเพื่อคุมโทรศัพท์</string>
-  <string name="touchpad_long_press_title">กดค้างเพื่อเปิดกล้อง</string>
-  <string name="touchpad_long_press_summary">กดค้างที่แป้นสัมผัสเพื่อเปิดใช้งานกล้อง</string>
-  <string name="touchpad_double_tap_title">แตะสองครั้งเพื่อจับภาพ</string>
-  <string name="touchpad_double_tap_summary">ขณะเปิดใช้กล้องอยู่ แตะสองครั้งเพื่อจับภาพ</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">เชื่อมต่อ</string>
   <string name="oclick_disconnect_string">ตัดการเชื่อมต่อ</string>

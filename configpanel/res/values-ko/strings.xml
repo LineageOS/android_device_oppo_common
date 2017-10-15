@@ -16,13 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- O-Touch settings -->
-  <string name="touchpad_enable_title">O-Touch 사용</string>
-  <string name="touchpad_enable_summary">뒷면 터치패드로 휴대전화 탐색</string>
-  <string name="touchpad_long_press_title">길게 눌러 카메라 실행</string>
-  <string name="touchpad_long_press_summary">터치패드를 길게 눌러 카메라 어플리케이션을 실행합니다</string>
-  <string name="touchpad_double_tap_title">두 번 탭하여 사진 촬영</string>
-  <string name="touchpad_double_tap_summary">카메라 앱에서 두 번 탭하여 사진을 촬영합니다</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">연결</string>
   <string name="oclick_disconnect_string">연결 해제</string>

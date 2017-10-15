@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0ca4f784_fcaf95fe",
+        "filename": "configpanel/AndroidManifest.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2017-10-15T16:25:26Z",
+      "side": 1,
+      "message": "INITIALIZE_LINEAGE_HARDWARE",
+      "range": {
+        "startLine": 99,
+        "startChar": 73,
+        "endLine": 99,
+        "endChar": 75
+      },
+      "revId": "473badb3752b20c00e03c57a12cdfd3939cc5203",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6a1143b3_c2bb8943",
+        "filename": "keyhandler/src/org/lineageos/settings/device/KeyHandler.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 156,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2017-10-15T16:25:26Z",
+      "side": 1,
+      "message": "100 chars",
+      "revId": "473badb3752b20c00e03c57a12cdfd3939cc5203",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

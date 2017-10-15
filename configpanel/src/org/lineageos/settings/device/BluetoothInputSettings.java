@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2015 The CyanogenMod Project
+ * Copyright (C) 2017 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.settings.device;
+package org.lineageos.settings.device;
 
 import android.app.ProgressDialog;
 import android.bluetooth.BluetoothAdapter;
@@ -41,9 +42,8 @@ import android.preference.PreferenceScreen;
 import android.text.TextUtils;
 import android.view.MenuItem;
 
-import com.cyanogenmod.settings.device.utils.Constants;
-
-import org.cyanogenmod.internal.util.ScreenType;
+import org.lineageos.internal.util.ScreenType;
+import org.lineageos.settings.device.utils.Constants;
 
 import java.util.ArrayList;
 import java.util.List;

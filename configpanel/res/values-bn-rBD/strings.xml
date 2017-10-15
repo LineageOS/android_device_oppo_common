@@ -16,13 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- O-Touch settings -->
-  <string name="touchpad_enable_title">ও-স্পর্শ সক্রিয়</string>
-  <string name="touchpad_enable_summary">পেছনের স্পর্শ সংবেদনশীল দ্বারা ফোন সচল করুন</string>
-  <string name="touchpad_long_press_title">দীর্ঘ চাপ দ্বারা ক্যামেরা সচল করুন</string>
-  <string name="touchpad_long_press_summary">স্পর্শ সংবেদনশীল স্থ্যানে দীর্ঘ চাপ দ্বারা ক্যামেরা অ্যাপ্লিকেশন সচল করুন</string>
-  <string name="touchpad_double_tap_title">ছবি গ্রহণ করতে দুবার টোকা</string>
-  <string name="touchpad_double_tap_summary">ছবি তুলতে, ক্যামেরায় দুবার টোকা দেওয়া হবে</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">সংযোগ</string>
   <string name="oclick_disconnect_string">সংযোগ ছিন্ন</string>

@@ -16,13 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- O-Touch settings -->
-  <string name="touchpad_enable_title">Activar O-Touch</string>
-  <string name="touchpad_enable_summary">Panel táctil trasero para navegar por el teléfono</string>
-  <string name="touchpad_long_press_title">Pulsación prolongada para activar la cámara</string>
-  <string name="touchpad_long_press_summary">Una pulsación prolongada en el panel táctil iniciará la aplicación de la cámara</string>
-  <string name="touchpad_double_tap_title">Pulsa dos veces para capturar foto</string>
-  <string name="touchpad_double_tap_summary">Cuando estés en la aplicación Cámara, una doble pulsación capturará una foto</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Conectar</string>
   <string name="oclick_disconnect_string">Desconectar</string>

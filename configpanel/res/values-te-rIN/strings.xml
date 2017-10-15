@@ -16,13 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- O-Touch settings -->
-  <string name="touchpad_enable_title">O-స్పర్శ సెట్టింగ్స్ అమలు చెయ్యి</string>
-  <string name="touchpad_enable_summary">ఫోనును నావిగేట్ చేసేందుకు వెనుక స్పర్శ ప్యాడ్</string>
-  <string name="touchpad_long_press_title">కెమెరాను ప్రారంభించేందుకు ఎక్కువ సేపు నొక్కండి</string>
-  <string name="touchpad_long_press_summary">కెమెరా అప్లికేషనును ప్రారంభించేందుకు స్పర్శ ప్యాడ్ పైన ఎక్కువ సేపు నొక్కండి</string>
-  <string name="touchpad_double_tap_title">చిత్రీకరణ కొరకు రెండుసార్లు ట్యాప్ చేయండి</string>
-  <string name="touchpad_double_tap_summary">కెమెరాలో ఉన్నప్పుడు, చిత్రాన్ని బంధించేందుకు రెండుసార్లు ట్యాప్ చేయండి</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">కనెక్ట్ చేయి</string>
   <string name="oclick_disconnect_string">డిస్‌కనెక్ట్ చేయి</string>

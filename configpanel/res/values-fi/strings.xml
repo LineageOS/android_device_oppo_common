@@ -16,13 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- O-Touch settings -->
-  <string name="touchpad_enable_title">Ota O-Touch käyttöön</string>
-  <string name="touchpad_enable_summary">Navigoi puhelimessa takana olevan kosketuspinnan avulla</string>
-  <string name="touchpad_long_press_title">Käynnistä kamera</string>
-  <string name="touchpad_long_press_summary">Avaa kamerasovellus painamalla kosketuspintaa pitkään</string>
-  <string name="touchpad_double_tap_title">Ota kuva</string>
-  <string name="touchpad_double_tap_summary">Kun kamerassa, napauta kahdesti ottaaksesi kuvan</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Yhdistä</string>
   <string name="oclick_disconnect_string">Katkaise yhteys</string>

@@ -16,13 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- O-Touch settings -->
-  <string name="touchpad_enable_title">O-ટચ સક્ષમ કરો</string>
-  <string name="touchpad_enable_summary">ફોન નેવિગેટ કરવા પાછળનું ટચપૅડ</string>
-  <string name="touchpad_long_press_title">કેમેરા લોન્ચ કરવા લાંબો સમય દબાવો</string>
-  <string name="touchpad_long_press_summary">ટચપૅડને લાંબો સમય દબાવવાથી કેમેરા ઍપ્લિકેશન લોન્ચ થશે</string>
-  <string name="touchpad_double_tap_title">કૅપ્ચર કરવા ડબલ ટૅપ કરો</string>
-  <string name="touchpad_double_tap_summary">કેમેરામાં હોવ ત્યારે છબી કૅપ્ચર કરવા ડબલ ટૅપ કરો</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">કનેક્ટ કરો</string>
   <string name="oclick_disconnect_string">ડિસ્કનેક્ટ કરો</string>

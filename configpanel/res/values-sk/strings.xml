@@ -16,13 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- O-Touch settings -->
-  <string name="touchpad_enable_title">Povoliť O-Touch</string>
-  <string name="touchpad_enable_summary">Použiť zadný touchpad k ovládaniu telefónu</string>
-  <string name="touchpad_long_press_title">Dlhé stlačenie spustí fotoaparát</string>
-  <string name="touchpad_long_press_summary">Dlhé stlačenie na touchpad spustí aplikáciu Fotoaparát</string>
-  <string name="touchpad_double_tap_title">Dvojklikom zosnímať fotografiu</string>
-  <string name="touchpad_double_tap_summary">Ak ste vo Fotoaparáte, dvojklikom zosnímate fotografiu</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Pripojiť</string>
   <string name="oclick_disconnect_string">Odpojiť</string>

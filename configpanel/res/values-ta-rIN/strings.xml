@@ -16,13 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- O-Touch settings -->
-  <string name="touchpad_enable_title">செயல்படுத்து O-Touch</string>
-  <string name="touchpad_enable_summary">தொலைப்பேசியை வழிசெல்ல பின்புற தொடுதளம்</string>
-  <string name="touchpad_long_press_title">கேமராவை தொடங்க நீண்ட அழுத்தம்செய்</string>
-  <string name="touchpad_long_press_summary">தொடுதளத்தின் மீது நீண்ட அழுத்தம்செய்தல் கேமரா பயன்பாட்டைத் தொடங்கும்</string>
-  <string name="touchpad_double_tap_title">பிடிக்க இருமுறை தட்டு</string>
-  <string name="touchpad_double_tap_summary">கேமராவில் இருக்கும்போது, படம் பிடிக்க இருமுறை தட்டு</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">இணை</string>
   <string name="oclick_disconnect_string">தொடர்பைத் துண்டி</string>

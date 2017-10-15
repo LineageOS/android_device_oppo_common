@@ -16,13 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- O-Touch settings -->
-  <string name="touchpad_enable_title">Aktivizo O-Touch</string>
-  <string name="touchpad_enable_summary">Paneli taktil i pasëm për lundrim në telefon</string>
-  <string name="touchpad_long_press_title">Mbaj shtypur për të hapur kamerën</string>
-  <string name="touchpad_long_press_summary">Mbajtja shtypur e panelit taktil do të hapë aplikacionin e kamerës</string>
-  <string name="touchpad_double_tap_title">Shtyp dy herë për të shkrepur</string>
-  <string name="touchpad_double_tap_summary">Kur kamera është e hapur, shtyp dy herë për të shkrepur foton</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Lidhu</string>
   <string name="oclick_disconnect_string">Shkëputu</string>

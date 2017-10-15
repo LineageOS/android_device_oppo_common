@@ -16,13 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- O-Touch settings -->
-  <string name="touchpad_enable_title">O-Touch engedélyezése</string>
-  <string name="touchpad_enable_summary">Telefon navigálása hátsó touchpad-dal</string>
-  <string name="touchpad_long_press_title">Kamera indítása hosszan nyomva tartással</string>
-  <string name="touchpad_long_press_summary">Kamera alkalmazás indítása a touchpad hosszan nyomva tartással</string>
-  <string name="touchpad_double_tap_title">Kép készítése dupla érintéssel</string>
-  <string name="touchpad_double_tap_summary">A kamera alkalmazás futása esetén kép készítése dupla érintéssel</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Csatlakozás</string>
   <string name="oclick_disconnect_string">Lecsatlakozás</string>

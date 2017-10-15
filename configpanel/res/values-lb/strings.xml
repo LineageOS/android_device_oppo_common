@@ -16,13 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- O-Touch settings -->
-  <string name="touchpad_enable_title">O-Touch aktivéieren</string>
-  <string name="touchpad_enable_summary">Touchpad op der Récksäit benotze fir den Apparat ze steieren</string>
-  <string name="touchpad_long_press_title">Laang drécke fir de Fotoapparat ze starten</string>
-  <string name="touchpad_long_press_summary">Laang op den Touchpad drécke fir d\'Kamera-App ze starten</string>
-  <string name="touchpad_double_tap_title">Zweemol drécke fir eng Foto ze maachen</string>
-  <string name="touchpad_double_tap_summary">An der Kamera-App zweemol drécke fir Fotoen ze knipsen</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Connectéieren</string>
   <string name="oclick_disconnect_string">Déconnectéieren</string>

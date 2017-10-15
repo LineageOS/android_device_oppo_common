@@ -16,13 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- O-Touch settings -->
-  <string name="touchpad_enable_title">تمكين O-اللمس</string>
-  <string name="touchpad_enable_summary">لوحة اللمس الخلفية للتنقل في الهاتف</string>
-  <string name="touchpad_long_press_title">الضغط لمدة طويلة لتشغيل الكاميرا</string>
-  <string name="touchpad_long_press_summary">الضغط لمدة طويلة على لوحة اللمس سيؤدي إلى تشغيل تطبيق الكاميرا</string>
-  <string name="touchpad_double_tap_title">انقر مرتين للإلتقاط</string>
-  <string name="touchpad_double_tap_summary">عند التواجد في وضع الكاميرا، انقر مرتين لألتقاط الصورة</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">الاتصال</string>
   <string name="oclick_disconnect_string">فصل</string>

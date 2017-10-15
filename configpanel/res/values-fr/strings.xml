@@ -16,13 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- O-Touch settings -->
-  <string name="touchpad_enable_title">Activer O-Touch</string>
-  <string name="touchpad_enable_summary">Pavé tactile arrière pour naviguer dans le téléphone</string>
-  <string name="touchpad_long_press_title">Appui long pour lancer l\'appareil photo</string>
-  <string name="touchpad_long_press_summary">Appuyez longuement sur le touchpad lancera l\'application appareil photo</string>
-  <string name="touchpad_double_tap_title">Appui double pour capturer</string>
-  <string name="touchpad_double_tap_summary">Dans l\'appareil photo, un appui double capture l\'image</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Connecter</string>
   <string name="oclick_disconnect_string">Déconnecter</string>

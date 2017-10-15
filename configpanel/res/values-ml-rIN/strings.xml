@@ -16,13 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- O-Touch settings -->
-  <string name="touchpad_enable_title">ഓ-ടച്ച്‌ പ്രാപ്തമാക്കുക</string>
-  <string name="touchpad_enable_summary">ഫോണിന്റെ വഴികൾ പുറകിലെ ടുച്ച്പാടിൽ</string>
-  <string name="touchpad_long_press_title">ക്യാമറ തുറക്കാന്‍ നീട്ടി അമര്‍ത്തുക</string>
-  <string name="touchpad_long_press_summary">ക്യാമറ തുറക്കാന്‍ ടച്ച്‌ പാഡിൽ നീട്ടി അമര്‍ത്തുക</string>
-  <string name="touchpad_double_tap_title">പടമെടുക്കാൻ രണ്ടു വട്ടം ടാപ്പ്‌ ചെയ്യുക</string>
-  <string name="touchpad_double_tap_summary">ക്യാമറ തുറന്നിരിക്കുമ്പോൾ, ഫോട്ടോ എടുക്കാൻ ഡബിൾ ടാപ്പ്‌ ചെയ്യു</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">ഘടിപ്പിക്കുക</string>
   <string name="oclick_disconnect_string">വേര്‍പെടുത്തുക</string>

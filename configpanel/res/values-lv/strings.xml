@@ -16,13 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- O-Touch settings -->
-  <string name="touchpad_enable_title">Ieslēgt O-Touch</string>
-  <string name="touchpad_enable_summary">Aizmugures skārienekrāns navigācijai telefonā</string>
-  <string name="touchpad_long_press_title">Turēt ilgi nospiestu, lai palaistu kameru</string>
-  <string name="touchpad_long_press_summary">Ilga nospiešana uz skārienekrāna palaidīs kameras lietotni</string>
-  <string name="touchpad_double_tap_title">Dubultpiesitiens, lai uzņemtu</string>
-  <string name="touchpad_double_tap_summary">Kameras režīmā divreiz piesitiet, lai uzņemtu attēlu</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Izveidot savienojumu</string>
   <string name="oclick_disconnect_string">Atvienots</string>

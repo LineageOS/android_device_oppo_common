@@ -16,13 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- O-Touch settings -->
-  <string name="touchpad_enable_title">O-Touch قوزغات</string>
-  <string name="touchpad_enable_summary">ئارقا تەرەپتىكى سەزگۈر تاختىدىن يولباشلايدىغان تېلېفون</string>
-  <string name="touchpad_long_press_title">كامېرانى قوزغىتىش ئۈچۈن ئۇزۇن بېسىڭ</string>
-  <string name="touchpad_long_press_summary">سەزگۈر تاختا ئۇزۇن بېسىلسا كامېرا ئەپنى قوزغىتىدۇ</string>
-  <string name="touchpad_double_tap_title">قوش چېكىلسە سۈرەت تارتىدۇ</string>
-  <string name="touchpad_double_tap_summary">كامېرادا قوش چېكىلسە سۈرەت تارتىدۇ</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">ئۇلاش</string>
   <string name="oclick_disconnect_string">ئۈز</string>

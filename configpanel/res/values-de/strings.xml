@@ -16,13 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- O-Touch settings -->
-  <string name="touchpad_enable_title">O-Touch aktivieren</string>
-  <string name="touchpad_enable_summary">Rückseitiges Touchpad zur Steuerung des Telefons</string>
-  <string name="touchpad_long_press_title">Lange drücken, um Kamera zu starten</string>
-  <string name="touchpad_long_press_summary">Langes Drücken des Touchpads startet die Kamera-App</string>
-  <string name="touchpad_double_tap_title">Auslösen durch doppeltes Tippen</string>
-  <string name="touchpad_double_tap_summary">In der Kamera-App Bilder durch doppeltes Tippen aufnehmen</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Verbinden</string>
   <string name="oclick_disconnect_string">Trennen</string>

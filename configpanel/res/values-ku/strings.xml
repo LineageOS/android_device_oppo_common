@@ -16,13 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- O-Touch settings -->
-  <string name="touchpad_enable_title">چالاککردنی o-بیسووە</string>
-  <string name="touchpad_enable_summary">سوینی پاشه‌وه‌ی پاد بۆ ته‌له‌فۆنی نه‌رێ</string>
-  <string name="touchpad_long_press_title">دەست داگرتن بۆ ماوەکەی درێژ بۆ کردنەوەی کامێرە</string>
-  <string name="touchpad_long_press_summary">بۆ ماوەیەکی درێژ دەست دابگرە بۆ کردنەوەی بەرنامەی کامێرە</string>
-  <string name="touchpad_double_tap_title">دووجار ده‌ستی لێبدە بۆ گرتنی وێنه‌</string>
-  <string name="touchpad_double_tap_summary">کاتێک کامێرا، دووجار ده‌ستی لێبدە بۆ گرتنی وێنه‌</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">په‌یوه‌ندیکردن</string>
   <string name="oclick_disconnect_string">پچڕانی پەیوەندی</string>

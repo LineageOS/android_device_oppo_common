@@ -16,13 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- O-Touch settings -->
-  <string name="touchpad_enable_title">O-Touch inschakelen</string>
-  <string name="touchpad_enable_summary">Touchpad aan achterkant voor navigeren</string>
-  <string name="touchpad_long_press_title">Lang aanraken voor camera</string>
-  <string name="touchpad_long_press_summary">Touchpad lang aanraken start de camera-app</string>
-  <string name="touchpad_double_tap_title">Dubbeltikken voor opname</string>
-  <string name="touchpad_double_tap_summary">In camera dubbeltikken om een foto te nemen</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Verbinding maken</string>
   <string name="oclick_disconnect_string">Verbinding verbreken</string>

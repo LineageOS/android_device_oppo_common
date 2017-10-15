@@ -16,13 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- O-Touch settings -->
-  <string name="touchpad_enable_title">Włącz O-Touch</string>
-  <string name="touchpad_enable_summary">Tylny panel dotykowy do nawigacji telefonu</string>
-  <string name="touchpad_long_press_title">Przytrzymaj by włączyć aparat</string>
-  <string name="touchpad_long_press_summary">Długie przytrzymanie touchpada uruchomi aplikację aparatu</string>
-  <string name="touchpad_double_tap_title">Podwójne kliknięcie by uchwycić</string>
-  <string name="touchpad_double_tap_summary">Gdy w aparacie, podwójne kliknięcie zrobi zdjęcie</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Połącz</string>
   <string name="oclick_disconnect_string">Rozłącz</string>

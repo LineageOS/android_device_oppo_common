@@ -16,7 +16,7 @@
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           android:sharedUserId="android.uid.system"
-          package="com.cyanogenmod.settings.device"
+          package="org.lineageos.settings.device"
           android:versionCode="6"
           android:versionName="2.4" >
 

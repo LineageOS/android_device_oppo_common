@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.settings.device;
+package org.lineageos.settings.device;
 
 import android.app.PendingIntent;
 import android.bluetooth.BluetoothAdapter;
@@ -41,9 +41,8 @@ import android.view.InputEvent;
 import android.view.KeyCharacterMap;
 import android.view.KeyEvent;
 
-import com.cyanogenmod.settings.device.utils.Constants;
-
-import org.cyanogenmod.internal.util.FileUtils;
+import org.lineageos.internal.util.FileUtils;
+import org.lineageos.settings.device.utils.Constants;
 
 public class Startup extends BroadcastReceiver {
 
@@ -52,7 +51,7 @@ public class Startup extends BroadcastReceiver {
     @Override
     public void onReceive(final Context context, final Intent intent) {
         final String action = intent.getAction();
-        if (cyanogenmod.content.Intent.ACTION_INITIALIZE_CM_HARDWARE.equals(action)) {
+        if (lineageos.content.Intent.ACTION_INITIALIZE_LINEAGE_HARDWARE.equals(action)) {
             // Disable backtouch settings if needed
             if (hasGestureService(context)) {
                 disableComponent(context, GesturePadSettings.class.getName());
@@ -114,7 +113,7 @@ public class Startup extends BroadcastReceiver {
             if (hasOClick()) {
                 updateOClickServiceState(context);
             }
-        } else if (intent.getAction().equals("cyanogenmod.intent.action.GESTURE_CAMERA")) {
+        } else if (intent.getAction().equals("lineageos.intent.action.GESTURE_CAMERA")) {
             long now = SystemClock.uptimeMillis();
             sendInputEvent(new KeyEvent(now, now, KeyEvent.ACTION_DOWN,
                     KeyEvent.KEYCODE_CAMERA, 0, 0,
@@ -128,7 +127,7 @@ public class Startup extends BroadcastReceiver {
             boolean enable) {
         PendingIntent pendingIntent = null;
         if (enable) {
-            Intent doubleTapIntent = new Intent("cyanogenmod.intent.action.GESTURE_CAMERA", null);
+            Intent doubleTapIntent = new Intent("lineageos.intent.action.GESTURE_CAMERA", null);
             pendingIntent = PendingIntent.getBroadcastAsUser(
                     context, 0, doubleTapIntent, 0, UserHandle.CURRENT);
         }

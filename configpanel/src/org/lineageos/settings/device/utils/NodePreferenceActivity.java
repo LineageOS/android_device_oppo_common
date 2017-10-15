@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.settings.device.utils;
+package org.lineageos.settings.device.utils;
 
 import android.os.Bundle;
 import android.preference.Preference;
@@ -26,8 +26,8 @@ import android.preference.SwitchPreference;
 import android.text.TextUtils;
 import android.view.MenuItem;
 
-import org.cyanogenmod.internal.util.FileUtils;
-import org.cyanogenmod.internal.util.ScreenType;
+import org.lineageos.internal.util.FileUtils;
+import org.lineageos.internal.util.ScreenType;
 
 public class NodePreferenceActivity extends PreferenceActivity
         implements OnPreferenceChangeListener {

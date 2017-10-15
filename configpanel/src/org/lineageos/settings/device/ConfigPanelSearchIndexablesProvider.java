@@ -45,9 +45,6 @@ public class ConfigPanelSearchIndexablesProvider extends SearchIndexablesProvide
             new SearchIndexableResource(1, R.xml.button_panel,
                     ButtonSettings.class.getName(),
                     R.drawable.ic_settings_additional_buttons),
-            new SearchIndexableResource(1, R.xml.gesture_panel,
-                    GesturePadSettings.class.getName(),
-                    R.drawable.ic_settings_gestures),
             new SearchIndexableResource(1, R.xml.oclick_panel,
                     BluetoothInputSettings.class.getName(),
                     R.drawable.ic_oclick_notification),
@@ -63,9 +60,6 @@ public class ConfigPanelSearchIndexablesProvider extends SearchIndexablesProvide
         MatrixCursor cursor = new MatrixCursor(INDEXABLES_XML_RES_COLUMNS);
         if (Startup.hasButtonProcs() /* show button panel */) {
             cursor.addRow(generateResourceRef(INDEXABLE_RES[SEARCH_IDX_BUTTON_PANEL]));
-        }
-        if (Startup.hasGestureService(getContext()) /* show gesture panel */) {
-            cursor.addRow(generateResourceRef(INDEXABLE_RES[SEARCH_IDX_GESTURE_PANEL]));
         }
         if (Startup.hasOClick() /* show oclick panel */) {
             cursor.addRow(generateResourceRef(INDEXABLE_RES[SEARCH_IDX_OCLICK_PANEL]));

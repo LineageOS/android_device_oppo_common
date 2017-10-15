@@ -16,13 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- O-Touch settings -->
-  <string name="touchpad_enable_title">فعال کردن O-Touch</string>
-  <string name="touchpad_enable_summary">استفاده از قسمت لمسی پشت برای کنترل گوشی</string>
-  <string name="touchpad_long_press_title">لمس طولانی برای اجرای دوربین</string>
-  <string name="touchpad_long_press_summary">لمس طولانی روی پد لمسی باعث اجرای دوربین می‌شود</string>
-  <string name="touchpad_double_tap_title">دوبار ضربه برای عکس برداری</string>
-  <string name="touchpad_double_tap_summary">هنگام استفاده از دوربین، با دوبار ضربه عکس بگیرید</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">اتصال</string>
   <string name="oclick_disconnect_string">قطع ارتباط</string>

@@ -16,13 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- O-Touch settings -->
-  <string name="touchpad_enable_title">Активирай O-Touch</string>
-  <string name="touchpad_enable_summary">Заден тъчпад за навигация на телефона</string>
-  <string name="touchpad_long_press_title">Натиснете продължително за да стартирате камерата</string>
-  <string name="touchpad_long_press_summary">Продължително натискане върху тъчпада ще стартира приложението за камерата</string>
-  <string name="touchpad_double_tap_title">Почукайте два пъти за да снимате</string>
-  <string name="touchpad_double_tap_summary">Докато сте в камера почукайте два пъти за да направите снимка</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Свързване</string>
   <string name="oclick_disconnect_string">Прекъсване на връзката</string>

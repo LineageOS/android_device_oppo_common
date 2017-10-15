@@ -16,13 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- O-Touch settings -->
-  <string name="touchpad_enable_title">Activa O-Touch</string>
-  <string name="touchpad_enable_summary">Panell tàctil posterior per navegar el telèfon</string>
-  <string name="touchpad_long_press_title">Pulsació llarga per obrir la càmera</string>
-  <string name="touchpad_long_press_summary">Pulsació llarga al panell tàctil per obrir l\'aplicació de la càmera</string>
-  <string name="touchpad_double_tap_title">Pica dues vegades per capturar</string>
-  <string name="touchpad_double_tap_summary">En l\'aplicació de la càmera, pica dues vegades per capturar una imatge</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Connecta</string>
   <string name="oclick_disconnect_string">Desconnecta</string>

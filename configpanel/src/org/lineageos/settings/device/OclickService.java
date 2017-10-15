@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2015 The CyanogenMod Project
+ * Copyright (C) 2017 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.settings.device;
+package org.lineageos.settings.device;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -45,7 +46,7 @@ import android.view.InputDevice;
 import android.view.KeyCharacterMap;
 import android.view.KeyEvent;
 
-import com.cyanogenmod.settings.device.utils.Constants;
+import org.lineageos.settings.device.utils.Constants;
 
 import java.util.UUID;
 
@@ -282,7 +283,7 @@ public class OclickService extends Service implements
                         }
                     }
 
-                    Intent keyIntent = new Intent("com.cyanogenmod.device.oppo.ACTION_OCLICK_KEY");
+                    Intent keyIntent = new Intent("org.lineageos.device.oppo.ACTION_OCLICK_KEY");
                     keyIntent.putExtra("key", key);
                     keyIntent.putExtra("action", action);
                     sendBroadcast(keyIntent);

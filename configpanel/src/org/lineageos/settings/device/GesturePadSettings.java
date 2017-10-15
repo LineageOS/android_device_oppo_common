@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2015 The CyanogenMod Project
+ * Copyright (C) 2017 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,16 +15,16 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.settings.device;
-
-import com.cyanogenmod.settings.device.utils.Constants;
-import com.cyanogenmod.settings.device.utils.NodePreferenceActivity;
+package org.lineageos.settings.device;
 
 import android.os.Bundle;
 import android.os.IBinder;
 import android.os.ServiceManager;
 import android.preference.Preference;
 import android.service.gesture.IGestureService;
+
+import org.lineageos.settings.device.utils.Constants;
+import org.lineageos.settings.device.utils.NodePreferenceActivity;
 
 public class GesturePadSettings extends NodePreferenceActivity {
 

@@ -16,13 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- O-Touch settings -->
-  <string name="touchpad_enable_title">Уключыць O-Touch</string>
-  <string name="touchpad_enable_summary">Сэнсорная панэль на заднім боку тэлефона</string>
-  <string name="touchpad_long_press_title">Доўгі націск для запуску камеры</string>
-  <string name="touchpad_long_press_summary">Утрымвайце сэнсорную панэль для запуску дадаткі \"Камера\"</string>
-  <string name="touchpad_double_tap_title">Падвойны націск для здымкі</string>
-  <string name="touchpad_double_tap_summary">У дадатку \"Камера\" двойчы націсніце на сэнсорную панэль, каб зрабіць здымак</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Далучыць</string>
   <string name="oclick_disconnect_string">Адключыць</string>

@@ -16,13 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- O-Touch settings -->
-  <string name="touchpad_enable_title">Gaitu O-Touch</string>
-  <string name="touchpad_enable_summary">Atzeko ukipen panela erabili telefonoan nabigatzeko</string>
-  <string name="touchpad_long_press_title">Sakatu luze kamera abiatzeko</string>
-  <string name="touchpad_long_press_summary">Ukipen panelean denbora luzez sakatzeak Kamera aplikazioa abiatuko du</string>
-  <string name="touchpad_double_tap_title">Birritan sakatu argazkia ateratzeko</string>
-  <string name="touchpad_double_tap_summary">Kamera aplikazioan egonda, birritan sakatzeak argazkia aterako du</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Konektatu</string>
   <string name="oclick_disconnect_string">Deskonektatu</string>

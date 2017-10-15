@@ -16,13 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- O-Touch settings -->
-  <string name="touchpad_enable_title">O-স্পৰ্শ সক্ষম কৰক</string>
-  <string name="touchpad_enable_summary">ফোন নেভিগেট কৰিবলৈ পাছফালৰ স্পৰ্শপেড</string>
-  <string name="touchpad_long_press_title">কেমেৰা লান্চ্চ কৰিবলৈ দীঘলকৈ টিপক</string>
-  <string name="touchpad_long_press_summary">স্পৰ্শপেডত দীঘলকৈ টিপিলে কেমেৰা এপ্লিকেচন লান্চ্চ কৰিব</string>
-  <string name="touchpad_double_tap_title">কেপচাৰ কৰিবলৈ দুবাৰ টেপ কৰক</string>
-  <string name="touchpad_double_tap_summary">কেমৰাত থাকোতে, প্ৰতিচ্ছৱি কেপচাৰ কৰিবলৈ দুবাৰ টেপ কৰক</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">সংযোগ</string>
   <string name="oclick_disconnect_string">সংযোগ বিচ্ছিন্ন কৰা</string>

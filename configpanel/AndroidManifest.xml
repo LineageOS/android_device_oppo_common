@@ -68,17 +68,6 @@
         </activity>
 
         <activity
-            android:name=".GesturePadSettings"
-            android:label="@string/backpad_panel_title">
-            <intent-filter>
-                <action android:name="org.lineageos.action.LAUNCH_GESTURE_PAD_SETTINGS" />
-            </intent-filter>
-            <meta-data
-                android:name="com.android.settings.title"
-                android:resource="@string/backpad_panel_title" />
-        </activity>
-
-        <activity
             android:name=".ButtonSettings"
             android:label="@string/button_panel_title">
             <intent-filter>

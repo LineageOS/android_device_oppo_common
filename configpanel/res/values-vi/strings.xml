@@ -16,13 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- O-Touch settings -->
-  <string name="touchpad_enable_title">Bật O-Touch</string>
-  <string name="touchpad_enable_summary">Touchpad phía sau để điều hướng điện thoại</string>
-  <string name="touchpad_long_press_title">Nhấn giữ để khởi động máy ảnh</string>
-  <string name="touchpad_long_press_summary">Nhấn giữ lên touchpad để khởi động ứng dụng máy ảnh</string>
-  <string name="touchpad_double_tap_title">Nhấn đúp để chụp</string>
-  <string name="touchpad_double_tap_summary">Trong máy ảnh, nhấn đúp để chụp ảnh</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Kết nối</string>
   <string name="oclick_disconnect_string">Ngắt kết nối</string>

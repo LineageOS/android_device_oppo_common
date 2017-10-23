@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "067d9fae_c160d141",
+        "filename": "configpanel/AndroidManifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-10-23T14:09:53Z",
+      "side": 1,
+      "message": "Unless this is for temporary bring-up, this will not be the place for \"Additional buttons\".",
+      "range": {
+        "startLine": 80,
+        "startChar": 16,
+        "endLine": 80,
+        "endChar": 71
+      },
+      "revId": "d310905ac04fd1cb3bf57ce3ad7cec319ce0afbb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

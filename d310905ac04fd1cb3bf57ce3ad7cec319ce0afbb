@@ -22,6 +22,52 @@
       "revId": "d310905ac04fd1cb3bf57ce3ad7cec319ce0afbb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "42a77ece_398462d1",
+        "filename": "configpanel/AndroidManifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-10-23T14:19:11Z",
+      "side": 1,
+      "message": "You need to check if this broadcast action is whitelisted by default.",
+      "range": {
+        "startLine": 88,
+        "startChar": 16,
+        "endLine": 88,
+        "endChar": 88
+      },
+      "revId": "d310905ac04fd1cb3bf57ce3ad7cec319ce0afbb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0d4e389b_fe28b67e",
+        "filename": "configpanel/AndroidManifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-10-23T14:19:11Z",
+      "side": 1,
+      "message": "As for this one, you need to whitelist it or else the app won\u0027t receive the broadcast because targetSdkVersion will be the latest.",
+      "range": {
+        "startLine": 89,
+        "startChar": 16,
+        "endLine": 89,
+        "endChar": 80
+      },
+      "revId": "d310905ac04fd1cb3bf57ce3ad7cec319ce0afbb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }

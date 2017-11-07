@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4b1e16b6_6083e268",
+        "filename": "configpanel/AndroidManifest.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-11-07T15:41:22Z",
+      "side": 1,
+      "message": "This must be removed.",
+      "range": {
+        "startLine": 75,
+        "startChar": 12,
+        "endLine": 75,
+        "endChar": 67
+      },
+      "revId": "f44294543485d2ca084b8b44c6a298a156c551e4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

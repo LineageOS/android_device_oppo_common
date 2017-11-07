@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8e66bf14_55d81a1c",
+        "filename": "configpanel/AndroidManifest.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-11-07T15:55:39Z",
+      "side": 1,
+      "message": "Maybe you missed https://github.com/LineageOS/android_packages_resources_devicesettings/commit/441267d91d30966ae94fa81ed38a93e21ab50b16, but you can simple use summary_empty string now.",
+      "range": {
+        "startLine": 69,
+        "startChar": 16,
+        "endLine": 69,
+        "endChar": 32
+      },
+      "revId": "eba69df54647de9074a9a9d8ab35677f91ea6ad2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

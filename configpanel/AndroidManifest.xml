@@ -50,9 +50,11 @@
             </intent-filter>
         </provider>
 
+        <!-- O-Click settings (Connected devices category) -->
         <service android:name=".OclickService" />
         <activity
             android:name=".BluetoothInputSettings"
+            android:icon="@drawable/ic_settings_oclick"
             android:launchMode="singleTop"
 
             android:label="@string/oclick_panel_title">
@@ -61,24 +63,20 @@
             </intent-filter>
             <meta-data
                 android:name="com.android.settings.category"
-                android:value="com.android.settings.category.device" />
+                android:value="com.android.settings.category.ia.device" />
             <meta-data
-                android:name="com.android.settings.icon"
-                android:resource="@drawable/ic_settings_oclick" />
+                android:name="com.android.settings.summary"
+                android:value="@string/summary_empty" />
         </activity>
 
+        <!-- Additional button settings (Button settings) -->
         <activity
             android:name=".ButtonSettingsActivity"
             android:label="@string/button_panel_title">
             <intent-filter>
-                <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
+                <action android:name="org.lineageos.settings.device.ADDITIONAL_BUTTONS_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
-            <meta-data
-                android:name="com.android.settings.icon"
-                android:resource="@drawable/ic_settings_additional_buttons" />
-            <meta-data
-                android:name="com.android.settings.category"
-                android:value="com.android.settings.category.device" />
         </activity>
 
         <receiver android:name=".Startup" >

@@ -21,8 +21,8 @@
   <string name="touchpad_enable_summary">Zadnja sledilna ploščica za upravljanje telefona</string>
   <string name="touchpad_long_press_title">Dolg pritisk za zagon fotoaparata</string>
   <string name="touchpad_long_press_summary">Dolg pritisk na sledilno ploščico bo zagnal fotoaparat</string>
-  <string name="touchpad_double_tap_title">Tapnite dvakrat za slikanje</string>
-  <string name="touchpad_double_tap_summary">Ko ste v fotoaparatu, tapnite dvakrat za slikanje</string>
+  <string name="touchpad_double_tap_title">Dvojni tap za zajem</string>
+  <string name="touchpad_double_tap_summary">Ko ste v fotoaparatu, dvakrat tapnite za zajem slike</string>
   <!-- O-Click settings -->
   <string name="oclick_connect_string">Poveži</string>
   <string name="oclick_disconnect_string">Prekini</string>

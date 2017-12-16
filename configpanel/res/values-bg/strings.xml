@@ -32,9 +32,9 @@
   <string name="oclick_take_snapshot_title">Дистанционно заснемане</string>
   <string name="oclick_take_snapshot_summary">Натиснете един път за да снимате</string>
   <string name="oclick_find_my_phone_title">Локализирай телефона</string>
-  <string name="oclick_find_my_phone_summary">Чукнета два пъти за да локализирате телефона</string>
+  <string name="oclick_find_my_phone_summary">Чукнета два пъти, за да локализирате телефона</string>
   <string name="oclick_fence_title">Сигнал за устройства в близост</string>
-  <string name="oclick_fence_summary">Предупреждение когато телефона не се намира на близо</string>
+  <string name="oclick_fence_summary">Предупреждение, когато телефона не се намира на близо</string>
   <string name="oclick_disconnect_alert_title">Предупреждение при загуба на обхват</string>
   <string name="oclick_disconnect_alert_summary">Сигнал при загуба на обхват</string>
   <string name="alert_category_title">Предупреждения</string>
@@ -53,6 +53,6 @@
   <string name="notification_slider_bottom_position">Най-ниска позиция</string>
   <string name="notification_slider_mode_total_silence">Пълна тишина</string>
   <string name="notification_slider_mode_alarms_only">Само будилници</string>
-  <string name="notification_slider_mode_priority_only">Само с приоритед</string>
+  <string name="notification_slider_mode_priority_only">Само с приоритет</string>
   <string name="notification_slider_mode_none">Без</string>
 </resources>

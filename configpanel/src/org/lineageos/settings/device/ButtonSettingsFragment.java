@@ -32,10 +32,18 @@ import org.lineageos.settings.device.utils.Constants;
 public class ButtonSettingsFragment extends PreferenceFragment
         implements OnPreferenceChangeListener {
 
+    private static final String KEY_BUTTON_SWAP = "button_swap";
+
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         addPreferencesFromResource(R.xml.button_panel);
         getActivity().getActionBar().setDisplayHomeAsUpEnabled(true);
+
+        final boolean deviceCanSwapButtons = getResources().getBoolean(
+                R.bool.config_deviceCanSwapButtons);
+        if (!deviceCanSwapButtons) {
+            getPreferenceScreen().removePreference(findPreference(KEY_BUTTON_SWAP));
+        }
     }
 
     @Override

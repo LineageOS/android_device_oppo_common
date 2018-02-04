@@ -85,6 +85,8 @@
                 <action android:name="lineageos.intent.action.INITIALIZE_LINEAGE_HARDWARE" />
             </intent-filter>
         </receiver>
+
+        <activity android:name=".KeyHandler" />
     </application>
 
 </manifest>

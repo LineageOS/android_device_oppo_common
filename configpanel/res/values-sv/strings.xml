@@ -39,6 +39,7 @@
   <string name="oclick_notification_title_disconnected">O-Click frånkopplad</string>
   <string name="oclick_notification_content_disconnected">Tryck på O-Click knappen för att återansluta</string>
   <!-- Notification slider -->
+  <string name="notification_slider_category_title">Aviseringsreglage</string>
   <string name="notification_slider_selection_dialog_title">Åtgärd</string>
   <string name="notification_slider_top_position">Placering: topp</string>
   <string name="notification_slider_middle_position">Placering: mitten</string>

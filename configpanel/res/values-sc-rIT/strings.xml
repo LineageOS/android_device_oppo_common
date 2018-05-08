@@ -19,4 +19,5 @@
   <!-- O-Click settings -->
   <!-- O-Click notification -->
   <!-- Notification slider -->
+  <string name="notification_slider_mode_none">Nudda</string>
 </resources>

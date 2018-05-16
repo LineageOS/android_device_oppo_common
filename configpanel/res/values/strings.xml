@@ -53,4 +53,5 @@
     <string name="notification_slider_mode_alarms_only">Alarms only</string>
     <string name="notification_slider_mode_priority_only">Priority only</string>
     <string name="notification_slider_mode_none">None</string>
+    <string name="notification_slider_mode_vibration">Vibration</string>
 </resources>

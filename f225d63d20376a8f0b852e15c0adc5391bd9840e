@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "60861ae6_0dd0d1d8",
+        "filename": "configpanel/src/org/lineageos/settings/device/KeyHandler.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 10258
+      },
+      "writtenOn": "2018-05-17T00:09:52Z",
+      "side": 1,
+      "message": "Why not just commonize mode key codes? We can make the driver always return 600, 601 and 602, then bind them to features in userspace.",
+      "range": {
+        "startLine": 54,
+        "startChar": 0,
+        "endLine": 57,
+        "endChar": 45
+      },
+      "revId": "f225d63d20376a8f0b852e15c0adc5391bd9840e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

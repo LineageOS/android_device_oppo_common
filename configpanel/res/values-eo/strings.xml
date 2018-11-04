@@ -16,9 +16,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- O-Click settings -->
-  <string name="oclick_connect_string">Konekti</string>
-  <string name="oclick_disconnect_string">Malkonekti</string>
-  <!-- O-Click notification -->
-  <!-- Notification slider -->
+    <!-- O-Click settings -->
+    <string name="oclick_connect_string">Konekti</string>
+    <string name="oclick_disconnect_string">Malkonekti</string>
+    <!-- O-Click notification -->
+    <!-- Notification slider -->
 </resources>

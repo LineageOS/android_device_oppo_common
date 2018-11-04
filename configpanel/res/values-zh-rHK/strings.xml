@@ -16,19 +16,19 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- O-Click settings -->
-  <string name="oclick_connect_string">連接</string>
-  <string name="oclick_disconnect_string">中斷連綫</string>
-  <string name="oclick_summary_connected">已連接到 O-Click</string>
-  <string name="oclick_summary_paired">O-Click 已配對，但連接中斷</string>
-  <string name="oclick_dialog_connecting_message">正在連接到 O-Click\u2026\n按下 O-Click 按鈕加快探索速度。</string>
-  <string name="oclick_find_my_phone_summary">按兩下尋找手機</string>
-  <string name="alert_category_title">警報</string>
-  <string name="action_category_title">操作</string>
-  <!-- O-Click notification -->
-  <string name="oclick_locator_notification_title">O-Click 手機定位器</string>
-  <string name="oclick_notification_title_connected">O-Click 已連接</string>
-  <string name="oclick_notification_title_disconnected">O-Click 連接已中斷</string>
-  <string name="oclick_notification_content_disconnected">按下 O-Click 按鈕以重新連接</string>
-  <!-- Notification slider -->
+    <!-- O-Click settings -->
+    <string name="oclick_connect_string">連接</string>
+    <string name="oclick_disconnect_string">中斷連綫</string>
+    <string name="oclick_summary_connected">已連接到 O-Click</string>
+    <string name="oclick_summary_paired">O-Click 已配對，但連接中斷</string>
+    <string name="oclick_dialog_connecting_message">正在連接到 O-Click\u2026\n按下 O-Click 按鈕加快探索速度。</string>
+    <string name="oclick_find_my_phone_summary">按兩下尋找手機</string>
+    <string name="alert_category_title">警報</string>
+    <string name="action_category_title">操作</string>
+    <!-- O-Click notification -->
+    <string name="oclick_locator_notification_title">O-Click 手機定位器</string>
+    <string name="oclick_notification_title_connected">O-Click 已連接</string>
+    <string name="oclick_notification_title_disconnected">O-Click 連接已中斷</string>
+    <string name="oclick_notification_content_disconnected">按下 O-Click 按鈕以重新連接</string>
+    <!-- Notification slider -->
 </resources>

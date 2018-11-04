@@ -16,19 +16,19 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- O-Click settings -->
-  <string name="oclick_connect_string">සබඳින්න</string>
-  <string name="oclick_disconnect_string">විසන්ධි කරන්න</string>
-  <string name="oclick_take_snapshot_title">දුරස්ථ කැමරා ශටරය</string>
-  <string name="oclick_take_snapshot_summary">පින්තුරය ගැනීමට එක් වරක් ඔබන්න</string>
-  <string name="oclick_find_my_phone_title">දුරකථන නිවේශකය</string>
-  <string name="oclick_find_my_phone_summary">දුරකථනය සෙවීමට දෙවරක් ඔබන්න</string>
-  <string name="oclick_fence_title">සන්නිකර්ෂණ ඇඟවීම</string>
-  <string name="oclick_fence_summary">දුරකථනය අසළ නැතිවිට අඟවන්න</string>
-  <string name="oclick_disconnect_alert_title">පරාසයේ නැති විට ඇඟවීම</string>
-  <string name="oclick_disconnect_alert_summary">ළඟාවීමට නොහැකිවිට අඟවන්න</string>
-  <string name="alert_category_title">ඇඟවීම්</string>
-  <string name="action_category_title">ක්‍රියා</string>
-  <!-- O-Click notification -->
-  <!-- Notification slider -->
+    <!-- O-Click settings -->
+    <string name="oclick_connect_string">සබඳින්න</string>
+    <string name="oclick_disconnect_string">විසන්ධි කරන්න</string>
+    <string name="oclick_take_snapshot_title">දුරස්ථ කැමරා ශටරය</string>
+    <string name="oclick_take_snapshot_summary">පින්තුරය ගැනීමට එක් වරක් ඔබන්න</string>
+    <string name="oclick_find_my_phone_title">දුරකථන නිවේශකය</string>
+    <string name="oclick_find_my_phone_summary">දුරකථනය සෙවීමට දෙවරක් ඔබන්න</string>
+    <string name="oclick_fence_title">සන්නිකර්ෂණ ඇඟවීම</string>
+    <string name="oclick_fence_summary">දුරකථනය අසළ නැතිවිට අඟවන්න</string>
+    <string name="oclick_disconnect_alert_title">පරාසයේ නැති විට ඇඟවීම</string>
+    <string name="oclick_disconnect_alert_summary">ළඟාවීමට නොහැකිවිට අඟවන්න</string>
+    <string name="alert_category_title">ඇඟවීම්</string>
+    <string name="action_category_title">ක්‍රියා</string>
+    <!-- O-Click notification -->
+    <!-- Notification slider -->
 </resources>

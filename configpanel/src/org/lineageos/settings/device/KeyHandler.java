@@ -26,6 +26,7 @@ import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
+import android.media.AudioManager;
 import android.media.session.MediaSessionLegacyHelper;
 import android.os.Handler;
 import android.os.Message;
@@ -51,7 +52,7 @@ public class KeyHandler implements DeviceKeyHandler {
     // Supported scancodes
     private static final int FLIP_CAMERA_SCANCODE = 249;
     private static final int MODE_TOTAL_SILENCE = 600;
-    private static final int MODE_ALARMS_ONLY = 601;
+    private static final int MODE_VIBRATION = 601;
     private static final int MODE_PRIORITY_ONLY = 602;
     private static final int MODE_NONE = 603;
 
@@ -60,13 +61,14 @@ public class KeyHandler implements DeviceKeyHandler {
     private static final SparseIntArray sSupportedSliderModes = new SparseIntArray();
     static {
         sSupportedSliderModes.put(MODE_TOTAL_SILENCE, Settings.Global.ZEN_MODE_NO_INTERRUPTIONS);
-        sSupportedSliderModes.put(MODE_ALARMS_ONLY, Settings.Global.ZEN_MODE_ALARMS);
+        sSupportedSliderModes.put(MODE_VIBRATION, 4);
         sSupportedSliderModes.put(MODE_PRIORITY_ONLY,
                 Settings.Global.ZEN_MODE_IMPORTANT_INTERRUPTIONS);
         sSupportedSliderModes.put(MODE_NONE, Settings.Global.ZEN_MODE_OFF);
     }
 
     private final Context mContext;
+    private final AudioManager mAudioManager;
     private final PowerManager mPowerManager;
     private final NotificationManager mNotificationManager;
     private EventHandler mEventHandler;
@@ -80,9 +82,8 @@ public class KeyHandler implements DeviceKeyHandler {
 
     public KeyHandler(Context context) {
         mContext = context;
-        mPowerManager = (PowerManager) context.getSystemService(Context.POWER_SERVICE);
-        mNotificationManager
-                = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
+        mPowerManager = context.getSystemService(PowerManager.class);
+        mNotificationManager = context.getSystemService(NotificationManager.class);
         mEventHandler = new EventHandler();
         mGestureWakeLock = mPowerManager.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK,
                 "GestureWakeLock");
@@ -94,16 +95,18 @@ public class KeyHandler implements DeviceKeyHandler {
                 org.lineageos.platform.internal.R.bool.config_proximityCheckOnWake);
 
         if (mProximityWakeSupported) {
-            mSensorManager = (SensorManager) context.getSystemService(Context.SENSOR_SERVICE);
+            mSensorManager = context.getSystemService(SensorManager.class);
             mProximitySensor = mSensorManager.getDefaultSensor(Sensor.TYPE_PROXIMITY);
             mProximityWakeLock = mPowerManager.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK,
                     "ProximityWakeLock");
         }
 
-        mVibrator = (Vibrator) context.getSystemService(Context.VIBRATOR_SERVICE);
+        mVibrator = context.getSystemService(Vibrator.class);
         if (mVibrator == null || !mVibrator.hasVibrator()) {
             mVibrator = null;
         }
+
+        mAudioManager = context.getSystemService(AudioManager.class);
     }
 
     private class EventHandler extends Handler {
@@ -147,7 +150,15 @@ public class KeyHandler implements DeviceKeyHandler {
         }
 
         if (isSliderModeSupported) {
-            mNotificationManager.setZenMode(sSupportedSliderModes.get(scanCode), null, TAG);
+            if (scanCode == MODE_VIBRATION) {
+                mNotificationManager.setZenMode(Settings.Global.ZEN_MODE_OFF, null, TAG);
+                mAudioManager.setRingerModeInternal(AudioManager.RINGER_MODE_VIBRATE);
+            } else {
+                mNotificationManager.setZenMode(sSupportedSliderModes.get(scanCode), null, TAG);
+                if (scanCode == MODE_NONE) {
+                    mAudioManager.setRingerModeInternal(AudioManager.RINGER_MODE_NORMAL);
+                }
+            }
             doHapticFeedback();
         } else if (!mEventHandler.hasMessages(GESTURE_REQUEST)) {
             Message msg = getMessageForKeyEvent(scanCode);

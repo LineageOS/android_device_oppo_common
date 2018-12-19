@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2b66043a_450034ea",
+        "filename": "configpanel/src/org/lineageos/settings/device/KeyHandler.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-12-19T13:56:36Z",
+      "side": 1,
+      "message": "Why is this hardcoded?",
+      "range": {
+        "startLine": 64,
+        "startChar": 50,
+        "endLine": 64,
+        "endChar": 51
+      },
+      "revId": "5869558e08cbb18befd248761245ec3551691b86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "eeb019bd_5d3dc684",
+        "filename": "configpanel/src/org/lineageos/settings/device/KeyHandler.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-12-19T13:56:36Z",
+      "side": 1,
+      "message": "Move to the top (line #85).",
+      "range": {
+        "startLine": 109,
+        "startChar": 8,
+        "endLine": 109,
+        "endChar": 69
+      },
+      "revId": "5869558e08cbb18befd248761245ec3551691b86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}

@@ -16,36 +16,35 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- O-Click settings -->
-  <string name="oclick_connect_string">Koble til</string>
-  <string name="oclick_disconnect_string">Koble fra</string>
-  <string name="oclick_summary_connected">Koblet til O-Klikk</string>
-  <string name="oclick_summary_paired">O-Klikk sammenkoblet, men frakoblet</string>
-  <string name="oclick_dialog_connecting_message">Kobler til O-Klick\u2026\nTrykk O-Klikk knappen for å fremskynde oppdagelsen.</string>
-  <string name="oclick_take_snapshot_title">Ekstern kamerautløser</string>
-  <string name="oclick_take_snapshot_summary">Trykk en gang for å ta bilde</string>
-  <string name="oclick_find_my_phone_title">Telefon lokator</string>
-  <string name="oclick_find_my_phone_summary">Dobbeltrykk for å finne telefonen</string>
-  <string name="oclick_fence_title">Nærhetsalarm</string>
-  <string name="oclick_fence_summary">Varsle når ikke i nærheten av telefonen</string>
-  <string name="oclick_disconnect_alert_title">Varsle ved utenfor rekkevidde</string>
-  <string name="oclick_disconnect_alert_summary">Varsler når utenfor rekkevidde</string>
-  <string name="alert_category_title">Varsler</string>
-  <string name="action_category_title">Handlinger</string>
-  <!-- O-Click notification -->
-  <string name="oclick_locator_notification_title">O-Klikk telefon finner</string>
-  <string name="oclick_locator_notification_text">Lokasjonsvarsel spiller. Trykk for å fjerne</string>
-  <string name="oclick_notification_title_connected">O-Klikk tilkoblet</string>
-  <string name="oclick_notification_title_disconnected">O-Klikk frakoblet</string>
-  <string name="oclick_notification_content_disconnected">Trykk på O-Klikk for å koble til</string>
-  <!-- Notification slider -->
-  <string name="notification_slider_category_title">Varselskuff</string>
-  <string name="notification_slider_selection_dialog_title">Handling</string>
-  <string name="notification_slider_top_position">Topplassering</string>
-  <string name="notification_slider_middle_position">Midtplassering</string>
-  <string name="notification_slider_bottom_position">Bunnplassering</string>
-  <string name="notification_slider_mode_total_silence">Total stillhet</string>
-  <string name="notification_slider_mode_alarms_only">Bare alarmer</string>
-  <string name="notification_slider_mode_priority_only">Bare prioritert</string>
-  <string name="notification_slider_mode_none">Ingen</string>
+    <!-- O-Click settings -->
+    <string name="oclick_connect_string">Koble til</string>
+    <string name="oclick_disconnect_string">Koble fra</string>
+    <string name="oclick_summary_connected">Koblet til O-Klikk</string>
+    <string name="oclick_summary_paired">O-Klikk sammenkoblet, men frakoblet</string>
+    <string name="oclick_dialog_connecting_message">Kobler til O-Klick\u2026\nTrykk O-Klikk knappen for å fremskynde oppdagelsen.</string>
+    <string name="oclick_take_snapshot_title">Ekstern kamerautløser</string>
+    <string name="oclick_take_snapshot_summary">Trykk en gang for å ta bilde</string>
+    <string name="oclick_find_my_phone_title">Telefon lokator</string>
+    <string name="oclick_find_my_phone_summary">Dobbeltrykk for å finne telefonen</string>
+    <string name="oclick_fence_title">Nærhetsalarm</string>
+    <string name="oclick_fence_summary">Varsle når ikke i nærheten av telefonen</string>
+    <string name="oclick_disconnect_alert_title">Varsle ved utenfor rekkevidde</string>
+    <string name="oclick_disconnect_alert_summary">Varsler når utenfor rekkevidde</string>
+    <string name="alert_category_title">Varsler</string>
+    <string name="action_category_title">Handlinger</string>
+    <!-- O-Click notification -->
+    <string name="oclick_locator_notification_title">O-Klikk telefon finner</string>
+    <string name="oclick_locator_notification_text">Lokasjonsvarsel spiller. Trykk for å fjerne</string>
+    <string name="oclick_notification_title_connected">O-Klikk tilkoblet</string>
+    <string name="oclick_notification_title_disconnected">O-Klikk frakoblet</string>
+    <string name="oclick_notification_content_disconnected">Trykk på O-Klikk for å koble til</string>
+    <!-- Notification slider -->
+    <string name="notification_slider_category_title">Varselskuff</string>
+    <string name="notification_slider_selection_dialog_title">Handling</string>
+    <string name="notification_slider_top_position">Topplassering</string>
+    <string name="notification_slider_middle_position">Midtplassering</string>
+    <string name="notification_slider_bottom_position">Bunnplassering</string>
+    <string name="notification_slider_mode_total_silence">Total stillhet</string>
+    <string name="notification_slider_mode_priority_only">Bare prioritert</string>
+    <string name="notification_slider_mode_none">Ingen</string>
 </resources>

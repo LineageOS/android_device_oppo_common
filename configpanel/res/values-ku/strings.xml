@@ -16,19 +16,19 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- O-Click settings -->
-  <string name="oclick_connect_string">په‌یوه‌ندیکردن</string>
-  <string name="oclick_disconnect_string">پچڕانی پەیوەندی</string>
-  <string name="oclick_take_snapshot_title">کامێرای دوور کوژانه‌وه‌</string>
-  <string name="oclick_take_snapshot_summary">یه‌ک کرتە بکە بۆ گرتنی وێنه‌</string>
-  <string name="oclick_find_my_phone_title">ناونیشانی ته‌له‌فۆن</string>
-  <string name="oclick_find_my_phone_summary">دووجار کرتە بکه‌ بۆ دۆزینه‌وه‌ی ته‌له‌فۆن</string>
-  <string name="oclick_fence_title">ئاگادارکردنه‌وه‌ی نزیکی</string>
-  <string name="oclick_fence_summary">ئاگاداکردنه‌وه‌ی کاتێک ته‌له‌فۆنه‌که‌ نزیکت نیه‌</string>
-  <string name="oclick_disconnect_alert_title">ده‌ره‌وه‌ی مەودای ئاگادارکردنه‌وه‌</string>
-  <string name="oclick_disconnect_alert_summary">ئاگادارکردنه‌وه‌ کاتێک له‌ده‌ره‌وه‌ی ده‌ستپێگه‌شتنه‌</string>
-  <string name="alert_category_title">ئاگادارکردنه‌وه‌کان</string>
-  <string name="action_category_title">چالاکیه‌کان</string>
-  <!-- O-Click notification -->
-  <!-- Notification slider -->
+    <!-- O-Click settings -->
+    <string name="oclick_connect_string">په‌یوه‌ندیکردن</string>
+    <string name="oclick_disconnect_string">پچڕانی پەیوەندی</string>
+    <string name="oclick_take_snapshot_title">کامێرای دوور کوژانه‌وه‌</string>
+    <string name="oclick_take_snapshot_summary">یه‌ک کرتە بکە بۆ گرتنی وێنه‌</string>
+    <string name="oclick_find_my_phone_title">ناونیشانی ته‌له‌فۆن</string>
+    <string name="oclick_find_my_phone_summary">دووجار کرتە بکه‌ بۆ دۆزینه‌وه‌ی ته‌له‌فۆن</string>
+    <string name="oclick_fence_title">ئاگادارکردنه‌وه‌ی نزیکی</string>
+    <string name="oclick_fence_summary">ئاگاداکردنه‌وه‌ی کاتێک ته‌له‌فۆنه‌که‌ نزیکت نیه‌</string>
+    <string name="oclick_disconnect_alert_title">ده‌ره‌وه‌ی مەودای ئاگادارکردنه‌وه‌</string>
+    <string name="oclick_disconnect_alert_summary">ئاگادارکردنه‌وه‌ کاتێک له‌ده‌ره‌وه‌ی ده‌ستپێگه‌شتنه‌</string>
+    <string name="alert_category_title">ئاگادارکردنه‌وه‌کان</string>
+    <string name="action_category_title">چالاکیه‌کان</string>
+    <!-- O-Click notification -->
+    <!-- Notification slider -->
 </resources>

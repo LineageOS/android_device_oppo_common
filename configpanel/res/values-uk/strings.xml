@@ -16,36 +16,35 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- O-Click settings -->
-  <string name="oclick_connect_string">Підключитись</string>
-  <string name="oclick_disconnect_string">Відключитись</string>
-  <string name="oclick_summary_connected">Приєднано до O-Click</string>
-  <string name="oclick_summary_paired">O-Click синхронізовано, але роз\'єднано</string>
-  <string name="oclick_dialog_connecting_message">З\'єднання з O-Click\u2026\nНатисніть кнопку \"O-Click\", щоб прискорити пошук.</string>
-  <string name="oclick_take_snapshot_title">Віддалений спуск затвора</string>
-  <string name="oclick_take_snapshot_summary">Натисніть один раз, щоб зробити знімок</string>
-  <string name="oclick_find_my_phone_title">Пошук телефону</string>
-  <string name="oclick_find_my_phone_summary">Натисніть двічі, щоб знайти телефон</string>
-  <string name="oclick_fence_title">Попередження при видаленні</string>
-  <string name="oclick_fence_summary">Сигналізувати, коли брелок знаходиться не поруч із телефоном</string>
-  <string name="oclick_disconnect_alert_title">Попередження при втраті з’єднання</string>
-  <string name="oclick_disconnect_alert_summary">Сигналізувати, коли з’єднання з пристроєм втрачено</string>
-  <string name="alert_category_title">Сповіщення</string>
-  <string name="action_category_title">Дії</string>
-  <!-- O-Click notification -->
-  <string name="oclick_locator_notification_title">Пошук телефону O-Click</string>
-  <string name="oclick_locator_notification_text">Звук локатору відтворюється. Торкніться, щоб вимкнути</string>
-  <string name="oclick_notification_title_connected">З\'єднано з O-Click</string>
-  <string name="oclick_notification_title_disconnected">Роз\'єднано з O-Click</string>
-  <string name="oclick_notification_content_disconnected">Натисніть кнопку \"O-Click\", щоб перепід\'єднатися</string>
-  <!-- Notification slider -->
-  <string name="notification_slider_category_title">Повзунок сповіщень</string>
-  <string name="notification_slider_selection_dialog_title">Дія</string>
-  <string name="notification_slider_top_position">Верхнє положення</string>
-  <string name="notification_slider_middle_position">Середнє положення</string>
-  <string name="notification_slider_bottom_position">Нижнє положення</string>
-  <string name="notification_slider_mode_total_silence">Повна тиша</string>
-  <string name="notification_slider_mode_alarms_only">Лише будильник</string>
-  <string name="notification_slider_mode_priority_only">Лише пріоритетні</string>
-  <string name="notification_slider_mode_none">Жодних</string>
+    <!-- O-Click settings -->
+    <string name="oclick_connect_string">Підключитись</string>
+    <string name="oclick_disconnect_string">Відключитись</string>
+    <string name="oclick_summary_connected">Приєднано до O-Click</string>
+    <string name="oclick_summary_paired">O-Click синхронізовано, але роз\'єднано</string>
+    <string name="oclick_dialog_connecting_message">З\'єднання з O-Click\u2026\nНатисніть кнопку \"O-Click\", щоб прискорити пошук.</string>
+    <string name="oclick_take_snapshot_title">Віддалений спуск затвора</string>
+    <string name="oclick_take_snapshot_summary">Натисніть один раз, щоб зробити знімок</string>
+    <string name="oclick_find_my_phone_title">Пошук телефону</string>
+    <string name="oclick_find_my_phone_summary">Натисніть двічі, щоб знайти телефон</string>
+    <string name="oclick_fence_title">Попередження при видаленні</string>
+    <string name="oclick_fence_summary">Сигналізувати, коли брелок знаходиться не поруч із телефоном</string>
+    <string name="oclick_disconnect_alert_title">Попередження при втраті з’єднання</string>
+    <string name="oclick_disconnect_alert_summary">Сигналізувати, коли з’єднання з пристроєм втрачено</string>
+    <string name="alert_category_title">Сповіщення</string>
+    <string name="action_category_title">Дії</string>
+    <!-- O-Click notification -->
+    <string name="oclick_locator_notification_title">Пошук телефону O-Click</string>
+    <string name="oclick_locator_notification_text">Звук локатору відтворюється. Торкніться, щоб вимкнути</string>
+    <string name="oclick_notification_title_connected">З\'єднано з O-Click</string>
+    <string name="oclick_notification_title_disconnected">Роз\'єднано з O-Click</string>
+    <string name="oclick_notification_content_disconnected">Натисніть кнопку \"O-Click\", щоб перепід\'єднатися</string>
+    <!-- Notification slider -->
+    <string name="notification_slider_category_title">Повзунок сповіщень</string>
+    <string name="notification_slider_selection_dialog_title">Дія</string>
+    <string name="notification_slider_top_position">Верхнє положення</string>
+    <string name="notification_slider_middle_position">Середнє положення</string>
+    <string name="notification_slider_bottom_position">Нижнє положення</string>
+    <string name="notification_slider_mode_total_silence">Повна тиша</string>
+    <string name="notification_slider_mode_priority_only">Лише пріоритетні</string>
+    <string name="notification_slider_mode_none">Жодних</string>
 </resources>

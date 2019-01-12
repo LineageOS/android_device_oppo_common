@@ -16,36 +16,35 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- O-Click settings -->
-  <string name="oclick_connect_string">Conectar</string>
-  <string name="oclick_disconnect_string">Desconectar</string>
-  <string name="oclick_summary_connected">Conectado ao O-Click</string>
-  <string name="oclick_summary_paired">O-Click emparelhado, mas desconectado</string>
-  <string name="oclick_dialog_connecting_message">A conectar ao O-Click\u2026\nPressione o botão do O-Click para acelerar a descoberta.</string>
-  <string name="oclick_take_snapshot_title">Obturador de câmara remoto</string>
-  <string name="oclick_take_snapshot_summary">Clicar uma vez para tirar foto</string>
-  <string name="oclick_find_my_phone_title">Localizador de telefone</string>
-  <string name="oclick_find_my_phone_summary">Clicar duas vezes para encontrar o telefone</string>
-  <string name="oclick_fence_title">Alerta de proximidade</string>
-  <string name="oclick_fence_summary">Alerta quando não estiver perto do telefone</string>
-  <string name="oclick_disconnect_alert_title">Alerta quando estiver fora de alcance</string>
-  <string name="oclick_disconnect_alert_summary">Alerta quando não for alcancável</string>
-  <string name="alert_category_title">Alertas</string>
-  <string name="action_category_title">Ações</string>
-  <!-- O-Click notification -->
-  <string name="oclick_locator_notification_title">Localizador de telefone O-Click</string>
-  <string name="oclick_locator_notification_text">Alerta de localizador está a tocar. Toque para dispensar</string>
-  <string name="oclick_notification_title_connected">O-Click conectado</string>
-  <string name="oclick_notification_title_disconnected">O-Click desconectado</string>
-  <string name="oclick_notification_content_disconnected">Pressione o botão do O-Click para reconectar</string>
-  <!-- Notification slider -->
-  <string name="notification_slider_category_title">Botão deslizante de notificações</string>
-  <string name="notification_slider_selection_dialog_title">Ação</string>
-  <string name="notification_slider_top_position">Em cima</string>
-  <string name="notification_slider_middle_position">No meio</string>
-  <string name="notification_slider_bottom_position">Em baixo</string>
-  <string name="notification_slider_mode_total_silence">Silêncio total</string>
-  <string name="notification_slider_mode_alarms_only">Apenas alarmes</string>
-  <string name="notification_slider_mode_priority_only">Apenas prioridade</string>
-  <string name="notification_slider_mode_none">Nenhuma</string>
+    <!-- O-Click settings -->
+    <string name="oclick_connect_string">Conectar</string>
+    <string name="oclick_disconnect_string">Desconectar</string>
+    <string name="oclick_summary_connected">Conectado ao O-Click</string>
+    <string name="oclick_summary_paired">O-Click emparelhado, mas desconectado</string>
+    <string name="oclick_dialog_connecting_message">A conectar ao O-Click\u2026\nPressione o botão do O-Click para acelerar a descoberta.</string>
+    <string name="oclick_take_snapshot_title">Obturador de câmara remoto</string>
+    <string name="oclick_take_snapshot_summary">Clicar uma vez para tirar foto</string>
+    <string name="oclick_find_my_phone_title">Localizador de telefone</string>
+    <string name="oclick_find_my_phone_summary">Clicar duas vezes para encontrar o telefone</string>
+    <string name="oclick_fence_title">Alerta de proximidade</string>
+    <string name="oclick_fence_summary">Alerta quando não estiver perto do telefone</string>
+    <string name="oclick_disconnect_alert_title">Alerta quando estiver fora de alcance</string>
+    <string name="oclick_disconnect_alert_summary">Alerta quando não for alcancável</string>
+    <string name="alert_category_title">Alertas</string>
+    <string name="action_category_title">Ações</string>
+    <!-- O-Click notification -->
+    <string name="oclick_locator_notification_title">Localizador de telefone O-Click</string>
+    <string name="oclick_locator_notification_text">Alerta de localizador está a tocar. Toque para dispensar</string>
+    <string name="oclick_notification_title_connected">O-Click conectado</string>
+    <string name="oclick_notification_title_disconnected">O-Click desconectado</string>
+    <string name="oclick_notification_content_disconnected">Pressione o botão do O-Click para reconectar</string>
+    <!-- Notification slider -->
+    <string name="notification_slider_category_title">Botão deslizante de notificações</string>
+    <string name="notification_slider_selection_dialog_title">Ação</string>
+    <string name="notification_slider_top_position">Em cima</string>
+    <string name="notification_slider_middle_position">No meio</string>
+    <string name="notification_slider_bottom_position">Em baixo</string>
+    <string name="notification_slider_mode_total_silence">Silêncio total</string>
+    <string name="notification_slider_mode_priority_only">Apenas prioridade</string>
+    <string name="notification_slider_mode_none">Nenhuma</string>
 </resources>

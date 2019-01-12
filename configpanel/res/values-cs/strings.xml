@@ -16,36 +16,35 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- O-Click settings -->
-  <string name="oclick_connect_string">Připojit</string>
-  <string name="oclick_disconnect_string">Odpojit</string>
-  <string name="oclick_summary_connected">Připojen k O-Click</string>
-  <string name="oclick_summary_paired">O-Click spárován, ale odpojen</string>
-  <string name="oclick_dialog_connecting_message">Připojování k O-Click\u2026\nTlačítkem O-Click urychlit vyhledávání.</string>
-  <string name="oclick_take_snapshot_title">Dálková spoušť fotoaparátu</string>
-  <string name="oclick_take_snapshot_summary">Jedním dotykem pořídíte fotografii</string>
-  <string name="oclick_find_my_phone_title">Poloha telefonu</string>
-  <string name="oclick_find_my_phone_summary">Dvojitým dotykem zjistíte polohu telefonu</string>
-  <string name="oclick_fence_title">Upozornění při vzdálení</string>
-  <string name="oclick_fence_summary">Upozornit, pokud není telefon v blízkosti</string>
-  <string name="oclick_disconnect_alert_title">Upozornění při vzdálení</string>
-  <string name="oclick_disconnect_alert_summary">Upozornit, pokud je telefon mimo dosah</string>
-  <string name="alert_category_title">Upozornění</string>
-  <string name="action_category_title">Akce</string>
-  <!-- O-Click notification -->
-  <string name="oclick_locator_notification_title">Telefonní lokátor O-Click</string>
-  <string name="oclick_locator_notification_text">Výstraha lokátoru je aktivní. Klepnutím zavřete</string>
-  <string name="oclick_notification_title_connected">O-Click připojen</string>
-  <string name="oclick_notification_title_disconnected">O-Click odpojen</string>
-  <string name="oclick_notification_content_disconnected">Tlačítkem O-Click znovu připojit</string>
-  <!-- Notification slider -->
-  <string name="notification_slider_category_title">Posuvník u oznámení</string>
-  <string name="notification_slider_selection_dialog_title">Akce</string>
-  <string name="notification_slider_top_position">Pozice nahoře</string>
-  <string name="notification_slider_middle_position">Pozice uprostřed</string>
-  <string name="notification_slider_bottom_position">Pozice dole</string>
-  <string name="notification_slider_mode_total_silence">Absolutní ticho</string>
-  <string name="notification_slider_mode_alarms_only">Pouze budíky</string>
-  <string name="notification_slider_mode_priority_only">Pouze prioritní</string>
-  <string name="notification_slider_mode_none">Žádné</string>
+    <!-- O-Click settings -->
+    <string name="oclick_connect_string">Připojit</string>
+    <string name="oclick_disconnect_string">Odpojit</string>
+    <string name="oclick_summary_connected">Připojen k O-Click</string>
+    <string name="oclick_summary_paired">O-Click spárován, ale odpojen</string>
+    <string name="oclick_dialog_connecting_message">Připojování k O-Click\u2026\nTlačítkem O-Click urychlit vyhledávání.</string>
+    <string name="oclick_take_snapshot_title">Dálková spoušť fotoaparátu</string>
+    <string name="oclick_take_snapshot_summary">Jedním dotykem pořídíte fotografii</string>
+    <string name="oclick_find_my_phone_title">Poloha telefonu</string>
+    <string name="oclick_find_my_phone_summary">Dvojitým dotykem zjistíte polohu telefonu</string>
+    <string name="oclick_fence_title">Upozornění při vzdálení</string>
+    <string name="oclick_fence_summary">Upozornit, pokud není telefon v blízkosti</string>
+    <string name="oclick_disconnect_alert_title">Upozornění při vzdálení</string>
+    <string name="oclick_disconnect_alert_summary">Upozornit, pokud je telefon mimo dosah</string>
+    <string name="alert_category_title">Upozornění</string>
+    <string name="action_category_title">Akce</string>
+    <!-- O-Click notification -->
+    <string name="oclick_locator_notification_title">Telefonní lokátor O-Click</string>
+    <string name="oclick_locator_notification_text">Výstraha lokátoru je aktivní. Klepnutím zavřete</string>
+    <string name="oclick_notification_title_connected">O-Click připojen</string>
+    <string name="oclick_notification_title_disconnected">O-Click odpojen</string>
+    <string name="oclick_notification_content_disconnected">Tlačítkem O-Click znovu připojit</string>
+    <!-- Notification slider -->
+    <string name="notification_slider_category_title">Posuvník u oznámení</string>
+    <string name="notification_slider_selection_dialog_title">Akce</string>
+    <string name="notification_slider_top_position">Pozice nahoře</string>
+    <string name="notification_slider_middle_position">Pozice uprostřed</string>
+    <string name="notification_slider_bottom_position">Pozice dole</string>
+    <string name="notification_slider_mode_total_silence">Absolutní ticho</string>
+    <string name="notification_slider_mode_priority_only">Pouze prioritní</string>
+    <string name="notification_slider_mode_none">Žádné</string>
 </resources>

@@ -16,36 +16,35 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- O-Click settings -->
-  <string name="oclick_connect_string">Anslut</string>
-  <string name="oclick_disconnect_string">Koppla från</string>
-  <string name="oclick_summary_connected">Ansluten till O-Click</string>
-  <string name="oclick_summary_paired">O-Click parad men bortkopplad</string>
-  <string name="oclick_dialog_connecting_message">Ansluter till O-Click\u2026\nTryck på O-Click knappen för att påskynda upptäckandet.</string>
-  <string name="oclick_take_snapshot_title">Fjärrstyrd kameraavtryckare</string>
-  <string name="oclick_take_snapshot_summary">Tryck en gång för att ta en bild</string>
-  <string name="oclick_find_my_phone_title">Telefonlokalisering</string>
-  <string name="oclick_find_my_phone_summary">Dubbeltryck för att hitta telefon</string>
-  <string name="oclick_fence_title">Närhetsvarning</string>
-  <string name="oclick_fence_summary">Varna vid för långt avstånd från telefonen</string>
-  <string name="oclick_disconnect_alert_title">Varning vid utom räckvidd</string>
-  <string name="oclick_disconnect_alert_summary">Varnar vid för långt avstånd för kontakt</string>
-  <string name="alert_category_title">Varningar</string>
-  <string name="action_category_title">Åtgärder</string>
-  <!-- O-Click notification -->
-  <string name="oclick_locator_notification_title">O-Click telefonhittare</string>
-  <string name="oclick_locator_notification_text">Hittasignal spelas. Tryck för att stänga av</string>
-  <string name="oclick_notification_title_connected">O-Click ansluten</string>
-  <string name="oclick_notification_title_disconnected">O-Click frånkopplad</string>
-  <string name="oclick_notification_content_disconnected">Tryck på O-Click knappen för att återansluta</string>
-  <!-- Notification slider -->
-  <string name="notification_slider_category_title">Aviseringsreglage</string>
-  <string name="notification_slider_selection_dialog_title">Åtgärd</string>
-  <string name="notification_slider_top_position">Placering: topp</string>
-  <string name="notification_slider_middle_position">Placering: mitten</string>
-  <string name="notification_slider_bottom_position">Placering: botten</string>
-  <string name="notification_slider_mode_total_silence">Helt tyst</string>
-  <string name="notification_slider_mode_alarms_only">Endast alarm</string>
-  <string name="notification_slider_mode_priority_only">Endast prioriterat</string>
-  <string name="notification_slider_mode_none">Ingen</string>
+    <!-- O-Click settings -->
+    <string name="oclick_connect_string">Anslut</string>
+    <string name="oclick_disconnect_string">Koppla från</string>
+    <string name="oclick_summary_connected">Ansluten till O-Click</string>
+    <string name="oclick_summary_paired">O-Click parad men bortkopplad</string>
+    <string name="oclick_dialog_connecting_message">Ansluter till O-Click\u2026\nTryck på O-Click knappen för att påskynda upptäckandet.</string>
+    <string name="oclick_take_snapshot_title">Fjärrstyrd kameraavtryckare</string>
+    <string name="oclick_take_snapshot_summary">Tryck en gång för att ta en bild</string>
+    <string name="oclick_find_my_phone_title">Telefonlokalisering</string>
+    <string name="oclick_find_my_phone_summary">Dubbeltryck för att hitta telefon</string>
+    <string name="oclick_fence_title">Närhetsvarning</string>
+    <string name="oclick_fence_summary">Varna vid för långt avstånd från telefonen</string>
+    <string name="oclick_disconnect_alert_title">Varning vid utom räckvidd</string>
+    <string name="oclick_disconnect_alert_summary">Varnar vid för långt avstånd för kontakt</string>
+    <string name="alert_category_title">Varningar</string>
+    <string name="action_category_title">Åtgärder</string>
+    <!-- O-Click notification -->
+    <string name="oclick_locator_notification_title">O-Click telefonhittare</string>
+    <string name="oclick_locator_notification_text">Hittasignal spelas. Tryck för att stänga av</string>
+    <string name="oclick_notification_title_connected">O-Click ansluten</string>
+    <string name="oclick_notification_title_disconnected">O-Click frånkopplad</string>
+    <string name="oclick_notification_content_disconnected">Tryck på O-Click knappen för att återansluta</string>
+    <!-- Notification slider -->
+    <string name="notification_slider_category_title">Aviseringsreglage</string>
+    <string name="notification_slider_selection_dialog_title">Åtgärd</string>
+    <string name="notification_slider_top_position">Placering: topp</string>
+    <string name="notification_slider_middle_position">Placering: mitten</string>
+    <string name="notification_slider_bottom_position">Placering: botten</string>
+    <string name="notification_slider_mode_total_silence">Helt tyst</string>
+    <string name="notification_slider_mode_priority_only">Endast prioriterat</string>
+    <string name="notification_slider_mode_none">Ingen</string>
 </resources>

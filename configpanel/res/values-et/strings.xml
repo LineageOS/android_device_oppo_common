@@ -39,5 +39,13 @@
     <string name="oclick_notification_title_disconnected">O-Click ühendamata</string>
     <string name="oclick_notification_content_disconnected">Vajuta O-Click nupul et taasühenduda</string>
     <!-- Notification slider -->
+    <string name="notification_slider_category_title">Teavituste liugur</string>
+    <string name="notification_slider_selection_dialog_title">Tegevus</string>
+    <string name="notification_slider_top_position">Ülemine positsioon</string>
+    <string name="notification_slider_middle_position">Keskmine positsioon</string>
+    <string name="notification_slider_bottom_position">Alumine positsioon</string>
+    <string name="notification_slider_mode_total_silence">Täielik vaikus</string>
+    <string name="notification_slider_mode_priority_only">Ainult prioriteetsed</string>
+    <string name="notification_slider_mode_none">Puudub</string>
     <string name="notification_slider_mode_vibration">Värin</string>
 </resources>

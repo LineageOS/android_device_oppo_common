@@ -47,4 +47,5 @@
     <string name="notification_slider_mode_total_silence">Tất cả im lặng</string>
     <string name="notification_slider_mode_priority_only">Chỉ ưu tiên</string>
     <string name="notification_slider_mode_none">Không</string>
+    <string name="notification_slider_mode_vibration">Rung</string>
 </resources>

@@ -47,4 +47,5 @@
     <string name="notification_slider_mode_total_silence">Пълна тишина</string>
     <string name="notification_slider_mode_priority_only">Само с приоритет</string>
     <string name="notification_slider_mode_none">Без</string>
+    <string name="notification_slider_mode_vibration">Вибрация</string>
 </resources>

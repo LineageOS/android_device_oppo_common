@@ -47,4 +47,5 @@
     <string name="notification_slider_mode_total_silence">Isiltasun osoa</string>
     <string name="notification_slider_mode_priority_only">Lehentasunezkoak besterik ez</string>
     <string name="notification_slider_mode_none">Bat ere ez</string>
+    <string name="notification_slider_mode_vibration">Bibrazioa</string>
 </resources>

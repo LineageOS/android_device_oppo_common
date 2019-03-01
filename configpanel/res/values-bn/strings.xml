@@ -16,7 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- O-Click settings -->
     <string name="oclick_connect_string">সংযোগ</string>
     <string name="oclick_disconnect_string">সংযোগ ছিন্ন</string>
     <string name="oclick_take_snapshot_title">দূরবর্তী ক্যামেরার কপাট</string>
@@ -29,6 +28,4 @@
     <string name="oclick_disconnect_alert_summary">সতর্কতা যখন নাগালের বাইরে</string>
     <string name="alert_category_title">সতর্কতা</string>
     <string name="action_category_title">ক্রিয়াকলাপ</string>
-    <!-- O-Click notification -->
-    <!-- Notification slider -->
 </resources>

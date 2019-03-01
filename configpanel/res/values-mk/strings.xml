@@ -16,7 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- O-Click settings -->
     <string name="oclick_connect_string">Поврзи</string>
     <string name="oclick_disconnect_string">Исклучи</string>
     <string name="oclick_summary_connected">Поврзани сте со O-Click</string>
@@ -32,13 +31,11 @@
     <string name="oclick_disconnect_alert_summary">Предупредување кога сте надвор од дофат</string>
     <string name="alert_category_title">Предупредувањa</string>
     <string name="action_category_title">Акции</string>
-    <!-- O-Click notification -->
     <string name="oclick_locator_notification_title">O-Click телефонски локатор</string>
     <string name="oclick_locator_notification_text">Симболот за локатор е активен. Допрете за да го отфрлите</string>
     <string name="oclick_notification_title_connected">O-Click е споен</string>
     <string name="oclick_notification_title_disconnected">O-Click е исклучен</string>
     <string name="oclick_notification_content_disconnected">Притиснете го O-Click копчето за повторно поврзување</string>
-    <!-- Notification slider -->
     <string name="notification_slider_category_title">Лизгач за известување</string>
     <string name="notification_slider_selection_dialog_title">Акција</string>
     <string name="notification_slider_top_position">Највисока позиција</string>

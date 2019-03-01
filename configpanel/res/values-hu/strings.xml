@@ -16,7 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- O-Click settings -->
     <string name="oclick_connect_string">Csatlakozás</string>
     <string name="oclick_disconnect_string">Lecsatlakozás</string>
     <string name="oclick_summary_connected">Csatlakoztatva az O-Clickhez</string>
@@ -32,13 +31,11 @@
     <string name="oclick_disconnect_alert_summary">Riasztás, ha nem elérhető</string>
     <string name="alert_category_title">Riasztások</string>
     <string name="action_category_title">Műveletek</string>
-    <!-- O-Click notification -->
     <string name="oclick_locator_notification_title">O-Click telefon kereső</string>
     <string name="oclick_locator_notification_text">Lokátor figyelmeztetés lejátszása folyamatban. Érintse meg a megszakításhoz</string>
     <string name="oclick_notification_title_connected">O-Click csatlakoztatva</string>
     <string name="oclick_notification_title_disconnected">O-Click leválasztva</string>
     <string name="oclick_notification_content_disconnected">Érintse meg az O-Click gombot az újracsatlakozáshoz</string>
-    <!-- Notification slider -->
     <string name="notification_slider_category_title">Értesítési csúszka</string>
     <string name="notification_slider_selection_dialog_title">Művelet</string>
     <string name="notification_slider_top_position">Felső pozíció</string>

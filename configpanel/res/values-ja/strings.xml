@@ -16,7 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- O-Click settings -->
     <string name="oclick_connect_string">接続</string>
     <string name="oclick_disconnect_string">切断</string>
     <string name="oclick_summary_connected">O-Clickに接続しました</string>
@@ -32,13 +31,11 @@
     <string name="oclick_disconnect_alert_summary">範囲外に出たときに警告する</string>
     <string name="alert_category_title">警告</string>
     <string name="action_category_title">動作</string>
-    <!-- O-Click notification -->
     <string name="oclick_locator_notification_title">O-Click 端末ロケータ</string>
     <string name="oclick_locator_notification_text">ロケータアラートを再生しています。タップして終了します。</string>
     <string name="oclick_notification_title_connected">O-Clickが接続しました</string>
     <string name="oclick_notification_title_disconnected">O-Clickが切断しました</string>
     <string name="oclick_notification_content_disconnected">O-Clickボタンをクリックして再接続します</string>
-    <!-- Notification slider -->
     <string name="notification_slider_category_title">通知スライダー</string>
     <string name="notification_slider_selection_dialog_title">動作</string>
     <string name="notification_slider_top_position">上部</string>

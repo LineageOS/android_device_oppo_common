@@ -16,7 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- O-Click settings -->
     <string name="oclick_connect_string">התחבר</string>
     <string name="oclick_disconnect_string">התנתק</string>
     <string name="oclick_summary_connected">מחובר ל-O-Click</string>
@@ -32,13 +31,11 @@
     <string name="oclick_disconnect_alert_summary">התראה כאשר נמצא מחוץ להישג יד</string>
     <string name="alert_category_title">התראות</string>
     <string name="action_category_title">פעולות</string>
-    <!-- O-Click notification -->
     <string name="oclick_locator_notification_title">מאתר טלפון O-Click</string>
     <string name="oclick_locator_notification_text">התראת מאתר מופעלת. הקש לביטול</string>
     <string name="oclick_notification_title_connected">O-Click מחובר</string>
     <string name="oclick_notification_title_disconnected">O-Click מנותק</string>
     <string name="oclick_notification_content_disconnected">לחץ על לחצן O-Click כדי להתחבר מחדש</string>
-    <!-- Notification slider -->
     <string name="notification_slider_category_title">מחוון התראות</string>
     <string name="notification_slider_selection_dialog_title">פעולה</string>
     <string name="notification_slider_top_position">מיקום עליון</string>

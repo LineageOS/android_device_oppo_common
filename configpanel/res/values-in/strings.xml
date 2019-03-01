@@ -16,7 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- O-Click settings -->
     <string name="oclick_connect_string">Hubungkan</string>
     <string name="oclick_disconnect_string">Putuskan</string>
     <string name="oclick_summary_connected">Terhubung ke O-Click</string>
@@ -32,13 +31,11 @@
     <string name="oclick_disconnect_alert_summary">Beri lansiran ketika berada di luar jangkauan</string>
     <string name="alert_category_title">Lansiran</string>
     <string name="action_category_title">Tindakan</string>
-    <!-- O-Click notification -->
     <string name="oclick_locator_notification_title">Pelacak telepon O-Click</string>
     <string name="oclick_locator_notification_text">Lansiran pelacak menyala. Tekan untuk menyingkirkan</string>
     <string name="oclick_notification_title_connected">O-Click terhubung</string>
     <string name="oclick_notification_title_disconnected">O-Click terputus</string>
     <string name="oclick_notification_content_disconnected">Tekan tombol O-Click untuk menyambung kembali</string>
-    <!-- Notification slider -->
     <string name="notification_slider_category_title">Penggeser pemberitahuan</string>
     <string name="notification_slider_selection_dialog_title">Tindakan</string>
     <string name="notification_slider_top_position">Posisi atas</string>

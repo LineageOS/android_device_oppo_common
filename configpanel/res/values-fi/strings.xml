@@ -16,7 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- O-Click settings -->
     <string name="oclick_connect_string">Yhdistä</string>
     <string name="oclick_disconnect_string">Katkaise yhteys</string>
     <string name="oclick_summary_connected">Yhdistetty O-Clickiin</string>
@@ -32,13 +31,11 @@
     <string name="oclick_disconnect_alert_summary">Hälytä kun ollaan laitteen kantavuusalueen ulkopuolella</string>
     <string name="alert_category_title">Hälytykset</string>
     <string name="action_category_title">Toiminnot</string>
-    <!-- O-Click notification -->
     <string name="oclick_locator_notification_title">O-Click puhelimen paikannus</string>
     <string name="oclick_locator_notification_text">Paikannushälytys soi. Kosketa sulkeaksesi hälytyksen</string>
     <string name="oclick_notification_title_connected">O-Click yhdistetty</string>
     <string name="oclick_notification_title_disconnected">Yhteys O-Clickiin katkaistu</string>
     <string name="oclick_notification_content_disconnected">Paina O-Clickin painiketta yhdistääksesi uudelleen</string>
-    <!-- Notification slider -->
     <string name="notification_slider_category_title">Ilmoitussäädin</string>
     <string name="notification_slider_selection_dialog_title">Toiminto</string>
     <string name="notification_slider_top_position">Yläasento</string>

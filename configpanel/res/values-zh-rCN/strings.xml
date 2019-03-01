@@ -16,7 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- O-Click settings -->
     <string name="oclick_connect_string">连接</string>
     <string name="oclick_disconnect_string">断开连接</string>
     <string name="oclick_summary_connected">已连接到 O-Click</string>
@@ -32,13 +31,11 @@
     <string name="oclick_disconnect_alert_summary">当到达外面时发出警报</string>
     <string name="alert_category_title">警报</string>
     <string name="action_category_title">操作</string>
-    <!-- O-Click notification -->
     <string name="oclick_locator_notification_title">O-Click 电话定位器</string>
     <string name="oclick_locator_notification_text">正在播放定位器警报。点击以停止</string>
     <string name="oclick_notification_title_connected">O-Click 已连接</string>
     <string name="oclick_notification_title_disconnected">O-Click 已断开连接</string>
     <string name="oclick_notification_content_disconnected">按下 O-Click 按钮重新连接</string>
-    <!-- Notification slider -->
     <string name="notification_slider_category_title">三段式通知滑钮</string>
     <string name="notification_slider_selection_dialog_title">动作</string>
     <string name="notification_slider_top_position">顶部位置</string>

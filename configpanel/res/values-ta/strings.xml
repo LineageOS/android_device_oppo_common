@@ -16,7 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- O-Click settings -->
     <string name="oclick_connect_string">இணை</string>
     <string name="oclick_disconnect_string">தொடர்பைத் துண்டி</string>
     <string name="oclick_summary_connected">O-Click உடன் இணை</string>
@@ -32,11 +31,9 @@
     <string name="oclick_disconnect_alert_summary">தொடுதூரத்திற்கு வெளியே இருக்கும்போது விழிப்பூட்டு</string>
     <string name="alert_category_title">விழிப்பூட்டல்கள்</string>
     <string name="action_category_title">செயல்கள்</string>
-    <!-- O-Click notification -->
     <string name="oclick_locator_notification_title">O-Click தொலைப்பேசி லொகேட்டர்</string>
     <string name="oclick_locator_notification_text">லொகேட்டர் விழிப்பூட்டல் இயங்குகிறது. நிராகரிக்க தட்டு</string>
     <string name="oclick_notification_title_connected">O-Click இணைக்கப்பட்டது</string>
     <string name="oclick_notification_title_disconnected">O-Click துண்டிக்கப்பட்டது</string>
     <string name="oclick_notification_content_disconnected">மறு இணைப்பு செய்ய O-Click பொத்தானை அழுத்து</string>
-    <!-- Notification slider -->
 </resources>

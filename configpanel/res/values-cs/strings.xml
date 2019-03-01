@@ -16,7 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- O-Click settings -->
     <string name="oclick_connect_string">Připojit</string>
     <string name="oclick_disconnect_string">Odpojit</string>
     <string name="oclick_summary_connected">Připojen k O-Click</string>
@@ -32,13 +31,11 @@
     <string name="oclick_disconnect_alert_summary">Upozornit, pokud je telefon mimo dosah</string>
     <string name="alert_category_title">Upozornění</string>
     <string name="action_category_title">Akce</string>
-    <!-- O-Click notification -->
     <string name="oclick_locator_notification_title">Telefonní lokátor O-Click</string>
     <string name="oclick_locator_notification_text">Výstraha lokátoru je aktivní. Klepnutím zavřete</string>
     <string name="oclick_notification_title_connected">O-Click připojen</string>
     <string name="oclick_notification_title_disconnected">O-Click odpojen</string>
     <string name="oclick_notification_content_disconnected">Tlačítkem O-Click znovu připojit</string>
-    <!-- Notification slider -->
     <string name="notification_slider_category_title">Posuvník u oznámení</string>
     <string name="notification_slider_selection_dialog_title">Akce</string>
     <string name="notification_slider_top_position">Pozice nahoře</string>

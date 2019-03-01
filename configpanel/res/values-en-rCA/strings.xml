@@ -16,7 +16,12 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- O-Click settings -->
-    <!-- O-Click notification -->
-    <!-- Notification slider -->
+    <string name="notification_slider_selection_dialog_title">Action</string>
+    <string name="notification_slider_top_position">Top position</string>
+    <string name="notification_slider_middle_position">Middle position</string>
+    <string name="notification_slider_bottom_position">Bottom position</string>
+    <string name="notification_slider_mode_total_silence">Total silence</string>
+    <string name="notification_slider_mode_alarms_only">Alarms only</string>
+    <string name="notification_slider_mode_priority_only">Priority only</string>
+    <string name="notification_slider_mode_none">None</string>
 </resources>

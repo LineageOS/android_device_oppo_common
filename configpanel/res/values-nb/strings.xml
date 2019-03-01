@@ -16,7 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- O-Click settings -->
     <string name="oclick_connect_string">Koble til</string>
     <string name="oclick_disconnect_string">Koble fra</string>
     <string name="oclick_summary_connected">Koblet til O-Klikk</string>
@@ -32,13 +31,11 @@
     <string name="oclick_disconnect_alert_summary">Varsler når utenfor rekkevidde</string>
     <string name="alert_category_title">Varsler</string>
     <string name="action_category_title">Handlinger</string>
-    <!-- O-Click notification -->
     <string name="oclick_locator_notification_title">O-Klikk telefon finner</string>
     <string name="oclick_locator_notification_text">Lokasjonsvarsel spiller. Trykk for å fjerne</string>
     <string name="oclick_notification_title_connected">O-Klikk tilkoblet</string>
     <string name="oclick_notification_title_disconnected">O-Klikk frakoblet</string>
     <string name="oclick_notification_content_disconnected">Trykk på O-Klikk for å koble til</string>
-    <!-- Notification slider -->
     <string name="notification_slider_category_title">Varselskuff</string>
     <string name="notification_slider_selection_dialog_title">Handling</string>
     <string name="notification_slider_top_position">Topplassering</string>

@@ -16,7 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- O-Click settings -->
     <string name="oclick_connect_string">الاتصال</string>
     <string name="oclick_disconnect_string">فصل</string>
     <string name="oclick_summary_connected">متصل ب O-Click</string>
@@ -32,13 +31,11 @@
     <string name="oclick_disconnect_alert_summary">التنبيه عندما تكون خارج المجال</string>
     <string name="alert_category_title">تنبيهات</string>
     <string name="action_category_title">الاجراءات</string>
-    <!-- O-Click notification -->
     <string name="oclick_locator_notification_title">محدد هاتف O-Click</string>
     <string name="oclick_locator_notification_text">تنبيه المحدد يشتغل الان. المس من أجل الاستبعاد</string>
     <string name="oclick_notification_title_connected">O-Click متصل</string>
     <string name="oclick_notification_title_disconnected">O-Click غير متصل</string>
     <string name="oclick_notification_content_disconnected">اضغط على زر O-Click لإعادة الاتصال</string>
-    <!-- Notification slider -->
     <string name="notification_slider_category_title">أداة تمرار الإشعارات</string>
     <string name="notification_slider_selection_dialog_title">إجراء</string>
     <string name="notification_slider_top_position">الموضع العلوي</string>

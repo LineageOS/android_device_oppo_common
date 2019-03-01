@@ -16,7 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- O-Click settings -->
     <string name="oclick_connect_string">Prisijungti</string>
     <string name="oclick_disconnect_string">Atsijungti</string>
     <string name="oclick_summary_connected">Prisijungta prie „O-Click“</string>
@@ -32,11 +31,9 @@
     <string name="oclick_disconnect_alert_summary">Įspėti, kai nepasiekiamas</string>
     <string name="alert_category_title">Signalai</string>
     <string name="action_category_title">Veiksmai</string>
-    <!-- O-Click notification -->
     <string name="oclick_locator_notification_title">„O-Click“ telefono lokatorius</string>
     <string name="oclick_locator_notification_text">Leidžiamas lokatoriaus signalas. Bakstelėkite, kad atmestumėte</string>
     <string name="oclick_notification_title_connected">„O-Click“ prijungtas</string>
     <string name="oclick_notification_title_disconnected">„O-Click“ atjungtas</string>
     <string name="oclick_notification_content_disconnected">Paspauskite „O-Click“ mygtuką, kad prisijungtumėte iš naujo</string>
-    <!-- Notification slider -->
 </resources>

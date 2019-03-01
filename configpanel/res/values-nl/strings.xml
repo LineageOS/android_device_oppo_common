@@ -16,7 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- O-Click settings -->
     <string name="oclick_connect_string">Verbinding maken</string>
     <string name="oclick_disconnect_string">Verbinding verbreken</string>
     <string name="oclick_summary_connected">Verbonden met O-Click</string>
@@ -32,13 +31,11 @@
     <string name="oclick_disconnect_alert_summary">Melden wanneer buiten bereik</string>
     <string name="alert_category_title">Waarschuwingen</string>
     <string name="action_category_title">Acties</string>
-    <!-- O-Click notification -->
     <string name="oclick_locator_notification_title">O-Click-telefoonlokalisatie</string>
     <string name="oclick_locator_notification_text">Geluid voor lokalisatie wordt afgespeeld. Tik om te stoppen</string>
     <string name="oclick_notification_title_connected">O-Click verbonden</string>
     <string name="oclick_notification_title_disconnected">O-Click niet verbonden</string>
     <string name="oclick_notification_content_disconnected">Klik op de O-Click-knop om opnieuw verbinding te maken</string>
-    <!-- Notification slider -->
     <string name="notification_slider_category_title">Meldingschakelaar</string>
     <string name="notification_slider_selection_dialog_title">Actie</string>
     <string name="notification_slider_top_position">Bovenste positie</string>

@@ -49,8 +49,6 @@ public class KeyHandler implements DeviceKeyHandler {
     private static final String TAG = KeyHandler.class.getSimpleName();
     private static final int GESTURE_REQUEST = 1;
 
-    private static final int ZEN_MODE_VIBRATION = 4;
-
     // Supported scancodes
     private static final int FLIP_CAMERA_SCANCODE = 249;
     private static final int MODE_TOTAL_SILENCE = 600;
@@ -63,7 +61,7 @@ public class KeyHandler implements DeviceKeyHandler {
     private static final SparseIntArray sSupportedSliderModes = new SparseIntArray();
     static {
         sSupportedSliderModes.put(MODE_TOTAL_SILENCE, Settings.Global.ZEN_MODE_NO_INTERRUPTIONS);
-        sSupportedSliderModes.put(MODE_VIBRATION, ZEN_MODE_VIBRATION);
+        sSupportedSliderModes.put(MODE_VIBRATION, Settings.Global.ZEN_MODE_ALARMS);
         sSupportedSliderModes.put(MODE_PRIORITY_ONLY,
                 Settings.Global.ZEN_MODE_IMPORTANT_INTERRUPTIONS);
         sSupportedSliderModes.put(MODE_NONE, Settings.Global.ZEN_MODE_OFF);

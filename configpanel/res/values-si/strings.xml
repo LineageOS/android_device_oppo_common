@@ -16,7 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- O-Click settings -->
     <string name="oclick_connect_string">සබඳින්න</string>
     <string name="oclick_disconnect_string">විසන්ධි කරන්න</string>
     <string name="oclick_take_snapshot_title">දුරස්ථ කැමරා ශටරය</string>
@@ -29,6 +28,4 @@
     <string name="oclick_disconnect_alert_summary">ළඟාවීමට නොහැකිවිට අඟවන්න</string>
     <string name="alert_category_title">ඇඟවීම්</string>
     <string name="action_category_title">ක්‍රියා</string>
-    <!-- O-Click notification -->
-    <!-- Notification slider -->
 </resources>

@@ -16,7 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- O-Click settings -->
     <string name="oclick_connect_string">Conectează</string>
     <string name="oclick_disconnect_string">Deconectează</string>
     <string name="oclick_summary_connected">Conectat la O-Click</string>
@@ -32,13 +31,11 @@
     <string name="oclick_disconnect_alert_summary">Alertă când nu este la îndemână</string>
     <string name="alert_category_title">Alerte</string>
     <string name="action_category_title">Acțiuni</string>
-    <!-- O-Click notification -->
     <string name="oclick_locator_notification_title">Localizarea O-Click a telefonului</string>
     <string name="oclick_locator_notification_text">Soneria de localizare este activată. Atingeți pentru a o anula</string>
     <string name="oclick_notification_title_connected">O-Click conectat</string>
     <string name="oclick_notification_title_disconnected">O-Click deconectat</string>
     <string name="oclick_notification_content_disconnected">Apăsați butonul O-Click pentru a reconecta</string>
-    <!-- Notification slider -->
     <string name="notification_slider_category_title">Cursor notificare</string>
     <string name="notification_slider_selection_dialog_title">Acțiune</string>
     <string name="notification_slider_top_position">Poziţie de top</string>

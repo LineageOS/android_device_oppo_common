@@ -16,7 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- O-Click settings -->
     <string name="oclick_connect_string">కనెక్ట్ చేయి</string>
     <string name="oclick_disconnect_string">డిస్‌కనెక్ట్ చేయి</string>
     <string name="oclick_summary_connected">O-క్లిక్ కు అనుసంధానించబడింది</string>
@@ -32,11 +31,9 @@
     <string name="oclick_disconnect_alert_summary">అందుబాటులో లేనప్పుడు హెచ్చరిక</string>
     <string name="alert_category_title">హెచ్చరికలు</string>
     <string name="action_category_title">చర్యలు</string>
-    <!-- O-Click notification -->
     <string name="oclick_locator_notification_title">O-క్లిక్ ఫోన్ లోకేటర్</string>
     <string name="oclick_locator_notification_text">లొకేటర్ హెచ్చరిక నడుస్తూ ఉంది. రద్దు చేసేందుకు ట్యాప్ చేయండి</string>
     <string name="oclick_notification_title_connected">O-క్లిక్ అనుసంధానించబడింది</string>
     <string name="oclick_notification_title_disconnected">O-క్లిక్ అనుసంధానం తొలిగించబడింది</string>
     <string name="oclick_notification_content_disconnected">తిరిగి అనుసంధానించేందుకు O-క్లిక్ బటన్ నొక్కండి</string>
-    <!-- Notification slider -->
 </resources>

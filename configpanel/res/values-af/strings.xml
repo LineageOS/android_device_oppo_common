@@ -16,7 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- O-Click settings -->
     <string name="oclick_connect_string">koppel</string>
     <string name="oclick_disconnect_string">ontkoppel</string>
     <string name="oclick_summary_connected">Gekoppel aan O-Click</string>
@@ -32,13 +31,11 @@
     <string name="oclick_disconnect_alert_summary">Waarsku as buite bereik</string>
     <string name="alert_category_title">Waarskuwings</string>
     <string name="action_category_title">Aksies</string>
-    <!-- O-Click notification -->
     <string name="oclick_locator_notification_title">O-Click selfoon vinder</string>
     <string name="oclick_locator_notification_text">Vinder waarskuwing speel. Tik om te ontslaan</string>
     <string name="oclick_notification_title_connected">O-Click gekoppel</string>
     <string name="oclick_notification_title_disconnected">O-Click ontkoppel</string>
     <string name="oclick_notification_content_disconnected">Druk die O-Click knoppie om weer te konnekteer</string>
-    <!-- Notification slider -->
     <string name="notification_slider_category_title">Kennisgewing skuiwer</string>
     <string name="notification_slider_selection_dialog_title">Handeling</string>
     <string name="notification_slider_top_position">Boonste posisie</string>

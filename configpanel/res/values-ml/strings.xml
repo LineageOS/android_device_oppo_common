@@ -16,7 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- O-Click settings -->
     <string name="oclick_connect_string">ഘടിപ്പിക്കുക</string>
     <string name="oclick_disconnect_string">വേര്‍പെടുത്തുക</string>
     <string name="oclick_summary_connected">ഓ-ക്ലിക്കുമായി ബന്ധിച്ചിരിക്കുന്നു</string>
@@ -32,11 +31,9 @@
     <string name="oclick_disconnect_alert_summary">പരിധിക്കു പുറത്താണെകിൽ അലർട്ട് ചെയ്യുക</string>
     <string name="alert_category_title">അലർട്ടുകൾ</string>
     <string name="action_category_title">പ്രവർത്തികൾ</string>
-    <!-- O-Click notification -->
     <string name="oclick_locator_notification_title">ഓ-ക്ലിക്ക് ഫോണ്‍ ലോക്കെറ്റർ</string>
     <string name="oclick_locator_notification_text">ലോക്കേട്ടർ അലർട്ട് കളിക്കുന്നു. വേണ്ടെങ്കിൽ ടാപ്പ്‌ ചെയ്യുക</string>
     <string name="oclick_notification_title_connected">ഓ-ക്ലിക്ക് കണക്റ്റ് ചെയ്തിരിക്കുന്നു</string>
     <string name="oclick_notification_title_disconnected">ഓ-ക്ലിക്ക് ഡിസ്കണക്റ്റ് ചെയ്തിരിക്കുന്നു</string>
     <string name="oclick_notification_content_disconnected">വീണ്ടും കണക്റ്റ് ചെയ്യാൻ ഓ-ക്ലിക്ക് അമർത്തുക</string>
-    <!-- Notification slider -->
 </resources>

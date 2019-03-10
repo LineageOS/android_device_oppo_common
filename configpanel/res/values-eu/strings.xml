@@ -16,7 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- O-Click settings -->
     <string name="oclick_connect_string">Konektatu</string>
     <string name="oclick_disconnect_string">Deskonektatu</string>
     <string name="oclick_summary_connected">O-Clickera konektatuta</string>
@@ -32,13 +31,11 @@
     <string name="oclick_disconnect_alert_summary">Telefonoa irismenetik kanpo dagonean abisatu</string>
     <string name="alert_category_title">Oharpenak</string>
     <string name="action_category_title">Ekintzak</string>
-    <!-- O-Click notification -->
     <string name="oclick_locator_notification_title">O-Click telefono bilatzailea</string>
     <string name="oclick_locator_notification_text">Bilaketa alerta jotzen ari da. Sakatu gelditzeko</string>
     <string name="oclick_notification_title_connected">O-Click konektatuta</string>
     <string name="oclick_notification_title_disconnected">O-Click deskonektatuta</string>
     <string name="oclick_notification_content_disconnected">Sakatu O-Click botoia berriro konektatzeko</string>
-    <!-- Notification slider -->
     <string name="notification_slider_category_title">Jakinarazpenen tiradera</string>
     <string name="notification_slider_selection_dialog_title">Ekintza</string>
     <string name="notification_slider_top_position">Goian</string>

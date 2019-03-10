@@ -16,13 +16,27 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- O-Click settings -->
     <string name="oclick_connect_string">Cysylltu</string>
     <string name="oclick_disconnect_string">Datgysylltu</string>
+    <string name="oclick_summary_connected">Cysylltwyd ag O-Click</string>
+    <string name="oclick_summary_paired">Parwyd ag O-Click, ond wedi datgysylltu</string>
+    <string name="oclick_dialog_connecting_message">Yn cysylltu ag O-Click\u2026\nGwasga\'r botwm O-Click i gyflymu darganfod.</string>
+    <string name="oclick_take_snapshot_title">Caead camera o bell</string>
+    <string name="oclick_take_snapshot_summary">Clic sengl i dynnu llun</string>
+    <string name="oclick_find_my_phone_title">Lleolwr y ffôn</string>
+    <string name="oclick_find_my_phone_summary">Clicia dwywaith i ddarganfod y ffôn</string>
+    <string name="oclick_fence_title">Rhybudd agosrwydd</string>
+    <string name="oclick_fence_summary">Rhoi rhybudd pan ddim yn agos i\'r ffôn</string>
+    <string name="oclick_disconnect_alert_title">Rhybudd allan o gyrraedd</string>
+    <string name="oclick_disconnect_alert_summary">Rhoi rhybudd pan allan o gyrraedd</string>
     <string name="alert_category_title">Rhybuddion</string>
     <string name="action_category_title">Gweithredoedd</string>
-    <!-- O-Click notification -->
-    <!-- Notification slider -->
+    <string name="oclick_locator_notification_title">Lleolwr ffôn O-Click</string>
+    <string name="oclick_locator_notification_text">Mae\'r rhybudd lleolwr yn chwarae. Tapia i\'w ddiystyru.</string>
+    <string name="oclick_notification_title_connected">Cysylltwyd ag O-Click</string>
+    <string name="oclick_notification_title_disconnected">Datgysylltwyd ag O-Click</string>
+    <string name="oclick_notification_content_disconnected">Gwasga\'r botwm O-Click i ail-gysylltu</string>
+    <string name="notification_slider_category_title">Llithrydd hysbysiadau</string>
     <string name="notification_slider_selection_dialog_title">Gweithred</string>
     <string name="notification_slider_top_position">Lleoliad uchaf</string>
     <string name="notification_slider_middle_position">Lleoliad canol</string>

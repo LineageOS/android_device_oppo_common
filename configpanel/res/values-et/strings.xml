@@ -16,7 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- O-Click settings -->
     <string name="oclick_connect_string">Ühenda</string>
     <string name="oclick_disconnect_string">Katkesta ühendus</string>
     <string name="oclick_summary_connected">Ühendatud O-Clickiga</string>
@@ -32,13 +31,11 @@
     <string name="oclick_disconnect_alert_summary">Teavita kui väljaspool ulatust</string>
     <string name="alert_category_title">Teatised</string>
     <string name="action_category_title">Tegevused</string>
-    <!-- O-Click notification -->
     <string name="oclick_locator_notification_title">O-Click telefon otsing</string>
     <string name="oclick_locator_notification_text">Otsingu teatis mängib. Puuduta katkestamiseks</string>
     <string name="oclick_notification_title_connected">O-Click ühendatud</string>
     <string name="oclick_notification_title_disconnected">O-Click ühendamata</string>
     <string name="oclick_notification_content_disconnected">Vajuta O-Click nupul et taasühenduda</string>
-    <!-- Notification slider -->
     <string name="notification_slider_category_title">Teavituste liugur</string>
     <string name="notification_slider_selection_dialog_title">Tegevus</string>
     <string name="notification_slider_top_position">Ülemine positsioon</string>

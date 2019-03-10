@@ -16,7 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- O-Click settings -->
     <string name="oclick_connect_string">Connect</string>
     <string name="oclick_disconnect_string">Disconnect</string>
     <string name="oclick_summary_connected">Connected to O-Click</string>
@@ -32,13 +31,11 @@
     <string name="oclick_disconnect_alert_summary">Alert when outside of reach</string>
     <string name="alert_category_title">Alerts</string>
     <string name="action_category_title">Actions</string>
-    <!-- O-Click notification -->
     <string name="oclick_locator_notification_title">O-Click phone locator</string>
     <string name="oclick_locator_notification_text">Locator alert is playing. Tap to dismiss</string>
     <string name="oclick_notification_title_connected">O-Click connected</string>
     <string name="oclick_notification_title_disconnected">O-Click disconnected</string>
     <string name="oclick_notification_content_disconnected">Press the O-Click button to reconnect</string>
-    <!-- Notification slider -->
     <string name="notification_slider_category_title">Notification slider</string>
     <string name="notification_slider_selection_dialog_title">Action</string>
     <string name="notification_slider_top_position">Top position</string>
@@ -47,4 +44,5 @@
     <string name="notification_slider_mode_total_silence">Total silence</string>
     <string name="notification_slider_mode_priority_only">Priority only</string>
     <string name="notification_slider_mode_none">None</string>
+    <string name="notification_slider_mode_vibration">Vibration</string>
 </resources>

@@ -16,7 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- O-Click settings -->
     <string name="oclick_connect_string">Forbind</string>
     <string name="oclick_disconnect_string">Afbryd</string>
     <string name="oclick_summary_connected">Tilsluttet til O-Click</string>
@@ -32,13 +31,11 @@
     <string name="oclick_disconnect_alert_summary">Advarsel, når telefonen er udenfor O-Clicks rækkevidde</string>
     <string name="alert_category_title">Advarsler</string>
     <string name="action_category_title">Handlinger</string>
-    <!-- O-Click notification -->
     <string name="oclick_locator_notification_title">O-Click-alarm</string>
     <string name="oclick_locator_notification_text">O-Click ringer til dig. Tryk for at afbryde</string>
     <string name="oclick_notification_title_connected">O-Click forbundet</string>
     <string name="oclick_notification_title_disconnected">O-Click afbrudt</string>
     <string name="oclick_notification_content_disconnected">Tryk på O-Click for at genoprette forbindelsen</string>
-    <!-- Notification slider -->
     <string name="notification_slider_category_title">Meddelelsesskyder</string>
     <string name="notification_slider_selection_dialog_title">Handling</string>
     <string name="notification_slider_top_position">Øverste position</string>

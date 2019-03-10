@@ -16,7 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- O-Click settings -->
     <string name="oclick_connect_string">Connectéieren</string>
     <string name="oclick_disconnect_string">Déconnectéieren</string>
     <string name="oclick_summary_connected">Mat O-Click verbonnen</string>
@@ -32,11 +31,9 @@
     <string name="oclick_disconnect_alert_summary">Alarméieren, wann d\'Distanz ze grouss ass</string>
     <string name="alert_category_title">Alarmen</string>
     <string name="action_category_title">Aktiounen</string>
-    <!-- O-Click notification -->
     <string name="oclick_locator_notification_title">O-Click-Telefonslokaliséierer</string>
     <string name="oclick_locator_notification_text">Lokaliséierungs-Alarm gëtt ofgespillt. Dréck fir ze verwerfen</string>
     <string name="oclick_notification_title_connected">O-Click verbonnen</string>
     <string name="oclick_notification_title_disconnected">O-Click net verbonnen</string>
     <string name="oclick_notification_content_disconnected">Dréck den O-Click-Knäppche fir nei ze verbannen</string>
-    <!-- Notification slider -->
 </resources>

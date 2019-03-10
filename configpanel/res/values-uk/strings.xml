@@ -16,7 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- O-Click settings -->
     <string name="oclick_connect_string">Підключитись</string>
     <string name="oclick_disconnect_string">Відключитись</string>
     <string name="oclick_summary_connected">Приєднано до O-Click</string>
@@ -32,13 +31,11 @@
     <string name="oclick_disconnect_alert_summary">Сигналізувати, коли з’єднання з пристроєм втрачено</string>
     <string name="alert_category_title">Сповіщення</string>
     <string name="action_category_title">Дії</string>
-    <!-- O-Click notification -->
     <string name="oclick_locator_notification_title">Пошук телефону O-Click</string>
     <string name="oclick_locator_notification_text">Звук локатору відтворюється. Торкніться, щоб вимкнути</string>
     <string name="oclick_notification_title_connected">З\'єднано з O-Click</string>
     <string name="oclick_notification_title_disconnected">Роз\'єднано з O-Click</string>
     <string name="oclick_notification_content_disconnected">Натисніть кнопку \"O-Click\", щоб перепід\'єднатися</string>
-    <!-- Notification slider -->
     <string name="notification_slider_category_title">Повзунок сповіщень</string>
     <string name="notification_slider_selection_dialog_title">Дія</string>
     <string name="notification_slider_top_position">Верхнє положення</string>

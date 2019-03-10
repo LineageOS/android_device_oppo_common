@@ -16,7 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- O-Click settings -->
     <string name="oclick_connect_string">連線</string>
     <string name="oclick_disconnect_string">中斷連線</string>
     <string name="oclick_summary_connected">已連線至 O-Click</string>
@@ -32,13 +31,11 @@
     <string name="oclick_disconnect_alert_summary">手機不在範圍時發出警報</string>
     <string name="alert_category_title">警報</string>
     <string name="action_category_title">動作</string>
-    <!-- O-Click notification -->
     <string name="oclick_locator_notification_title">O-Click 手機定位器</string>
     <string name="oclick_locator_notification_text">定位器正在響起警報。輕觸即可取消</string>
     <string name="oclick_notification_title_connected">O-Click 已連線</string>
     <string name="oclick_notification_title_disconnected">O-Click 中斷連線</string>
     <string name="oclick_notification_content_disconnected">按下 O-Click 按鍵即可重新連線</string>
-    <!-- Notification slider -->
     <string name="notification_slider_category_title">通知滑動條</string>
     <string name="notification_slider_selection_dialog_title">動作</string>
     <string name="notification_slider_top_position">頂部位置</string>

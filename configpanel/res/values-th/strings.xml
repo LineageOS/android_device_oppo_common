@@ -16,7 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- O-Click settings -->
     <string name="oclick_connect_string">เชื่อมต่อ</string>
     <string name="oclick_disconnect_string">ตัดการเชื่อมต่อ</string>
     <string name="oclick_summary_connected">เชื่อมต่อกับ O-Click</string>
@@ -32,13 +31,11 @@
     <string name="oclick_disconnect_alert_summary">เตือนเมื่อออกนอกเขตการส่งสัญญาณ</string>
     <string name="alert_category_title">การเตือน</string>
     <string name="action_category_title">การกระทำ</string>
-    <!-- O-Click notification -->
     <string name="oclick_locator_notification_title">ตัวค้นหาโทรศัพท์ของ O-Click</string>
     <string name="oclick_locator_notification_text">กำลังเล่นเสียงการแจ้งตำแหน่ง แตะเพื่อยกเลิก</string>
     <string name="oclick_notification_title_connected">เชื่อมต่อ O-Click แล้ว</string>
     <string name="oclick_notification_title_disconnected">หยุดเชื่อมต่อ O-Click แล้ว</string>
     <string name="oclick_notification_content_disconnected">กดปุ่ม O-click เพื่อเชื่อมต่ออีกครั้ง</string>
-    <!-- Notification slider -->
     <string name="notification_slider_category_title">ตัวเลื่อนการแจ้งเตือน</string>
     <string name="notification_slider_selection_dialog_title">การทำงาน</string>
     <string name="notification_slider_top_position">ตำแหน่งบนสุด</string>

@@ -16,7 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- O-Click settings -->
     <string name="oclick_connect_string">ಸಂಪರ್ಕಿಸಿ</string>
     <string name="oclick_disconnect_string">ಸಂಪರ್ಕ ಕಡಿತಗೊಳಿಸಿ</string>
     <string name="oclick_summary_connected">ಒ-ಕ್ಲಿಕ್‍ಗೆ ಸಂಪರ್ಕಿಸಲಾಗಿದೆ</string>
@@ -32,11 +31,11 @@
     <string name="oclick_disconnect_alert_summary">ತಲುಪುವ ವ್ಯಾಪ್ತಿಯಿಂದ ಹೊರಹೋದಾಗ ಎಚ್ಚರಿಸು</string>
     <string name="alert_category_title">ಎಚ್ಚರಿಕೆಗಳು</string>
     <string name="action_category_title">ಕ್ರಿಯೆಗಳು</string>
-    <!-- O-Click notification -->
     <string name="oclick_locator_notification_title">ಒ-ಕ್ಲಿಕ್ ಫೋನ್ ಪತ್ತೆಕಾರಕ</string>
     <string name="oclick_locator_notification_text">ಪತ್ತೆಕಾರಕ ಎಚ್ಚರಿಕೆಯು ಪ್ಲೇ ಆಗುತ್ತಿದೆ. ವಜಾಗೊಳಿಸಲು ಸ್ಪರ್ಶಿಸಿ</string>
     <string name="oclick_notification_title_connected">ಒ-ಕ್ಲಿಕ್ ಸಂಪರ್ಕಗೊಂಡಿದೆ</string>
     <string name="oclick_notification_title_disconnected">ಒ-ಕ್ಲಿ ಸಂಪರ್ಕ ಕಡಿತಗೊಂಡಿದೆ</string>
     <string name="oclick_notification_content_disconnected">ಮರುಸಂಪರ್ಕಗೊಳಿಸಲು ಒ-ಕ್ಲಿಕ್ ಬಟನನ್ನು ಒತ್ತಿ</string>
-    <!-- Notification slider -->
+    <string name="notification_slider_selection_dialog_title">ಕ್ರಿಯೆ</string>
+    <string name="notification_slider_mode_vibration">ಕಂಪನ</string>
 </resources>

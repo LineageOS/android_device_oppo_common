@@ -16,7 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- O-Click settings -->
     <string name="oclick_connect_string">Verbinden</string>
     <string name="oclick_disconnect_string">Trennen</string>
     <string name="oclick_summary_connected">Mit O-Click verbunden</string>
@@ -32,13 +31,11 @@
     <string name="oclick_disconnect_alert_summary">Alarmieren, wenn Reichweite verlassen wird</string>
     <string name="alert_category_title">Alarme</string>
     <string name="action_category_title">Aktionen</string>
-    <!-- O-Click notification -->
     <string name="oclick_locator_notification_title">O-Click-Telefonfinder</string>
     <string name="oclick_locator_notification_text">Telefonfinder-Alarm aktiv. Zum Beenden tippen</string>
     <string name="oclick_notification_title_connected">O-Click verbunden</string>
     <string name="oclick_notification_title_disconnected">O-Click getrennt</string>
     <string name="oclick_notification_content_disconnected">Drücken Sie die O-Click-Taste, um die Verbindung wiederherzustellen.</string>
-    <!-- Notification slider -->
     <string name="notification_slider_category_title">Schieber für Benachrichtigungen</string>
     <string name="notification_slider_selection_dialog_title">Aktion</string>
     <string name="notification_slider_top_position">Position: oben</string>

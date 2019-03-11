@@ -42,7 +42,6 @@
     <string name="notification_slider_middle_position">Midterste position</string>
     <string name="notification_slider_bottom_position">Nederste position</string>
     <string name="notification_slider_mode_total_silence">Total stilhed</string>
-    <string name="notification_slider_mode_alarms_only">Kun alarmer</string>
     <string name="notification_slider_mode_priority_only">Kun prioritet</string>
     <string name="notification_slider_mode_none">Intet</string>
 </resources>

@@ -42,7 +42,7 @@
     <string name="notification_slider_middle_position">Srednji položaj</string>
     <string name="notification_slider_bottom_position">Spodnji položaj</string>
     <string name="notification_slider_mode_total_silence">Popolna tišina</string>
-    <string name="notification_slider_mode_alarms_only">Samo budilke</string>
     <string name="notification_slider_mode_priority_only">Samo prednostno</string>
     <string name="notification_slider_mode_none">Brez</string>
+    <string name="notification_slider_mode_vibration">Vibriranje</string>
 </resources>

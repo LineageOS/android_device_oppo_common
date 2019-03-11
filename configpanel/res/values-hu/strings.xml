@@ -42,7 +42,6 @@
     <string name="notification_slider_middle_position">Középső pozíció</string>
     <string name="notification_slider_bottom_position">Alsó pozíció</string>
     <string name="notification_slider_mode_total_silence">Teljes csend</string>
-    <string name="notification_slider_mode_alarms_only">Csak riasztások</string>
     <string name="notification_slider_mode_priority_only">Csak prioritásos</string>
     <string name="notification_slider_mode_none">Egy sem</string>
 </resources>

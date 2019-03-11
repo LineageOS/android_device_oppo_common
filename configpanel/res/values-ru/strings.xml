@@ -42,7 +42,7 @@
     <string name="notification_slider_middle_position">Среднее положение</string>
     <string name="notification_slider_bottom_position">Нижнее положение</string>
     <string name="notification_slider_mode_total_silence">Полная тишина</string>
-    <string name="notification_slider_mode_alarms_only">Только будильник</string>
     <string name="notification_slider_mode_priority_only">Только важные</string>
     <string name="notification_slider_mode_none">Отключено</string>
+    <string name="notification_slider_mode_vibration">Вибрация</string>
 </resources>

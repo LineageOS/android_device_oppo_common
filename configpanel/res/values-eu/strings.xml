@@ -42,7 +42,7 @@
     <string name="notification_slider_middle_position">Erdian</string>
     <string name="notification_slider_bottom_position">Behean</string>
     <string name="notification_slider_mode_total_silence">Isiltasun osoa</string>
-    <string name="notification_slider_mode_alarms_only">Alarmak besterik ez</string>
     <string name="notification_slider_mode_priority_only">Lehentasunezkoak besterik ez</string>
     <string name="notification_slider_mode_none">Bat ere ez</string>
+    <string name="notification_slider_mode_vibration">Bibrazioa</string>
 </resources>

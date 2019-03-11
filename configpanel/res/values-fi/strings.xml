@@ -42,7 +42,6 @@
     <string name="notification_slider_middle_position">Keskiasento</string>
     <string name="notification_slider_bottom_position">Ala-asento</string>
     <string name="notification_slider_mode_total_silence">Täysin äänetön</string>
-    <string name="notification_slider_mode_alarms_only">Vain hälytykset</string>
     <string name="notification_slider_mode_priority_only">Vain tärkeät</string>
     <string name="notification_slider_mode_none">Pois käytöstä</string>
 </resources>

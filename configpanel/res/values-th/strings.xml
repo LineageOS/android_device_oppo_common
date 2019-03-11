@@ -42,7 +42,6 @@
     <string name="notification_slider_middle_position">ตำแหน่งกึ่งกลาง</string>
     <string name="notification_slider_bottom_position">ตำแหน่งล่างสุด</string>
     <string name="notification_slider_mode_total_silence">ความเงียบรวม</string>
-    <string name="notification_slider_mode_alarms_only">เฉพาะการแจ้งเตือน</string>
     <string name="notification_slider_mode_priority_only">เฉพาะระดับความสำคัญ</string>
     <string name="notification_slider_mode_none">ไม่มี</string>
 </resources>

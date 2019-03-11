@@ -42,7 +42,7 @@
     <string name="notification_slider_middle_position">Orta konum</string>
     <string name="notification_slider_bottom_position">Alt konum</string>
     <string name="notification_slider_mode_total_silence">Tam sessizlik</string>
-    <string name="notification_slider_mode_alarms_only">Sadece alarmlar</string>
     <string name="notification_slider_mode_priority_only">Sadece öncelik</string>
     <string name="notification_slider_mode_none">Hiçbiri</string>
+    <string name="notification_slider_mode_vibration">Titreşim</string>
 </resources>

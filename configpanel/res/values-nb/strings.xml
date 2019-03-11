@@ -42,7 +42,6 @@
     <string name="notification_slider_middle_position">Midtplassering</string>
     <string name="notification_slider_bottom_position">Bunnplassering</string>
     <string name="notification_slider_mode_total_silence">Total stillhet</string>
-    <string name="notification_slider_mode_alarms_only">Bare alarmer</string>
     <string name="notification_slider_mode_priority_only">Bare prioritert</string>
     <string name="notification_slider_mode_none">Ingen</string>
 </resources>

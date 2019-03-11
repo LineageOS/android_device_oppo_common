@@ -42,7 +42,6 @@
     <string name="notification_slider_middle_position">Placering: mitten</string>
     <string name="notification_slider_bottom_position">Placering: botten</string>
     <string name="notification_slider_mode_total_silence">Helt tyst</string>
-    <string name="notification_slider_mode_alarms_only">Endast alarm</string>
     <string name="notification_slider_mode_priority_only">Endast prioriterat</string>
     <string name="notification_slider_mode_none">Ingen</string>
 </resources>

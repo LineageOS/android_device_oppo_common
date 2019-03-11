@@ -42,7 +42,7 @@
     <string name="notification_slider_middle_position">No meio</string>
     <string name="notification_slider_bottom_position">Em baixo</string>
     <string name="notification_slider_mode_total_silence">Silêncio total</string>
-    <string name="notification_slider_mode_alarms_only">Apenas alarmes</string>
     <string name="notification_slider_mode_priority_only">Apenas prioridade</string>
     <string name="notification_slider_mode_none">Nenhuma</string>
+    <string name="notification_slider_mode_vibration">Vibração</string>
 </resources>

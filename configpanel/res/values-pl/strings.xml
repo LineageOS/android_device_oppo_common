@@ -42,7 +42,6 @@
     <string name="notification_slider_middle_position">Środkowa pozycja</string>
     <string name="notification_slider_bottom_position">Dolna pozycja</string>
     <string name="notification_slider_mode_total_silence">Całkowita cisza</string>
-    <string name="notification_slider_mode_alarms_only">Tylko alarmy</string>
     <string name="notification_slider_mode_priority_only">Tylko priorytet</string>
     <string name="notification_slider_mode_none">Brak</string>
 </resources>

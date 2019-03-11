@@ -42,7 +42,7 @@
     <string name="notification_slider_middle_position">Posisi tengah</string>
     <string name="notification_slider_bottom_position">Posisi bawah</string>
     <string name="notification_slider_mode_total_silence">Senyap total</string>
-    <string name="notification_slider_mode_alarms_only">Hanya alarm</string>
     <string name="notification_slider_mode_priority_only">Hanya prioritas</string>
     <string name="notification_slider_mode_none">Tiada</string>
+    <string name="notification_slider_mode_vibration">Getaran</string>
 </resources>

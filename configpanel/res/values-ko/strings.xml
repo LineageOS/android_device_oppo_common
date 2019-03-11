@@ -42,7 +42,7 @@
     <string name="notification_slider_middle_position">중간 위치</string>
     <string name="notification_slider_bottom_position">아래 위치</string>
     <string name="notification_slider_mode_total_silence">모두 차단</string>
-    <string name="notification_slider_mode_alarms_only">알람만</string>
     <string name="notification_slider_mode_priority_only">중요 알림만</string>
     <string name="notification_slider_mode_none">끔</string>
+    <string name="notification_slider_mode_vibration">진동</string>
 </resources>

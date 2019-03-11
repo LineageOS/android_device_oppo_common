@@ -42,7 +42,7 @@
     <string name="notification_slider_middle_position">Poziţie de mijloc</string>
     <string name="notification_slider_bottom_position">Poziție de jos</string>
     <string name="notification_slider_mode_total_silence">Niciun sunet</string>
-    <string name="notification_slider_mode_alarms_only">Numai alarme</string>
     <string name="notification_slider_mode_priority_only">Numai cu prioritate</string>
     <string name="notification_slider_mode_none">Niciuna</string>
+    <string name="notification_slider_mode_vibration">Vibrație</string>
 </resources>

@@ -42,7 +42,6 @@
     <string name="notification_slider_middle_position">Posició central</string>
     <string name="notification_slider_bottom_position">Posició inferior</string>
     <string name="notification_slider_mode_total_silence">Silenci total</string>
-    <string name="notification_slider_mode_alarms_only">Només alarmes</string>
     <string name="notification_slider_mode_priority_only">Només prioritat</string>
     <string name="notification_slider_mode_none">Cap</string>
 </resources>

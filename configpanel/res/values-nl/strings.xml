@@ -42,7 +42,6 @@
     <string name="notification_slider_middle_position">Middelste positie</string>
     <string name="notification_slider_bottom_position">Onderste positie</string>
     <string name="notification_slider_mode_total_silence">Totale stilte</string>
-    <string name="notification_slider_mode_alarms_only">Alleen alarmen</string>
     <string name="notification_slider_mode_priority_only">Alleen prioriteit</string>
     <string name="notification_slider_mode_none">Geen</string>
 </resources>

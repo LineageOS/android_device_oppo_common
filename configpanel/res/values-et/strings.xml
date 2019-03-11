@@ -42,7 +42,7 @@
     <string name="notification_slider_middle_position">Keskmine positsioon</string>
     <string name="notification_slider_bottom_position">Alumine positsioon</string>
     <string name="notification_slider_mode_total_silence">Täielik vaikus</string>
-    <string name="notification_slider_mode_alarms_only">Ainult äratused</string>
     <string name="notification_slider_mode_priority_only">Ainult prioriteetsed</string>
     <string name="notification_slider_mode_none">Puudub</string>
+    <string name="notification_slider_mode_vibration">Värin</string>
 </resources>

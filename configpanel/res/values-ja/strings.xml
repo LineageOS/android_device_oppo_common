@@ -42,7 +42,6 @@
     <string name="notification_slider_middle_position">中央</string>
     <string name="notification_slider_bottom_position">下部</string>
     <string name="notification_slider_mode_total_silence">完全にサイレント</string>
-    <string name="notification_slider_mode_alarms_only">アラームのみ</string>
     <string name="notification_slider_mode_priority_only">優先する通知のみ</string>
     <string name="notification_slider_mode_none">なし</string>
 </resources>

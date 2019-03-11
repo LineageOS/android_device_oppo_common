@@ -42,7 +42,6 @@
     <string name="notification_slider_middle_position">מיקום אמצעי</string>
     <string name="notification_slider_bottom_position">מיקום תחתון</string>
     <string name="notification_slider_mode_total_silence">שקט מוחלט</string>
-    <string name="notification_slider_mode_alarms_only">התראות בלבד</string>
     <string name="notification_slider_mode_priority_only">בעל עדיפות בלבד</string>
     <string name="notification_slider_mode_none">כלום</string>
 </resources>

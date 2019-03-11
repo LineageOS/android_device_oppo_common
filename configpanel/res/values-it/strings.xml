@@ -42,7 +42,7 @@
     <string name="notification_slider_middle_position">Posizione centrale</string>
     <string name="notification_slider_bottom_position">Posizione inferiore</string>
     <string name="notification_slider_mode_total_silence">Silenzio totale</string>
-    <string name="notification_slider_mode_alarms_only">Solo sveglie</string>
     <string name="notification_slider_mode_priority_only">Solo priorità</string>
     <string name="notification_slider_mode_none">Nulla</string>
+    <string name="notification_slider_mode_vibration">Vibrazione</string>
 </resources>

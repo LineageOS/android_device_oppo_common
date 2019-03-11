@@ -42,7 +42,6 @@
     <string name="notification_slider_middle_position">Në mes</string>
     <string name="notification_slider_bottom_position">Poshtë</string>
     <string name="notification_slider_mode_total_silence">Heshtje e plotë</string>
-    <string name="notification_slider_mode_alarms_only">Vetëm alarmet</string>
     <string name="notification_slider_mode_priority_only">Vetëm kryesoret</string>
     <string name="notification_slider_mode_none">Asnjë</string>
 </resources>

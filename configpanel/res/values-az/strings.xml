@@ -16,24 +16,33 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="oclick_connect_string">Bağlan</string>
+    <string name="oclick_connect_string">Bağlantı qur</string>
     <string name="oclick_disconnect_string">Bağlantını kəs</string>
-    <string name="oclick_summary_connected">O-Click\'ə bağlanıldı</string>
-    <string name="oclick_summary_paired">O-Click qoşalaşdı, ancaq bağlantı kəsildi</string>
-    <string name="oclick_dialog_connecting_message">O-Click\'ə bağlanır\u2026\nO-Click düyməsinə basaraq axtarışı sürətləndirin.</string>
+    <string name="oclick_summary_connected">O-Click ilə bağlantı quruldu</string>
+    <string name="oclick_summary_paired">O-Click cütləşdi, ancaq bağlantı kəsildi</string>
+    <string name="oclick_dialog_connecting_message">O-Click ilə bağlantı qurulur\u2026\nO-Click düyməsinə basaraq axtarışı sürətləndirin.</string>
     <string name="oclick_take_snapshot_title">Uzaqdan çəkiliş</string>
     <string name="oclick_take_snapshot_summary">Şəkil çəkmək üçün bir dəfə basın</string>
     <string name="oclick_find_my_phone_title">Telefon axtarıcı</string>
     <string name="oclick_find_my_phone_summary">Telefonu tapmaq üçün iki dәfә basın</string>
     <string name="oclick_fence_title">Yaxınlıq xəbərdarlığı</string>
-    <string name="oclick_fence_summary">Telefon yaxında deyilkən xəbərdar et</string>
+    <string name="oclick_fence_summary">Telefon yaxında olmayanda xəbərdar et</string>
     <string name="oclick_disconnect_alert_title">Әhatә xarici xəbərdarlığı</string>
     <string name="oclick_disconnect_alert_summary">Əlçatmaz olarkən xəbərdar et</string>
     <string name="alert_category_title">Xəbərdarlıqlar</string>
     <string name="action_category_title">Hərəkətlər</string>
     <string name="oclick_locator_notification_title">O-Click telefon axtarıcı</string>
     <string name="oclick_locator_notification_text">Axtarıcı xəbərdarlığı oynadılır. Dayandırmaq üçün toxunun</string>
-    <string name="oclick_notification_title_connected">O-Click bağlandı</string>
+    <string name="oclick_notification_title_connected">O-Click bağlantı quruldu</string>
     <string name="oclick_notification_title_disconnected">O-Click bağlantısı kəsildi</string>
-    <string name="oclick_notification_content_disconnected">Yenidən bağlanmaq üçün O-Click düyməsinə basın</string>
+    <string name="oclick_notification_content_disconnected">Yenidən bağlantı qurmaq üçün O-Click düyməsinə basın</string>
+    <string name="notification_slider_category_title">Bildiriş diyircəyi</string>
+    <string name="notification_slider_selection_dialog_title">Hərəkət</string>
+    <string name="notification_slider_top_position">Üst mövqe</string>
+    <string name="notification_slider_middle_position">Orta mövqe</string>
+    <string name="notification_slider_bottom_position">Alt mövqe</string>
+    <string name="notification_slider_mode_total_silence">Tam səssizlik</string>
+    <string name="notification_slider_mode_priority_only">Yalnız əhəmiyyətlilər</string>
+    <string name="notification_slider_mode_none">Heç biri</string>
+    <string name="notification_slider_mode_vibration">Titrəmə</string>
 </resources>

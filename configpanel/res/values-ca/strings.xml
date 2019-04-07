@@ -44,4 +44,5 @@
     <string name="notification_slider_mode_total_silence">Silenci total</string>
     <string name="notification_slider_mode_priority_only">Només prioritat</string>
     <string name="notification_slider_mode_none">Cap</string>
+    <string name="notification_slider_mode_vibration">Vibració</string>
 </resources>

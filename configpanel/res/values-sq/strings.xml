@@ -44,4 +44,5 @@
     <string name="notification_slider_mode_total_silence">Heshtje e plotë</string>
     <string name="notification_slider_mode_priority_only">Vetëm kryesoret</string>
     <string name="notification_slider_mode_none">Asnjë</string>
+    <string name="notification_slider_mode_vibration">Dridhje</string>
 </resources>

@@ -44,4 +44,5 @@
     <string name="notification_slider_mode_total_silence">Totale stilte</string>
     <string name="notification_slider_mode_priority_only">Alleen prioriteit</string>
     <string name="notification_slider_mode_none">Geen</string>
+    <string name="notification_slider_mode_vibration">Trillen</string>
 </resources>

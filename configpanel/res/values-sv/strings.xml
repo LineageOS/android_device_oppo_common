@@ -44,4 +44,5 @@
     <string name="notification_slider_mode_total_silence">Helt tyst</string>
     <string name="notification_slider_mode_priority_only">Endast prioriterat</string>
     <string name="notification_slider_mode_none">Ingen</string>
+    <string name="notification_slider_mode_vibration">Vibration</string>
 </resources>

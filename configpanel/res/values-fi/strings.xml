@@ -44,4 +44,5 @@
     <string name="notification_slider_mode_total_silence">Täysin äänetön</string>
     <string name="notification_slider_mode_priority_only">Vain tärkeät</string>
     <string name="notification_slider_mode_none">Pois käytöstä</string>
+    <string name="notification_slider_mode_vibration">Värinä</string>
 </resources>

@@ -36,4 +36,12 @@
     <string name="oclick_notification_title_connected">O-Click متصل شد</string>
     <string name="oclick_notification_title_disconnected">اتصال O-Click قطع شد</string>
     <string name="oclick_notification_content_disconnected">کلید O-Click را برای اتصال مجدد بزنید</string>
+    <string name="notification_slider_category_title">کشوی اعلان ها</string>
+    <string name="notification_slider_selection_dialog_title">اقدامات</string>
+    <string name="notification_slider_top_position">بالاترین موقعیت</string>
+    <string name="notification_slider_middle_position">موقعیت متوسط</string>
+    <string name="notification_slider_bottom_position">موقعیت پایین</string>
+    <string name="notification_slider_mode_total_silence">بی صدا کردن همه</string>
+    <string name="notification_slider_mode_priority_only">فقط اولویت ها</string>
+    <string name="notification_slider_mode_none">هیچ کدام</string>
 </resources>

@@ -44,4 +44,5 @@
     <string name="notification_slider_mode_total_silence">Úplné ticho</string>
     <string name="notification_slider_mode_priority_only">Iba prioritné</string>
     <string name="notification_slider_mode_none">Žiadne</string>
+    <string name="notification_slider_mode_vibration">Vibrácie</string>
 </resources>

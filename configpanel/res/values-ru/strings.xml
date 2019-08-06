@@ -18,15 +18,15 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="touchpad_enable_title">Включить O-Touch</string>
     <string name="touchpad_enable_summary">Сенсорная панель на задней стороне телефона</string>
-    <string name="touchpad_long_press_title">Долгое нажатие для запуска камеры</string>
-    <string name="touchpad_long_press_summary">Удерживайте сенсорную панель для запуска приложения «Камера»</string>
+    <string name="touchpad_long_press_title">Длительное нажатие для запуска камеры</string>
+    <string name="touchpad_long_press_summary">Длительное нажатие на тачпад запускает приложение камеры</string>
     <string name="touchpad_double_tap_title">Двойное нажатие для съемки</string>
     <string name="touchpad_double_tap_summary">В приложении «Камера» дважды нажмите на сенсорную панель, чтобы сделать снимок</string>
     <string name="oclick_connect_string">Подключить</string>
     <string name="oclick_disconnect_string">Отключить</string>
     <string name="oclick_summary_connected">Подключено к устройству O-Click</string>
     <string name="oclick_summary_paired">Устройство O-Click сопряжено, но не подключено</string>
-    <string name="oclick_dialog_connecting_message">Подключение к устройству O-Click\u2026\nМожно нажать кнопку O-Click, чтобы ускорить процесс обнаружения.</string>
+    <string name="oclick_dialog_connecting_message">Подключение к устройству O-Click\u2026\nНажмите кнопку O-Click, чтобы ускорить процесс обнаружения.</string>
     <string name="oclick_take_snapshot_title">Удаленный спуск затвора</string>
     <string name="oclick_take_snapshot_summary">Нажмите один раз, чтобы сделать снимок</string>
     <string name="oclick_find_my_phone_title">Поиск телефона</string>
@@ -41,7 +41,7 @@
     <string name="oclick_locator_notification_text">Воспроизводится звук локатора. Нажмите, чтобы отключить</string>
     <string name="oclick_notification_title_connected">Устройство O-Click подключено</string>
     <string name="oclick_notification_title_disconnected">Устройство O-Click отключено</string>
-    <string name="oclick_notification_content_disconnected">Нажмите кнопку O-Click, чтобы повторно подключиться</string>
+    <string name="oclick_notification_content_disconnected">Нажмите кнопку O-Click для повторного подключения</string>
     <string name="notification_slider_category_title">Переключатель уведомл.</string>
     <string name="notification_slider_selection_dialog_title">Действие</string>
     <string name="notification_slider_top_position">Верхнее положение</string>

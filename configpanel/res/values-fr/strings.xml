@@ -44,4 +44,5 @@
     <string name="notification_slider_mode_total_silence">Silence total</string>
     <string name="notification_slider_mode_priority_only">Priorité uniquement</string>
     <string name="notification_slider_mode_none">Aucun</string>
+    <string name="notification_slider_mode_vibration">Vibration</string>
 </resources>

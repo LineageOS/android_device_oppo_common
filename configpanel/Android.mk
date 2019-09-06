@@ -45,4 +45,4 @@ LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
 LOCAL_MODULE_TAGS := optional
 
-include $(BUILD_PACKAGE)
+# include $(BUILD_PACKAGE)

@@ -37,18 +37,10 @@ import static android.provider.SearchIndexablesContract.NON_INDEXABLES_KEYS_COLU
 public class ConfigPanelSearchIndexablesProvider extends SearchIndexablesProvider {
     private static final String TAG = "ConfigPanelSearchIndexablesProvider";
 
-    public static final int SEARCH_IDX_BUTTON_PANEL = 0;
-    public static final int SEARCH_IDX_GESTURE_PANEL = 1;
-    public static final int SEARCH_IDX_OCLICK_PANEL = 2;
-
-    private static SearchIndexableResource[] INDEXABLE_RES = new SearchIndexableResource[]{
+    private static final SearchIndexableResource BUTTON_PANEL_SEARCH_RESOURCE =
             new SearchIndexableResource(1, R.xml.button_panel,
                     ButtonSettingsActivity.class.getName(),
                     R.drawable.ic_settings_additional_buttons),
-            new SearchIndexableResource(1, R.xml.oclick_panel,
-                    BluetoothInputSettings.class.getName(),
-                    R.drawable.ic_oclick_notification),
-    };
 
     @Override
     public boolean onCreate() {
@@ -58,12 +50,7 @@ public class ConfigPanelSearchIndexablesProvider extends SearchIndexablesProvide
     @Override
     public Cursor queryXmlResources(String[] projection) {
         MatrixCursor cursor = new MatrixCursor(INDEXABLES_XML_RES_COLUMNS);
-        if (Startup.hasButtonProcs() /* show button panel */) {
-            cursor.addRow(generateResourceRef(INDEXABLE_RES[SEARCH_IDX_BUTTON_PANEL]));
-        }
-        if (Startup.hasOClick() /* show oclick panel */) {
-            cursor.addRow(generateResourceRef(INDEXABLE_RES[SEARCH_IDX_OCLICK_PANEL]));
-        }
+        cursor.addRow(generateResourceRef(BUTTON_PANEL_SEARCH_RESOURCE));
         return cursor;
     }
 

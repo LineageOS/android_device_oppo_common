@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9317e216_0611d1ab",
+        "filename": "configpanel/src/org/lineageos/settings/device/Startup.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2019-09-23T17:11:32Z",
+      "side": 0,
+      "message": "Are we sure this app isn\u0027t built for devices other than OP2/OP3?",
+      "revId": "2ffe9b7d3c5ceb9b207fbcfb78bc7d153a4fa347",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}

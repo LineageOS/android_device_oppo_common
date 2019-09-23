@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e12ab9ca_57405ed3",
+        "filename": "configpanel/src/org/lineageos/settings/device/ConfigPanelSearchIndexablesProvider.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2019-09-23T17:11:32Z",
+      "side": 1,
+      "message": "Should refactor here:\n- nuke the index constants\n- nuke the array, replace by a single constant object",
+      "revId": "6f4d255cd7bf895a89d52a1e1d77232317a9409d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}

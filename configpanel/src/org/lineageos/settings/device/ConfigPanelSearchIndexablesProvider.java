@@ -58,12 +58,7 @@ public class ConfigPanelSearchIndexablesProvider extends SearchIndexablesProvide
     @Override
     public Cursor queryXmlResources(String[] projection) {
         MatrixCursor cursor = new MatrixCursor(INDEXABLES_XML_RES_COLUMNS);
-        if (Startup.hasButtonProcs() /* show button panel */) {
-            cursor.addRow(generateResourceRef(INDEXABLE_RES[SEARCH_IDX_BUTTON_PANEL]));
-        }
-        if (Startup.hasOClick() /* show oclick panel */) {
-            cursor.addRow(generateResourceRef(INDEXABLE_RES[SEARCH_IDX_OCLICK_PANEL]));
-        }
+        cursor.addRow(generateResourceRef(INDEXABLE_RES[SEARCH_IDX_BUTTON_PANEL]));
         return cursor;
     }
 

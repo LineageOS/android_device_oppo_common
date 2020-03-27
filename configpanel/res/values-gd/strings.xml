@@ -15,5 +15,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="notification_slider_mode_total_silence">სრული სიჩუმე</string>
+    <string name="alert_category_title">Caismeachdan</string>
+    <string name="action_category_title">Gnìomhan</string>
 </resources>

@@ -283,7 +283,7 @@ public class OclickService extends Service implements
                         }
                     }
 
-                    Intent keyIntent = new Intent("org.lineageos.device.oppo.ACTION_OCLICK_KEY");
+                    Intent keyIntent = new Intent("org.lineageos.device.letv.ACTION_OCLICK_KEY");
                     keyIntent.putExtra("key", key);
                     keyIntent.putExtra("action", action);
                     sendBroadcast(keyIntent);

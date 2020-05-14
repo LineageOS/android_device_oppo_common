@@ -14,7 +14,7 @@ LOCAL_C_INCLUDES := \
 
 LOCAL_SRC_FILES := recovery_updater.cpp
 
-LOCAL_MODULE := librecovery_updater_oppo
+LOCAL_MODULE := librecovery_updater_letv
 LOCAL_MODULE_TAGS := eng
 
 include $(BUILD_STATIC_LIBRARY)

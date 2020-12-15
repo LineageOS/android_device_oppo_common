@@ -43,5 +43,5 @@
     <string name="notification_slider_mode_total_silence">Senyap total</string>
     <string name="notification_slider_mode_priority_only">Hanya prioritas</string>
     <string name="notification_slider_mode_none">Tiada</string>
-    <string name="notification_slider_mode_vibration">Getaran</string>
+    <string name="notification_slider_mode_vibration">Getar</string>
 </resources>

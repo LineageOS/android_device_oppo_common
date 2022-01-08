@@ -15,6 +15,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- O-Click settings -->
     <string name="oclick_connect_string">Ferbining meitsje</string>
     <string name="oclick_disconnect_string">Ferbining ferbrekken</string>
     <string name="oclick_summary_connected">Ferbûn mei O-Click</string>
@@ -30,11 +31,13 @@
     <string name="oclick_disconnect_alert_summary">Melde wannear bûten berik</string>
     <string name="alert_category_title">Warskôgingen</string>
     <string name="action_category_title">Aksjes</string>
+    <!-- O-Click notification -->
     <string name="oclick_locator_notification_title">O-Click-telefoanlokalisaasje</string>
     <string name="oclick_locator_notification_text">Lûd foar lokalisaasje wurdt ôfspile. Tik om te stopjen</string>
     <string name="oclick_notification_title_connected">O-Click ferbûn</string>
     <string name="oclick_notification_title_disconnected">O-Click net ferbûn</string>
     <string name="oclick_notification_content_disconnected">Klik op de O-Click-knop om opnij ferbining te meitsjen</string>
+    <!-- Notification slider -->
     <string name="notification_slider_category_title">Meldingskeakeler</string>
     <string name="notification_slider_selection_dialog_title">Aksje</string>
     <string name="notification_slider_top_position">Boppeste posysje</string>

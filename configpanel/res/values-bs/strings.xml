@@ -15,9 +15,12 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- O-Click settings -->
     <string name="oclick_connect_string">Poveži</string>
     <string name="oclick_disconnect_string">Odspoji</string>
     <string name="alert_category_title">Upozorenja</string>
+    <!-- O-Click notification -->
+    <!-- Notification slider -->
     <string name="notification_slider_mode_none">Ništa</string>
     <string name="notification_slider_mode_vibration">Vibracija</string>
 </resources>

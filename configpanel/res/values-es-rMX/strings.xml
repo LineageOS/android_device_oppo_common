@@ -15,6 +15,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- O-Click settings -->
     <string name="oclick_connect_string">Conectar</string>
     <string name="oclick_disconnect_string">Desconectar</string>
     <string name="oclick_summary_connected">Conectado a O-Click</string>
@@ -27,10 +28,12 @@
     <string name="oclick_disconnect_alert_summary">Avisar cuando el teléfono se encuentre fuera de alcance</string>
     <string name="alert_category_title">Alertas</string>
     <string name="action_category_title">Acciones</string>
+    <!-- O-Click notification -->
     <string name="oclick_locator_notification_title">Localizador del teléfono O-Click</string>
     <string name="oclick_locator_notification_text">El aviso del localizador está sonando. Toca para silenciar</string>
     <string name="oclick_notification_title_connected">O-Click conectado</string>
     <string name="oclick_notification_title_disconnected">O-Click desconectado</string>
+    <!-- Notification slider -->
     <string name="notification_slider_category_title">Deslizador de notificaciones</string>
     <string name="notification_slider_selection_dialog_title">Acción</string>
     <string name="notification_slider_top_position">Posición superior</string>

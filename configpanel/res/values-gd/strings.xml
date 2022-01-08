@@ -15,6 +15,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- O-Click settings -->
     <string name="oclick_connect_string">Ceangail</string>
     <string name="oclick_disconnect_string">Bris an ceangal</string>
     <string name="oclick_summary_connected">Ceangailte ri O-Click</string>
@@ -30,11 +31,13 @@
     <string name="oclick_disconnect_alert_summary">Rabhadh nuair a bhios e ro fhad air falbh</string>
     <string name="alert_category_title">Rabhaidhean</string>
     <string name="action_category_title">Gnìomhan</string>
+    <!-- O-Click notification -->
     <string name="oclick_locator_notification_title">Lorg fòn O-Click</string>
     <string name="oclick_locator_notification_text">Tha rabhadh an lorgair ’ga chluich. Thoir gnogag ’ga leigeil seachad</string>
     <string name="oclick_notification_title_connected">Ceangailte ri O-Click</string>
     <string name="oclick_notification_title_disconnected">Chaidh an ceangal ri O-Click a bhriseadh</string>
     <string name="oclick_notification_content_disconnected">Brùth air putan O-Click airson ath-cheangal</string>
+    <!-- Notification slider -->
     <string name="notification_slider_category_title">Sleamhnaiche bhrathan</string>
     <string name="notification_slider_selection_dialog_title">Gnìomh</string>
     <string name="notification_slider_top_position">Air a’ bhàrr</string>

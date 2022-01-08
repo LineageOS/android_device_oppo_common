@@ -15,6 +15,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- O-Click settings -->
     <string name="oclick_find_my_phone_summary">Tvíbanka til að finna síma</string>
+    <!-- O-Click notification -->
+    <!-- Notification slider -->
     <string name="notification_slider_mode_vibration">Titringur</string>
 </resources>

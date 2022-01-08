@@ -15,6 +15,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- O-Click settings -->
     <string name="oclick_connect_string">Cysylltu</string>
     <string name="oclick_disconnect_string">Datgysylltu</string>
     <string name="oclick_summary_connected">Cysylltwyd ag O-Click</string>
@@ -30,11 +31,13 @@
     <string name="oclick_disconnect_alert_summary">Rhoi rhybudd pan allan o gyrraedd</string>
     <string name="alert_category_title">Rhybuddion</string>
     <string name="action_category_title">Gweithredoedd</string>
+    <!-- O-Click notification -->
     <string name="oclick_locator_notification_title">Lleolwr ffôn O-Click</string>
     <string name="oclick_locator_notification_text">Mae\'r rhybudd lleolwr yn chwarae. Tapia i\'w ddiystyru.</string>
     <string name="oclick_notification_title_connected">Cysylltwyd ag O-Click</string>
     <string name="oclick_notification_title_disconnected">Datgysylltwyd ag O-Click</string>
     <string name="oclick_notification_content_disconnected">Gwasga\'r botwm O-Click i ail-gysylltu</string>
+    <!-- Notification slider -->
     <string name="notification_slider_category_title">Llithrydd hysbysiadau</string>
     <string name="notification_slider_selection_dialog_title">Gweithred</string>
     <string name="notification_slider_top_position">Lleoliad uchaf</string>

@@ -15,6 +15,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- O-Click settings -->
     <string name="oclick_connect_string">Bağlantı qur</string>
     <string name="oclick_disconnect_string">Bağlantını kəs</string>
     <string name="oclick_summary_connected">O-Click ilə bağlantı quruldu</string>
@@ -30,11 +31,13 @@
     <string name="oclick_disconnect_alert_summary">Əlçatmaz olarkən xəbərdar et</string>
     <string name="alert_category_title">Xəbərdarlıqlar</string>
     <string name="action_category_title">Hərəkətlər</string>
+    <!-- O-Click notification -->
     <string name="oclick_locator_notification_title">O-Click telefon axtarıcı</string>
     <string name="oclick_locator_notification_text">Axtarıcı xəbərdarlığı oynadılır. Dayandırmaq üçün toxunun</string>
     <string name="oclick_notification_title_connected">O-Click bağlantı quruldu</string>
     <string name="oclick_notification_title_disconnected">O-Click bağlantısı kəsildi</string>
     <string name="oclick_notification_content_disconnected">Yenidən bağlantı qurmaq üçün O-Click düyməsinə basın</string>
+    <!-- Notification slider -->
     <string name="notification_slider_category_title">Bildiriş diyircəyi</string>
     <string name="notification_slider_selection_dialog_title">Hərəkət</string>
     <string name="notification_slider_top_position">Üst mövqe</string>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2014 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="touchpad_enable_title">Cuir O-Touch an comas</string>
+    <string name="touchpad_enable_summary">Pada-suathaidh a’ chùlaibh a sheòladh an fhòn</string>
+    <string name="touchpad_long_press_title">Brùthadh fada a chur an camara gu dol</string>
+    <string name="touchpad_long_press_summary">Cuiridh brùthadh fada air a’ phada-suathaidh aplacaid a’ chamara gu dol</string>
+    <string name="touchpad_double_tap_title">Gnogag dhùbailte a ghlacadh</string>
+    <string name="touchpad_double_tap_summary">Na chamara, thoir gnogag dhùbailte a ghlacadh an deilbh</string>
+    <string name="oclick_connect_string">Ceangail</string>
+    <string name="oclick_disconnect_string">Bris an ceangal</string>
+    <string name="oclick_summary_connected">Ceangailte ri O-Click</string>
+    <string name="oclick_summary_paired">Chaidh O-Click a phaidhreachadh ach an ceangal a bhriseadh</string>
+    <string name="oclick_dialog_connecting_message">A’ ceangal gu O-Click\u2026\nBrùth air putan O-Click airson lorg nas luaithe.</string>
+    <string name="oclick_take_snapshot_title">Siutair camara cèin</string>
+    <string name="oclick_take_snapshot_summary">Briogadh singilte a thogail dealbh</string>
+    <string name="oclick_find_my_phone_title">Lorg an fhòn</string>
+    <string name="oclick_find_my_phone_summary">Briogadh dùbailte a lorg an fhòn</string>
+    <string name="oclick_fence_title">Rabhadh fagasachd</string>
+    <string name="oclick_fence_summary">Thoir rabhadh mur eil am fòn faisg air</string>
+    <string name="oclick_disconnect_alert_title">Rabhadh ro fhad air falbh</string>
+    <string name="oclick_disconnect_alert_summary">Rabhadh nuair a bhios e ro fhad air falbh</string>
+    <string name="alert_category_title">Rabhaidhean</string>
+    <string name="action_category_title">Gnìomhan</string>
+    <string name="oclick_locator_notification_title">Lorg fòn O-Click</string>
+    <string name="oclick_locator_notification_text">Tha rabhadh an lorgair ’ga chluich. Thoir gnogag ’ga leigeil seachad</string>
+    <string name="oclick_notification_title_connected">Ceangailte ri O-Click</string>
+    <string name="oclick_notification_title_disconnected">Chaidh an ceangal ri O-Click a bhriseadh</string>
+    <string name="oclick_notification_content_disconnected">Brùth air putan O-Click airson ath-cheangal</string>
+    <string name="notification_slider_category_title">Sleamhnaiche bhrathan</string>
+    <string name="notification_slider_selection_dialog_title">Gnìomh</string>
+    <string name="notification_slider_top_position">Air a’ bhàrr</string>
+    <string name="notification_slider_middle_position">Sa mheadhan</string>
+    <string name="notification_slider_bottom_position">Aig a’ bhonn</string>
+    <string name="notification_slider_mode_total_silence">Tost slàn</string>
+    <string name="notification_slider_mode_alarms_only">Caismeachdan a-mhàin</string>
+    <string name="notification_slider_mode_priority_only">Le prìomhachas a-mhàin</string>
+    <string name="notification_slider_mode_none">Chan eil gin</string>
+</resources>

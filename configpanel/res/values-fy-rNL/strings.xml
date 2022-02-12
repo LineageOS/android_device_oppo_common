@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2014 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="touchpad_enable_title">O-Touch ynskeakelje</string>
+    <string name="touchpad_enable_summary">Touchpad oan efterkant foar navigearjen</string>
+    <string name="touchpad_long_press_title">Lang oanreitsje foar kamera</string>
+    <string name="touchpad_long_press_summary">Touchpad lang oanreitsje start de kamera-app</string>
+    <string name="touchpad_double_tap_title">Dûbeltikke foar opname</string>
+    <string name="touchpad_double_tap_summary">In kamera dûbeltikke om in foto te nimmen</string>
+    <string name="oclick_connect_string">Ferbining meitsje</string>
+    <string name="oclick_disconnect_string">Ferbining ferbrekken</string>
+    <string name="oclick_summary_connected">Ferbûn mei O-Click</string>
+    <string name="oclick_summary_paired">O-Click keppele, mar net ferbûn</string>
+    <string name="oclick_dialog_connecting_message">Ferbining meitsje mei O-Click\u2026\nKlik op de O-Click-knop om it proses te ferhastigjen.</string>
+    <string name="oclick_take_snapshot_title">Sluterknop op ôfstân</string>
+    <string name="oclick_take_snapshot_summary">Ien klik om in foto te nimmen</string>
+    <string name="oclick_find_my_phone_title">Telefoan lokalisearje</string>
+    <string name="oclick_find_my_phone_summary">Dûbelklikke om telefoan op te sykjen</string>
+    <string name="oclick_fence_title">Warskôging net tichteby</string>
+    <string name="oclick_fence_summary">Melde wannear fier fuort fan de telefoan</string>
+    <string name="oclick_disconnect_alert_title">Warskôging bûten berik</string>
+    <string name="oclick_disconnect_alert_summary">Melde wannear bûten berik</string>
+    <string name="alert_category_title">Warskôgingen</string>
+    <string name="action_category_title">Aksjes</string>
+    <string name="oclick_locator_notification_title">O-Click-telefoanlokalisaasje</string>
+    <string name="oclick_locator_notification_text">Lûd foar lokalisaasje wurdt ôfspile. Tik om te stopjen</string>
+    <string name="oclick_notification_title_connected">O-Click ferbûn</string>
+    <string name="oclick_notification_title_disconnected">O-Click net ferbûn</string>
+    <string name="oclick_notification_content_disconnected">Klik op de O-Click-knop om opnij ferbining te meitsjen</string>
+    <string name="notification_slider_category_title">Meldingskeakeler</string>
+    <string name="notification_slider_selection_dialog_title">Aksje</string>
+    <string name="notification_slider_top_position">Boppeste posysje</string>
+    <string name="notification_slider_middle_position">Middelste posysje</string>
+    <string name="notification_slider_bottom_position">Underste posysje</string>
+    <string name="notification_slider_mode_total_silence">Totale stilte</string>
+    <string name="notification_slider_mode_alarms_only">Allinnich alarms</string>
+    <string name="notification_slider_mode_priority_only">Allinnich prioriteit</string>
+    <string name="notification_slider_mode_none">Gjin</string>
+</resources>

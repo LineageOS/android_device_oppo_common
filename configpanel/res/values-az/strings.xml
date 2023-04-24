@@ -17,9 +17,9 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="oclick_connect_string">Bağlantı qur</string>
     <string name="oclick_disconnect_string">Bağlantını kəs</string>
-    <string name="oclick_summary_connected">O-Click ilə bağlantı quruldu</string>
+    <string name="oclick_summary_connected">O-Click-ə bağlandı</string>
     <string name="oclick_summary_paired">O-Click cütləşdi, ancaq bağlantı kəsildi</string>
-    <string name="oclick_dialog_connecting_message">O-Click ilə bağlantı qurulur\u2026\nO-Click düyməsinə basaraq axtarışı sürətləndirin.</string>
+    <string name="oclick_dialog_connecting_message">O-Click-ə bağlanır\u2026\nO-Click düyməsinə basaraq axtarışı sürətləndirin.</string>
     <string name="oclick_take_snapshot_title">Uzaqdan çəkiliş</string>
     <string name="oclick_take_snapshot_summary">Şəkil çəkmək üçün bir dəfə basın</string>
     <string name="oclick_find_my_phone_title">Telefon axtarıcı</string>
@@ -32,7 +32,7 @@
     <string name="action_category_title">Hərəkətlər</string>
     <string name="oclick_locator_notification_title">O-Click telefon axtarıcı</string>
     <string name="oclick_locator_notification_text">Axtarıcı xəbərdarlığı oynadılır. Dayandırmaq üçün toxunun</string>
-    <string name="oclick_notification_title_connected">O-Click bağlantı quruldu</string>
+    <string name="oclick_notification_title_connected">O-Click-ə bağlandı</string>
     <string name="oclick_notification_title_disconnected">O-Click bağlantısı kəsildi</string>
     <string name="oclick_notification_content_disconnected">Yenidən bağlantı qurmaq üçün O-Click düyməsinə basın</string>
     <string name="notification_slider_category_title">Bildiriş diyircəyi</string>

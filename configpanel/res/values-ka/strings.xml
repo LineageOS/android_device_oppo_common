@@ -15,5 +15,33 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="notification_slider_mode_total_silence">სრული სიჩუმე</string>
+    <string name="oclick_connect_string">დაკავშირება</string>
+    <string name="oclick_disconnect_string">გამოთიშვა</string>
+    <string name="oclick_summary_connected">მიერთებულია O-Click</string>
+    <string name="oclick_summary_paired">O-Click დაწყვილებულია, მაგრამ გამოთიშულია</string>
+    <string name="oclick_dialog_connecting_message">მიმდინარეობს O-Click-თან დაკავშირება\u2026\nდააჭირეთ O-Click-ის ღილაკს აღმოჩენის დასაჩქარებლად.</string>
+    <string name="oclick_take_snapshot_title">დაშორებული კამერის ღილაკი</string>
+    <string name="oclick_take_snapshot_summary">ერთხელ დაწკაპება სურათის გადასაღებად</string>
+    <string name="oclick_find_my_phone_title">ტელეფონის მაძიებელი</string>
+    <string name="oclick_find_my_phone_summary">ორმაგი წკაპი ტელეფონის მოსანახად</string>
+    <string name="oclick_fence_title">სიახლოვის ცნობება</string>
+    <string name="oclick_fence_summary">სიშორის ცნობება</string>
+    <string name="oclick_disconnect_alert_title">დაფარვის არედან გასვლის ცნობება</string>
+    <string name="oclick_disconnect_alert_summary">წვდომის არედან გასვლის ცნობება</string>
+    <string name="alert_category_title">ცნობები</string>
+    <string name="action_category_title">მოქმედებები</string>
+    <string name="oclick_locator_notification_title">ტელეფონის მაძიებელი O-Click</string>
+    <string name="oclick_locator_notification_text">მაძიებლის ცნობა გაშვებულია. შეეხეთ გასაუქმებლად</string>
+    <string name="oclick_notification_title_connected">O-Click დაკავშირებულია</string>
+    <string name="oclick_notification_title_disconnected">O-Click გამოთიშულია</string>
+    <string name="oclick_notification_content_disconnected">დააჭირეთ O-Click-ღილაკს კვლავ დასაკავშირებლად</string>
+    <string name="notification_slider_category_title">შეტყობინების სრიალა</string>
+    <string name="notification_slider_selection_dialog_title">მოქმედება</string>
+    <string name="notification_slider_top_position">ზედა მდებარეობა</string>
+    <string name="notification_slider_middle_position">შუა მდებარეობა</string>
+    <string name="notification_slider_bottom_position">ქვედა მდებარეობა</string>
+    <string name="notification_slider_mode_total_silence">სრულიად უხმო</string>
+    <string name="notification_slider_mode_priority_only">მხოლოდ უპირატესი</string>
+    <string name="notification_slider_mode_none">არცერთი</string>
+    <string name="notification_slider_mode_vibration">ვიბრაცია</string>
 </resources>

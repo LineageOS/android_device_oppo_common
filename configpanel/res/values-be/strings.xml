@@ -29,4 +29,6 @@
     <string name="notification_slider_category_title">Паўзунок апавяшчэнняў</string>
     <string name="notification_slider_selection_dialog_title">Дзеянне</string>
     <string name="notification_slider_bottom_position">Ніжняя пазіцыя</string>
+    <string name="notification_slider_mode_total_silence">Поўная цішыня</string>
+    <string name="notification_slider_mode_vibration">Вібрацыя</string>
 </resources>

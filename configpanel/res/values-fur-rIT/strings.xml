@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2014 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="oclick_connect_string">Conet</string>
+    <string name="oclick_disconnect_string">Disconet</string>
+    <string name="oclick_summary_connected">Conetût a O-Click</string>
+    <string name="oclick_summary_paired">O-Click associât, ma disconetût</string>
+    <string name="oclick_dialog_connecting_message">Conession a O-Click\u2026\nFrache il boton O-Click par sveltî la ricercje.</string>
+    <string name="oclick_take_snapshot_title">Oturadôr di lontan</string>
+    <string name="oclick_take_snapshot_summary">Clic singul par fâ la foto</string>
+    <string name="oclick_find_my_phone_title">Localizadôr telefon</string>
+    <string name="oclick_find_my_phone_summary">Dopli clic par cjatâ il telefon</string>
+    <string name="oclick_fence_title">Alarme di prossimitât</string>
+    <string name="oclick_fence_summary">Vise cuant che no si sta dongje dal telefon</string>
+    <string name="oclick_disconnect_alert_title">Alarme fûr puartade</string>
+    <string name="oclick_disconnect_alert_summary">Vise cuant che si stâ fûr de puartade</string>
+    <string name="alert_category_title">Alarmis</string>
+    <string name="action_category_title">Azions</string>
+    <string name="oclick_locator_notification_title">Localizadôr telefon O-Click</string>
+    <string name="oclick_locator_notification_text">Avîs dal localizadôr in esecuzion. Tocje par fermâ</string>
+    <string name="oclick_notification_title_connected">O-Click conetût</string>
+    <string name="oclick_notification_title_disconnected">O-Click disconetût</string>
+    <string name="oclick_notification_content_disconnected">Frache il boton O-Click par tornâ a coneti</string>
+    <string name="notification_slider_category_title">Cursôr des notifichis</string>
+    <string name="notification_slider_selection_dialog_title">Azion</string>
+    <string name="notification_slider_top_position">Posizion superiôr</string>
+    <string name="notification_slider_middle_position">Posizion centrâl</string>
+    <string name="notification_slider_bottom_position">Posizion inferiôr</string>
+    <string name="notification_slider_mode_total_silence">Cidin dal dut</string>
+    <string name="notification_slider_mode_priority_only">Dome prioritâts</string>
+    <string name="notification_slider_mode_none">Nuie</string>
+    <string name="notification_slider_mode_vibration">Vibrazion</string>
+</resources>

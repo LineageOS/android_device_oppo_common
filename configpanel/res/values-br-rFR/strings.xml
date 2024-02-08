@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2014 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="oclick_connect_string">Kevreañ</string>
+    <string name="oclick_disconnect_string">Digevreañ</string>
+    <string name="oclick_summary_connected">Kevreet da O-Click</string>
+    <string name="oclick_dialog_connecting_message">Kevreañ da O-Click\u2026Pouezañ war ar bouton O-Click evit buanaat an dizoleiñ.</string>
+    <string name="oclick_take_snapshot_title">Distegnañ ar c\'hamera a-bell</string>
+    <string name="oclick_take_snapshot_summary">Klikañ ur wech evit tennañ ur poltred</string>
+    <string name="oclick_find_my_phone_title">Lec\'hier pellgomz</string>
+    <string name="oclick_find_my_phone_summary">Daouglikañ da gavout ar pellgomz</string>
+    <string name="oclick_fence_title">Kemenn nesañ</string>
+    <string name="oclick_fence_summary">Kemenn pa vez pell ar pellgomz</string>
+    <string name="oclick_disconnect_alert_title">Kemenn dreist diraez</string>
+    <string name="oclick_disconnect_alert_summary">Kemenn ma vez e-maez diraez</string>
+    <string name="alert_category_title">Kemennoù</string>
+    <string name="action_category_title">Obererezhioù</string>
+    <string name="oclick_locator_notification_title">Lec\'hier pellgomz O-Click</string>
+    <string name="oclick_locator_notification_text">Kemenn lec\'hier war ober. Touchañ evit distaolañ</string>
+    <string name="oclick_notification_title_connected">O-click kevreet</string>
+    <string name="oclick_notification_title_disconnected">O-click digevreet</string>
+    <string name="oclick_notification_content_disconnected">Pouezañ war bouton O-Click evit adkevreañ</string>
+    <string name="notification_slider_selection_dialog_title">Obererezh</string>
+    <string name="notification_slider_top_position">El lein</string>
+    <string name="notification_slider_middle_position">E-kreiz</string>
+    <string name="notification_slider_bottom_position">En-traoñ</string>
+    <string name="notification_slider_mode_total_silence">Didrouz mik</string>
+    <string name="notification_slider_mode_priority_only">Prioriezh hepken</string>
+    <string name="notification_slider_mode_none">Hini ebet</string>
+    <string name="notification_slider_mode_vibration">Froum</string>
+</resources>

@@ -15,6 +15,33 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="oclick_connect_string">Tengjast</string>
+    <string name="oclick_disconnect_string">Aftengjast</string>
+    <string name="oclick_summary_connected">Tengt við O-Click</string>
+    <string name="oclick_summary_paired">O-Click parað, en aftengt</string>
+    <string name="oclick_dialog_connecting_message">Tengist við O-Click\u2026\nÝttu á O-Click hnappinn til að flýta fyrir leitinni.</string>
+    <string name="oclick_take_snapshot_title">Fjartengdur lokari myndavélar</string>
+    <string name="oclick_take_snapshot_summary">Einsmella til að taka mynd</string>
+    <string name="oclick_find_my_phone_title">Símastaðsetjari</string>
     <string name="oclick_find_my_phone_summary">Tvíbanka til að finna síma</string>
+    <string name="oclick_fence_title">Aðvörun við nálægð</string>
+    <string name="oclick_fence_summary">Áminna þegar ekki nálægt síma</string>
+    <string name="oclick_disconnect_alert_title">Áminning fyrir utan sviðs</string>
+    <string name="oclick_disconnect_alert_summary">Áminna þegar utan seilingar</string>
+    <string name="alert_category_title">Áminningar</string>
+    <string name="action_category_title">Aðgerðir</string>
+    <string name="oclick_locator_notification_title">O-Click símastaðsetjari</string>
+    <string name="oclick_locator_notification_text">Áminning vegna staðsetningar er í gangi. Ýttu á til að hafna</string>
+    <string name="oclick_notification_title_connected">O-Click tengt</string>
+    <string name="oclick_notification_title_disconnected">O-Click aftengt</string>
+    <string name="oclick_notification_content_disconnected">Ýttu á O-Click hnappinn til að endurtengjast</string>
+    <string name="notification_slider_category_title">Tilkynningasleði</string>
+    <string name="notification_slider_selection_dialog_title">Aðgerð</string>
+    <string name="notification_slider_top_position">Staða efst</string>
+    <string name="notification_slider_middle_position">Miðjustaða</string>
+    <string name="notification_slider_bottom_position">Staða neðst</string>
+    <string name="notification_slider_mode_total_silence">Algjör þögn</string>
+    <string name="notification_slider_mode_priority_only">Aðeins í forgangi</string>
+    <string name="notification_slider_mode_none">Ekkert</string>
     <string name="notification_slider_mode_vibration">Titringur</string>
 </resources>
